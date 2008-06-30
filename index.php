@@ -1,9 +1,23 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?php
+    $taglines=Array(
+        'The Wizard of IDDQD',
+        'The Ancestral Home of the Croissanwich<sup>®</sup>',
+        'Last night a tiny sandwich saved my life',
+    );
+    $withlines=Array(
+        'Surfing the Internet with',
+        'Reticulating splines with',
+        'Going out to dinner and picking up the tab with',
+    );
+    $tagline=$taglines[array_rand($taglines)];
+    $withline=$withlines[array_rand($withlines)];
+?>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
 
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Version Control with Subversion</title>
+<title><?php echo $withline; ?> Wizardishungry</title>
 <link rel="stylesheet" href="include/styles.css" type="text/css">
 </head><body>
 
@@ -12,12 +26,17 @@
 <td id="content">
 
 <h1 class="bar">&nbsp;</h1>
-<h1 class="tagline">The Ancestral Home of the Croissanwich<sup>®</sup></h1>
-<h1 class="title1">Surfin the net with</h1>
+<h1 class="tagline"><?php echo $tagline ?></h1>
+<h1 class="title1"><?php echo $withline ?>…</h1>
+<img class="splash" width="576" height="576" src="include/splash.jpg">
 <h1 class="title2">Wizardishungry</h1>
 
 
 <!-- CONTENT STARTS -->
+
+<script type="text/javascript" src="http://del.icio.us/feeds/js/wizardishungry?tags;extended;count=25;title=del.icio.us;name;showadd"></script>
+<noscript><a href="http://del.icio.us/wizardishungry">del.icio.us</a></noscript>
+
 
 <h2>Introduction</h2>
 
@@ -152,23 +171,8 @@ below.</p>
 <h1 class="authorlist"><a href="mailto:jon@wizardishungry.com">Jon Williams</a></h1>
 
 <hr>
-
-<p>This page is also available in the following languages:<br>
-
-<!-- For ease of maintenance, keep these sorted by language code.
-     TRANSLATORS: titles here are in your native language; link text
-     is in the language of the linked page. -->
-
-   <a href="http://svnbook.red-bean.com/index.de.html" title="German" hreflang="de" rel="alternate" lang="de">deutsch</a> |
-   <a href="http://svnbook.red-bean.com/index.es.html" title="Spanish" hreflang="es" rel="alternate" lang="es">español</a> |
-   <a href="http://svnbook.red-bean.com/index.it.html" title="Italian" hreflang="it" rel="alternate" lang="it">Italiano</a> |
-   <a href="http://svnbook.red-bean.com/index.ja.html" title="Japanese" hreflang="ja" rel="alternate" lang="ja">日本語</a> |
-   <a href="http://svnbook.red-bean.com/index.nb.html" title="Norwegian" hreflang="nb" rel="alternate" lang="nb">norsk</a> |
-   <a href="http://svnbook.red-bean.com/index.pt_BR.html" title="Portuguese" hreflang="pt-BR" rel="alternate" lang="pt-BR">Português</a> |
-   <a href="http://svnbook.red-bean.com/index.ru.html" title="Russian" hreflang="ru" rel="alternate" lang="ru">Русский</a> |
-   <a href="http://svnbook.red-bean.com/index.zh.html" title="Chinese" hreflang="zh" rel="alternate" lang="zh">中文</a> |
-</p>
-
+<p>HTML/CSS Ripped-off with love via <a href="http://creativecommons.org/licenses/by/2.0/" rel="license">
+   cc attribution license 2.0</a> from <a href="http://svnbook.red-bean.com/">svn-book</a>.</p>
 </td>
 </tr>
 </tbody></table>

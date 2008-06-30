@@ -12,9 +12,10 @@
 body
 {
     color: black;
-    background: rgb(140,120,120);
+    background: #786377;
     font-family: times new roman, times, serif;
     margin: 0;
+    text-align: center;
 }
 
 img
@@ -57,7 +58,7 @@ img
 
 #translationstatus th
 {
-    background-color: rgb(182,38,133);
+    background-color: #350633;
     color: white;
 }
 
@@ -85,19 +86,21 @@ img
 {
     width: 700px;
     position: relative;
+    margin: 0 auto;
+    text-align: left;
 }
 
 #content
 {
     color: black;
-    background: white url('./images/turtles.jpg') no-repeat;
+    background: white;
     padding: 0px 20px 20px 20px;
     border: solid 1px black;
 }
 
 #content .bar
 {
-    background: rgb(182,38,133);
+    background: #350633;
     color: white;
     font-family: garamond, times new roman, times, serif;
     font-weight: normal;
@@ -105,6 +108,13 @@ img
     margin: 0px;
     padding: 0px 0px;
     text-align: center;
+}
+
+#content .splash
+{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
 #content .tagline
@@ -142,7 +152,7 @@ img
 
 #content .title2
 {
-    background: rgb(182,38,133);
+    background: #350633;
     color: white;
     font-family: garamond, times new roman, times, serif;
     font-weight: normal;
@@ -186,13 +196,13 @@ img
 .versionlist h3
 {
     margin: 0;
-    background-color: rgb(182,38,133);
+    background-color: #350633;
     color: white;
 }
 
 #versiontable th
 {
-    background-color: rgb(182,38,133);
+    background-color: #350633;
     color: white;
     border-right: 1px black dotted;
     border-bottom: 1px black dotted;
