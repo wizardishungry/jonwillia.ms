@@ -180,6 +180,17 @@ img
     text-decoration: none;
 }
 
+#content h2.delicious-banner a
+{
+    text-decoration: none !important;
+    color: black;
+}
+
+#content h2.delicious-banner img
+{
+    display: none;
+}
+
 .versionlist
 {
     border: 1px black dotted;
@@ -223,4 +234,16 @@ img
 .glossary
 {
     text-decoration: underline;
+}
+
+#bling
+{
+    text-decoration: blink;
+    font-size: 36pt; 
+    background: #350633;
+    border: 4px white;
+    color: white;
+    bottom: 50%;
+    position: fixed;
+    left: 1500px;
 }
