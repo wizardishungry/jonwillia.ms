@@ -90,6 +90,15 @@ img
     text-align: left;
 }
 
+/* iPhone */
+@media screen and (max-device-width: 480px) {
+		#pagetable
+		{
+				width: 100%;
+				margin: 0 0;
+		}
+}
+
 #content
 {
     color: black;
