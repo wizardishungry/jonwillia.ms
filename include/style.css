@@ -90,20 +90,6 @@ img
     text-align: left;
 }
 
-/* iPhone */
-@media screen and (max-device-width: 480px) {
-		#pagetable
-		{
-				width: 100%;
-				margin: 0 0;
-		}
-		#content .splash
-		{
-				width: 100% !important;
-				display: none;
-		}
-}
-
 #content
 {
     color: black;
@@ -260,4 +246,17 @@ img
     bottom: 50%;
     position: fixed;
     left: 1500px;
+}
+
+/* iPhone */
+@media screen and (max-device-width: 480px) {
+		#pagetable
+		{
+				margin: 0 0;
+				max-width: 100%;
+				width: 100%
+		}
+		#pagetable, #content, #content .tagline, #content .title1 {
+				font-size: larger !important;
+		}
 }

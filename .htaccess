@@ -1,4 +1,4 @@
-Options		+FollowSymLinks	
+#Options		+FollowSymLinks	
 RewriteEngine	on	
 
 RewriteRule   ^/([uge])/([^/]+)$  /$1/$2/   [R]
