@@ -4,12 +4,15 @@
         'The Wizard of IDDQD',
         'The Ancestral Home of the Croissanwich<sup>®</sup>',
         'Valhalla, I am punning!',
+        "Look at the schize of that ruby!",
+        "Wikipedia, always with the portmanteau"
     );
     $withlines=Array(
         'Surfing the Internet with',
         'Reticulating splines with',
         'Going out to dinner and picking up the tab with',
         'Delivering the Groceries at 138 bpm via',
+        "Hiding out in vast natural cave systems with",
     );
     $tagline=$taglines[array_rand($taglines)];
     $withline=$withlines[array_rand($withlines)];
@@ -21,8 +24,11 @@
 <link rel="stylesheet" href="include/style.css" type="text/css">
 <link rel="alternate" type="application/rss+xml" title="Blog" href="http://wizardishungry.wordpress.com/feed" />
 <link rel="alternate" title="FriendFeed" href="http://friendfeed.com/wizardishungry?format=atom" type="application/atom+xml"/>
-<link rel="openid.server" href="https://api.screenname.aol.com/auth/openidServer" />
-<link rel="openid.delegate" href="http://openid.aol.com/wizardishungry" />
+<link rel="openid2.provider openid.server" href="http://pip.verisignlabs.com/server"/>
+<link rel="openid2.local_id openid.delegate" href="http://WIZARDISHUNGRY.pip.verisignlabs.com"/>
+<link rel="openid.server" href="https://pip.verisignlabs.com/server/" />
+<link rel="openid.delegate" href="http://WIZARDISHUNGRY.pip.verisignlabs.com/" />
+<meta http-equiv="X-XRDS-Location" content="http://pip.verisignlabs.com/user/WIZARDISHUNGRY/yadisxrds" />
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="imagetoolbar" content="no" />
 </head><body>
@@ -38,7 +44,7 @@
 <h1 class="bar">&nbsp;</h1>
 <h1 class="tagline"><?php echo $tagline ?></h1>
 <h1 class="title1"><?php echo $withline ?>…</h1>
-<img class="splash" width="576" height="576" src="include/splash.jpg" alt="O'Reilly Style image of an adorable corgi">
+<img class="splash" width="576" height="576" src="include/splash.jpg" alt="[O'Reilly-style image of an adorable Corgi]">
 <h1 class="title2">Wizardishungry</h1>
 
 
@@ -59,9 +65,16 @@
 
 <h2>What have you been up to lately?</h2>
 
-<p>Usually, <a href='#delicious'>my del.icio.us</a> is a pretty good indicator of what I've been thinking about. I've been doing a
+<p>Usually, <a href='#delicious'>my del.icio.us</a> or <a href="http://friendfeed.com/wizardishungry" rel="me">Friend Feed aggregator</a>
+   are pretty good indicators of what I've been thinking about. I've been doing a
    lot of work in <a href="http://www.symfony-project.org/">Symfony</a> for the past two years and continue
-   to do so. Lately my work interests have expanded a little bit, but more on that later.</p>
+   to do so.</p>
+
+<p>Currently I'm working an open source <a href="http://en.wikipedia.org/wiki/BitTorrent">BitTorrent</a> tracker 
+   (<a href="http://github.com/WIZARDISHUNGRY/sflimetracker/tree/master">sfLimeTracker</a>)
+   written in the <a href="http://www.symfony-project.org/"Symfony PHP framework</a> for 
+   <a href="http://www.limewire.com/">Limewire</a>. I also try to contribute patches and support to Symfony and other free software
+   projects as well as do internal web stuff at Limewire.</p>
 
 <h2>Is that a Corgi?</h2>
 
