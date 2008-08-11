@@ -3,12 +3,14 @@
     $taglines=Array(
         'The Wizard of IDDQD',
         'The Ancestral Home of the Croissanwich<sup>®</sup>',
+        'As harmonious as a Pizza Hut<sup>®</sup>',
         'Valhalla, I am punning!',
         "Look at the schize of that ruby!",
         "Wikipedia, always with the portmanteau"
     );
     $withlines=Array(
         'Surfing the Internet with',
+        'Eating Valencia oranges with',
         'Reticulating splines with',
         'Going out to dinner and picking up the tab with',
         'Delivering the Groceries at 138 bpm via',
