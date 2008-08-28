@@ -89,9 +89,9 @@
 
 
 <h2>OMG more Widgets!<h2>
-<h3>Facebook</h3>
+
 <a href="http://www.facebook.com/people/Jon_Williams/3700497" title="Jon Williams's Facebook profile" target=_TOP><img src="http://badge.facebook.com/badge/3700497.302.1982974835.png" border=0 alt="Jon Williams's Facebook profile"></a>
-<h3>Flickr</h3>
+
 <!-- Start of Flickr Badge -->
 <style type="text/css">
 #flickr_badge_source_txt {padding:0; font: 11px Arial, Helvetica, Sans serif; color:#666666;}
@@ -121,12 +121,13 @@
 </td></tr></table>
 <!-- End of Flickr Badge -->
 
-<h3 class="twitter-title">Twitter </h2>
+<div id="dopplr-WIZARDISHUNGRY-header-embed"><script type="text/javascript" src="http://www.dopplr.com/traveller/WIZARDISHUNGRY/public/07dc22391ba5226bff3c5c527f830a53/header.js"></script></div>
+
+<h3 class="twitter-title"><a href="http://twitter.com/WIZARDISHUNGRY">Twitter</a></h2>
 <ul id="twitter_update_list"></ul>
 <a id="twitter-link" href="http://twitter.com/WIZARDISHUNGRY">follow me on Twitter</a>
 <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
 <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/WIZARDISHUNGRY.json?callback=twitterCallback2&amp;count=5"></script>
-
 
 <h2>Things That Formerly Existed</h2>
 
