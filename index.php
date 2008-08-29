@@ -1,3 +1,6 @@
+<?php require_once('cookie.php');
+national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[HTTP_REFERER]=='')?3:TRUE);
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <?php
     $taglines=Array(
@@ -78,6 +81,8 @@
    <a href="http://www.limewire.com/">Limewire</a>. I also try to contribute patches and support to Symfony and other free software
    projects as well as do internal web stuff at Limewire.</p>
 
+<p>I have a new pet chicken blog here: <a href="http://khikin.com/">KHIKIN.com</a>.</p>
+
 <h2>Is that a Corgi?</h2>
 
 <p>Yes, that is a <a href="http://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi">Pembroke Welsh Corgi</a>. I
@@ -91,6 +96,8 @@
 <h2>OMG more Widgets!<h2>
 
 <a href="http://www.facebook.com/people/Jon_Williams/3700497" title="Jon Williams's Facebook profile" target=_TOP><img src="http://badge.facebook.com/badge/3700497.302.1982974835.png" border=0 alt="Jon Williams's Facebook profile"></a>
+
+<script type="text/javascript" src="http://friendfeed.com/embed/badge/wizardishungry?hide_picture=1&amp;width=400"></script>
 
 <!-- Start of Flickr Badge -->
 <style type="text/css">
