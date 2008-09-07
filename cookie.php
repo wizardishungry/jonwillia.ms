@@ -252,6 +252,7 @@ $ignore = Array(
 '3d7b71063dbee99b859b67298a68d9ce',
 '2f55e7189ea8e5d2e54cef1c9f54546f',
 '5c93489aa9518f38363f37e4307962bf',
+'208.120.236.28',
 '5367ccd419357fc15f0dfb5834840fdf'
 );
 	if(array_search($val,$ignore)!==FALSE) return ; 

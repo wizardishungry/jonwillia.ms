@@ -34,7 +34,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 <link rel="openid.server" href="https://pip.verisignlabs.com/server/" />
 <link rel="openid.delegate" href="http://WIZARDISHUNGRY.pip.verisignlabs.com/" />
 <meta http-equiv="X-XRDS-Location" content="http://pip.verisignlabs.com/user/WIZARDISHUNGRY/yadisxrds" />
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="include/icon.gif" />
 <meta http-equiv="imagetoolbar" content="no" />
 </head><body>
 <?php if(FALSE): ?>
