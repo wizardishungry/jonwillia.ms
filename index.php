@@ -27,7 +27,6 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title><?php echo $withline; ?> Wizardishungry</title>
 <link rel="stylesheet" href="include/style.css" type="text/css">
-<link rel="alternate" type="application/rss+xml" title="Blog" href="http://wizardishungry.wordpress.com/feed" />
 <link rel="alternate" title="FriendFeed" href="http://friendfeed.com/wizardishungry?format=atom" type="application/atom+xml"/>
 <link rel="openid2.provider openid.server" href="http://pip.verisignlabs.com/server"/>
 <link rel="openid2.local_id openid.delegate" href="http://WIZARDISHUNGRY.pip.verisignlabs.com"/>
@@ -64,7 +63,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 
 <h2>What is there to do on this webpage?</a></h2>
 
-<p>You probably want to go look at <a href="http://wizardishungry.wordpress.com/">my blog</a> until I get
+<p>You probably want to go look at <s><a href="http://wizardishungry.wordpress.com/">my blog</a></s> <a href="http://wizardishungry.tumblr.com/">my tumblr</a> until I get
    everything else sorted out and relinked here. There's some other stuff that acquantences of mine
    might like to poke around at below.</p>
 
