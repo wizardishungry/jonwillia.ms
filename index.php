@@ -25,7 +25,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head profile="http://gmpg.org/xfn/11">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title><?php echo $withline; ?> Wizardishungry</title>
+<title>wizardishungry.com / <?php echo $withline; ?> Wizardishungry</title>
 <link rel="stylesheet" href="include/style.css" type="text/css">
 <link rel="alternate" title="FriendFeed" href="http://friendfeed.com/wizardishungry?format=atom" type="application/atom+xml"/>
 <link rel="openid2.provider openid.server" href="http://pip.verisignlabs.com/server"/>
@@ -34,6 +34,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 <link rel="openid.delegate" href="http://WIZARDISHUNGRY.pip.verisignlabs.com/" />
 <meta http-equiv="X-XRDS-Location" content="http://pip.verisignlabs.com/user/WIZARDISHUNGRY/yadisxrds" />
 <link rel="shortcut icon" href="include/icon.gif" />
+<link rel="apple-touch-icon" href="/include/apple-touch-icon.png"/> 
 <meta http-equiv="imagetoolbar" content="no" />
 </head><body>
 <?php if(FALSE): ?>

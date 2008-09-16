@@ -22,6 +22,7 @@ function national_treasure_starring_nicholas_cage($log_matches)
 	'#ilx.wh3rd.net#',
 	'#ilx.p3r.net#',
 	'#ilx.thehold.net#',
+    '#tumblr#',
     '#limewire#',
 	'#wizardishungry.wordpress#',
 	);
@@ -29,6 +30,7 @@ function national_treasure_starring_nicholas_cage($log_matches)
 	$lurkers = array(
     '76.8.67.2', // limewire
 //	"128.122.226.112",
+'d9e63311cca142437584be08d6a81b07',    '66.227.31.5', // leah
 "883d8709ee4407018280ed52dbdd9d67",	"88.107.124.203", // googler who hit tw?
 "38de3b1a3bc479e503ff21f229b790d0",    "216.220.231.226", // alana
 "70c1632ad3cd7c8db2eb619d2c2a1fde",    "24.89.152.74", // okcupid?  
@@ -65,6 +67,7 @@ function national_treasure_starring_nicholas_cage($log_matches)
 "74.73.109.169", // maG
 "75aaa68f27a7ebae775830373e093aee", // ^
 "24.90.5.222", "86ca909ccb252ec5486f9a4a2d0ac9eb", // saraphonic
+'206.53.144.80', // lindsay
 "1388e91f0bbc2e3f13c54aaf6d59de94", //claire
 '134.174.21.2', // ^
 "12.151.120.89", // linds
@@ -241,6 +244,7 @@ function log_match($val,$mode,$ip,$url,$desc,$ref)
 {
 $ignore = Array(
 '5a5a89062d91c89ad91cad1eab98f658',
+'9e8e0e1a82410ae8c9efd8e5a826b1f3',
 '2796d9263d683336e78ac70fac8d22d7',	'128.122.226.112',
 '2c218d80213cf1b56278c3cea9713dcc',
 '246d39c013ab446cb69f6b554564261e',
