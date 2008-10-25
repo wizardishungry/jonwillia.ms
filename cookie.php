@@ -25,6 +25,7 @@ function national_treasure_starring_nicholas_cage($log_matches)
     '#tumblr#',
     '#limewire#',
 	'#wizardishungry.wordpress#',
+    '#excepter#',
 	);
 
 	$lurkers = array(
@@ -43,13 +44,8 @@ function national_treasure_starring_nicholas_cage($log_matches)
 // /WAP
 "19d6f5e80bf2d5b988d61ee5c50dc59e",    "75.13.36.4", // hannah
 "d2e1dd709eb1885c79fa67c3da0491ae",    "151.196.126.100", // drew
-// NUDE SPOCK
-"212.138.64.178",
-"125.244.91.2",
-"216.173.43.98",
-"72.225.209.130",
 '4e1e54c92c3e0bac10f65469ee30ac4',	'72.229.14.222', //britta w
-// NS
+'2c0ee82e67c74c5e162282c0663e3d6b',    '128.122.240.145', // phil r
 "6427b9852ad66ef41abe06df5cef7496", // leah
 "0b3c6c5a85557421b87582e685fb7324",	"75.222.66.123", //^
 "6bf6fea6da212771ab1324b8906c20e0", // yahoo
@@ -253,11 +249,13 @@ $ignore = Array(
 '9b00dff44a1b9eae653d10ec6618d20d',
 'c22d826f55d143141f5415bb546c14c0',
 'abe56cf30dfa7270c0443d1856252e15',
+'bae12a104efa9f30ca7043ce8d4da15b',
 '3d7b71063dbee99b859b67298a68d9ce',
 '2f55e7189ea8e5d2e54cef1c9f54546f',
 '5c93489aa9518f38363f37e4307962bf',
 '208.120.236.28',
-'5367ccd419357fc15f0dfb5834840fdf'
+'5367ccd419357fc15f0dfb5834840fdf',
+'611311b621fe070ae09a38cd5c6fb5ba',
 );
 	if(array_search($val,$ignore)!==FALSE) return ; 
 	if(array_search($ip,$ignore)!==FALSE) return ;

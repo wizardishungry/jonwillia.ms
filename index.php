@@ -4,20 +4,18 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <?php
     $taglines=Array(
-        'The Wizard of IDDQD',
+        //'The Wizard of IDDQD',
         'The Ancestral Home of the Croissanwich<sup>®</sup>',
-        'As harmonious as a Pizza Hut<sup>®</sup>',
-        'Valhalla, I am punning!',
-        "Look at the schize of that ruby!",
-        "Wikipedia, always with the portmanteau"
+        //'As harmonious as a Pizza Hut<sup>®</sup>',
+        //'Valhalla, I am punning!',
+        //"Look at the schize of that ruby!",
+        //"Wikipedia, always with the portmanteau"
     );
     $withlines=Array(
-        'Surfing the Internet with',
         'Eating Valencia oranges with',
-        'Reticulating splines with',
-        'Going out to dinner and picking up the tab with',
-        'Delivering the Groceries at 138 bpm via',
-        "Hiding out in vast natural cave systems with",
+        //'Reticulating splines with',
+        //'Going out to dinner and picking up the tab with',
+        //"Hiding out in vast natural cave systems with",
     );
     $tagline=$taglines[array_rand($taglines)];
     $withline=$withlines[array_rand($withlines)];
@@ -54,7 +52,12 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 
 
 <!-- CONTENT STARTS -->
-
+<p>
+<a style="text-decoration: none !important" href="/unlimited.freak.out/lindy.html">¯\(°_o)/¯
+</a>
+ -- <a href="http://excepter.com/html/excepter.html">VETO VOTE</a>
+</p>
+<?php if(!preg_match('#(excepter)|(facebook.*event)#',$_SERVER['HTTP_REFERER'])): ?>
 
 <h2>Introduction</h2>
 
@@ -180,9 +183,11 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 </div>
 <p>Well I finally got off my ass and updated this; hopefully things will be more cohesive once I move to my
    “new” Solaris machine. Till then.</p>
-<h1 class="authorlist"><a href="mailto:jon@wizardishungry.com">Jon Williams</a></h1>
+<?php endif;?>
+<h1 class="authorlist">-<a href="mailto:jon@wizardishungry.com">Jon Williams</a></h1>
 <hr>
 
+<?php if(false): ?>
 <p>HTML&amp;CSS stolen (with love) from <a href="http://svnbook.red-bean.com/">svn-book</a>
 (<a href="http://creativecommons.org/licenses/by/2.0/" rel="license">creative commons license 2.0 [attrib]</a>)</p>
 
@@ -194,6 +199,7 @@ echo date(DATE_RFC2822,$time)
 <span id="bling">
 Widescreen Rules!
 </span>
+<?php endif; ?>
 </td>
 </tr>
 </tbody></table>
