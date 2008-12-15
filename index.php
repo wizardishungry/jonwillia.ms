@@ -4,18 +4,14 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <?php
     $taglines=Array(
-        //'The Wizard of IDDQD',
+        'The Wizard of IDDQD',
         'The Ancestral Home of the Croissanwich<sup>®</sup>',
-        //'As harmonious as a Pizza Hut<sup>®</sup>',
-        //'Valhalla, I am punning!',
-        //"Look at the schize of that ruby!",
-        //"Wikipedia, always with the portmanteau"
+        'As harmonious as a Pizza Hut<sup>®</sup>',
+        'Valhalla, I am punning!',
     );
     $withlines=Array(
         'Eating Valencia oranges with',
-        //'Reticulating splines with',
-        //'Going out to dinner and picking up the tab with',
-        //"Hiding out in vast natural cave systems with",
+        "Hiding out in vast natural cave systems with",
     );
     $tagline=$taglines[array_rand($taglines)];
     $withline=$withlines[array_rand($withlines)];
@@ -51,14 +47,6 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 <h1 class="title2">Wizardishungry</h1>
 
 
-<!-- CONTENT STARTS -->
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="400" height="320" id="utv520867"><param name="flashvars" value="viewcount=false&amp;autoplay=false&amp;brand=embed"/><param name="allowfullscreen" value="true"/><param name="allowscriptaccess" value="always"/><param name="movie" value="http://www.ustream.tv/flash/live/320339"/><embed flashvars="viewcount=false&amp;autoplay=false&amp;brand=embed" width="400" height="320" allowfullscreen="true" allowscriptaccess="always" id="utv520867" name="utv_n_103978" src="http://www.ustream.tv/flash/live/320339" type="application/x-shockwave-flash" /></object>
-<p>
-<!--
-<a style="text-decoration: none !important" href="/unlimited.freak.out/lindy.html">¯\(°_o)/¯
-</a>
- --> <a href="http://excepter.com/html/excepter.html">VETO VOTE</a>
-</p>
 <?php if(!preg_match('#(excepter)|(facebook.*event)#',$_SERVER['HTTP_REFERER'])): ?>
 
 <h2>Introduction</h2>
