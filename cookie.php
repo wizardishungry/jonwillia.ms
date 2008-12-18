@@ -26,9 +26,15 @@ function national_treasure_starring_nicholas_cage($log_matches)
     '#limewire#',
 	'#wizardishungry.wordpress#',
     '#excepter#',
+    '#rhizome#',
+    '#=wizardishungry#',
+    '#pachyhedron#',
+    '#hedron#',
 	);
 
 	$lurkers = array(
+    '69.114.63.236', // jfr
+    'e1dcbaccc8241441146dc03936979f07', // ^
     '76.8.67.2', // limewire
 //	"128.122.226.112",
 'd9e63311cca142437584be08d6a81b07',    '66.227.31.5', // leah

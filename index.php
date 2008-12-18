@@ -51,9 +51,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 
 <h2>Introduction</h2>
 
-<p>This is the somewhat transitional online home of <a href="mailto:jon@wizardishungry.com">Jon Williams</a>
-   until he gets his shit together and puts stuff online in a cohesive, comprehensive and visually pleasing
-   way. Until then this will have to serve as a catch-all for everything related to my online presense.</p>
+<p>This is the somewhat transitional online home of <a href="mailto:jon@wizardishungry.com">Jon Williams</a></p>
 
 <h2>What is there to do on this webpage?</a></h2>
 
@@ -64,11 +62,12 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 <h2>What have you been up to lately?</h2>
 
 <p>Usually, <a href='#delicious'>my del.icio.us</a> or <a href="http://friendfeed.com/wizardishungry" rel="me">Friend Feed aggregator</a>
-   are pretty good indicators of what I've been thinking about. I've been doing a
-   lot of work in <a href="http://www.symfony-project.org/">Symfony</a> for the past two years and continue
-   to do so.</p>
+   are pretty good indicators of what I've been thinking about. Here's some stuff that I did recently pulled from there</p>
 
-<p>Currently I'm working an open source <a href="http://en.wikipedia.org/wiki/BitTorrent">BitTorrent</a> tracker 
+<script type="text/javascript" src="http://feeds.delicious.com/v2/js/WIZARDISHUNGRY/WIZARDISHUNGRY?count=5&sort=date&tags&extended"></script>
+
+<p>I've been doing a lot of work in <a href="http://www.symfony-project.org/">Symfony</a> for the past two years and continue
+   to do so. Currently I'm working an open source <a href="http://en.wikipedia.org/wiki/BitTorrent">BitTorrent</a> tracker 
    (<a href="http://github.com/WIZARDISHUNGRY/sflimetracker/tree/master">sfLimeTracker</a>)
    written in the <a href="http://www.symfony-project.org/"Symfony PHP framework</a> for 
    <a href="http://www.limewire.com/">Limewire</a>. I also try to contribute patches and support to Symfony and other free software
@@ -171,8 +170,6 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
    embarassing shit from when you were young</a> available for future employers and spouses?</a>
 
 </div>
-<p>Well I finally got off my ass and updated this; hopefully things will be more cohesive once I move to my
-   “new” Solaris machine. Till then.</p>
 <?php endif;?>
 <h1 class="authorlist">-<a href="mailto:jon@wizardishungry.com">Jon Williams</a></h1>
 <hr>
