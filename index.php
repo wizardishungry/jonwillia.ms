@@ -51,7 +51,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 
 <h2>Introduction</h2>
 
-<p>This is the somewhat transitional online home of <a href="mailto:jon@wizardishungry.com">Jon Williams</a>, a Brooklyn, NY based Open Source developer/[video/music] <a href="http://en.wikipedia.org/wiki/Magical_thinking">magician</a>.</p>
+<p>This is the somewhat transitional online home of <a href="mailto:jon@wizardishungry.com">Jon Williams</a>, a Brooklyn, NY based <a href="#work">Open Source developer</a> / [<a href="#video">video</a>|music] <a href="http://en.wikipedia.org/wiki/Magical_thinking">magician</a>.</p>
 
 <h2>What have you been up to lately?</h2>
 
@@ -60,7 +60,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 
 <script type="text/javascript" src="http://feeds.delicious.com/v2/js/WIZARDISHUNGRY/WIZARDISHUNGRY?count=5&sort=date&tags&extended"></script>
 
-<h2>What do you do all day?</h2>
+<a name="work"></a><h2>What do you do all day?</h2>
 
 <p>I've been doing a lot of work in <a href="http://www.symfony-project.org/">Symfony</a> for the past two years and continue
    to do so. Currently I'm working an open source <a href="http://en.wikipedia.org/wiki/BitTorrent">BitTorrent</a> tracker 
@@ -69,7 +69,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
    <a href="http://www.limewire.com/">Limewire</a>. I also try to contribute patches and support to Symfony and other free software
    projects as well as do internal web stuff at Limewire.</p>
 
-<h2>So I hear you do video stuff…</h2>
+<a name="video"></a><h2>So I hear you do video stuff…</h2>
 
 <p>I did video for <a href="http://www.excepter.com/">Excepter's</a> marathon 17 hour 2008 election show ("VETO VOTE") at <a href="http://www.monkeytown.com/">Monkeytown</a> in Williamsburg, Brooklyn.</p>
 
