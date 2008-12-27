@@ -55,7 +55,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 
 <h2>What have you been up to lately?</h2>
 
-<p>Usually, <a href='#delicious'>my del.icio.us</a> or <a href="http://friendfeed.com/wizardishungry" rel="me">Friend Feed aggregator</a>
+<p>Usually, <a href='#delicious'>my del.icio.us</a> or <a href="http://friendfeed.com/wizardishungry" rel="me">Friend Feed aggregator</a> (<a href="http://friendfeed.com/wizardishungry?format=atom">feed</a>)
    are pretty good indicators of what I've been thinking about. Here's some stuff that I did recently pulled from there</p>
 
 <script type="text/javascript" src="http://feeds.delicious.com/v2/js/WIZARDISHUNGRY/WIZARDISHUNGRY?count=5&sort=date&tags&extended"></script>
