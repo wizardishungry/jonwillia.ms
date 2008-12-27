@@ -51,13 +51,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 
 <h2>Introduction</h2>
 
-<p>This is the somewhat transitional online home of <a href="mailto:jon@wizardishungry.com">Jon Williams</a></p>
-
-<h2>What is there to do on this webpage?</a></h2>
-
-<p>You probably want to go look at <s><a href="http://wizardishungry.wordpress.com/">my blog</a></s> <a href="http://wizardishungry.tumblr.com/">my tumblr</a> until I get
-   everything else sorted out and relinked here. There's some other stuff that acquantences of mine
-   might like to poke around at below.</p>
+<p>This is the somewhat transitional online home of <a href="mailto:jon@wizardishungry.com">Jon Williams</a>, a Brooklyn, NY based Open Source developer/[video/music] <a href="http://en.wikipedia.org/wiki/Magical_thinking">magician</a>.</p>
 
 <h2>What have you been up to lately?</h2>
 
@@ -66,6 +60,8 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 
 <script type="text/javascript" src="http://feeds.delicious.com/v2/js/WIZARDISHUNGRY/WIZARDISHUNGRY?count=5&sort=date&tags&extended"></script>
 
+<h2>What do you do all day?</h2>
+
 <p>I've been doing a lot of work in <a href="http://www.symfony-project.org/">Symfony</a> for the past two years and continue
    to do so. Currently I'm working an open source <a href="http://en.wikipedia.org/wiki/BitTorrent">BitTorrent</a> tracker 
    (<a href="http://github.com/WIZARDISHUNGRY/sflimetracker/tree/master">sfLimeTracker</a>)
@@ -73,7 +69,24 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
    <a href="http://www.limewire.com/">Limewire</a>. I also try to contribute patches and support to Symfony and other free software
    projects as well as do internal web stuff at Limewire.</p>
 
-<p>I have a new pet chicken blog here: <a href="http://khikin.com/">KHIKIN.com</a>.</p>
+<h2>So I hear you do video stuff…</h2>
+
+<p>I did video for <a href="http://www.excepter.com/">Excepter's</a> marathon 17 hour 2008 election show ("VETO VOTE") at <a href="http://www.monkeytown.com/">Monkeytown</a> in Williamsburg, Brooklyn.</p>
+
+<h4><a href="http://video.google.com/videoplay?docid=3891974777947726559">Excepter - Heads</a></h4>
+<embed id="VideoPlayback" src="http://video.google.com/googleplayer.swf?docid=3891974777947726559&hl=en&fs=true" style="width:400px;height:326px" allowFullScreen="true" allowScriptAccess="always" type="application/x-shockwave-flash"> </embed>
+
+<p>I have a <a href="http://www.youtube.com/wizardishungry">YouTube channel</a> with some other stuff:</p>
+
+<object width="445" height="364"><param name="movie" value="http://www.youtube.com/v/6zwK0g4sPkM&hl=en&fs=1&rel=0&border=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/6zwK0g4sPkM&hl=en&fs=1&rel=0&border=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="445" height="364"></embed></object>
+
+<object width="445" height="364"><param name="movie" value="http://www.youtube.com/v/VVFsVNY9d7M&hl=en&fs=1&rel=0&border=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/VVFsVNY9d7M&hl=en&fs=1&rel=0&border=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="445" height="364"></embed></object>
+
+<object width="445" height="364"><param name="movie" value="http://www.youtube.com/v/xI-uc23GxLI&hl=en&fs=1&rel=0&border=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/xI-uc23GxLI&hl=en&fs=1&rel=0&border=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="445" height="364"></embed></object>
+
+<h2>I'm still bored, amuse me</h2>
+
+<p>You might want to go look at <a href="http://wizardishungry.tumblr.com/">my tumblr</a>  I have a new pet chicken blog here: <a href="http://khikin.com/">KHIKIN.com</a>.</p>
 
 <h2>Is that a Corgi?</h2>
 
