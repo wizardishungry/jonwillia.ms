@@ -248,6 +248,11 @@ img
     left: 1500px;
 }
 
+#github-badge
+{
+    float: left;
+}
+
 /* iPhone */
 @media screen and (max-device-width: 480px) {
 		#pagetable
