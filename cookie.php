@@ -166,7 +166,7 @@ function national_treasure_starring_nicholas_cage($log_matches)
 		);
 
 	$mode = "got";
-	if($_COOKIE['LOLSESSIONID'] == "")
+	if(@$_COOKIE['LOLSESSIONID'] == "")
 	{
 	
 		$mode="set";
