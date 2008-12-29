@@ -154,7 +154,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 
 <div id="dopplr-WIZARDISHUNGRY-header-embed"><script type="text/javascript" src="http://www.dopplr.com/traveller/WIZARDISHUNGRY/public/07dc22391ba5226bff3c5c527f830a53/header.js"></script></div>
 
-<h3 class="twitter-title"><a href="http://twitter.com/WIZARDISHUNGRY">Twitter</a></h2>
+<h3 class="twitter-title"><a href="http://twitter.com/WIZARDISHUNGRY">Twitter</a></h3>
 <ul id="twitter_update_list"></ul>
 <a id="twitter-link" href="http://twitter.com/WIZARDISHUNGRY">follow me on Twitter</a>
 <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
