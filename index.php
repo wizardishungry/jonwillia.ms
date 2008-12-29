@@ -33,11 +33,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 <link rel="apple-touch-icon" href="/include/apple-touch-icon.png"/> 
 <meta http-equiv="imagetoolbar" content="no" />
 </head><body>
-<?php if(FALSE): ?>
-<div id="leftcolumn">
-<!-- a place for secrets -->
-</div>
-<?php endif; ?>
+
 <table id="pagetable">
 <tbody><tr>
 <td id="content">
@@ -48,14 +44,27 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 <img class="splash" width="576" height="576" src="include/splash.jpg" alt="[O'Reilly-style image of an adorable Corgi]">
 <h1 class="title2">Wizardishungry</h1>
 
+<div id="navigation">
+<h2>Navigate</h2>
+<ul>
+    <li><a href="#intro">Introduction</a></li>
+    <li><a href="#recent">Recent</a></li>
+    <li><a href="#work">Professional</a></li>
+    <li><a href="#video">Video</a></li>
+    <li><a href="#tumblr">Tumblr</a></li>
+    <li><a href="#corgi">Corgis</a></li>
+    <li><a href="#delicious">Delicious</a></li>
+    <li><a href="#widgets">Elsewhere</a></li>
+    <li><a href="#archive">Archive</a></li>
+    <li><a href="mailto:jon@Wizardishungry.com">Email</a></li>
+</ul>
+</div>
 
-<?php if(!preg_match('#(excepter)|(facebook.*event)#',$_SERVER['HTTP_REFERER'])): ?>
-
-<h2>Introduction</h2>
+<a name="intro"></a><h2>Introduction</h2>
 
 <p>This is the somewhat transitional online home of <a href="mailto:jon@wizardishungry.com">Jon Williams</a>, a Brooklyn, NY based <a href="#work">Open Source developer</a> / [<a href="#video">video</a>|music] <a href="http://en.wikipedia.org/wiki/Magical_thinking">magician</a>.</p>
 
-<h2>What have you been up to lately?</h2>
+<a name="recent"></a><h2>What have you been up to lately?</h2>
 
 <p>Usually, <a href='#delicious'>my del.icio.us</a> or <a href="http://friendfeed.com/wizardishungry" rel="me">Friend Feed aggregator</a> (<a href="http://friendfeed.com/wizardishungry?format=atom">feed</a>)
    are pretty good indicators of what I've been thinking about. Here's some stuff that I did recently pulled from there</p>
@@ -90,7 +99,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 
 <object width="445" height="364"><param name="movie" value="http://www.youtube.com/v/xI-uc23GxLI&hl=en&fs=1&rel=0&border=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/xI-uc23GxLI&hl=en&fs=1&rel=0&border=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="445" height="364"></embed></object>
 
-<h2>I'm still bored, amuse me</h2>
+<a name="tumblr"></a><h2>I'm still bored, amuse me</h2>
 
 <p>You might want to go look at <a href="http://wizardishungry.tumblr.com/">my tumblr</a>, which I embed RIGHT HERE!
 
@@ -98,7 +107,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 
 <p>Also,I have a new pet chicken blog here: <a href="http://khikin.com/">KHIKIN.com</a>.</p>
 
-<h2>Is that a Corgi?</h2>
+<a name="corgi"></a><h2>Is that a Corgi?</h2>
 
 <p>Yes, that is a <a href="http://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi">Pembroke Welsh Corgi</a>. I
    had two of them growing up and my parents have a pair back home. I remain
@@ -108,7 +117,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 <noscript><a href="http://del.icio.us/WIZARDISHUNGRY">My del.icio.us</a></noscript>
 
 
-<h2>OMG more Widgets!<h2>
+<a name="widgets"></a><h2>OMG more Widgets!<h2>
 
 <a href="http://www.facebook.com/people/Jon_Williams/3700497" title="Jon Williams's Facebook profile" target=_TOP><img src="http://badge.facebook.com/badge/3700497.302.1982974835.png" border=0 alt="Jon Williams's Facebook profile"></a>
 
@@ -151,7 +160,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
 <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/WIZARDISHUNGRY.json?callback=twitterCallback2&amp;count=5"></script>
 
-<h2>Things That Formerly Existed</h2>
+<a name="archive"></a><h2>Things That Formerly Existed</h2>
 
 <p>Thanks to the wonders of the <a href="http://www.archive.org/web/web.php">Wayback Machine</a>, you can see a 
    few interesting snapshots of this page:</p>
@@ -193,7 +202,6 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
    embarassing shit from when you were young</a> available for future employers and spouses?</a>
 
 </div>
-<?php endif;?>
 <h1 class="authorlist">-<a href="mailto:jon@wizardishungry.com">Jon Williams</a></h1>
 <hr>
 

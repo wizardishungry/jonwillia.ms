@@ -23,63 +23,36 @@ img
     border: none;
 }
 
-#leftcolumn
+#navigation
 {
-    float: left;
-    border: none;
-    width: 120px;
-    margin: 2px 5px;
+    position: fixed;
+    bottom: 4px;
+    right: 2px;
+    margin: 0px 4px;
     text-align: right;
-}
-
-#leftcolumn p
-{
-    margin: 0.25em 0;
-}
-
-#translations
-{
-    margin: 0;
-    padding: 0 0.5em;
+    color: black;
     background: white;
+    border: solid 1px black;
+    padding: 0px 4px;
+    font-size: smaller;
 }
 
-#translations p
+#navigation ul
 {
-    margin: 0.25em 0;
     text-align: right;
+    margin: 0.25em 0;
 }
 
-.translationstatus
+#navigation h2
 {
-    width: 100%;
-    border: 1px black dotted;
+    text-align: center;
+    display: none !important;
+    margin: 8 0;
+    font-size: 100%;
 }
-
-#translationstatus th
+#navigation li
 {
-    background-color: #350633;
-    color: white;
-}
-
-.status-bad
-{
-	background-color: rgb(100%,50%,50%);
-}
-
-.status-medium
-{
-	background-color: rgb(100%,100%,50%);
-}
-
-.status-good
-{
-	background-color: rgb(50%,100%,50%);
-}
-
-.status-bad, .status-medium, .status-good
-{
-	text-align: center;
+    list-style: lower-greek outside; 
 }
 
 #pagetable
