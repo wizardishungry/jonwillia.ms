@@ -237,4 +237,8 @@ img
 		#pagetable, #content, #content .tagline, #content .title1 {
 				font-size: larger !important;
 		}
+        #navigation
+        {
+            display: none; 
+        }
 }
