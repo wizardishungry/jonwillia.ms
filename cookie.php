@@ -166,24 +166,24 @@ function national_treasure_starring_nicholas_cage($log_matches)
 		);
 
 	$mode = "got";
-	if($_COOKIE[LOLSESSIONID] == "")
+	if($_COOKIE['LOLSESSIONID'] == "")
 	{
 	
 		$mode="set";
 		$val = md5( mt_rand(). ":". time() . ":" . mt_rand() );
 		setcookie("LOLSESSIONID",$val,2147483647,'/');
-		$_COOKIE[LOLSESSIONID]=$val; // let other php scripts see cookie
+		$_COOKIE['LOLSESSIONID']=$val; // let other php scripts see cookie
 	}
 	else
 	{
-		$val = $_COOKIE[LOLSESSIONID];
+		$val = $_COOKIE['LOLSESSIONID'];
 	}
 
 	if($log_matches==TRUE)
 	{
-		$ip=$_SERVER[REMOTE_ADDR];
-		$url=$_SERVER[REQUEST_URI];
-		$ref=$_SERVER[HTTP_REFERER];
+		$ip=$_SERVER['REMOTE_ADDR'];
+		$url=$_SERVER['REQUEST_URI'];
+		$ref=@$_SERVER['HTTP_REFERER'];
 		$key = array_search($val,$lurkers);
 		if($key!==FALSE)
 		{

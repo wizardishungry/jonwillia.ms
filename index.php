@@ -1,5 +1,5 @@
 <?php require_once('cookie.php');
-national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[HTTP_REFERER]=='')?3:TRUE);
+national_treasure_starring_nicholas_cage(($_COOKIE['LOLSESSIONID']!=''&&@$_SERVER['HTTP_REFERER']=='')?3:TRUE);
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <?php
