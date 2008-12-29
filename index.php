@@ -69,7 +69,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 <p>I've been doing a lot of work in <a href="http://www.symfony-project.org/">Symfony</a> for the past two years and continue
    to do so. Currently I'm working an open source <a href="http://en.wikipedia.org/wiki/BitTorrent">BitTorrent</a> tracker 
    (<a href="http://github.com/WIZARDISHUNGRY/sflimetracker/tree/master">sfLimeTracker</a>)
-   written in the <a href="http://www.symfony-project.org/"Symfony PHP framework</a> for 
+   written in the <a href="http://www.symfony-project.org/">Symfony PHP framework</a> for 
    <a href="http://www.limewire.com/">Limewire</a>. I also try to contribute patches and support to Symfony and other free software
    projects as well as do internal web stuff at Limewire.</p>
 
