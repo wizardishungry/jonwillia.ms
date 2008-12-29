@@ -24,6 +24,4 @@ function hide($e)
     //    if(@$_GET['secret']!=$my_secret) { hide('sec'); }
     //$payload=json_decode($_POST['payload']);
     echo shell_exec("cd $my_path && sudo -u  $my_user $my_git pull");
-
-    hide('yay'); 
 ?>
