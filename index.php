@@ -62,11 +62,14 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
     <li><a href="mailto:jon@wizardishungry.com">Email</a></li>
 </ul>
 </div>
-<p>This is the somewhat transitional online home of <a href="mailto:jon@wizardishungry.com">Jon Williams</a>, a Brooklyn, NY based <a href="#work">Open Source developer</a> / [<a href="#video">video</a>|music] <a href="http://en.wikipedia.org/wiki/Magical_thinking">magician</a>.</p>
+<p>This is the online home of <a href="mailto:jon@wizardishungry.com">Jon Williams</a>,
+   a Brooklyn, NY-based <a href="#work">Open Source developer</a> &
+   <a href="#video">video</a>/music
+   <a href="http://en.wikipedia.org/wiki/Magical_thinking">magician</a>.</p>
 
 <a name="recent"></a><h2>What have you been up to lately?</h2>
 
-<p>Usually, <a href='#delicious'>my del.icio.us</a> or <a href="http://friendfeed.com/wizardishungry" rel="me">Friend Feed aggregator</a> (<a href="http://friendfeed.com/wizardishungry?format=atom">feed</a>)
+<p>Usually, <a href='#delicious'>my del.icio.us</a> or <a rel="me" href="http://friendfeed.com/wizardishungry" rel="me">Friend Feed aggregator</a> (<a rel="me feed" href="http://friendfeed.com/wizardishungry?format=atom">feed</a>)
    are pretty good indicators of what I've been thinking about. Here's some stuff that I did recently pulled from there</p>
 
 <script type="text/javascript" src="http://feeds.delicious.com/v2/js/WIZARDISHUNGRY/WIZARDISHUNGRY?count=5&sort=date&tags&extended"></script>
@@ -82,7 +85,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
    (<a href="http://github.com/WIZARDISHUNGRY/sflimetracker/tree/master">sfLimeTracker</a>)
    written in the <a href="http://www.symfony-project.org/">Symfony PHP framework</a> for 
    <a href="http://www.limewire.com/">Limewire</a>. I also try to contribute patches and support to Symfony and other free software
-   projects as well as do internal web stuff at Limewire. Go look at <a href="http://www.linkedin.com/in/jonathanw">my LinkedIn profile</a>.</p>
+   projects as well as do internal web stuff at Limewire. Go look at <a href="http://www.linkedin.com/in/jonathanw" rel="me">my LinkedIn profile</a>.</p>
 
 <a name="video"></a><h2>So I hear you do video stuff…</h2>
 
@@ -91,7 +94,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 <h4><a href="http://video.google.com/videoplay?docid=3891974777947726559">Excepter - Heads</a></h4>
 <embed id="VideoPlayback" src="http://video.google.com/googleplayer.swf?docid=3891974777947726559&hl=en&fs=true" style="width:400px;height:326px" allowFullScreen="true" allowScriptAccess="always" type="application/x-shockwave-flash"> </embed>
 
-<p>I have a <a href="http://www.youtube.com/wizardishungry">YouTube channel</a> with some other stuff:</p>
+<p>I have a <a href="http://www.youtube.com/wizardishungry" rel="me">YouTube channel</a> with some other stuff:</p>
 
 <object width="445" height="364"><param name="movie" value="http://www.youtube.com/v/6zwK0g4sPkM&hl=en&fs=1&rel=0&border=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/6zwK0g4sPkM&hl=en&fs=1&rel=0&border=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="445" height="364"></embed></object>
 
@@ -101,7 +104,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 
 <a name="tumblr"></a><h2>I'm still bored, amuse me</h2>
 
-<p>You might want to go look at <a href="http://wizardishungry.tumblr.com/">my tumblr</a>, which I embed RIGHT HERE!
+<p>You might want to go look at <a href="http://wizardishungry.tumblr.com/" rel="me">my tumblr</a>, which I embed RIGHT HERE!
 
 <script type="text/javascript" src="http://wizardishungry.tumblr.com/js"></script>
 
@@ -114,12 +117,12 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
    <a href="http://www.flickr.com/photos/wizardishungry/sets/72157594187664253/">a big fan</a>.</p>
 
 <a name="delicious"></a><script type="text/javascript" src="http://del.icio.us/feeds/js/WIZARDISHUNGRY?extended;count=10;title=My%20del.icio.us;bullet=%E2%80%A2;icon=s;name;showadd"></script>
-<noscript><a href="http://del.icio.us/WIZARDISHUNGRY">My del.icio.us</a></noscript>
+<noscript><a href="http://del.icio.us/WIZARDISHUNGRY" rel="me">My del.icio.us</a></noscript>
 
 
 <a name="widgets"></a><h2>OMG more Widgets!<h2>
 
-<a href="http://www.facebook.com/people/Jon_Williams/3700497" title="Jon Williams's Facebook profile" target=_TOP><img src="http://badge.facebook.com/badge/3700497.302.1982974835.png" border=0 alt="Jon Williams's Facebook profile"></a>
+<a href="http://www.facebook.com/people/Jon_Williams/3700497" rel="me" title="Jon Williams's Facebook profile" target=_TOP><img src="http://badge.facebook.com/badge/3700497.302.1982974835.png" border=0 alt="Jon Williams's Facebook profile"></a>
 
 <script type="text/javascript" src="http://friendfeed.com/embed/badge/wizardishungry?hide_picture=1&amp;width=400"></script>
 
@@ -143,8 +146,8 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?show_name=1&count=3&display=latest&size=t&layout=h&source=user&user=80228949%40N00"></script>
 <td id="flickr_badge_source" valign="center" align="center">
 <table cellpadding="0" cellspacing="0" border="0"><tr>
-<td width="10" id="flickr_icon_td"><a href="http://www.flickr.com/photos/wizardishungry/"><img id="flickr_badge_icon" alt="WIZARDISHUNGRY's items" src="http://farm1.static.flickr.com/56/buddyicons/80228949@N00.jpg?1198015831#80228949@N00" align="left" width="48" height="48"></a></td>
-<td id="flickr_badge_source_txt"><nobr>Go to</nobr> <a href="http://www.flickr.com/photos/wizardishungry/">WIZARDISHUNGRY's photostream</a></td>
+<td width="10" id="flickr_icon_td"><a rel="me" href="http://www.flickr.com/photos/wizardishungry/"><img id="flickr_badge_icon" alt="WIZARDISHUNGRY's items" src="http://farm1.static.flickr.com/56/buddyicons/80228949@N00.jpg?1198015831#80228949@N00" align="left" width="48" height="48"></a></td>
+<td id="flickr_badge_source_txt"><nobr>Go to</nobr> <a rel="me" href="http://www.flickr.com/photos/wizardishungry/">WIZARDISHUNGRY's photostream</a></td>
 </tr></table>
 </td>
 </tr>
@@ -154,7 +157,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 
 <div id="dopplr-WIZARDISHUNGRY-header-embed"><script type="text/javascript" src="http://www.dopplr.com/traveller/WIZARDISHUNGRY/public/07dc22391ba5226bff3c5c527f830a53/header.js"></script></div>
 
-<h3 class="twitter-title"><a href="http://twitter.com/WIZARDISHUNGRY">Twitter</a></h3>
+<h3 class="twitter-title"><a rel="me" href="http://twitter.com/WIZARDISHUNGRY">Twitter</a></h3>
 <ul id="twitter_update_list"></ul>
 <a id="twitter-link" href="http://twitter.com/WIZARDISHUNGRY">follow me on Twitter</a>
 <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
@@ -170,7 +173,7 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 <h3>Blog frontpages layout</h3>
 
 <p>All of the content that was available here was moved to a
-   <a href="http://wizardishungry.wordpress.com/">WordPress.com blog</a> after I decided it was too tedious to
+   <a rel="me" href="http://wizardishungry.wordpress.com/">WordPress.com blog</a> after I decided it was too tedious to
    maintain a blog install for what was eseentially a infrequently-updated “Tumblog” (I do not enjoy writing)
    and <a href="http://en.wikipedia.org/wiki/Grey_hat">grey hat</a> Technorati optimzation experiment. I
    <strong>promise</strong> I'll get the "Oregon Trail of Animated Gifs" up on my site somewhere.</p>
