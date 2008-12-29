@@ -25,33 +25,31 @@ img
 
 #navigation
 {
-    position: fixed;
-    bottom: 4px;
-    right: 2px;
-    margin: 0px 4px;
-    text-align: right;
+    float: right;
+    margin: 0px 0px;
     color: black;
     background: white;
     border: solid 1px black;
-    padding: 0px 4px;
+    padding: 0px 2px 0px 20px;
     font-size: smaller;
 }
 
 #navigation ul
 {
-    text-align: right;
-    margin: 0.25em 0;
+    padding:0;
+    margin: 0;
 }
 
-#navigation h2
+#navigation h3
 {
     text-align: center;
     display: none !important;
-    margin: 8 0;
+    margin: 0 0;
     font-size: 100%;
 }
 #navigation li
 {
+    text-align: right;
     list-style: lower-greek outside; 
 }
 

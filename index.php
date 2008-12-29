@@ -44,8 +44,11 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
 <img class="splash" width="576" height="576" src="include/splash.jpg" alt="[O'Reilly-style image of an adorable Corgi]">
 <h1 class="title2">Wizardishungry</h1>
 
+
+
+<a name="intro"></a><h2>Introduction</h2>
 <div id="navigation">
-<h2>Navigate</h2>
+<h3>Navigate</h3>
 <ul>
     <li><a href="#intro">Introduction</a></li>
     <li><a href="#recent">Recent</a></li>
@@ -59,9 +62,6 @@ national_treasure_starring_nicholas_cage(($_COOKIE[LOLSESSIONID]!=''&&$_SERVER[H
     <li><a href="mailto:jon@Wizardishungry.com">Email</a></li>
 </ul>
 </div>
-
-<a name="intro"></a><h2>Introduction</h2>
-
 <p>This is the somewhat transitional online home of <a href="mailto:jon@wizardishungry.com">Jon Williams</a>, a Brooklyn, NY based <a href="#work">Open Source developer</a> / [<a href="#video">video</a>|music] <a href="http://en.wikipedia.org/wiki/Magical_thinking">magician</a>.</p>
 
 <a name="recent"></a><h2>What have you been up to lately?</h2>
