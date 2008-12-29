@@ -19,7 +19,7 @@ function hide()
     header("Status: 404 Not Found");
     exit();
 }
-//    if(!isset($_POST['payload'])) { hide(); }
+    if(!isset($_POST['payload'])) { hide(); }
     if(@$_GET['secret']!=$my_secret) { hide(); }
     //$payload=json_decode($_POST['payload']);
     echo shell_exec("cd $my_path && sudo -u  $my_user $my_git pull");
