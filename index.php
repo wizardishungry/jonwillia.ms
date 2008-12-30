@@ -104,11 +104,8 @@ national_treasure_starring_nicholas_cage((@$_COOKIE['LOLSESSIONID']!=''&&@$_SERV
 
 <a name="tumblr"></a><h2>I'm still bored, amuse me</h2>
 
-<p>You might want to go look at <a href="http://wizardishungry.tumblr.com/" rel="me">my tumblr</a>, which I embed RIGHT HERE!
-
-<script type="text/javascript" src="http://wizardishungry.tumblr.com/js"></script>
-
-<p>Also,I have a new pet chicken blog here: <a href="http://khikin.com/">KHIKIN.com</a>.</p>
+<p>You might want to go look at <a href="http://wizardishungry.tumblr.com/" rel="me">my tumblr</a>.
+   Also, I have a new pet chicken blog here: <a href="http://khikin.com/">KHIKIN.com</a>.</p>
 
 <a name="corgi"></a><h2>Is that a Corgi?</h2>
 
