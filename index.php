@@ -9,7 +9,6 @@ national_treasure_starring_nicholas_cage((@$_COOKIE['LOLSESSIONID']!=''&&@$_SERV
         'As harmonious as a Pizza Hut<sup>®</sup>',
         'Valhalla, I am punning!',
         'The Adventures of Sam and Max/MSP',
-        'Sagan Nomad',
     );
     $withlines=Array(
         'Eating Valencia oranges with',
@@ -227,4 +226,3 @@ _uacct = "UA-938181-1";
 urchinTracker();
 </script>
 </body></html>
-test 2
