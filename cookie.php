@@ -267,7 +267,7 @@ $ignore = Array(
 	if(array_search($val,$ignore)!==FALSE) return ; 
 	if(array_search($ip,$ignore)!==FALSE) return ;
 	
-	$handle = fopen ("/var/www/lurkers","a");
+	$handle = fopen ("/lurkers","a");
 	if($handle)
 	{
 		$t=date("r");
