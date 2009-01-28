@@ -60,6 +60,7 @@ function national_treasure_starring_nicholas_cage($log_matches)
 "5a67ed40d0ce2d6e93a506af6fbb6923",    "24.193.97.39", // peggy ^_^
 "66.108.8.193", // some moron
 "66.11.201.222", // twiggy
+'63.138.172.9', // someone at lawfirm
 "a5c432d453c214a8adfbe66a32899380",    "72.227.132.124", // killy
 "276dd446935059722d3902f163b451a1",    "69.114.177.148", // danielle
 "64.131.135.173", // ellies
@@ -254,6 +255,7 @@ $ignore = Array(
 '2cab113dd351c8e80a23ca38fc4defc1',
 '9b00dff44a1b9eae653d10ec6618d20d',
 'c22d826f55d143141f5415bb546c14c0',
+'8da72c0897a157695978249da7b6482f',
 'abe56cf30dfa7270c0443d1856252e15',
 'bae12a104efa9f30ca7043ce8d4da15b',
 '3d7b71063dbee99b859b67298a68d9ce',
