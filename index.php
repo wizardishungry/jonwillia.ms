@@ -53,6 +53,7 @@ national_treasure_starring_nicholas_cage((@$_COOKIE['LOLSESSIONID']!=''&&@$_SERV
     <li><a href="#recent">Recent</a></li>
     <li><a href="#work">Professional</a></li>
     <li><a href="#video">Video</a></li>
+    <li><a href="#music">Music</a></li>
     <li><a href="#tumblr">Tumblr</a></li>
     <li><a href="#corgi">Corgis</a></li>
     <li><a href="#delicious">Delicious</a></li>
@@ -63,7 +64,7 @@ national_treasure_starring_nicholas_cage((@$_COOKIE['LOLSESSIONID']!=''&&@$_SERV
 </div>
 <p>This is the online home of <a href="mailto:jon@wizardishungry.com">Jon Williams</a>,
    a Brooklyn, NY-based <a href="#work">Open Source developer</a> &
-   <a href="#video">video</a>/music
+   <a href="#video">video</a>/<a href="#music">music</a>
    <a href="http://en.wikipedia.org/wiki/Magical_thinking">magician</a>.</p>
 
 <a name="recent"></a><h2>What have you been up to lately?</h2>
@@ -100,6 +101,10 @@ national_treasure_starring_nicholas_cage((@$_COOKIE['LOLSESSIONID']!=''&&@$_SERV
 <object width="445" height="364"><param name="movie" value="http://www.youtube.com/v/VVFsVNY9d7M&hl=en&fs=1&rel=0&border=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/VVFsVNY9d7M&hl=en&fs=1&rel=0&border=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="445" height="364"></embed></object>
 
 <object width="445" height="364"><param name="movie" value="http://www.youtube.com/v/xI-uc23GxLI&hl=en&fs=1&rel=0&border=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/xI-uc23GxLI&hl=en&fs=1&rel=0&border=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="445" height="364"></embed></object>
+
+<a name="video"></a><h2>Music, really?</h2>
+
+<p>The only thing online right now is <a href="http://www.myspace.com/pachyhedron">Pachyhedron</a>, my catch-all for solo wank. I don't play under that name though.</p>
 
 <a name="tumblr"></a><h2>I'm still bored, amuse me</h2>
 
