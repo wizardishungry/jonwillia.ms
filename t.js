@@ -12,7 +12,7 @@ var c=readCookie('LOLSESSIONID');
 var r=document.referrer;
 var s='http://home.wizardishungry.com/t.png/?';
 if(c)
-    s+='l='+c'&';
+    s+='l='+c+'&';
 if(r)
-    s+='r='+r'';
+    s+='r='+r;
 document.write("<img src='"+s+"'>");
