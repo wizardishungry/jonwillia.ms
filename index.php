@@ -1,26 +1,8 @@
-<?php require_once('cookie.php');
-national_treasure_starring_nicholas_cage((@$_COOKIE['LOLSESSIONID']!=''&&@$_SERVER['HTTP_REFERER']=='')?3:TRUE);
-?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<?php
-    $taglines=Array(
-        'The Wizard of IDDQD',
-        'The Ancestral Home of the Croissanwich<sup>®</sup>',
-        'As harmonious as a Pizza Hut<sup>®</sup>',
-        'Valhalla, I am punning!',
-        'The Adventures of Sam and Max/MSP',
-    );
-    $withlines=Array(
-        'Eating Valencia oranges with',
-        "Hiding out in vast natural cave systems with",
-    );
-    $tagline=$taglines[array_rand($taglines)];
-    $withline=$withlines[array_rand($withlines)];
-?>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head profile="http://gmpg.org/xfn/11">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>wizardishungry.com / <?php echo $withline; ?> Wizardishungry</title>
+<title>wizardishungry.com [Jon Williams]</title>
 <link rel="stylesheet" href="include/style.css" type="text/css">
 <link rel="alternate" title="FriendFeed" href="http://friendfeed.com/wizardishungry?format=atom" type="application/atom+xml"/>
 <link rel="openid2.provider openid.server" href="http://pip.verisignlabs.com/server"/>
@@ -38,8 +20,8 @@ national_treasure_starring_nicholas_cage((@$_COOKIE['LOLSESSIONID']!=''&&@$_SERV
 <td id="content">
 
 <h1 class="bar">&nbsp;</h1>
-<h1 class="tagline"><?php echo $tagline ?></h1>
-<h1 class="title1"><?php echo $withline ?>…</h1>
+<h1 class="tagline">The Ancestral Home of the Croissanwich<sup>®</sup>nyway</h1>
+<h1 class="title1"Eating Valencia oranges with</h1>
 <img class="splash" width="576" height="576" src="include/splash.jpg" alt="[O'Reilly-style image of an adorable Corgi]">
 <h1 class="title2">Wizardishungry</h1>
 
@@ -209,19 +191,9 @@ national_treasure_starring_nicholas_cage((@$_COOKIE['LOLSESSIONID']!=''&&@$_SERV
 <h1 class="authorlist">-<a href="mailto:jon@wizardishungry.com">Jon Williams</a></h1>
 <hr>
 
-<?php if(false): ?>
 <p>HTML&amp;CSS stolen (with love) from <a href="http://svnbook.red-bean.com/">svn-book</a>
 (<a href="http://creativecommons.org/licenses/by/2.0/" rel="license">creative commons license 2.0 [attrib]</a>)</p>
 
-<p>Last-updated: <?php
-$fs=stat(__FILE__);
-$time=$fs['mtime'];
-echo date(DATE_RFC2822,$time)
-?></p>
-<span id="bling">
-Widescreen Rules!
-</span>
-<?php endif; ?>
 </td>
 </tr>
 </tbody></table>
