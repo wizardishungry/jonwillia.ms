@@ -15,4 +15,4 @@ if(c)
     s+='l='+c+'&';
 if(r)
     s+='r='+r;
-document.write("<img src='"+s+"'>");
+document.write("<img width=0 height=0 src='"+s+"'>");
