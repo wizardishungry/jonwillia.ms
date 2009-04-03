@@ -6,8 +6,7 @@
 <link rel="shortcut icon" href="/include/icon.gif" />
 <link rel="apple-touch-icon" href="/include/apple-touch-icon.png"/> 
 <meta http-equiv="imagetoolbar" content="no" />
-</head><body>
-
+</head>
 <style>
 body {
     background: black;
@@ -33,7 +32,7 @@ h2 {
     right: 2%;
     bottom: 2%;
     height: 50%
-    z-index: 100;
+    z-index: 1;
     padding: 0;
     margin: 0; 
     padding-right: .5em;
@@ -90,11 +89,17 @@ dt {
     color: yellow;
     background: green;
 }
+.master img {
+ position: fixed;
+ top: 0;
+ left: 0;
+ min-width:100%;
+ min-height: 100%;
+ z-index: -1;
+}
 </style>
-<div class="master">
-<img style="position: fixed; top: 0; left: 0;" height="100%" width="100%" src="http://farm4.static.flickr.com/3574/3400575811_c5864fc6d0_o.gif">
-<img class="grid" style="position: fixed; top: 0; left: 0;" height="100%" width="100%" src="http://farm4.static.flickr.com/3659/3402133734_72e36d23af_o.gif">
-</div>
+<body>
+
 <div class="info">
 <dl>
     <dt title="Christopher Weingarten lol"><a href="http://www.myspace.com/poissonics">Poisson D'Avril</a></dt>
@@ -118,6 +123,12 @@ Brooklyn, NY 11221<br>
 <a href="http://www.facebook.com/event.php?eid=61782137087">fffffacebook!</a>
 </p>
 </div> 
+
+<div class="master">
+<img src="http://farm4.static.flickr.com/3574/3400575811_c5864fc6d0_o.gif">
+<img src="http://farm4.static.flickr.com/3659/3402133734_72e36d23af_o.gif">
+</div>
+
 <script src="/t.js" type="text/javascript"></script>
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
