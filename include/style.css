@@ -176,6 +176,17 @@ img
     list-style-type: square;
 }
 
+.subtable.upcoming ul ul li,
+{
+    display: inline;
+}
+.subtable.upcoming ul 
+{
+    list-style-type: none;
+    position: relative;
+    left: 20px;
+}
+
 .subtable h3
 {
     margin: 0;
@@ -183,26 +194,20 @@ img
     color: white;
 }
 
-.glossary
-{
-    text-decoration: underline;
+.less {
+    font-weight: lighter;
+    font-size: smaller;
 }
 
-#bling
+.upcoming > ul > li:before
 {
-    text-decoration: blink;
-    font-size: 36pt; 
-    background: #350633;
-    border: 4px white;
+    content: attr(class);
+    background-color: #786377;
     color: white;
-    bottom: 50%;
-    position: fixed;
-    left: 1500px;
-}
-
-#github-badge
-{
-    float: right;
+    font-size: larger;
+    position: relative;
+    left: -20px;
+    top: 0px;
 }
 
 /* iPhone */
