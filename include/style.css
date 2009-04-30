@@ -176,6 +176,22 @@ img
     list-style-type: square;
 }
 
+.subtable > ul > li
+{
+    margin: 8px 0;
+}
+
+.video
+{
+    margin: 0;
+    max-width: 95%;
+}
+
+.video h3
+{
+    display: none;
+}
+
 .subtable.upcoming ul ul li,
 {
     display: inline;
