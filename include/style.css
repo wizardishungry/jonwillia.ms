@@ -202,7 +202,7 @@ div.video h3
 {
     list-style-type: none;
     position: relative;
-    left: 20px;
+    left: 50px;
 }
 
 .subtable h3
@@ -222,13 +222,14 @@ div.video h3
 .past > ul > li:before
 {
     content: attr(class);
-    width: 10px !important;
+    max-width: 10px !important;
     background-color: #786377;
     color: white;
     font-size: larger;
     position: relative;
-    right: 20px;
+    right: 40px;
     top: 0px;
+    display: box;
 }
 
 /* iPhone */
