@@ -181,22 +181,24 @@ img
     margin: 8px 0;
 }
 
-.video
+div.video
 {
     margin: 0;
     max-width: 95%;
 }
 
-.video h3
+div.video h3
 {
     display: none;
 }
 
 .subtable.upcoming ul ul li,
+.subtable.past ul ul li,
 {
     display: inline;
 }
-.subtable.upcoming ul 
+.subtable.upcoming ul,
+.subtable.past ul,
 {
     list-style-type: none;
     position: relative;
@@ -211,13 +213,16 @@ img
 }
 
 .less {
-    font-weight: lighter;
-    font-size: smaller;
+    font-weight: 15%;
+    font-size: 80%;
+    opacity: 0.5;
 }
 
-.upcoming > ul > li:before
+.upcoming > ul > li:before,
+.past > ul > li:before
 {
     content: attr(class);
+    width: 10px !important;
     background-color: #786377;
     color: white;
     font-size: larger;
