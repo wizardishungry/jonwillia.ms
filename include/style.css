@@ -232,6 +232,16 @@ div.video h3
     display: box;
 }
 
+.past > ul li ul li
+{
+    display: inline;
+}
+
+.past > ul li ul.no-inline li
+{
+    display: list-item;
+}
+
 /* iPhone */
 @media screen and (max-device-width: 480px) {
 		#pagetable
