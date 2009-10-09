@@ -14,9 +14,6 @@
 .diamond
 {
   filter:alpha(opacity=40);
-  -moz-opacity:0.4;
-  -khtml-opacity: 0.4;
-  opacity: 0.4;
   width: 300px;
   height: 300px;
 }
@@ -29,6 +26,7 @@
   -moz-opacity:0;
   -khtml-opacity: 0;
   opacity: 0;
+  display: block;
 }
 
 .diamond a:after
@@ -41,6 +39,7 @@
     overflow: visible;
     display: box;
     height: 100%;
+    width: 300px;
     display: block;
 }
 
@@ -103,7 +102,7 @@
 }
 .triangle:hover
 {
-  background: -webkit-gradient(linear, right bottom, left top, from(green), to(purple));
+  background: -webkit-gradient(linear, right bottom, left top, from(lime), to(magenta));
 }
 .logo
 {
@@ -117,7 +116,6 @@
   -moz-transform: matrix(2, -0.2, 0, 8, 0, 0);
   -webkit-transform: matrix(-2, 0.2, 0, -6, 0, 12);
   text-shadow: 3px 3px 1px lime;
-  font-family: sans-serif;
   background: none;
   -webkit-mask-image: -webkit-gradient(linear, left top, 
     left bottom, from(rgba(0,0,0,.3)), to(rgba(0,0,0,.5)));
@@ -135,6 +133,7 @@ body
 {
   background: aqua;
   overflow: hidden;
+  font-family: sans-serif;
 }
 body.info
 {
