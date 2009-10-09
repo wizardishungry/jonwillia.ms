@@ -1,260 +1,146 @@
-/*
- * Copyright (c) 2004-2007
- * Ben Collins-Sussman, Brian W. Fitzpatrick, C. Michael Pilato.  
- * 
- * This work is licensed under the Creative Commons Attribution License.
- * To view a copy of this license, visit
- * http://creativecommons.org/licenses/by/2.0/ or send a letter to
- * Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305,
- * USA.
- */
-
-body
-{
-    color: black;
-    background: #786377;
-    font-family: times new roman, times, serif;
-    margin: 0;
-    text-align: center;
+.triangle, .diamond {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);	
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  filter:alpha(opacity=70);
+  -moz-opacity:0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+  font-size: 250px;
+  text-align: center;
 }
-
-img
+.diamond
 {
-    border: none;
+  filter:alpha(opacity=40);
+  -moz-opacity:0.4;
+  -khtml-opacity: 0.4;
+  opacity: 0.4;
+  width: 300px;
+  height: 300px;
 }
 
-#navigation
+.diamond a, .diamond a:visited
 {
-    float: right;
-    margin: 0px 0px;
-    color: black;
-    background: white;
-    border: solid 1px black;
-    padding: 0px 2px 0px 20px;
-    font-size: smaller;
+  text-decoration: none;
+  color: #fff;
+  filter:alpha(opacity=0);
+  -moz-opacity:0;
+  -khtml-opacity: 0;
+  opacity: 0;
 }
 
-#navigation ul
-{
-    padding:0;
-    margin: 0;
-}
-
-#navigation h3
-{
-    text-align: center;
-    display: none !important;
-    margin: 0 0;
-    font-size: 100%;
-}
-#navigation li
-{
-    text-align: right;
-    list-style: lower-greek outside; 
-}
-
-#pagetable
-{
-    width: 700px;
-    position: relative;
-    margin: 0 auto;
-    text-align: left;
-}
-
-#content
-{
-    color: black;
-    background: white;
-    padding: 0px 20px 20px 20px;
-    border: solid 1px black;
-}
-
-#content .bar
-{
-    background: #350633;
-    color: white;
-    font-family: garamond, times new roman, times, serif;
-    font-weight: normal;
-    font-size: 8pt;
-    margin: 0px;
-    padding: 0px 0px;
-    text-align: center;
-}
-
-#content .splash
-{
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-}
-
-#content .tagline
-{
-    color: black;
-    font-family: garamond, times new roman, times, serif;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 14pt;
-    padding: 0px 0px 20px 0px;
-    margin: 0px;
-    text-align: center;
-}
-
-#content .title1, .title3
-{
-    color: black;
-    font-family: garamond, times new roman, times, serif;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 24pt;
-    padding: 0px;
-    margin: 0px;
-}
-
-#content .title1
-{
-    text-align: left;
-}
-
-#content .title3
-{
-    text-align: right;
-}
-
-#content .title2
-{
-    background: #350633;
-    color: white;
-    font-family: garamond, times new roman, times, serif;
-    font-weight: normal;
-    font-size: 64pt;
-    margin: 0px;
-    margin-bottom: .25em;
-    padding: 0px 20px;
-    text-align: center;
-}
-
-#content .authorlist
-{
-    color: black;
-    font-family: garamond, times new roman, times, serif;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 16pt;
-    padding: 0px;
-    margin: 0px;
-    text-align: right;
-}
-
-#content .authorlist a
-{
-    color: black;
-    text-decoration: none;
-}
-
-#content h2.delicious-banner a
-{
-    text-decoration: none !important;
-    color: black;
-}
-
-#content h2.delicious-banner img
-{
-    display: none;
-}
-
-.subtable
-{
-    border: 1px black dotted;
-    margin: 0 0.5in;
-    padding: 2px;
-    font-size: 90%;
-}
-
-.subtable ul
-{
-    list-style-type: square;
-}
-
-.subtable > ul > li
-{
-    margin: 8px 0;
-}
-
-div.video
-{
-    margin: 0;
-    max-width: 95%;
-}
-
-div.video h3
-{
-    display: none;
-}
-
-.subtable.upcoming ul ul li,
-.subtable.past ul ul li,
-{
-    display: inline;
-}
-.subtable.upcoming ul,
-.subtable.past ul,
-{
-    list-style-type: none;
-    position: relative;
-    left: 50px;
-}
-
-.subtable h3
-{
-    margin: 0;
-    background-color: #350633;
-    color: white;
-}
-
-.less {
-    font-weight: 15%;
-    font-size: 80%;
-    opacity: 0.5;
-}
-
-.upcoming > ul > li:before,
-.past > ul > li:before
+.diamond a:after
 {
     content: attr(class);
-    max-width: 10px !important;
-    background-color: #786377;
     color: white;
-    font-size: larger;
-    position: relative;
-    right: 40px;
+    font-size: 72pt;
+    left: 0px;
     top: 0px;
+    overflow: visible;
     display: box;
+    height: 100%;
+    display: block;
 }
 
-.past > ul li ul li
+
+.diamond:hover,
+.diamond:hover a,
+.triangle:hover
 {
-    display: inline;
+  filter:alpha(opacity=100);
+  -moz-opacity:1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+.triangle:hover {
+  -moz-transform: matrix(-100, 30, -0.6, -1,  -2, 0);
+  -webkit-transform: matrix(-100, 30, -0.6, -1,  -2, 0);
 }
 
-.past > ul li ul.no-inline li
+.diamond.nw
 {
-    display: list-item;
+  background: SkyBlue;
+  left: 50%;
+  top: 50%
 }
 
-/* iPhone */
-@media screen and (max-device-width: 480px) {
-		#pagetable
-		{
-				margin: 0 0;
-				max-width: 100%;
-				width: 100%
-		}
-		#pagetable, #content, #content .tagline, #content .title1 {
-				font-size: larger !important;
-		}
-        #navigation
-        {
-            display: none; 
-        }
+.diamond.sw
+{
+  background: DeepPink;
+  left: 50%;
+  bottom: 50%;
+}
+
+.diamond.ne
+{
+  /* needs above*/
+  background: violet;
+  right: 50%;
+  top: 50%
+}
+
+.diamond.se
+{
+/* needs onto*/
+  background: gold;
+  right: 50%;
+  bottom: 50%
+}
+
+.triangle.right 
+{
+  background:lime;
+  right: -50%;
+  bottom: 100%;
+}
+.triangle.right:hover
+{
+  background: -webkit-gradient(linear, left bottom, right top, from(green), to(magenta));
+}
+.triangle.left
+{
+  background:magenta;
+  left: -50%;
+  top: 100%;
+}
+.triangle.left:hover
+{
+  background: -webkit-gradient(linear, right bottom, left top, from(purple), to(lime));
+}
+.logo
+{
+  position: fixed;
+  bottom:40%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  position:fixed;
+  font-size: 400%;
+  -moz-transform: matrix(2, -0.2, 0, 8, 0, 0);
+  -webkit-transform: matrix(-2, 0.2, 0, -6, 0, 12);
+  text-shadow: 3px 3px 1px lime;
+  font-family: sans-serif;
+  background: none;
+  -webkit-mask-image: -webkit-gradient(linear, left top, 
+    left bottom, from(rgba(0,0,0,.3)), to(rgba(0,0,0,.5)));
+}
+.logo:hover
+{
+  background: teal;
+  text-shadow: 8px 8px 1px purple;
+  -webkit-mask-image: -webkit-gradient(linear, left top, 
+    left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,.5)));
+  -moz-transform: matrix(2, -0.2, 0, 8, 0, 0);
+  -webkit-transform: matrix(2, -0.2, 0, 8, 0, 0);
+}
+body
+{
+  background: aqua;
+  overflow: hidden;
+}
+body:hover
+{
+  background: -webkit-gradient(linear, left top, left bottom, from(#00abeb), to(aqua));
 }
