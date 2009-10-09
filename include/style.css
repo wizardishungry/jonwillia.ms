@@ -140,7 +140,21 @@ body
   background: aqua;
   overflow: hidden;
 }
+body.info
+{
+   overflow-x: hidden; overflow-y: auto;
+}
 body:hover
 {
   background: -webkit-gradient(linear, left top, left bottom, from(#00abeb), to(aqua));
+}
+.box
+{
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,192,0,.5)),to(rgba(255,255,255,0)));
+  position:absolute;
+  z-index:100;
+  left: 0px;
+  top: 0px;
+  padding: 10%;
+  width:80%;
 }
