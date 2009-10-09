@@ -95,19 +95,15 @@
   right: -50%;
   bottom: 100%;
 }
-.triangle.right:hover
-{
-  background: -webkit-gradient(linear, left bottom, right top, from(green), to(magenta));
-}
 .triangle.left
 {
   background:magenta;
   left: -50%;
   top: 100%;
 }
-.triangle.left:hover
+.triangle:hover
 {
-  background: -webkit-gradient(linear, right bottom, left top, from(purple), to(lime));
+  background: -webkit-gradient(linear, right bottom, left top, from(green), to(purple));
 }
 .logo
 {
