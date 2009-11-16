@@ -132,8 +132,11 @@
 body
 {
   background: aqua;
-  overflow: hidden;
   font-family: sans-serif;
+}
+body.main
+{
+  overflow: hidden;
 }
 body.info
 {
