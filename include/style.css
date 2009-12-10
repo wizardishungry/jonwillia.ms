@@ -161,3 +161,20 @@ body:hover
   -moz-transform: matrix(2, -100, 0, 8, 0, 0);
   -webkit-transform: matrix(-200, -0.2, 0, 8, 0, 10000);
 }
+
+
+ul.classed > li:before
+{
+  content: attr(class);
+  max-width: 10px !important;
+  background-color: #3400fb;
+  color: white;
+  font-size: larger;
+  position: relative;
+  right: 40px;
+  top: 0px;
+  display: box;
+  filter:alpha(opacity=70);
+  -moz-opacity:0.7;
+  -khtml-opacity: 0.7;
+}
