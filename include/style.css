@@ -184,3 +184,8 @@ ul.classed > li:before
     font-size: smaller;
     opacity: 0.8;
 }
+
+.more {
+    font-weight: 215%;
+    font-size: larger;
+}
