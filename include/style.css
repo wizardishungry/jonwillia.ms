@@ -120,7 +120,7 @@
   -webkit-mask-image: -webkit-gradient(linear, left top, 
     left bottom, from(rgba(0,0,0,.3)), to(rgba(0,0,0,.5)));
 }
-.logo:hover
+/*.logo:hover
 {
   background: teal;
   text-shadow: 8px 8px 1px purple;
@@ -128,7 +128,7 @@
     left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,.5)));
   -moz-transform: matrix(2, -0.2, 0, 8, 0, 0);
   -webkit-transform: matrix(2, -0.2, 0, 8, 0, 0);
-}
+}*/
 body
 {
   background: aqua;
