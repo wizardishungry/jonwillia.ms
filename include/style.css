@@ -212,4 +212,7 @@ ul.flat li
     position: fixed;
     right: 0;
     top: 0;
+    text-decoration: none;
+    color: white;
+    background: -webkit-gradient(linear, right top, right bottom, from(rgba(192,255,0,.5)),to(rgba(255,255,255,0)));
 }
