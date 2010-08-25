@@ -163,6 +163,13 @@ body:hover
 }
 
 
+ul.classed {
+    list-style-type: none;
+}
+ul.classed > li + li
+{
+    margin-top: 1em;
+}
 ul.classed > li:before
 {
   content: attr(class);
@@ -178,9 +185,14 @@ ul.classed > li:before
   -moz-opacity:0.7;
   -khtml-opacity: 0.7;
 }
-ul.flat li
+ul.flat li, ul.flat
 {
   display: inline;
+}
+
+ul.flat li + li:before
+{
+    content: " | ";        
 }
 
 .less {
@@ -216,3 +228,19 @@ ul.flat li
     color: white;
     background: -webkit-gradient(linear, right top, right bottom, from(rgba(192,255,0,.5)),to(rgba(255,255,255,0)));
 }
+
+ul.classed  > li:nth-child(even) { border-style: dashed dashed none none; }
+ul.classed  > li:nth-child(odd) { border-style: dotted dotted none none; }
+
+ul ul li:nth-child(6n) { background: rgba(200, 54, 54, 0.5); } 
+ul ul li:nth-child(6n+1) { background: rgba(54, 54, 200, 0.5); } 
+ul ul li:nth-child(6n+2) { background: rgba(54, 200, 54, 0.5); } 
+ul ul li:nth-child(6n+3) { background: rgba(54, 200, 200, 0.5); } 
+ul ul li:nth-child(6n+4) { background: rgba(200, 200, 54, 0.5); } 
+ul ul li:nth-child(6n+5) { background: rgba(200, 54, 200, 0.5); } 
+
+ul.classed li:nth-child(5n+3) { border-color: rgba(200, 54, 54, 0.7); } 
+ul.classed li:nth-child(5n+2) { border-color: rgba(54, 54, 200, 0.7); } 
+ul.classed li:nth-child(5n+1) { border-color: rgba(54, 200, 54, 0.7); } 
+ul.classed li:nth-child(5n) { border-color: rgba(54, 200, 200, 0.7); } 
+ul.classed li:nth-child(5n+4) { border-color: rgba(200, 200, 54, 0.7); } 
