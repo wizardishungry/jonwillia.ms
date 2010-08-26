@@ -1,3 +1,13 @@
+a:link, a:visited { text-decoration: none; }
+a:hover, a:active { color: magenta !important; text-decoration: underline !important }
+a:link { color: teal !important; }
+a:visited { color: orange !important; }
+a:visited:hover { color: yellow !important; }
+.info ul[class*="root"] > li > a:not([class]):nth-child(even) {background: pink; }
+.info ul[class*="root"] > li > a:not([class]):nth-child(odd) {background: green; }
+.info ul[class*="root"] > li > a[class]:nth-child(even) {background: purple; }
+.info ul[class*="root"] > li > a[class]:nth-child(odd) {background: seagreen; }
+
 .triangle, .diamond {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);	
@@ -150,7 +160,7 @@ body:hover
 .box
 {
   position:absolute;
-  z-index:100;
+  z-index:10;
   left: 0px;
   top: 0px;
   margin: 10%;
@@ -164,7 +174,7 @@ body:hover
 }
 
 
-ul.classed {
+ul {
     list-style-type: none;
 }
 ul.classed > li + li
@@ -213,24 +223,26 @@ li.more {
 }
 
 .more:before {
-    content: "▶"; 
+    color: green !important;
+    content: "▶" !important; 
 }
 
 .more:after {
-    content: "◀"; 
+    color: green !important;
+    content: "◀" !important; 
 }
 
 .more:hover:before {
-    content: "◢"; 
+    content: "◢" !important; 
 }
 
 .more:hover:after {
-    content: "◣"; 
+    content: "◣" !important;
 }
 
 .huge
 {
-  font-size: 200%;
+  font-size: 150%;
 }
 
 .ghost
@@ -251,8 +263,8 @@ li.more {
     background: -webkit-gradient(linear, right top, right bottom, from(rgba(192,255,0,.5)),to(rgba(255,255,255,0)));
 }
 
-ul.classed  > li:nth-child(even) { border-style: dashed dashed none none; }
-ul.classed  > li:nth-child(odd) { border-style: dotted dotted none none; }
+ul.classed > li:nth-child(even) { border-style: dashed dashed none none; }
+ul.classed > li:nth-child(odd) { border-style: dotted dotted none none; }
 
 ul ul li:nth-child(6n) { background: rgba(200, 54, 54, 0.5); } 
 ul ul li:nth-child(6n+1) { background: rgba(54, 54, 200, 0.5); } 
@@ -266,6 +278,12 @@ ul.classed li:nth-child(5n+2) { border-color: rgba(54, 54, 200, 0.7); }
 ul.classed li:nth-child(5n+1) { border-color: rgba(54, 200, 54, 0.7); } 
 ul.classed li:nth-child(5   ) { border-color: rgba(54, 200, 200, 0.7); } 
 ul.classed li:nth-child(5n+4) { border-color: rgba(200, 200, 54, 0.7); } 
+
+ul.classed ul.classed li:nth-child(5n+3) { border-color: rgba(111, 96, 96, 0.6); } 
+ul.classed ul.classed li:nth-child(5n+4) { border-color: rgba(96, 96, 111, 0.6); } 
+ul.classed ul.classed li:nth-child(5n+2) { border-color: rgba(96, 111, 96, 0.6); } 
+ul.classed ul.classed li:nth-child(5   ) { border-color: rgba(96, 111, 111, 0.6); } 
+ul.classed ul.classed li:nth-child(5n+1) { border-color: rgba(111, 111, 96, 0.6); } 
 
 ul.root { margin: 0; } 
 
@@ -300,7 +318,7 @@ font-size: 96pt;
 height: 1em;
 width: 1em;
 }
-h1, h2 {
+h1, h2, h3, h4, h5 {
 color: rgba( 0,0,0,.3);
 letter-spacing: -0.08em;
 }
@@ -309,4 +327,13 @@ h1 {
     left: -0.75em;
     font-size: 108pt;
     margin: 0;
+    z-index: 150;
 }
+
+
+ul:not([class*="classed"]) > li::before { color: rgba(0,0,0,.16); }
+ul:not([class*="classed"]) > li:hover::before { color: rgba(255,255,255,.5); }
+ul:not([class*="classed"]) > li:nth-child(3n+1)::before { content: "◱ "; }
+ul:not([class*="classed"]) > li:nth-child(3n+2)::before { content: "◲ "; }
+ul:not([class*="classed"]) > li:nth-child(3n+3)::before { content: "◳ "; }
+ul:not([class*="classed"]) > li:nth-child(3n)::before { content: "◰ "; }
