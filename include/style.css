@@ -167,12 +167,7 @@ body:hover
   margin-top: 0; 
   width:80%;
 }
-ul.media {
-    margin: 0;
-    width: 100%;
-    padding: 0;
-}
-ul.media > * { font-size: 12pt; }
+
 
 .pants
 {
@@ -357,8 +352,8 @@ ul:not([class*="classed"]) > li:nth-child(3n+2)::before { content: "◲ "; }
 ul:not([class*="classed"]) > li:nth-child(3n+3)::before { content: "◳ "; }
 ul:not([class*="classed"]) > li:nth-child(3n)::before { content: "◰ "; }
 
-ul.media { padding: 0; margin: 0; z-index: 10000; }
-ul.media > li { float: left; max-width: 640px; padding: 1% }
+ul.media { padding: 0; margin: 0; width: 100%; }
+ul.media > li { float: left; max-width: 640px; padding: 2px; }
 ul.media > li:nth-child(4n) { border: 10px ridge red; background: red;}
 ul.media > li:nth-child(4n+1) { border: 10px inset yellow; background: yellow; }
 ul.media > li:nth-child(4n+2) { border: 10px outset blue; background: blue; }
