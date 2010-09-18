@@ -337,3 +337,9 @@ ul:not([class*="classed"]) > li:nth-child(3n+1)::before { content: "◱ "; }
 ul:not([class*="classed"]) > li:nth-child(3n+2)::before { content: "◲ "; }
 ul:not([class*="classed"]) > li:nth-child(3n+3)::before { content: "◳ "; }
 ul:not([class*="classed"]) > li:nth-child(3n)::before { content: "◰ "; }
+
+body.media li { float: left; }
+body.media ul.classed li:nth-child(4n) { border-left: 10px ridge red;}
+body.media ul.classed li:nth-child(4n+1) { border-left: 10px inset yellow; }
+body.media ul.classed li:nth-child(4n+2) { border-left: 10px outset blue; }
+body.media ul.classed li:nth-child(4n+3) { border-left: 10px solid orange; }
