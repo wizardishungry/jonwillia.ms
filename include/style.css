@@ -330,6 +330,17 @@ h1 {
     margin: 0;
     z-index: 150;
 }
+h1 ~ h1 {
+    color: rgba( 0,0,0,.1);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: right;
+    right: 10px !important;
+    width: 100%;
+    z-index: 5;
+}
+
 
 
 ul:not([class*="classed"]) > li::before { color: rgba(0,0,0,.16); }
@@ -344,3 +355,5 @@ body.media ul.classed li:nth-child(4n) { border-left: 10px ridge red;}
 body.media ul.classed li:nth-child(4n+1) { border-left: 10px inset yellow; }
 body.media ul.classed li:nth-child(4n+2) { border-left: 10px outset blue; }
 body.media ul.classed li:nth-child(4n+3) { border-left: 10px solid orange; }
+
+.root ul { max-width: 400px; }
