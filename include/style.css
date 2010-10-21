@@ -347,17 +347,21 @@ h1 ~ h1 {
 
 ul:not([class*="classed"]) > li::before { color: rgba(0,0,0,.16); }
 ul:not([class*="classed"]) > li:hover::before { color: rgba(255,255,255,.5); }
-ul:not([class*="classed"]) > li:nth-child(3n+1)::before { content: "◱ "; }
-ul:not([class*="classed"]) > li:nth-child(3n+2)::before { content: "◲ "; }
-ul:not([class*="classed"]) > li:nth-child(3n+3)::before { content: "◳ "; }
-ul:not([class*="classed"]) > li:nth-child(3n)::before { content: "◰ "; }
+ul:not([class*="classed"]) > li:nth-child(4n+1)::before { content: "◱ "; }
+ul:not([class*="classed"]) > li:nth-child(4n+2)::before { content: "◲ "; }
+ul:not([class*="classed"]) > li:nth-child(4n+3)::before { content: "◳ "; }
+ul:not([class*="classed"]) > li:nth-child(4n)::before { content: "◰ "; }
 
 ul.media { padding: 0; margin: 0; width: 100%; }
 ul.media > li { float: left; max-width: 640px; padding: 2px; }
-ul.media > li:nth-child(4n) { border: 10px ridge red; background: red;}
-ul.media > li:nth-child(4n+1) { border: 10px inset yellow; background: yellow; }
-ul.media > li:nth-child(4n+2) { border: 10px outset blue; background: blue; }
-ul.media > li:nth-child(4n+3) { border: 10px solid orange; background: orange; }
+ul.media > li:nth-child(8n) { border: 10px ridge red; background: red;}
+ul.media > li:nth-child(8n+1) { border: 10px inset yellow; background: yellow; }
+ul.media > li:nth-child(8n+2) { border: 10px outset blue; background: blue; }
+ul.media > li:nth-child(8n+3) { border: 10px solid orange; background: orange; }
+ul.media > li:nth-child(8n+4) { border: 10px ridge yellow; background: yellow; }
+ul.media > li:nth-child(8n+5) { border: 10px solid blue; background: blue; }
+ul.media > li:nth-child(8n+6) { border: 10px outset red; background: red; }
+ul.media > li:nth-child(8n+7) { border: 10px inset orange; background: orange; }
 
 .root ul { max-width: 400px; }
 .root ul li:before { content: '' !important; }
