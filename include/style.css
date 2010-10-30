@@ -163,7 +163,7 @@ body:hover
   z-index:10;
   left: 0px;
   top: 0px;
-  margin: 5%;
+  margin: 10%;
   margin-top: 0; 
   width:80%;
 }
@@ -179,27 +179,45 @@ body:hover
 ul {
     list-style-type: none;
 }
-ul.classed > li + li
-{
+ul.classed > li + li {
     margin-top: 1em;
 }
-ul.classed > li:before
-{
-  content: attr(class);
-  max-width: 10px !important;
-  background-color: #3400fb;
-  color: white;
-  font-size: larger;
-  position: relative;
-  right: 40px;
-  top: 0px;
-  display: box;
-  filter:alpha(opacity=70);
-  -moz-opacity:0.7;
-  -khtml-opacity: 0.7;
+ul.classed > li:before {
+    content: attr(class);
+    right: 40px;
+    top: 0px;
+    max-width: 10px !important;
+    background-color: #3400fb;
+    color: white;
+    font-size: larger;
+    position: relative;
+    display: box;
+    filter:alpha(opacity=70);
+    -moz-opacity:0.7;
+    -khtml-opacity: 0.7;
 }
-ul.flat li, ul.flat
-{
+
+ul.classed > li.canceled {
+    text-decoration: line-through;
+    font-size: smaller;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+}
+
+ul.classed > li.canceled:before {
+    content: "canceled";
+    text-transform:uppercase;
+    text-decoration: blink !important;
+    background: red;
+    color: yellow;
+}
+
+body.chronology .canceled {
+    display: none !important;
+}
+
+ul.flat li, ul.flat {
   display: inline;
 }
 
@@ -245,6 +263,10 @@ li.more {
 .huge
 {
   font-size: 150%;
+}
+
+.huge.box {
+    margin: 5% !important;
 }
 
 .ghost
