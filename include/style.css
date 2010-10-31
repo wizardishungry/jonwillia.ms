@@ -1,12 +1,12 @@
 a:link, a:visited { text-decoration: none; }
 a:hover, a:active { color: magenta !important; text-decoration: underline !important }
-a:link { color: teal !important; }
+a:link { color: skyblue !important; }
 a:visited { color: orange !important; }
 a:visited:hover { color: yellow !important; }
 .info ul[class*="root"] > li > a:not([class]):nth-child(even) {background: pink; }
-.info ul[class*="root"] > li > a:not([class]):nth-child(odd) {background: green; }
+.info ul[class*="root"] > li > a:not([class]):nth-child(odd) {background: magenta; }
 .info ul[class*="root"] > li > a[class]:nth-child(even) {background: purple; }
-.info ul[class*="root"] > li > a[class]:nth-child(odd) {background: seagreen; }
+.info ul[class*="root"] > li > a[class]:nth-child(odd) {background: lightgreen; }
 
 .triangle, .diamond {
   -webkit-transform: rotate(-45deg);
@@ -286,6 +286,8 @@ li.more {
     color: rgba( 0,0,0,.3);
     background: -webkit-gradient(linear, right top, right bottom, from(rgba(192,255,0,.5)),to(rgba(255,255,255,0)));
 }
+
+ul.classed li a:link { color: teal !important; }
 
 ul.classed > li:nth-child(even) { border-style: dashed dashed none none; }
 ul.classed > li:nth-child(odd) { border-style: dotted dotted none none; }
