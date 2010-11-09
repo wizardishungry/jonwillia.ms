@@ -1,24 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-<head profile="http://gmpg.org/xfn/11">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>wizardishungry.com [Jon Williams]</title>
-<link rel="alternate" type="application/rss+xml" title="RSS" href="http://jonwillia.ms/rss"/> 
-<link rel="openid2.provider openid.server" href="http://pip.verisignlabs.com/server"/>
-<link rel="openid2.local_id openid.delegate" href="http://WIZARDISHUNGRY.pip.verisignlabs.com"/>
-<link rel="openid.server" href="https://pip.verisignlabs.com/server/" />
-<link rel="openid.delegate" href="http://WIZARDISHUNGRY.pip.verisignlabs.com/" />
-<meta http-equiv="X-XRDS-Location" content="http://pip.verisignlabs.com/user/WIZARDISHUNGRY/yadisxrds" />
-<link rel="shortcut icon" href="include/icon.gif" />
-<link rel="apple-touch-icon" href="/include/apple-touch-icon.png"/> 
-<link rel="stylesheet" href="include/style.css" type="text/css">
-<meta http-equiv="imagetoolbar" content="no" />
-</head><body class="main">
-
-<div class="triangle left"></div>
-<div class="triangle right"></div>
-
-<div class="huge box">
+---
+title: Home
+layout: default 
+---
 <h1>Jon Williams</h1>
 <ul style="float:left" class="root">
   <li><a class="upcoming" href="upcoming.html">upcoming</a></li>
@@ -29,7 +12,7 @@
     <ul class="less">
         <li><a href="http://chmmrwhenagitated.com/">Chmmr When Agitated</a></li>
         <li><a href="http://www.multiupload.com/3J9V23UV3B">Enoch A.L.N.</a></li>
-        <li class="less"><a href="http://soundcloud.com/wizardishungry/palaka-pyuri-crest-jewel-mix">Palaka Pyuri</a>
+        <li class="less"><a href="http://soundcloud.com/wizardishungry/palaka-pyuri-crest-jewel-mix">Palaka Pyuri</a></li>
     </ul>
   </li>
 
@@ -38,17 +21,5 @@
   <li><a class="contact" href="mailto:jon@wizardishungry.com">contact</a></li>
 
 </ul>
-<iframe src="http://player.vimeo.com/video/14577337?color=46a856" width="640" height="360" frameborder="0"></iframe>
+<iframe src="http://player.vimeo.com/video/14577337?color=46a856" width="640" height="360" frameborder="0"> </iframe>
 <h1>wizardishungry</h1>
-</div>
-<script src="t.js" type="text/javascript"></script>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-938181-1");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-</body></html>
