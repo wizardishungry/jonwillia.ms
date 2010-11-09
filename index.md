@@ -1,6 +1,6 @@
 ---
-title: Home
 layout: default 
+body_class: main
 ---
 <h1>Jon Williams</h1>
 <ul style="float:left" class="root">
