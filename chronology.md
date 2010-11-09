@@ -1,25 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-<head profile="http://gmpg.org/xfn/11">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>wizardishungry.com [Jon Williams] / chronology</title>
-<link rel="alternate" title="FriendFeed" href="http://friendfeed.com/wizardishungry?format=atom" type="application/atom+xml"/>
-<link rel="shortcut icon" href="include/icon.gif" />
-<link rel="apple-touch-icon" href="/include/apple-touch-icon.png"/> 
-<link rel="stylesheet" href="include/style.css" type="text/css">
-<meta http-equiv="imagetoolbar" content="no" />
-</head><body class="info chronology">
-
-<div class="triangle left"></div>
-<div class="triangle right"></div>
-<div class="box">
-<a class="home" href="./">Home</a>
-<h2>Chronology</h2>
+---
+layout: default
+title: chronology 
+body_class: "info chronology"
+---
 <a href="upcoming.html">Why look back; the future's cool, too!</a>
 <ul class="classed root">
   <li class="canceled music">31 Oct 2010 /
     <span class="more">Enoch A.L.N.</span> @ ∞FM,<a href="http://wbar.org/">WBAR radio</a>. 4 pm?
-  </li>
   </li>
   <li class="canceled music&video">3 Nov 2010 /
     <a href="http://www.facebook.com/event.php?eid=137598359626037">
@@ -98,7 +85,7 @@ DJ: The Magick Report
                 <li>Marisol Limon Martinez</li>
                 <li>Victoria Keddie</li>
                 <li>Todd Pendu (Chaos*Majik)</li>
-                <li>Cathode-Ray Ministries (Christopher Exits & Tyler Jacobsen)</li>
+                <li>Cathode-Ray Ministries (Christopher Exits &amp; Tyler Jacobsen)</li>
                 <li>Marcos Rosales</li>
                 <li class="more">Enoch A.L.N (with Jon Winfield "Porkchop" Nicholson, Jon Williams,
                 Jim Galbraith, RRGaffney, and MMahalchick)</li>
@@ -112,7 +99,7 @@ DJ: The Magick Report
   <li class="music">4  Jun 2010 / 
     <ul>
         <li class="less">Nihiti</li>
-        <li class="more"><a href="http://labigvic.com/">La Big Vic</a>La Big Vic</a></li>
+        <li class="more"><a href="http://labigvic.com/">La Big Vic</a></li>
     </ul>
     @ 79 Lorimer, Brooklyn NY
     </li>
@@ -122,7 +109,7 @@ DJ: The Magick Report
         <li class="less">IMAGINARY WEAPONS</li>
         <li class="less">SUSU</li>
         <li class="less">WALKING WITH CAVEMEN</li>
-        <li class="more"><a href="http://labigvic.com/">La Big Vic</a>La Big Vic</a></li>
+        <li class="more"><a href="http://labigvic.com/">La Big Vic</a></li>
     </ul>
     @ Somewhere?, FAR ROCKAWAY NY 11691
   </li>
@@ -130,9 +117,9 @@ DJ: The Magick Report
   <li class="music&art">
   30 May 2010 / <a href="http://www.facebook.com/event.php?eid=121557597857298">NO FREEKOUTS Closing</a> /
   Music: <ul class="flat">
-    <li><a href="http://labigvic.com/">La Big Vic</a>La Big Vic Infinity Time Arkestra</a></li>
+    <li><a href="http://labigvic.com/">La Big Vic</a></li>
   </ul>
-  Art: <ul class="flat"
+  Art: <ul class="flat">
 <li>erica kenia</li>
 <li>enoch artlightnoise</li>
 <li>tamara gonzales</li>
@@ -151,7 +138,7 @@ DJ: The Magick Report
 
 
   <li class="video">22 May 2010 / <a class="more" href="http://www.myspace.com/lovelikedeloreans">Love Like Deloreans</a>
-    @ New York Eye & Ear III
+    @ New York Eye &amp; Ear III
   </li>
 
   <li class="video">
@@ -216,7 +203,7 @@ DJ: The Magick Report
     @ <a href="http://www.goodbye-blue-monday.com/">Goodbye Blue Monday</a>, 1087 Broadway, Brooklyn, New York
     (<a href="http://www.facebook.com/event.php?eid=361678219338">facebook</a>)
     w/ <ul class="flat">
-        <li><a href="http://labigvic.com/">La Big Vic</a>La Big Vic</a>
+        <li><a href="http://labigvic.com/">La Big Vic</a>
         (mems./ex-<a href="http://www.behaviorband.com/">Behavior</a>,
         <a href="http://www.myspace.com/lovelikedeloreans">Love Like Deloreans</a>, etc.),</li>
         <li><a href="http://www.myspace.com/lunarstrut">Moonwalk</a> (Derek of <a href="http://www.myspace.com/thegamut">The Gamut</a>)</li>
@@ -255,14 +242,14 @@ DJ: The Magick Report
       <li class="less">surprise guests?</li>
     </ul>
     <ul>
-      <li><a href="http://vimeo.com/8952176">video</a> by <a href="http://fumieishii.com/">Fumie Ishii</a>
+      <li><a href="http://vimeo.com/8952176">video</a> by <a href="http://fumieishii.com/">Fumie Ishii</a></li>
     </ul>
   </li>
 
   <li class="music">10 Jan 2010 / 13 Thames St., Bushwick, Brooklyn, NY. 8 pm
   <a href="http://www.facebook.com/event.php?eid=241714995099">fb</a>
   <ul>
-    <li><a class="more" href="http://chmmrwhenagitated.com/">Chmmr When Agitated</a>
+    <li><a class="more" href="http://chmmrwhenagitated.com/">Chmmr When Agitated</a></li>
     <li class="less"><a href="http://www.myspace.com/tombsacrilegium">T.O.M.B</a> (philly)</li>
     <li class="less"><a href="http://www.myspace.com/redglaer">Redglaer </a> (NYC)</li>
     <li class="less"><a href="http://www.myspace.com/twoyearsonwelfare">Two Years On Welfare </a> (philly)</li>
@@ -291,10 +278,10 @@ DJ: The Magick Report
       @ <a href="http://monkeytownhq.com/">Monkeytown</a>, Williamsburg Brooklyn<br><img src="http://monkeytownhq.com/images/spun%202flat.jpg"></li>
 
     <li class="video">26 Sep / Monster Island, 128 River Street, Brooklyn, NY
-    <ul>
+        <ul>
             <li><a href="http://www.excepter.com/">Excepter</a>
               <ul>
-                <li>Videos from Todd Pendu: <a href="http://www.youtube.com/watch?v=zeyVCwcXCY0">1</a> <a href="http://www.youtube.com/watch?v=9hkPMZLMVHo">2</a>
+                <li>Videos from Todd Pendu: <a href="http://www.youtube.com/watch?v=zeyVCwcXCY0">1</a> <a href="http://www.youtube.com/watch?v=9hkPMZLMVHo">2</a></li>
               </ul>
             </li>
             <li class="less">Mirror Mirror</li>
@@ -369,8 +356,8 @@ DJ: The Magick Report
         w/ ????
         <ul>
             <li><a href="http://www.flickr.com/photos/wizardishungry/sets/72157618285145360/">Stills from video</a></li>
-            <li><a href="http://www.youtube.com/watch?v=OtSMVJNHdcU">Love Like Deloreans - Satellite Girls (live) <blink>SEIZURE WARNING</blink></a>
-            <li><a href="http://www.youtube.com/watch?v=RcHHvtpVCKY">Love Like Deloreans - Y2K Command Center (live)</a>
+            <li><a href="http://www.youtube.com/watch?v=OtSMVJNHdcU">Love Like Deloreans - Satellite Girls (live) <blink>SEIZURE WARNING</blink></a></li>
+            <li><a href="http://www.youtube.com/watch?v=RcHHvtpVCKY">Love Like Deloreans - Y2K Command Center (live)</a></li>
         </ul>
     </li>
 
@@ -443,16 +430,3 @@ DJ: The Magick Report
     </li>
 
 </ul>
-
-</div>
-<script src="t.js" type="text/javascript"></script>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-938181-1");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-</body></html>
