@@ -1,6 +1,7 @@
 ---
 layout: default 
-body_class: main
+body_class: main huge
+box_class: huge
 ---
 <h1>Jon Williams</h1>
 <ul style="float:left" class="root">

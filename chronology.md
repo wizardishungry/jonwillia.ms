@@ -1,14 +1,16 @@
 ---
 layout: default
-title: chronology 
+title: Chronology 
 body_class: "info chronology"
 ---
 <a href="upcoming.html">Why look back; the future's cool, too!</a>
 <ul class="classed root">
-  <li class="canceled music">31 Oct 2010 /
+
+<li class="canceled music">31 Oct 2010 /
     <span class="more">Enoch A.L.N.</span> @ ∞FM,<a href="http://wbar.org/">WBAR radio</a>. 4 pm?
   </li>
-  <li class="canceled music&video">3 Nov 2010 /
+  <li class="canceled music&amp;video">3 Nov 2010 /
+
     <a href="http://www.facebook.com/event.php?eid=137598359626037">
     <span class="more">Enoch A.L.N.</span> &amp; Robot Death Cult
         @ Secret Project Robot,
@@ -16,6 +18,7 @@ body_class: "info chronology"
         8-12 pm 
         $5.
   </a></li>
+
   <li class="video">27 Oct 2010 / 
     Memory Burn Presents:
     record release party for <a class="more" href="http://www.excepter.net/">Excepter/</a> 
@@ -44,7 +47,7 @@ body_class: "info chronology"
         @ <a href="http://www.goodbye-blue-monday.com/">Goodbye Blue Monday</a>, 1087 Broadway, Bushwick, Brooklyn, NY
         (<a href="http://www.facebook.com/event.php?eid=153164471380473">fb</a>)
   </li>
-  <li class="installation,dj&music"><a href="http://www.facebook.com/event.php?eid=144282408946814">24-26 Sep 2010 / The Crest Jewel of… Spun 3 @ St. Cecilia's Convent, Greenpoint, Brooklyn, NY</a> performance with <span class="more">Enoch A.L.N.</span>; solo water &amp; video installation</li>
+  <li class="installation&amp;dj&amp;music"><a href="http://www.facebook.com/event.php?eid=144282408946814">24-26 Sep 2010 / The Crest Jewel of… Spun 3 @ St. Cecilia's Convent, Greenpoint, Brooklyn, NY</a> performance with <span class="more">Enoch A.L.N.</span>; solo water &amp; video installation</li>
   <li class="music">11 Sep 2010 /
   <ul class="flat">
         <li>
@@ -78,10 +81,11 @@ DJ: The Magick Report
     NYC
     (<a href="http://www.facebook.com/event.php?eid=139452992746217">fb</a>)
   </li>
+
   <li class="music">29 Jul 2010 / 
             <q>Cracked Lightning and Caviar Pissings</q><br>
             presented by Michael Mahalchick and Rebecca Gaffney
-            with<ul>
+            with <ul>
                 <li>Marisol Limon Martinez</li>
                 <li>Victoria Keddie</li>
                 <li>Todd Pendu (Chaos*Majik)</li>
@@ -92,7 +96,7 @@ DJ: The Magick Report
             </ul>
 
             <q>mimosianic mesmergysinic ricketterial lampogenous trouble invisible activities and no broadband</q>
-            @ <a href=http://www.canadanewyork.com/">Canada Gallery</a> 55 Chrystie St. Lower East Side, New York, NY 8-11 pm. 
+            @ <a href="http://www.canadanewyork.com/">Canada Gallery</a> 55 Chrystie St. Lower East Side, New York, NY 8-11 pm. 
         (<a href="http://www.facebook.com/event.php?eid=137143329642365">fb</a>)
   </li>
 
@@ -114,25 +118,24 @@ DJ: The Magick Report
     @ Somewhere?, FAR ROCKAWAY NY 11691
   </li>
 
-  <li class="music&art">
-  30 May 2010 / <a href="http://www.facebook.com/event.php?eid=121557597857298">NO FREEKOUTS Closing</a> /
+  <li class="music&amp;art">
+  29 May 2010 / <a href="http://www.facebook.com/event.php?eid=121557597857298">NO FREEKOUTS Closing</a> /
   Music: <ul class="flat">
     <li><a href="http://labigvic.com/">La Big Vic</a></li>
   </ul>
   Art: <ul class="flat">
-<li>erica kenia</li>
-<li>enoch artlightnoise</li>
-<li>tamara gonzales</li>
-<li>michael mahalchick</li>
-<li>jon winfield nicholson</li>
-<li>todd pendu</li>
-<li>jocelyn shipley</li>
-<li class="more">jon williams</li>
-<li>jesse galaznik</li>
-<li>kenny curwood</li>
-<li>rebecca gaffney</li>
+    <li>erica kenia</li>
+    <li>enoch artlightnoise</li>
+    <li>tamara gonzales</li>
+    <li>michael mahalchick</li>
+    <li>jon winfield nicholson</li>
+    <li>todd pendu</li>
+    <li>jocelyn shipley</li>
+    <li class="more">jon williams</li>
+    <li>jesse galaznik</li>
+    <li>kenny curwood</li>
+    <li>rebecca gaffney</li>
   </ul>
-    
   @ "Staggallery", 64 Stagg St., #3 Williamsburg, Brooklyn, NY
   </li>
 
@@ -165,7 +168,7 @@ DJ: The Magick Report
 
 
 
-  <li class="music&art">
+  <li class="music&amp;art">
   30 Apr 2010 / <a href="http://www.facebook.com/event.php?eid=121557597857298">NO FREEKOUTS Opening</a> /
   Music: <ul class="flat">
     <li class="less"><a href="http://www.myspace.com/chaosmajik">Chaos * Majik</a></li>
@@ -228,7 +231,7 @@ DJ: The Magick Report
     <a href="http://www.myspace.com/realestate">Real Estate</a>
   </li>
 
-  <li class="dj&video">16 Feb 2010 / <a class="more" href="http://www.excepter.com/">Excepter</a>
+  <li class="dj&amp;video">16 Feb 2010 / <a class="more" href="http://www.excepter.com/">Excepter</a>
   @ Glasslands, 289 Kent Ave, Williamsburg, Brooklyn – "Presidence" release
   <ul>
     <li><a href="http://www.pendu.org/events/past/02-16-10/">photos on pendu.org</a></li>
@@ -247,18 +250,18 @@ DJ: The Magick Report
   </li>
 
   <li class="music">10 Jan 2010 / 13 Thames St., Bushwick, Brooklyn, NY. 8 pm
-  <a href="http://www.facebook.com/event.php?eid=241714995099">fb</a>
-  <ul>
-    <li><a class="more" href="http://chmmrwhenagitated.com/">Chmmr When Agitated</a></li>
-    <li class="less"><a href="http://www.myspace.com/tombsacrilegium">T.O.M.B</a> (philly)</li>
-    <li class="less"><a href="http://www.myspace.com/redglaer">Redglaer </a> (NYC)</li>
-    <li class="less"><a href="http://www.myspace.com/twoyearsonwelfare">Two Years On Welfare </a> (philly)</li>
-    <li class="less"><a href="http://www.myspace.com/blissedoutnyc">Blissed Off </a> (NYC)</li>
-    <li class="less"><a href="http://www.myspace.com/tinnitustimulus">Tinnitustimulus </a> (philly)</li>
-  </ul>
+    <a href="http://www.facebook.com/event.php?eid=241714995099">fb</a>
+    <ul>
+        <li><a class="more" href="http://chmmrwhenagitated.com/">Chmmr When Agitated</a></li>
+        <li class="less"><a href="http://www.myspace.com/tombsacrilegium">T.O.M.B</a> (philly)</li>
+        <li class="less"><a href="http://www.myspace.com/redglaer">Redglaer </a> (NYC)</li>
+        <li class="less"><a href="http://www.myspace.com/twoyearsonwelfare">Two Years On Welfare </a> (philly)</li>
+        <li class="less"><a href="http://www.myspace.com/blissedoutnyc">Blissed Off </a> (NYC)</li>
+        <li class="less"><a href="http://www.myspace.com/tinnitustimulus">Tinnitustimulus </a> (philly)</li>
+    </ul>
   </li>
 
-  <li class="music&video">31 Dec 2009 / <a href="http://monkeytownhq.com/12_31_09LATE.html">Excepter 2001-2010: A Space OD</a>
+  <li class="music&amp;video">31 Dec 2009 / <a href="http://monkeytownhq.com/12_31_09LATE.html">Excepter 2001-2010: A Space OD</a>
     [alternate universe Excepter lineup]
     <ul>
       <li><a href="http://www.vimeo.com/8487686">Highlight reel from unARTigNYC</a></li>
@@ -269,6 +272,7 @@ DJ: The Magick Report
 
     <li class="video">13 Dec 2009 / <a href="http://www.facebook.com/event.php?eid=187403785834">Love Like Deloreans @ Glasslands</a>
       w/ New Prosthetics &amp; Mazing Vids
+    </li>
 
     <li class="video">23 Oct / <a href="http://www.excepter.com/">Excepter</a> @ CMJ Paw Tracks Showcase, Cameo Gallery 93 N 6th St. Brooklyn, NY
       w/ drawlings, tickley feather, kria brekkan, dent may
@@ -308,7 +312,6 @@ DJ: The Magick Report
             <li class="less"><s>Phiiliip</s></li>
             <li class="less">Omega Jarden</li>
             <li class="less">Mirror Mirror (?)</li>
-
       </ul>
     </li>
 
@@ -370,7 +373,7 @@ DJ: The Magick Report
         </ul>
     </li>
 
-    <li class="music&video">15 April 2009 <a class="more" href="april2009/">solo live techno w/ live visuals</a>.
+    <li class="music&amp;video">15 April 2009 <a class="more" href="april2009/">solo live techno w/ live visuals</a>.
         @ Goodbye Blue Monday, Bushwick, Brooklyn.
         w/ Tom Moody and Poisson D'Avril
         <ul>
@@ -422,6 +425,11 @@ DJ: The Magick Report
             <li><a href="http://www.youtube.com/view_play_list?p=969A9C4C8185CEBA">Video highlights on YouTube</a></li>
             <li><a href="http://www.ustream.tv/channel/excepter">19 hour video archive</a></li>
         </ul>
+    </li>
+
+    <li class="video">28 Aug 2007 / Great Internet Sleepover 
+        @ Eyebeam
+        <i>I poured a beer into my laptop and fell asleep</i>
     </li>
 
     <li class="music">2 Aug 2007 / <span class="more">solo noise set (unintentional!)</span>

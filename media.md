@@ -1,10 +1,9 @@
 ---
 layout: default
-title: video 
+title: Video 
 body_class: "info media"
 box_class: huge
 ---
-<h2>Video</h2>
 <ul class="media">
     <li><h3>Hummingbirds</h3>
     <iframe src="http://player.vimeo.com/video/15343141?title=1&amp;byline=0&amp;portrait=0&amp;color=46a856" width="640" height="428" frameborder="0"> </iframe></li>
