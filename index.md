@@ -12,7 +12,7 @@ box_class: huge
   <li>music
     <ul class="less">
         <li><a href="http://chmmrwhenagitated.com/">Chmmr When Agitated</a></li>
-        <li><a href="http://www.multiupload.com/3J9V23UV3B">Enoch A.L.N.</a></li>
+        <li><a href="http://soundcloud.com/enoch-aln">Enoch A.L.N.</a></li>
         <li class="less"><a href="http://soundcloud.com/wizardishungry/palaka-pyuri-crest-jewel-mix">Palaka Pyuri</a></li>
     </ul>
   </li>
