@@ -6,6 +6,11 @@ body_class: "info chronology"
 <a href="upcoming.html">Why look back; the future's cool, too!</a>
 <ul class="classed root">
 
+  <li class="music&video">18 Nov 2010 /
+    <span class="more">Enoch A.L.N.</span> @ 
+    <a href="http://soundofart.eventbrite.com/">Sound of Art Release Party!</a>
+        @ Santos Party House, Manhattan, NY</li>
+
 <li class="canceled music">31 Oct 2010 /
     <span class="more">Enoch A.L.N.</span> @ ∞FM,<a href="http://wbar.org/">WBAR radio</a>. 4 pm?
   </li>

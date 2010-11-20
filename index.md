@@ -5,7 +5,7 @@ box_class: huge
 ---
 <h1>Jon Williams</h1>
 <ul style="float:left" class="root">
-  <li><a class="upcoming" href="upcoming.html">upcoming</a></li>
+  <!--<li><a class="upcoming" href="upcoming.html">upcoming</a></li>-->
 
   <li><a class="video" href="media.html">video</a></li>
 
@@ -22,5 +22,4 @@ box_class: huge
   <li><a class="contact" href="mailto:jon@wizardishungry.com">contact</a></li>
 
 </ul>
-<iframe src="http://player.vimeo.com/video/14577337?color=46a856" width="640" height="360" frameborder="0"> </iframe>
 <h1>wizardishungry</h1>
