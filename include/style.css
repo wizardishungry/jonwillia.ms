@@ -1,6 +1,6 @@
 a:link, a:visited { text-decoration: none; }
 a:hover, a:active { color: magenta !important; text-decoration: underline !important }
-a:link { color: skyblue !important; }
+a:link { color: cyan !important; }
 a:visited { color: orange !important; }
 a:visited:hover { color: yellow !important; }
 .info ul[class*="root"] > li > a:not([class]):nth-child(even) {background: pink; }
