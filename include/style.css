@@ -141,9 +141,9 @@ a:visited:hover { color: yellow !important; }
 }*/
 body
 {
-  background: aqua;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,192,0,.5)),to(rgba(255,255,255,0)));
-  font-family: sans-serif;
+  background: -moz-linear-gradient(90deg, rgba(255,192,0,.5),rgba(255,255,255,0));
+  font-family:  arial, serif;
 }
 body.main
 {
@@ -156,6 +156,7 @@ body.info
 body:hover
 {
   background: -webkit-gradient(linear, left top, left bottom, from(#00abeb), to(aqua));
+  background: -moz-linear-gradient(90deg,#00abeb,aqua);
 }
 .box
 {
@@ -285,6 +286,7 @@ li.more {
     text-decoration: none;
     color: rgba( 0,0,0,.3);
     background: -webkit-gradient(linear, right top, right bottom, from(rgba(192,255,0,.5)),to(rgba(255,255,255,0)));
+    background: -moz-linear-gradient(90deg, rgba(192,255,0,.5),rgba(255,255,255,0));
 }
 
 ul.classed li a:link { color: teal !important; }
