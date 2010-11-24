@@ -342,11 +342,11 @@ body.main ul.root > li ul
 }
 body.main ul.root > li ul li {
   text-align: center;
-  border: 8px inset rgba(0,0,0,0);
+  border: 8px inset rgba(127,31,127,0.2);
 }
 
 body.main ul.root > li:hover ul li {
-    border: 8px inset rgba(127,31,127,0.7);
+    border: 8px inset rgba(127,31,127,0.8);
 }
 
 ul.root > li:nth-child(3n+1) {
