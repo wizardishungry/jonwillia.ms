@@ -5,7 +5,7 @@ box_class: huge
 ---
 <h1>Jon Williams</h1>
 <ul style="float:left" class="root">
-  <!--<li><a class="upcoming" href="upcoming.html">upcoming</a></li>-->
+  <li><a class="upcoming" href="upcoming.html">upcoming</a></li>
 
   <li><a class="video" href="media.html">video</a></li>
 
