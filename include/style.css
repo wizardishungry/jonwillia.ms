@@ -425,8 +425,8 @@ ul.media > li:nth-child(8n+5) { border: 10px solid blue; background: blue; }
 ul.media > li:nth-child(8n+6) { border: 10px outset red; background: red; }
 ul.media > li:nth-child(8n+7) { border: 10px inset orange; background: orange; }
 
-.root ul { max-width: 400px; }
-.root ul li:before { content: '' !important; }
+.root > ul { max-width: 400px; }
+.root > ul li:before { content: '' !important; }
 .media ul li:before { content: '' !important; }
 .media li h3 { display: none; }
 .media li.caption h3 { display: block; margin: 0; padding 0px; padding-bottom: 4px; }
