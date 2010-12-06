@@ -5,9 +5,38 @@ body_class: "info upcoming"
 ---
 <ul class="classed root">
 
-    <li class="music"> 4 Jan 2010 / <a class="more" href="http://chmmrwhenagitated.com/">Chmmr When Agitated</a> w/ TBA @ Silent Barn, Ridgewood, Queens <!--
-        cool, so far the bill is Two Years On Welfare, opponents, and long distance poison. waiting on other confirmations right now.
-        -->
+    <li class="music"> 4 Jan 2010 /
+        <ul class="">
+            <li><a href="http://www.myspace.com/twoyearsonwelfare">
+            Two Years On Welfare 
+            </a>(Philly)</li>
+
+            <li><a href="http://www.soundcloud.com/opponents">
+            OPPONENTS 
+            </a></li>
+
+            <li><a href="http://soundcloud.com/longdistancepoison">
+            Long Distance Poison
+            </a></li>
+
+            <li class="more"><a href="http://chmmrwhenagitated.com/">
+            Chmmr When Agitated
+            </a></li>
+
+            <li><a href="http://afterlifesounds.blogspot.com/">
+            Afterlife
+            </a></li>
+        </ul>
+        <p>
+        Doors @ 8:30<br>
+        Sounds @ 9:00<br>
+        $6<br>
+        The Silent Barn<br>
+        915 Wyckoff Ave.<br>
+        Brooklyn/Queens<br>
+        L to Halsey L M to Myrtle - Wyckoff
+        </p>
+
     </li>
    <li class="music&amp;video">12 Jan 2010 /
    <span class="more">Enoch A.L.N.</span> &amp; Robot Death Cult, TBA
