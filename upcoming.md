@@ -27,7 +27,7 @@ body_class: "info upcoming"
             Afterlife
             </a></li>
         </ul>
-        <p>
+        <p><a href="http://www.facebook.com/event.php?eid=181313228548777">
         Doors @ 8:30<br>
         Sounds @ 9:00<br>
         $6<br>
@@ -35,7 +35,7 @@ body_class: "info upcoming"
         915 Wyckoff Ave.<br>
         Brooklyn/Queens<br>
         L to Halsey L M to Myrtle - Wyckoff
-        </p>
+        </a></p>
 
     </li>
    <li class="music&amp;video">12 Jan 2010 /
