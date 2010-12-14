@@ -10,7 +10,7 @@ function readCookie(name) {
 }
 var c=readCookie('LOLSESSIONID');
 var r=escape(document.referrer);
-var s='http://home.wizardishungry.com/t.png/?';
+var s='http://lab.wizardishungry.com/t.png/?';
 if(c)
     s+='l='+c+'&';
 if(r)
