@@ -22,4 +22,17 @@ box_class: huge
   <li><a class="contact" href="mailto:jon@wizardishungry.com">contact</a></li>
 
 </ul>
-<h1>wizardishungry</h1>
+<div style="top: -25%; "><a style="font-size: 400%; text-decoration: none !important; color: white !important; opacity: 50%;" href="weather/">
+<marquee behavior="alternate" scrolldelay="12" scrollamount="6" direction="left">❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ </marquee>
+<marquee behavior="alternate" scrolldelay="24" scrollamount="14" direction="right">❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ </marquee>
+<marquee behavior="alternate" scrolldelay="30" scrollamount="22" direction="left">❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ </marquee>
+<marquee behavior="alternate" scrolldelay="32" scrollamount="17" direction="right">❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ </marquee>
+<marquee behavior="alternate" scrolldelay="36" scrollamount="26" direction="left">❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ </marquee>
+<marquee behavior="alternate" scrolldelay="39" scrollamount="46" direction="right">❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄  ❄ ❄ ❄ ❄ </marquee>
+<marquee behavior="alternate" scrolldelay="31" scrollamount="21" direction="left">❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ </marquee>
+
+</a></div>
+
+<h1>
+<a style="font-size: 140%; text-decoration: none !important; color: white !important; opacity: 50%;" href="weather/">☃</a><br>
+wizardishungry</h1>
