@@ -51,17 +51,15 @@ function shake(stick) {
         left: 0px;
         top: 0px;
     }
+    body { overflow: hidden; text-align: center; }
+    img { height: 90% }
+    p { display: none; }
 </style>
 </head>
 <body>
-<p style="display: none">
+<p>
 I HOPE IAN ENJOYS THIS DOPE JAVASCRIPT RAINSTICK
 </p>
-<div align="center">
-<img src="stick.jpg" height="90%" onmousemove="rattle();" class="one" onclick="shake(this);">
-</div>
-<script>
-
-</script>
+<img src="stick.jpg" onmousemove="rattle();" class="one" onclick="shake(this);">
 </body>
 </html>
