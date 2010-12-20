@@ -7,6 +7,7 @@
 function play(f) {
     var snd = new Audio("sound/"+f+".mp3");
     snd.play();
+    return snd;
 }
 function getRandomInt(min, max)  
 {  
@@ -17,7 +18,8 @@ function rattle()
 {
     if(Math.random() <.03)
     {
-        play("RATTLE_"+getRandomInt(1,4));
+        snd=play("RATTLE_"+getRandomInt(1,4));
+        snd.volume=.2;
     }
 }
 
@@ -27,6 +29,143 @@ function shake(stick) {
     stick.setAttribute("class",c);
     play(getRandomInt(1,17));
 }
+// --
+var BrowserDetect = {
+	init: function () {
+		this.browser = this.searchString(this.dataBrowser) || "An unknown browser";
+		this.version = this.searchVersion(navigator.userAgent)
+			|| this.searchVersion(navigator.appVersion)
+			|| "an unknown version";
+		this.OS = this.searchString(this.dataOS) || "an unknown OS";
+	},
+	searchString: function (data) {
+		for (var i=0;i<data.length;i++)	{
+			var dataString = data[i].string;
+			var dataProp = data[i].prop;
+			this.versionSearchString = data[i].versionSearch || data[i].identity;
+			if (dataString) {
+				if (dataString.indexOf(data[i].subString) != -1)
+					return data[i].identity;
+			}
+			else if (dataProp)
+				return data[i].identity;
+		}
+	},
+	searchVersion: function (dataString) {
+		var index = dataString.indexOf(this.versionSearchString);
+		if (index == -1) return;
+		return parseFloat(dataString.substring(index+this.versionSearchString.length+1));
+	},
+	dataBrowser: [
+		{
+			string: navigator.userAgent,
+			subString: "Chrome",
+			identity: "Chrome"
+		},
+		{ 	string: navigator.userAgent,
+			subString: "OmniWeb",
+			versionSearch: "OmniWeb/",
+			identity: "OmniWeb"
+		},
+		{
+			string: navigator.vendor,
+			subString: "Apple",
+			identity: "Safari",
+			versionSearch: "Version"
+		},
+		{
+			prop: window.opera,
+			identity: "Opera"
+		},
+		{
+			string: navigator.vendor,
+			subString: "iCab",
+			identity: "iCab"
+		},
+		{
+			string: navigator.vendor,
+			subString: "KDE",
+			identity: "Konqueror"
+		},
+		{
+			string: navigator.userAgent,
+			subString: "Firefox",
+			identity: "Firefox"
+		},
+		{
+			string: navigator.vendor,
+			subString: "Camino",
+			identity: "Camino"
+		},
+		{		// for newer Netscapes (6+)
+			string: navigator.userAgent,
+			subString: "Netscape",
+			identity: "Netscape"
+		},
+		{
+			string: navigator.userAgent,
+			subString: "MSIE",
+			identity: "Explorer",
+			versionSearch: "MSIE"
+		},
+		{
+			string: navigator.userAgent,
+			subString: "Gecko",
+			identity: "Mozilla",
+			versionSearch: "rv"
+		},
+		{ 		// for older Netscapes (4-)
+			string: navigator.userAgent,
+			subString: "Mozilla",
+			identity: "Netscape",
+			versionSearch: "Mozilla"
+		}
+	],
+	dataOS : [
+		{
+			string: navigator.platform,
+			subString: "Win",
+			identity: "Windows"
+		},
+		{
+			string: navigator.platform,
+			subString: "Mac",
+			identity: "Mac"
+		},
+		{
+			   string: navigator.userAgent,
+			   subString: "iPhone",
+			   identity: "iPhone/iPod"
+	    },
+		{
+			string: navigator.platform,
+			subString: "Linux",
+			identity: "Linux"
+		}
+	]
+
+};
+BrowserDetect.init();
+good = false;
+switch(BrowserDetect.browser) {
+    case 'Safari':
+        if(BrowserDetect.version>=4)
+            good=true;
+        break;
+    case 'Chrome':
+        if(BrowserDetect.version>=5)
+            good=true;
+        break;
+    case 'Firefox':
+        if(BrowserDetect.version>=4)
+            good=true;
+        break;
+    default:
+}
+    //alert(BrowserDetect.browser + ' ' + BrowserDetect.version+ ' good='+good);
+    if(!good)
+        document.location="fail.html";
+// --
 </script>
 <style>
     .one {
@@ -51,7 +190,7 @@ function shake(stick) {
         left: 0px;
         top: 0px;
     }
-    body { overflow: hidden; text-align: center; }
+    body { overflow: hidden; text-align: center;  background:url("Jungle_Background_by_Lil_Mz.jpg"); background-position:center 0%;}
     img { height: 90% }
     p { display: none; }
 </style>
@@ -60,6 +199,6 @@ function shake(stick) {
 <p>
 I HOPE IAN ENJOYS THIS DOPE JAVASCRIPT RAINSTICK
 </p>
-<img src="stick.jpg" onmousemove="rattle();" class="one" onclick="shake(this);">
+<img src="stick.png" onmousemove="rattle();" class="one" onclick="shake(this);">
 </body>
 </html>
