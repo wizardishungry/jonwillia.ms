@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Happy Birthday, Ian Johnson!</title>
+<script>
+function play(f) {
+    var snd = new Audio("sound/"+f+".mp3");
+    snd.play();
+}
+function getRandomInt(min, max)  
+{  
+  return Math.floor(Math.random() * (max - min + 1)) + min;  
+}  
+
+function rattle()
+{
+    if(Math.random() <.03)
+    {
+        play("RATTLE_"+getRandomInt(1,4));
+    }
+}
+
+function shake(stick) {
+    c = (stick.getAttribute("class"));
+    c=c=="one"?"two":"one";
+    stick.setAttribute("class",c);
+    play(getRandomInt(1,17));
+}
+</script>
+<style>
+    .one {
+        -webkit-transition: all 5s ease-in-out;
+        -moz-transition: all 5s ease-in-out;
+        -o-transition: all 5s ease-in-out;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+    .two { 
+        -webkit-transition: all 5s ease-in-out;
+        -moz-transition: all 5s ease-in-out;
+        -o-transition: all 5s ease-in-out;
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+    }
+    embed {
+    width: 0; height: 0;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+    }
+</style>
+</head>
+<body>
+<p style="display: none">
+I HOPE IAN ENJOYS THIS DOPE JAVASCRIPT RAINSTICK
+</p>
+<div align="center">
+<img src="stick.jpg" height="90%" onmousemove="rattle();" class="one" onclick="shake(this);">
+</div>
+<script>
+
+</script>
+</body>
+</html>
