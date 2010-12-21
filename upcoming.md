@@ -43,7 +43,7 @@ body_class: "info upcoming"
         @ Secret Project Robot,
         Metropolitan and Kent, Brooklyn.
     </li>
-   <li class-"music">14 Jan 2010 / 
+   <li class="music">14 Jan 2010 / 
         <ul>
             <li>Stare Case (John Olson &amp; Nate Young)</li>
             <li class="more">Enoch A.L.N.</li>
