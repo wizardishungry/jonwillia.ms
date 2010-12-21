@@ -6,7 +6,7 @@ body_class: "info upcoming"
 <ul class="classed root">
 
     <li class="music"> 4 Jan 2010 /
-        <ul class="">
+        <ul>
             <li><a href="http://www.myspace.com/twoyearsonwelfare">
             Two Years On Welfare 
             </a>(Philly)</li>
@@ -39,9 +39,17 @@ body_class: "info upcoming"
 
     </li>
    <li class="music&amp;video">12 Jan 2010 /
-   <span class="more">Enoch A.L.N.</span> &amp; Robot Death Cult, TBA
+   <span class="more">Enoch A.L.N.</span> &amp; Robot Death Cult, <!-- Extreme Mercy??? --> TBA
         @ Secret Project Robot,
         Metropolitan and Kent, Brooklyn.
     </li>
+   <li class-"music">14 Jan 2010 / 
+        <ul>
+            <li>Stare Case (John Olson &amp; Nate Young)</li>
+            <li class="more">Enoch A.L.N.</li>
+            <li>TBA?</li>
+        </ul>
+        @ <a href="http://rockawayredlight.blogspot.com/">Red Light District</a>, 1034 Bay 25th. St, Rockaway, NY
+   </li>
 </ul>
 <h5><a href="chronology.html">Past events?</a></h5>
