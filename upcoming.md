@@ -51,5 +51,14 @@ body_class: "info upcoming"
         </ul>
         @ <a href="http://rockawayredlight.blogspot.com/">Red Light District</a>, 1034 Bay 25th. St, Rockaway, NY
    </li>
+   <li class="music"> 21 Jan 2010 / 
+    <ul>
+      <li>Rockman</li>
+      <li>The Magick Report</li>
+      <li>SETH in "sinus envy"</li>
+      <li class="more">Chmmrwhenagitated</li>
+    </ul>
+    @ Silent Barn, 915 Wyckoff Ave, Ridgewood, Queens. (<a href="http://www.facebook.com/event.php?eid=188423697840081">fb</a>)
+  </li>
 </ul>
 <h5><a href="chronology.html">Past events?</a></h5>
