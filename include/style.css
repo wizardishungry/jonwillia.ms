@@ -149,7 +149,7 @@ body.main
 {
   overflow: hidden;
 }
-body.info
+body.scrolling, body.info
 {
    overflow-x: hidden; overflow-y: auto;
 }
