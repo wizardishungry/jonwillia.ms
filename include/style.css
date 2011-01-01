@@ -233,6 +233,12 @@ ul.flat li + li:not(.more):before
     opacity: 0.8;
 }
 
+.tiny {
+    font-weight: 1% !important;
+    font-size: 25% !important;
+    opacity: 0.8;
+}
+
 .more {
     font-weight: 215%;
     font-size: larger;
