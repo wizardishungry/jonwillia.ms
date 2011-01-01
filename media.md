@@ -5,6 +5,8 @@ body_class: "info media"
 box_class: huge
 ---
 <ul class="media">
+    <li><h3>Excepter - The Anti-Noah</h3>
+        <iframe class="youtube-player" type="text/html" width="640" height="510" src="http://www.youtube.com/embed/AvgokdShLTg" frameborder="0"> </iframe></li>
     <li><h3>Hummingbirds</h3>
     <iframe src="http://player.vimeo.com/video/15343141?title=1&amp;byline=0&amp;portrait=0&amp;color=46a856" width="640" height="428" frameborder="0"> </iframe></li>
     <li><h3>Enoch : A.L.N. - Cracked Lightning &amp; Caviar Pissings</h3>

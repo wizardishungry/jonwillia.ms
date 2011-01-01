@@ -1,9 +1,15 @@
 ---
 layout: default 
-body_class: main huge
+body_class: main huge scrolling
 box_class: huge
 ---
 <h1>Jon Williams</h1>
+
+<div>
+<a class="less tiny" style="background: purple" href="#info" onclick="this.parentNode.style.display = 'none'; return false;">no video plz?</a>
+<iframe title="YouTube video player" class="youtube-player" type="text/html" width="960" height="750" src="http://www.youtube.com/embed/AvgokdShLTg?rel=0&amp;hd=1" frameborder="0"> </iframe>
+</div>
+<a name="info"></a>
 <ul style="float:left" class="root">
   <li><a class="upcoming" href="upcoming.html">upcoming</a></li>
 
@@ -22,17 +28,8 @@ box_class: huge
   <li><a class="contact" href="mailto:jon@wizardishungry.com">contact</a></li>
 
 </ul>
+<!--
 <br clear="all">
-<div><a style="font-size: 400%; text-decoration: none !important; color: white !important; opacity: 50%;" href="weather/">
-<marquee behavior="alternate" scrolldelay="12" scrollamount="6" direction="left">❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ </marquee>
-<marquee behavior="alternate" scrolldelay="24" scrollamount="14" direction="right">❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ </marquee>
-<marquee behavior="alternate" scrolldelay="30" scrollamount="22" direction="left">❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ </marquee>
-<marquee behavior="alternate" scrolldelay="32" scrollamount="17" direction="right">❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ </marquee>
-<marquee behavior="alternate" scrolldelay="36" scrollamount="26" direction="left">❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ </marquee>
-<marquee behavior="alternate" scrolldelay="39" scrollamount="46" direction="right">❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄  ❄ ❄ ❄ ❄ </marquee>
-<marquee behavior="alternate" scrolldelay="31" scrollamount="21" direction="left">❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄ </marquee>
-
-</a></div>
-
-<h1>
-wizardishungry</h1>
+<div></div>
+-->
+<h1>wizardishungry</h1>
