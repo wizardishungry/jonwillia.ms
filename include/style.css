@@ -201,9 +201,6 @@ ul.classed > li:before {
 ul.classed > li.canceled {
     text-decoration: line-through;
     font-size: smaller;
-    filter:alpha(opacity=50);
-    -moz-opacity:0.5;
-    -khtml-opacity: 0.5;
 }
 
 ul.classed > li.canceled:before {

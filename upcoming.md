@@ -5,7 +5,7 @@ body_class: "info upcoming"
 ---
 <ul class="classed root">
 
-    <li class="music"> 4 Jan 2010 /
+    <li class="music canceled"> 4 Jan 2010 /
         <ul>
             <li><a href="http://www.myspace.com/twoyearsonwelfare">
             Two Years On Welfare 
