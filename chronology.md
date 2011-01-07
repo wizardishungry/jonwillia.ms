@@ -6,12 +6,47 @@ body_class: "info chronology"
 <a href="upcoming.html">Why look back; the future's cool, too!</a>
 <ul class="classed root">
 
+
+    <li class="music canceled"> 4 Jan 2010 /
+        <ul>
+            <li><a href="http://www.myspace.com/twoyearsonwelfare">
+            Two Years On Welfare 
+            </a>(Philly)</li>
+
+            <li><a href="http://www.soundcloud.com/opponents">
+            OPPONENTS 
+            </a></li>
+
+            <li><a href="http://soundcloud.com/longdistancepoison">
+            Long Distance Poison
+            </a></li>
+
+            <li class="more"><a href="http://chmmrwhenagitated.com/">
+            Chmmr When Agitated
+            </a></li>
+
+            <li><a href="http://afterlifesounds.blogspot.com/">
+            Afterlife
+            </a></li>
+        </ul>
+        <p><a href="http://www.facebook.com/event.php?eid=181313228548777">
+        Doors @ 8:30<br>
+        Sounds @ 9:00<br>
+        $6<br>
+        The Silent Barn<br>
+        915 Wyckoff Ave.<br>
+        Brooklyn/Queens<br>
+        L to Halsey L M to Myrtle - Wyckoff
+        </a></p>
+
+    </li>
+
   <li class="music&video">18 Nov 2010 /
     <span class="more">Enoch A.L.N.</span> @ 
     <a href="http://soundofart.eventbrite.com/">Sound of Art Release Party!</a>
         @ Santos Party House, Manhattan, NY</li>
 
-<li class="canceled music">31 Oct 2010 /
+    <li class="canceled music">31 Oct 2010 /
     <span class="more">Enoch A.L.N.</span> @ ∞FM,<a href="http://wbar.org/">WBAR radio</a>. 4 pm?
   </li>
   <li class="canceled music&amp;video">3 Nov 2010 /
