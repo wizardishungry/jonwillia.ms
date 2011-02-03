@@ -5,6 +5,29 @@ box_class: huge
 ---
 <h1>Jon Williams</h1>
 
+<marquee>
+<img src="include/hummingbird.gif">
+<img src="include/hummingbird.gif">
+<img src="include/hummingbird.gif">
+<img src="include/hummingbird.gif">
+<img src="include/hummingbird.gif">
+<img src="include/hummingbird.gif">
+<img src="include/hummingbird.gif">
+<img src="include/hummingbird.gif">
+<img src="include/hummingbird.gif">
+<img src="include/hummingbird.gif">
+<img src="include/hummingbird.gif">
+<img src="include/hummingbird.gif">
+<img src="include/hummingbird.gif">
+<img src="include/hummingbird.gif">
+<img src="include/hummingbird.gif">
+<img src="include/hummingbird.gif">
+<img src="include/hummingbird.gif">
+<img src="include/hummingbird.gif">
+<img src="include/hummingbird.gif">
+<img src="include/hummingbird.gif">
+<img src="include/hummingbird.gif">
+</marquee>
 <a name="info"></a>
 <ul style="float:left" class="root">
   <li><a class="upcoming" href="upcoming.html">upcoming</a></li>
