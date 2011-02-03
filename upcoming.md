@@ -42,7 +42,7 @@ Grand Selector
 +more bands/DJs TBA
     </ul>
     @ Silent Barn, 915 Wyckoff Ave, Ridgewood, Queens.
-    (<a href="http://www.facebook.com/event.php?eid=144379212287914&ref=ts">fb</a>)
+    (<a href="http://www.facebook.com/event.php?eid=144379212287914">fb</a>)
   </li>
 </ul>
 <h5><a href="chronology.html">Past events?</a></h5>
