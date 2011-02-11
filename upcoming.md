@@ -31,15 +31,25 @@ body_class: "info upcoming"
 SSPS
 </a></li>
 
+<li><a href="http://www.myspace.com/furtherreductions">
+Further Reductions
+</a></li>
+
 <li class="more"><a href="http://chmmrwhenagitated.com/">
 Chmmr When Agitated
+</a></li>
+
+<li><a href="http://yorkfactorycomplaint.tumblr.com/">
+York Factory Complaint
 </a></li>
 
 <li><a href="http://www.myspace.com/grandselector">
 Grand Selector
 </a></li>
 
-+more bands/DJs TBA
+<li>DJ John Fell Ryan</li>
+<li>DJ Rebecca Gaffney</li>
+
     </ul>
     @ Silent Barn, 915 Wyckoff Ave, Ridgewood, Queens.
     (<a href="http://www.facebook.com/event.php?eid=144379212287914">fb</a>)
