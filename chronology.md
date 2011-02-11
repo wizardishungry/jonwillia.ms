@@ -6,6 +6,21 @@ body_class: "info chronology"
 <a href="upcoming.html">Why look back; the future's cool, too!</a>
 <ul class="classed root">
 
+   <li class="music&amp;video"> 5 Feb 2011 / <em>
+    CLAREVOYANCE: An evening of music, merth, and merriment!
+    </em>
+    Benefit for Clare Amory
+    <ul>
+      <li>Garland Villanova</li>
+      <li>SSPS</li>
+      <li>SETH</li>
+      <li class="more">Enoch A.L.N.</li>
+      <li>DJ Theo Gee</li>
+    </ul>
+    @ Brooklyn Fireproof East, Brooklyn, NY
+    (<a href="http://www.facebook.com/event.php?eid=125029594233037">fb</a>)
+  </li>
+
    <li class="music"> 21 Jan 2010 / 
     <ul>
       <li>Rockman</li>

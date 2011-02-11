@@ -4,22 +4,7 @@ title: Upcoming
 body_class: "info upcoming"
 ---
 <ul class="classed root">
-
-   <li class="music&amp;video"> 5 Feb 2010 / <em>
-    CLAREVOYANCE: An evening of music, merth, and merriment!
-    </em>
-    Benefit for Clare Amory
-    <ul>
-      <li>Garland Villanova</li>
-      <li>SSPS</li>
-      <li>SETH</li>
-      <li class="more">Enoch A.L.N.</li>
-      <li>DJ Theo Gee</li>
-    </ul>
-    @ Brooklyn Fireproof East, Brooklyn, NY
-    (<a href="http://www.facebook.com/event.php?eid=125029594233037">fb</a>)
-  </li>
-   <li class="music"> 20 Feb 2010 / <em>
+   <li class="music"> 20 Feb 2011 / <em>
     SSPS Release Show/Party
     </em>
     <quote>
@@ -27,32 +12,35 @@ body_class: "info upcoming"
     </quote>
 
     <ul>
-<li><a href="http://www.pyramidsnake.com/">
-SSPS
-</a></li>
+      <li><a href="http://www.pyramidsnake.com/">
+      SSPS
+      </a></li>
 
-<li><a href="http://www.myspace.com/furtherreductions">
-Further Reductions
-</a></li>
+      <li><a href="http://www.myspace.com/furtherreductions">
+      Further Reductions
+      </a></li>
 
-<li class="more"><a href="http://chmmrwhenagitated.com/">
-Chmmr When Agitated
-</a></li>
+      <li class="more"><a href="http://chmmrwhenagitated.com/">
+      Chmmr When Agitated
+      </a></li>
 
-<li><a href="http://yorkfactorycomplaint.tumblr.com/">
-York Factory Complaint
-</a></li>
+      <li><a href="http://yorkfactorycomplaint.tumblr.com/">
+      York Factory Complaint
+      </a></li>
 
-<li><a href="http://www.myspace.com/grandselector">
-Grand Selector
-</a></li>
+      <li><a href="http://www.myspace.com/grandselector">
+      Grand Selector
+      </a></li>
 
-<li>DJ John Fell Ryan</li>
-<li>DJ Rebecca Gaffney</li>
-
+      <li>DJ John Fell Ryan</li>
+      <li>DJ Rebecca Gaffney</li>
     </ul>
     @ Silent Barn, 915 Wyckoff Ave, Ridgewood, Queens.
     (<a href="http://www.facebook.com/event.php?eid=144379212287914">fb</a>)
   </li>
+  <li class="video">Mar 2011 / TBA, Tokyo, Japan</li>
+  <li class="music">18 Mar 2011 / TBA, NYC</li>
+  <li class="music">15 Apr 2011 / TBA, NYC</li>
+  <li class="music&video">22 May 2011 / TBA, Brooklyn, NY</li>
 </ul>
 <h5><a href="chronology.html">Past events?</a></h5>
