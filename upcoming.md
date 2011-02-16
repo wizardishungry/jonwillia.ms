@@ -40,6 +40,7 @@ body_class: "info upcoming"
   </li>
   <li class="video">Mar 2011 / TBA, Tokyo, Japan</li>
   <li class="music"> 5 Mar 2011 /
+    Scott Kiernan: "Once around the block (twice)" solo show
     <ul>
       <li class="more">Enoch A.L.N.</li>
       <li>Young Boys</li>
