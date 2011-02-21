@@ -34,6 +34,7 @@ box_class: huge
 
   <li><a class="video" href="media.html">video</a></li>
 
+  <!--
   <li>music
     <ul class="less">
         <li><a href="http://chmmrwhenagitated.com/">Chmmr When Agitated</a></li>
@@ -41,6 +42,7 @@ box_class: huge
         <li class="less"><a href="http://soundcloud.com/wizardishungry/palaka-pyuri-crest-jewel-mix">Palaka Pyuri</a></li>
     </ul>
   </li>
+  -->
 
   <li><a class="blog" href="http://jonwillia.ms/">blog</a></li>
 
