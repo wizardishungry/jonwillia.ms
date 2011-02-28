@@ -4,41 +4,20 @@ title: Upcoming
 body_class: "info upcoming"
 ---
 <ul class="classed root">
-   <li class="music"> 20 Feb 2011 / <em>
-    SSPS Release Show/Party
-    </em>
-    <quote>
-      Massive show/party to celebrate the release of SSPS's Highly Sensitive Safeguards Secure cassette on Obsolete Units. Bands, DJs, drinks, and whatever else transpires.
-    </quote>
 
-    <ul>
-      <li><a href="http://www.pyramidsnake.com/">
-      SSPS
-      </a></li>
-
-      <li><a href="http://www.myspace.com/furtherreductions">
-      Further Reductions
-      </a></li>
-
-      <li class="more"><a href="http://chmmrwhenagitated.com/">
-      Chmmr When Agitated
-      </a></li>
-
-      <li><a href="http://yorkfactorycomplaint.tumblr.com/">
-      York Factory Complaint
-      </a></li>
-
-      <li><a href="http://www.myspace.com/grandselector">
-      Grand Selector
-      </a></li>
-
-      <li>DJ John Fell Ryan</li>
-      <li>DJ Rebecca Gaffney</li>
-    </ul>
-    @ Silent Barn, 915 Wyckoff Ave, Ridgewood, Queens.
-    (<a href="http://www.facebook.com/event.php?eid=144379212287914">fb</a>)
+  <li class="screening">March 5 2011-April 3 / <a href="http://www.smallwavehi.com/">AFTER WALKMAN DIE, AND</a>
+    at
+    <a href="http://www.harcoza.com/">HARCOZA</a>
+    <address>
+    2-15-9 1F Ebisu-nishi Shibuya-ku,Tokyo
+    03-6416-0725
+    </address>
+    <br>
+    OPENING RECEPTION
+    March 5
+    Live performance at 7pm
+    PUFFY SHOES
   </li>
-  <li class="video">Mar 2011 / TBA, Tokyo, Japan</li>
   <li class="music"> 5 Mar 2011 /
     Scott Kiernan: "Once around the block (twice)" solo show
     <ul>

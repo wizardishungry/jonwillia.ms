@@ -28,6 +28,19 @@ box_class: huge
 <img src="include/hummingbird.gif">
 <img src="include/hummingbird.gif">
 </marquee>
+<div>
+March 5 2011-April 3 / <a href="http://www.smallwavehi.com/">AFTER WALKMAN DIE, AND</a>
+    at
+    <a href="http://www.harcoza.com/">HARCOZA</a>
+    <address>
+    2-15-9 1F Ebisu-nishi Shibuya-ku,Tokyo
+    03-6416-0725
+    </address>
+    <br>
+    OPENING RECEPTION
+    March 5
+    Live performance at 7pm
+    PUFFY SHOES</div>
 <a name="info"></a>
 <ul style="float:left" class="root">
   <li><a class="upcoming" href="upcoming.html">upcoming</a></li>
