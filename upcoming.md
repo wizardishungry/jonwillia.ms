@@ -26,9 +26,11 @@ body_class: "info upcoming"
       <li>TBA</li>
     </ul>
   @ NurtureArt, 910 Grand Street, Brooklyn, NY</li>
-  <li class="music"> 5 Mar 2011 / TBA, Brooklyn, NY</li>
-  <li class="music">18 Mar 2011 / TBA, NYC</li>
-  <li class="music">15 Apr 2011 / TBA, NYC</li>
-  <li class="music&video">22 May 2011 / TBA, Brooklyn, NY</li>
+  <li class="music">5 Mar 2011 / TBA, Brooklyn, NY</li>
+  <li class="video">25 Mar 2011 / <a href="http://www.lornakrier.com/" class="more">Lorna Krier w/ Dream Massage</a> @ <a href="http://musicatfirstsite.com/">First Presbyterian Church of Brooklynm 124 Henry St.  Brooklyn, NY 11201</a></li>
+  <li class="video">26 Apr 2011 / LAL8 (Laura Harrison Ryan) @ <a href="http://thestonenyc.com/">The Stone</a>, Manhattan, NY, NY </li>
+<!--  <li class="music">18 Mar 2011 / TBA, NYC</li>
+  <li class="music">15 Apr 2011 / TBA, NYC</li> 
+  <li class="music&video">22 May 2011 / TBA, Brooklyn, NY</li> -->
 </ul>
 <h5><a href="chronology.html">Past events?</a></h5>
