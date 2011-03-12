@@ -22,6 +22,6 @@ body_class: "info upcoming"
   <li class="music">8 Apr 2011 / TBA, NYC</li> 
   <li class="music">15 Apr 2011 / TBA, NYC</li> 
   <li class="video">26 Apr 2011 / LAL8 (Laura Harrison Ryan) @ <a href="http://thestonenyc.com/">The Stone</a>, Manhattan, NY, NY </li>
-  <li class="music&video">22 May 2011 / TBA, Brooklyn, NY</li> -->
+  <li class="music&video">22 May 2011 / TBA, Brooklyn, NY</li>
 </ul>
 <h5><a href="chronology.html">Past events?</a></h5>
