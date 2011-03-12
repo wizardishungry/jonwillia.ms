@@ -6,6 +6,26 @@ body_class: "info chronology"
 <a href="upcoming.html">Why look back; the future's cool, too!</a>
 <ul class="classed root">
 
+  <li class="music"> 5 Mar 2011 /
+    <ul>
+      <li class="more">Enoch A.L.N.</li>
+      <li>Mazing Vids</li>
+      <li>Magick Report</li>
+      <li>SSPS</li>
+    </ul>
+  @ Brooklyn Fireproof</li>
+
+
+  <li class="music"> 5 Mar 2011 /
+    Scott Kiernan: "Once around the block (twice)" solo show
+    <ul>
+      <li class="more">Enoch A.L.N.</li>
+      <li>Young Boys</li>
+      <li>Mazing Vids</li>
+    </ul>
+  @ NurtureArt, 910 Grand Street, Brooklyn, NY</li>
+
+
    <li class="music">26 Feb 2011 /
     <ul>
       <li>Visuals by Matthew Caron</li>
