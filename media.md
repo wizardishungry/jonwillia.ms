@@ -44,25 +44,4 @@ box_class: huge
     <li class="caption"><h3>John Fell Ryan as SETH (Damaged Aktions &amp; Visions Series #2)</h3>
     <iframe class="youtube-player" type="text/html" width="640" height="505" src="http://www.youtube.com/embed/qm2LHR9i4Ww" frameborder="0"> </iframe></li>
 
-
-    <li>
-    <p>
-    People I've worked with a lot:
-    <ul class="huge">
-        <li><a href="http://www.excepter.com/">Excepter</a></li>
-        <li><a href="http://www.myspace.com/lovelikedeloreans">Love Like Deloreans</a></li>
-    </ul>
-    </p>
-    <p>
-    and sometimes:
-    <ul class="flat">
-        <li><a href="http://www.myspace.com/itstheuniverse">Universe</a></li>
-        <li><a href="http://www.myspace.com/behaviorband">Behavior</a></li>
-        <li><a href="http://www.myspace.com/electricticklemachine">Electric Tickle Machine</a></li>
-    </ul>
-    </p>
-    <p>
-    <a href="chronology.html">Past shows</a> from around 2007 on.
-    </p>
-    </li>
 </ul>
