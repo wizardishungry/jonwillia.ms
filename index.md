@@ -28,7 +28,6 @@ box_class: huge
 <img src="include/hummingbird.gif">
 <img src="include/hummingbird.gif">
 </marquee>
-<div>
 
 <ul style="float:left" class="root">
   <li><a class="upcoming" href="upcoming.html">upcoming</a></li>
