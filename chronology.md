@@ -6,6 +6,8 @@ body_class: "info chronology"
 <a href="upcoming.html">Why look back; the future's cool, too!</a>
 <ul class="classed root">
 
+  <li class="video">25 Mar 2011 / <a href="http://www.lornakrier.com/" class="more">Lorna Krier w/ Dream Massage</a> @ <a href="http://musicatfirstsite.com/">First Presbyterian Church of Brooklynm 124 Henry St.  Brooklyn, NY 11201</a></li>
+
   <li class="music"> 5 Mar 2011 /
     <ul>
       <li class="more">Enoch A.L.N.</li>
@@ -25,6 +27,19 @@ body_class: "info chronology"
     </ul>
   @ NurtureArt, 910 Grand Street, Brooklyn, NY</li>
 
+  <li class="screening">March 5 2011-April 3 / <a href="http://www.smallwavehi.com/">AFTER WALKMAN DIE, AND</a>
+    at
+    <a href="http://www.harcoza.com/">HARCOZA</a>
+    <address>
+    2-15-9 1F Ebisu-nishi Shibuya-ku,Tokyo
+    03-6416-0725
+    </address>
+    <br>
+    OPENING RECEPTION
+    March 5
+    Live performance at 7pm
+    PUFFY SHOES
+  </li>
 
    <li class="music">26 Feb 2011 /
     <ul>
