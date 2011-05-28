@@ -6,6 +6,8 @@ body_class: "info chronology"
 <a href="upcoming.html">Why look back; the future's cool, too!</a>
 <ul class="classed root">
 
+  <li class="music"> 30 Apr 2011 / All We Are (piece for 13 person + 1 bird ensemble) @ <a href="http://thescienceofpeace.tumblr.com/">The Science of Peace</a>, St. Cecilia's Convent, Greenpoint, Brooklyn, NY <img width="100%" src="include/orchestra.jpg"></li>
+
   <li class="video">25 Mar 2011 / <a href="http://www.lornakrier.com/" class="more">Lorna Krier w/ Dream Massage</a> @ <a href="http://musicatfirstsite.com/">First Presbyterian Church of Brooklynm 124 Henry St.  Brooklyn, NY 11201</a></li>
 
   <li class="music"> 5 Mar 2011 /
