@@ -5,7 +5,11 @@ body_class: "info media"
 box_class: huge
 ---
 <ul class="media">
-    <li><h3>Excepter - The Anti-Noah</h3>
+    <li><h3>Enoch: A.L.N. Clarevoyance</h3>
+    <iframe src="http://player.vimeo.com/video/20080127?portrait=0" width="640" height="360" frameborder="0"> </iframe></li>
+    <li class="caption"><h3>Enoch: A.L.N., November 2010</h3>
+    <iframe src="http://player.vimeo.com/video/19542706?title=0&amp;byline=0&amp;portrait=0" width="640" height="424" frameborder="0"> </iframe></li>
+    <li class="caption"><h3>Excepter - The Anti-Noah</h3>
         <iframe class="youtube-player" type="text/html" width="640" height="510" src="http://www.youtube.com/embed/AvgokdShLTg" frameborder="0"> </iframe></li>
     <li><h3>Hummingbirds</h3>
     <iframe src="http://player.vimeo.com/video/15343141?title=1&amp;byline=0&amp;portrait=0&amp;color=46a856" width="640" height="428" frameborder="0"> </iframe></li>
@@ -41,7 +45,7 @@ box_class: huge
     <iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/SkK8byUpnqI" frameborder="0"> </iframe></li>
     <li class="caption"><h3>Excepter - Heads</h3>
     <embed id="VideoPlayback" src="http://video.google.com/googleplayer.swf?docid=3891974777947726559&hl=en&fs=true" style="width:400px;height:326px" allowFullScreen="true" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></li>
-    <li class="caption"><h3>John Fell Ryan as SETH (Damaged Aktions &amp; Visions Series #2)</h3>
+    <li><h3>John Fell Ryan as SETH (Damaged Aktions &amp; Visions Series #2)</h3>
     <iframe class="youtube-player" type="text/html" width="640" height="505" src="http://www.youtube.com/embed/qm2LHR9i4Ww" frameborder="0"> </iframe></li>
 
 </ul>
