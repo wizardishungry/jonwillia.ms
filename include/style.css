@@ -440,3 +440,7 @@ ul.media > li:nth-child(8n+7) { border: 10px inset orange; background: orange; }
 :hover>.reveal { visibility: visible; }
 
 @font-face {	font-family: 'Nevis';	src: url('nevis-webfont.eot');	src: local('☺'), url('nevis-webfont.woff') format('woff'), 	url('nevis-webfont.ttf') format('truetype'), 	url('nevis-webfont.svg') format('svg');	font-weight: normal;	font-style: normal;	}
+
+.lesshide {min-width: 30%; left: 10%; height: 100%; position: fixed; } 
+.lesshide .less { display: none; }
+.lesshide:hover .less { display: inherit !important; }
