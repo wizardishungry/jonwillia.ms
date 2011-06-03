@@ -5,39 +5,18 @@ box_class: huge
 ---
 <h1>Jon Williams</h1>
 
-<marquee>
-<img src="include/hummingbird.gif">
-<img src="include/hummingbird.gif">
-<img src="include/hummingbird.gif">
-<img src="include/hummingbird.gif">
-<img src="include/hummingbird.gif">
-<img src="include/hummingbird.gif">
-<img src="include/hummingbird.gif">
-<img src="include/hummingbird.gif">
-<img src="include/hummingbird.gif">
-<img src="include/hummingbird.gif">
-<img src="include/hummingbird.gif">
-<img src="include/hummingbird.gif">
-<img src="include/hummingbird.gif">
-<img src="include/hummingbird.gif">
-<img src="include/hummingbird.gif">
-<img src="include/hummingbird.gif">
-<img src="include/hummingbird.gif">
-<img src="include/hummingbird.gif">
-<img src="include/hummingbird.gif">
-<img src="include/hummingbird.gif">
-<img src="include/hummingbird.gif">
-</marquee>
-
 <ul style="float:left" class="root">
   <li><a class="upcoming" href="upcoming.html">upcoming</a></li>
+  <li><a class="chronology" href="chronology.html">past</a></li>
 
   <li><a class="video" href="media.html">video</a></li>
 
   
-  <li>music
+  <li>
+    <a href="http://soundcloud.com/wizardishungry">music</a>
+    <span class="reveal">&rarr; &rarr; <sup>&uarr;</sup></span>
     <ul class="less">
-        <li class="less"><a href="http://soundcloud.com/wizardishungry">demos</a></li>
+        <li class="less"><a href="http://soundcloud.com/wizardishungry">Demos</a></li>
         <li><a href="http://chmmrwhenagitated.com/">Chmmr When Agitated</a></li>
         <li><a href="http://soundcloud.com/enoch-aln">Enoch A.L.N.</a></li>
         <li class="less"><a href="http://soundcloud.com/wizardishungry/palaka-pyuri-crest-jewel-mix">Palaka Pyuri</a></li>
