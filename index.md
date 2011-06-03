@@ -6,7 +6,6 @@ box_class: huge
 <h1>Jon Williams</h1>
 
 
-<div class="lesshide">
 <ul style="float:left" class="root">
   <li><a class="upcoming" href="upcoming.html">upcoming</a></li>
   <li><a class="chronology" href="chronology.html">past</a></li>
@@ -31,5 +30,4 @@ box_class: huge
   <li><a class="contact" href="mailto:jon@wizardishungry.com">contact</a></li>
 
 </ul>
-</div>
 <h1>wizardishungry</h1>
