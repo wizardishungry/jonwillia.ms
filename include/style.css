@@ -1,6 +1,6 @@
 a:link, a:visited { text-decoration: none; }
 a:hover, a:active { color: magenta !important; text-decoration: underline !important }
-a:link { color: cyan !important; }
+a:link { color: darkcyan !important; }
 a:visited { color: orange !important; }
 a:visited:hover { color: yellow !important; }
 .info ul[class*="root"] > li > a:not([class]):nth-child(even) {background: pink; }
@@ -144,6 +144,7 @@ body
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,192,0,.5)),to(rgba(255,255,255,0)));
   background: -moz-linear-gradient(90deg, rgba(255,192,0,.5),rgba(255,255,255,0));
   font-family: 'Nevis', tahoma, helvetica, arial, serif;
+  color: rgba(0,0,0,0.9);
 }
 body.main
 {
@@ -164,9 +165,8 @@ body:hover
   z-index:10;
   left: 0px;
   top: 0px;
-  margin: 10%;
-  margin-top: 0; 
-  width:80%;
+  margin-left: 10%;
+  margin-top: 5%; 
 }
 
 
