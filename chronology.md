@@ -6,6 +6,14 @@ body_class: "info chronology"
 <a href="upcoming.html">Why look back; the future's cool, too!</a>
 <ul class="classed root">
 
+  <li class="video">27 July 2011 / <ul>
+    <li>La Big Vic</li>
+    <li>wish</li>
+    <li>VJ Rebecca Gaffney</li>
+    <li class="more">VJ Jon Williams</li>
+  </ul>
+  <a href="http://www.bricartsmedia.org/events/scene-seen-here-hear-music">@ BRIC Rotunda Gallery, Brooklyn</a></li>
+
   <li class="music"> 20 Jul 2011 / <a href="http://excepter.blogspot.com/2011/07/stream-72.html">SETH + SSPS + LAL8 = Excepter</a> @ Wreck Room, Brooklyn</li>
 
   <li class="music"> 30 Apr 2011 / All We Are (piece for 13 person + 1 bird ensemble) @ <a href="http://thescienceofpeace.tumblr.com/">The Science of Peace</a>, St. Cecilia's Convent, Greenpoint, Brooklyn, NY <img width="100%" src="include/orchestra.jpg"></li>
