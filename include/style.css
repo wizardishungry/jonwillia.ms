@@ -346,12 +346,15 @@ body.main ul.root > li ul
 	font-size: 75%;
 }
 body.main ul.root > li ul :first-line {
-	font-size: 105%;
+	font-size: 75%;
+}
+body.main ul.root > li ul .less:first-line {
+	font-size: 50%;
 }
 body.main ul.root > li ul li {
   text-align: center;
   border: 8px inset rgba(127,31,127,0.2);
-	font-size: 75%;
+	font-size: 50%;
 }
 
 body.main ul.root > li:hover ul li {
