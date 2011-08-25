@@ -348,7 +348,7 @@ body.main ul.root > li ul :first-line {
 	font-size: 80%;
 }
 body.main ul.root > li ul .less:first-line {
-	font-size: 75%;
+	font-size: 65% !important;
 }
 body.main ul.root > li ul li {
   text-align: center;
