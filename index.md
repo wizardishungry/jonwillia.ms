@@ -6,6 +6,9 @@ box_class: huge
 <h1>Jon Williams</h1>
 
 
+<div style="float: right">
+    <iframe src="http://player.vimeo.com/video/27566659?portrait=0" width="640" height="360" frameborder="0"> </iframe>
+</div>
 <ul style="float:left" class="root">
   <li><a class="upcoming" href="upcoming.html">upcoming</a></li>
   <li><a class="chronology" href="chronology.html">past</a></li>
