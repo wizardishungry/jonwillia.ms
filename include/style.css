@@ -343,10 +343,15 @@ body.main ul.root > li ul
   position: fixed !important;
   left: 90% !important; top: -500% !important;
   min-width: 180%;
+	font-size: smaller;
+}
+body.main ul.root > li ul :first-line {
+	font-size: larger;
 }
 body.main ul.root > li ul li {
   text-align: center;
   border: 8px inset rgba(127,31,127,0.2);
+	font-size: smaller;
 }
 
 body.main ul.root > li:hover ul li {
