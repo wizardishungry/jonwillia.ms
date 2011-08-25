@@ -8,8 +8,6 @@ box_class: huge
 
 <div style="position: fixed; right: 0; top: 0">
     <iframe src="http://player.vimeo.com/video/27566659?portrait=0" width="640" height="360" frameborder="0"> </iframe>
-<!--    <iframe class="youtube-player" type="text/html" width="640" height="510" src="http://www.youtube.com/embed/AvgokdShLTg" frameborder="0"> </iframe>
-    -->
 </div>
 <ul style="float:left" class="root">
   <li><a class="upcoming" href="upcoming.html">upcoming</a></li>
