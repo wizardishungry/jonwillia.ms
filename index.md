@@ -6,8 +6,9 @@ box_class: huge
 <h1>Jon Williams</h1>
 
 
-<div style="float: right">
+<div style="position: fixed; right: 0; top: 0">
     <iframe src="http://player.vimeo.com/video/27566659?portrait=0" width="640" height="360" frameborder="0"> </iframe>
+    <iframe class="youtube-player" type="text/html" width="640" height="510" src="http://www.youtube.com/embed/AvgokdShLTg" frameborder="0"> </iframe>
 </div>
 <ul style="float:left" class="root">
   <li><a class="upcoming" href="upcoming.html">upcoming</a></li>
@@ -20,10 +21,11 @@ box_class: huge
     <a href="http://soundcloud.com/wizardishungry">music</a>
     <span class="reveal">&rarr; &rarr; <sup>&uarr;</sup></span>
     <ul class="less">
-        <li class="less"><a href="http://soundcloud.com/wizardishungry">Demos</a></li>
-        <li><a href="http://chmmrwhenagitated.com/">Chmmr When Agitated</a></li>
         <li><a href="http://soundcloud.com/enoch-aln">Enoch A.L.N.</a></li>
+        <li><a href="http://excepter.net/">Excepter</a></li>
+        <li><a href="http://chmmrwhenagitated.com/">Chmmr When Agitated</a></li>
         <li class="less"><a href="http://soundcloud.com/wizardishungry/palaka-pyuri-crest-jewel-mix">Palaka Pyuri</a></li>
+        <li class="less"><a href="http://soundcloud.com/wizardishungry">Demos</a></li>
     </ul>
   </li>
   
