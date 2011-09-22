@@ -9,7 +9,7 @@ box_class: huge
 <div style="position: fixed; right: 0; top: 0">
 <!--    <iframe src="http://player.vimeo.com/video/27566659?portrait=0" width="640" height="360" frameborder="0"> </iframe> -->
 
-<object width="720" height="566" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
+<object width="360" height="228" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
   <param name="flashvars" value="vid=838833&amp;autoplay=false&amp;style=ubCC2550:lcE87A9F:ocffffff:ucffffff"/>
   <param name="allowfullscreen" value="true"/>
   <param name="allowscriptaccess" value="always"/>
