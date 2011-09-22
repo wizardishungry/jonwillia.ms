@@ -14,7 +14,7 @@ box_class: huge
   <param name="allowfullscreen" value="true"/>
   <param name="allowscriptaccess" value="always"/>
   <param name="src" value="http://www.ustream.tv/flash/viewer.swf"/>
-  <embed flashvars="vid=838833&amp;autoplay=false&amp;style=ubCC2550:lcE87A9F:ocffffff:ucffffff" width="720" height="566" allowfullscreen="true" allowscriptaccess="always" src="http://www.ustream.tv/flash/viewer.swf" type="application/x-shockwave-flash"></embed>
+  <embed flashvars="vid=838833&amp;autoplay=false&amp;style=ubCC2550:lcE87A9F:ocffffff:ucffffff" width="360" height="228" allowfullscreen="true" allowscriptaccess="always" src="http://www.ustream.tv/flash/viewer.swf" type="application/x-shockwave-flash"></embed>
 </object>
 
 </div>
