@@ -32,8 +32,7 @@ box_class: huge
         <li><a href="http://soundcloud.com/enoch-aln">Enoch A.L.N.</a></li>
         <li><a href="http://excepter.net/">Excepter</a></li>
         <li class="less"><a href="http://chmmrwhenagitated.com/">Chmmr When Agitated</a></li>
-        <li class="less"><a href="http://soundcloud.com/wizardishungry/palaka-pyuri-crest-jewel-mix">Palaka Pyuri</a></li>
-        <li class="less"><a href="http://soundcloud.com/wizardishungry">Demos</a></li>
+        <li class="less"><a href="http://soundcloud.com/wizardishungry">Soundcloud Demos</a></li>
     </ul>
   </li>
   
