@@ -27,6 +27,7 @@ box_class: huge
   
   <li>
     <a href="http://soundcloud.com/wizardishungry">music</a>
+    <!--
     <span class="reveal">&rarr; &rarr; <sup>&uarr;</sup></span>
     <ul class="less">
         <li><a href="http://soundcloud.com/enoch-aln">Enoch A.L.N.</a></li>
@@ -34,6 +35,7 @@ box_class: huge
         <li class="less"><a href="http://chmmrwhenagitated.com/">Chmmr When Agitated</a></li>
         <li class="less"><a href="http://soundcloud.com/wizardishungry">Soundcloud Demos</a></li>
     </ul>
+    -->
   </li>
   
 
