@@ -5,6 +5,35 @@ body_class: "info chronology"
 ---
 <a href="upcoming.html">Why look back; the future's cool, too!</a>
 <ul class="classed root">
+
+  <li class="dj"> 5 Mar 2011 /
+  <pre>
+S.S.P.S.
+
+PLEXXUS DOR
+
+DJs:
+
+PORKCHOP 
+(Excepter/S.S.P.S.)
+
+JON WILLIAMS 
+(Enoch A.L.N./Excepter)
+
+JOSHUA SLUSHER 
+(OPPONENTS,Grand Selector, ISR Crew, etc..)
+
+MEEGS DOR 
+(Plexxus Dor)
+
+VISUALS:
+SHATTERED SHARDS 
+(MATTHEW CARON & REBECCA GAFFNEY)
+</pre>
+  @ Wreck Room, Brooklyn, NY</li>
+
+
+
 <li class="film">25 Oct 2011 / <a href="http://www.bricartsmedia.org/events/brooklyn-art-work-2011-contemporary-art-gala">Brooklyn Art:Work 2011 Contemporary Art Gala</a>, The Liberty Warehouse at Pier 41, 6:30 PM-11:30 PM</li>
 <li class="video">16 Oct 2011 / <a href="http://neonmarshmallow.com/2011newyorkcity/all">Acid Marshmallow NYC</a></li>
   <li class="music"> 12 Aug 2011 / <pre>
