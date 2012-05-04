@@ -41,8 +41,6 @@ box_class: huge
 
   <li><a class="blog" href="http://blog.wizardishungry.com/">blog</a></li>
 
-  <li><a class="peace" title="The Science of Peace Project" href="http://www.thescienceofpeaceproject.com/">☮</a></li>
-
   <li><a class="contact" href="mailto:jon@wizardishungry.com">contact</a></li>
 
 </ul>
