@@ -8,10 +8,15 @@ tagline: Web Programmer / Technologist
 ## Experience
 
 ### Senior Developer, [Hollywood.com](http://www.hollywood.com/), New York, NY 1/2012 - present
-_Relaunch of high traffic celebrity news website_
+_Relaunched high traffic celebrity news website_
+* Development of relaunched site &amp; CMS using [Symfony2](http://www.symfony.com/) PHP framework.
+* Built, utilized &amp; maintained test infrastructure using Jenkins continous integration server and [PHPUnit](http://www.phpunit.de) test framework.
+* Architected high-performance web architecture utilizing [Amazon AWS](https://aws.amazon.com/) cloud services including MySQL/RDS, Memcache/Elasticache, Elastic  &amp; S3.
+* Automated systems administration &amp; operations using [Chef](http://www.opscode.com/chef/) Ruby systems integration framework.
+* Developed automated system for building [VirtualBox](https://www.virtualbox.org) and updating virtual machine images.
 
-### Software Engineer, Xceedium, New Jersey — 4/2011 – 12/2012 
-_Development of hardware security network appliance. www.xceedium.com_
+### Software Engineer, [Xceedium](http://www.xceedium.com), Jersey City, NJ — 4/2011 – 12/2012 
+_Development of hardware security network appliance. _
 *	Maintained & enhanced GateKeeper Linux appliance using Agile process. Primary focus on PHP web services & Javascript UI; other components included C-language daemons, Java applets, MySQL.
 *	Designed and extended clustering to integrate in-house high availability functionality with recently acquired network password vault product replication (JBoss).
 *	Spearheaded web app security evaluation and hardening, CSRF protection design, PHP vulnerability assessment.
@@ -35,7 +40,7 @@ _Front-end & infrastructure development for secondary ticketing market aggregato
 *	Managed interactions with freelancers including designers and coders. Evaluation and development of freelancer-coded Ruby / Watir / Firefox scraping system.
 
 ### Developer, Limewire, New York, NY — 5/2008 – 9/2009
-_Research and development of innovative web apps utilizing and enhancing peer-to-peer technology. www.limewire.com limecast.com github.com/WIZARDISHUNGRY/sflimetracker_
+_Research &amp; development of innovative web &amp; BitTorrent apps utilizing and enhancing peer-to-peer technology. www.limewire.com limecast.com github.com/WIZARDISHUNGRY/sflimetracker_
 *	Developed LimeTracker open-source BitTorrent tracker / podcasting system in Symfony PHP framework. Tracker uses P2P to accelerate podcasts, reducing distribution costs.
 *	Managed open source contributions and issue reporting via Git source control and JIRA bug tracker.
 *	Developed software targeting commodity web hosts for “unzip and run installs”, in the vein of WordPress.

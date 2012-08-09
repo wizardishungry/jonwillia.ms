@@ -108,6 +108,7 @@ ul.posts {
     color: #aaa;
     text-decoration: none;
     margin-left: 1em;
+    font-size: smaller;
   }
 
   .site .title a.extra:hover {
@@ -198,7 +199,7 @@ ul.posts {
 
 /*****************************************************************************/
 /*
-/* Background 
+/* Backgrounds
 /*
 /*****************************************************************************/
 
