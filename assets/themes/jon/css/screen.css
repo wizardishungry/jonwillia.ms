@@ -89,14 +89,14 @@ ul.posts {
 }
 
 .title {
-  color: #a00;
+  color: #007200;
   font-weight: bold;
   margin-bottom: 2em;
   font-size: larger;
 }
 
   .site .title a {
-    color: #a00;
+    color: #007200;
     text-decoration: none;
   }
 
@@ -121,7 +121,7 @@ ul.posts {
   .site .footer {
     font-size: 80%;
     color: #666;
-    border-top: 4px solid #eee;
+    border-top: 4px dashed #eee;
     margin-top: 2em;
     overflow: hidden;
   }
@@ -131,13 +131,8 @@ ul.posts {
       margin-right: 3em;
     }
 
-      .site .footer .contact a {
-        color: #8085C1;
-      }
-
     .site .footer .rss {
       margin-top: 1.1em;
-      margin-right: -.2em;
       float: right;
     }
 
@@ -213,21 +208,37 @@ body {
   background-attachment:fixed;
 
   /* IE10 Consumer Preview */ 
-  background-image: -ms-linear-gradient(top, #FFFFFF 0%, #00AA00 200%);
+  background-image: -ms-linear-gradient(top, #FFFFFF 0%, #F6FFF6 100%);
 
   /* Mozilla Firefox */ 
-  background-image: -moz-linear-gradient(top, #FFFFFF 0%, #00AA00 200%);
+  background-image: -moz-linear-gradient(top, #FFFFFF 0%, #F6FFF6 100%);
 
   /* Opera */ 
-  background-image: -o-linear-gradient(top, #FFFFFF 0%, #00AA00 200%);
+  background-image: -o-linear-gradient(top, #FFFFFF 0%, #F6FFF6 100%);
 
   /* Webkit (Safari/Chrome 10) */ 
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #00AA00));
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #F6FFF6));
 
   /* Webkit (Chrome 11+) */ 
-  background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #00AA00 200%);
+  background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #F6FFF6 100%);
 
   /* W3C Markup, IE10 Release Preview */ 
-  background-image: linear-gradient(to bottom, #FFFFFF 0%, #00AA00 200%);
+  background-image: linear-gradient(to bottom, #FFFFFF 0%, #F6FFF6 100%);
 
+}
+
+
+/*****************************************************************************/
+/*
+/* Ribbons and badges 
+/*
+/*****************************************************************************/
+
+.github-ribbon {
+  opacity:0.4;
+  filter:alpha(opacity=40);
+}
+
+.typekit-badge {
+  display: none !important;
 }
