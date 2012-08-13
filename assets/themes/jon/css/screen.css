@@ -240,6 +240,6 @@ body {
   filter:alpha(opacity=40);
 }
 
-.typekit-badge, .contact {
+.typekit-badge, #post .contact {
   display: none !important;
 }

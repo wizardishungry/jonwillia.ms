@@ -4,8 +4,8 @@
 /*
 /*****************************************************************************/
 
-.github-ribbon, .rss, .title * {
-  display: none;
+.github-ribbon, .rss, .title *, .footer, #post .contact a[href^="http"]:after {
+  display: none !important;
 }
 
 a:visited {
@@ -31,4 +31,8 @@ body {
   color: #00a;
   margin-left: 0.5em;
   content: attr(href);
+}
+
+.contact {
+  display: inherit !important;
 }

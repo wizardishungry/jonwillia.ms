@@ -5,6 +5,17 @@ tagline: Web Programmer / Technologist
 ---
 {% include JB/setup %}
 
+<div class="contact">
+  <p>
+    {{ site.author.name }}<br />
+    <i>{{ site.tagline }}</i><br />
+    Brooklyn, NY<br />
+    401-499-4532<br />
+    <a href='mailto:{{ site.author.email }}'>{{ site.author.email }}</a><br />
+    <a href="{{ site.production_url }}">{{ site.production_url }}</a><br />
+  </p>
+</div>
+
 ## Experience
 
 ### Senior Developer, [Hollywood.com](http://www.hollywood.com/), New York, NY 1/2012 - present
