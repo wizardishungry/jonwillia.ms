@@ -22,7 +22,13 @@ body {
 /*
 /*****************************************************************************/
 
-.post a[href^="http"]:after {
+
+#post a[href^="http"] {
+  color: black;
+}
+
+#post a[href^="http"]:after {
+  color: #00a;
   margin-left: 0.5em;
   content: attr(href);
 }

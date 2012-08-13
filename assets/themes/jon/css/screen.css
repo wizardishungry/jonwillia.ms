@@ -240,6 +240,6 @@ body {
   filter:alpha(opacity=40);
 }
 
-.typekit-badge {
+.typekit-badge, .contact {
   display: none !important;
 }
