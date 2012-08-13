@@ -20,16 +20,16 @@ tagline: Web Programmer / Technologist
 
 ### Senior Developer, [Hollywood.com](http://www.hollywood.com/), New York, NY 1/2012 - present
 _Relaunching high-traffic celebrity news website._
-* Development of relaunched site &amp; CMS using [Symfony2](http://www.symfony.com/) PHP framework, [Doctrine](http://www.doctrine-project.org) PHP ORM, [jQuery](http://jquery.com/) Javascript framework.
+* Development of  site &amp; CMS using [Symfony2](http://www.symfony.com/) PHP framework, [Doctrine](http://www.doctrine-project.org) PHP ORM, [jQuery](http://jquery.com/) Javascript framework.
 * Built, utilized, &amp; maintained test infrastructure using Jenkins continuous integration server and [PHPUnit](http://www.phpunit.de) test framework.
 * Provisioned tiered architecture using Varnish cache server w/ Edge Side Includes, MySQL, Memcache, APC PHP Cache.
+* Release engineering including patch / branch maintence in git, [Capistrano](https://github.com/capistrano/capistrano/) deployment automation and scripting.
 * Architected high-performance web architecture utilizing [Amazon AWS](https://aws.amazon.com/) cloud services including MySQL/RDS, Memcache/Elasticache, Elastic Compute Cloud (EC2), &amp; S3.
 * Automated systems administration &amp; operations using [Chef](http://www.opscode.com/chef/) Ruby systems integration framework on Ubuntu Linux. Maintained and supported public key infrastructure.
 * Developed automated system for building [VirtualBox](https://www.virtualbox.org) and updating virtual machine images. Supported worldwide freelance developers and rapid onboarding of engineering resources.
 * Wrote specs for engineering positions; intimately involved in all technical hiring. Mentoring/support of junior &amp; frontend developers and remote freelancers.
 * Integrated CMS with Akamai &amp; Brightcove Content Distribution Networks (CDN). Asset migration from Windows Server 2003 environment.
 * Evaluation / documentation / integration of former employees' projects. Interfaced with contractor-developed iPad application via JSON.
-* Release engineering including patch / branch maintence in git, [Capistrano](https://github.com/capistrano/capistrano/) deployment automation and scripting.
 
 ### Software Engineer, [Xceedium](http://www.xceedium.com), Jersey City, NJ — 4/2011 – 12/2012 
 _Development of hardware security network appliance. _
