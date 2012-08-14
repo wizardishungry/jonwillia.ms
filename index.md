@@ -25,6 +25,7 @@ _Relaunching high-traffic celebrity news website._
 * Provisioned tiered architecture using Varnish cache server w/ Edge Side Includes, MySQL, Memcache, APC PHP Cache.
 * Release engineering including patch / branch maintence in git, [Capistrano](https://github.com/capistrano/capistrano/) deployment automation and scripting.
 * Architected high-performance web architecture utilizing [Amazon AWS](https://aws.amazon.com/) cloud services including MySQL/RDS, Memcache/Elasticache, Elastic Compute Cloud (EC2), &amp; S3.
+* Coordinated migration of Linux/MySQL assets from Rackspace / Rackspace Cloud to Amazon AWS EC2 / RDS.
 * Automated systems administration &amp; operations using [Chef](http://www.opscode.com/chef/) Ruby systems integration framework on Ubuntu Linux. Maintained and supported public key infrastructure.
 * Developed automated system for building [VirtualBox](https://www.virtualbox.org) and updating virtual machine images. Supported worldwide freelance developers and rapid onboarding of engineering resources.
 * Wrote specs for engineering positions; intimately involved in all technical hiring. Mentoring/support of junior &amp; frontend developers and remote freelancers.
