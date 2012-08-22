@@ -241,5 +241,5 @@ body {
 }
 
 .typekit-badge, #post .contact {
-  display: none !important;
+  display: none;
 }

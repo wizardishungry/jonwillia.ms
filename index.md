@@ -13,6 +13,7 @@ tagline: Web Programmer / Technologist
     401-499-4532<br />
     <a href='mailto:{{ site.author.email }}'>{{ site.author.email }}</a><br />
     <a href="{{ site.production_url }}">{{ site.production_url }}</a><br />
+    <a href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a>
   </p>
 </div>
 

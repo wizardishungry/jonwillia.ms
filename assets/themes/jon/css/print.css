@@ -33,6 +33,6 @@ body {
   content: attr(href);
 }
 
-.contact {
+#post .contact {
   display: inherit !important;
 }
