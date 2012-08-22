@@ -101,4 +101,7 @@ _Manufactures custom signage for small businesses; orders primarily placed onlin
 ## Education
 
 ### University of Rochester, Rochester, NY — Computer Science (B.S.), 2005.
-*	Selected Courses: Parallel & Distributed Systems: (Pthreads, MPI), Intro. to Cryptology (P2P, cipher design), Programming Design & Implementation (C compiler for JVM)
+Selected Courses: 
+* Parallel & Distributed Systems: (concurrency, Pthreads, MPI, etc.),
+* Introduction to Cryptology (P2P, cipher design, public key, etc.)
+* Programming Language Design & Implementation (final project: C compiler for JVM using [Apache BCEL](http://commons.apache.org/bcel/))
