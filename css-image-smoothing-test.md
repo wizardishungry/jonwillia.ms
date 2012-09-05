@@ -113,7 +113,13 @@ var c = function() {
   zoom++;
   zoom%=8
   var zoom_real = 25 * Math.pow(2,zoom);
-  $('.playground .img').css('zoom', zoom_real+"%");
+  if($.browser.webkit || $.browser.chrome) {
+    $('.playground .img').css('zoom', zoom_real+"%");
+  }
+  else {
+    $('.playground .img').css('width', "auto");
+    $('.playground .img').css('width', ($('.raster').width() * zoom_real/100) + "px");
+  }
   if( $('.raster').width() * zoom_real/100 >= $('.playground').width()-25 ) {
     $('.sandbox').addClass('huge');
   } else {
