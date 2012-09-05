@@ -56,6 +56,14 @@ animation-iteration-count:infinite;
   line-height: 0px;
   background:white
 }
+.playground a {
+  background: white;
+  color: blue;
+}
+.dark {
+  background:black !important;
+  color: white !important;
+}
 .sandbox.huge {
   position: absolute;
   left: 0px;
@@ -75,7 +83,7 @@ Basded on [this post by Nullsleep](http://nullsleep.tumblr.com/post/16417178705/
 <form class="playground">
   <input class="url" type="text" name="url" value="http://www.google.com/images/srpr/logo3w.png" size="100" />
   <div class="sandbox">
-<span>Click to zoom! Pan &amp; scroll!</span>
+<span>Click to zoom! Pan &amp; scroll! <a class="dark">Toggle BG!</a></span>
     <div class="bucket">
       <img class="img raster">
     </div><div class="bucket">
@@ -113,8 +121,9 @@ var c = function() {
   }
 }
 $('.playground').submit(f);
-$('.sandbox').click(c);
+$('.bucket').click(c);
 $(".sandbox").css("max-width", $(window).width()-10 + "px" );
 $(".bucket").css("max-height", ($(window).height()-200)/2 + "px" );
 $("input.url").change(f).change();
+$(".dark").click(function(){$(".sandbox").toggleClass('dark'); $(this).toggleClass('dark'); return false; }); 
 </script>
