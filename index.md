@@ -2,6 +2,7 @@
 layout: page
 title: Jon Williams
 tagline: Web Programmer / Technologist 
+group: "featured"
 ---
 {% include JB/setup %}
 
