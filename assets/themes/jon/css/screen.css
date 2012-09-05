@@ -209,22 +209,22 @@ body {
   background-attachment:fixed;
 
   /* ie10 consumer preview */ 
-  background-image: -ms-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+  background-image: -ms-linear-gradient(top, #ffffff 0%, #d0d6d0 100%);
 
   /* mozilla firefox */ 
-  background-image: -moz-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #d0d6d0 100%);
 
   /* opera */ 
-  background-image: -o-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+  background-image: -o-linear-gradient(top, #ffffff 0%, #d0d6d0 100%);
 
   /* webkit (safari/chrome 10) */ 
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #e6e6e6));
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #d0d6d0));
 
   /* webkit (chrome 11+) */ 
-  background-image: -webkit-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #d0d6d0 100%);
 
   /* w3c markup, ie10 release preview */ 
-  background-image: linear-gradient(to bottom, #ffffff 0%, #e6e6e6 100%);
+  background-image: linear-gradient(to bottom, #ffffff 0%, #d0d6d0 100%);
 
 }
 
