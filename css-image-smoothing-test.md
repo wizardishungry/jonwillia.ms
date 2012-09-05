@@ -127,7 +127,7 @@ var c = function() {
   }
 }
 $('.playground').submit(f);
-$('.bucket').click(c);
+$('.sandbox').click(c);
 $(".sandbox").css("max-width", $(window).width()-10 + "px" );
 $(".bucket").css("max-height", ($(window).height()-200)/2 + "px" );
 $("input.url").change(f).change();
