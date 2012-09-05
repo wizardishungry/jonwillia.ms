@@ -78,16 +78,20 @@ animation-iteration-count:infinite;
 .sandbox span {
   line-height: 22pt;
 }
+.layout {
+  display: table-cell;
+  color: orange;
+}
 </style>
 Based on [this post by Nullsleep](http://nullsleep.tumblr.com/post/16417178705/how-to-disable-image-smoothing-in-modern-web-browsers).
 The top image should be pixelated; the bottom smoothed. (Chrome doesn't work right!)
 <form class="playground">
   <input class="url" type="text" name="url" value="http://arxiv.org/favicon.ico" size="100" />
+  <span>Click to zoom! Pan &amp; scroll! <a class="dark">Toggle BG!</a> <a class="layout">Toggle layout!</a></span>
   <div class="sandbox">
-<span>Click to zoom! Pan &amp; scroll! <a class="dark">Toggle BG!</a></span>
     <div class="bucket">
       <img class="img raster">
-    </div><div class="bucket">
+    </div><div class="bucket no-raster">
       <img class="img">
     </div>
   </div>
@@ -97,7 +101,7 @@ var zoom = 1;
 var hash = window.location.hash.replace("#",'');
 window.location.hash = hash;
 if(hash) {
-  $(".url").val(hash); 
+  $(".url").val(hash);
 }
 var f = function() {
   zoom = 1;
@@ -112,7 +116,7 @@ var f = function() {
 }
 var c = function() {
   zoom++;
-  zoom%=8
+  zoom%=10;
   var zoom_real = 25 * Math.pow(2,zoom);
   if($.browser.webkit || $.browser.chrome) {
     $('.playground .img').css('zoom', zoom_real+"%");
@@ -121,7 +125,7 @@ var c = function() {
     $('.playground .img').css('width', "auto");
     $('.playground .img').css('width', ($('.raster').width() * zoom_real/100) + "px");
   }
-  if( $('.raster').width() * zoom_real/100 >= $('.playground').width()-25 ) {
+  if( $(".layout").size() > 1 || $('.raster').width() * zoom_real/100 >= $('.playground').width()-25 ) {
     $('.sandbox').addClass('huge');
   } else {
     $('.sandbox').removeClass('huge');
@@ -132,5 +136,6 @@ $('.sandbox').click(c);
 $(".sandbox").css("max-width", $(window).width()-10 + "px" );
 $(".bucket").css("max-height", ($(window).height()-200)/2 + "px" );
 $("input.url").change(f).change();
-$(".dark").click(function(){$(".sandbox").toggleClass('dark'); $(this).toggleClass('dark'); return false; }); 
+$(".dark").click(function(){$(".sandbox").toggleClass('dark'); $(this).toggleClass('dark'); return false; });
+$(".layout").click(function(){$(".bucket").toggleClass('layout'); return false; });
 </script>
