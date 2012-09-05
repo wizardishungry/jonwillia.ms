@@ -78,7 +78,7 @@ animation-iteration-count:infinite;
 .sandbox span {
   line-height: 22pt;
 }
-.layout {
+.bucket.layout {
   display: table-cell;
   color: orange;
 }
