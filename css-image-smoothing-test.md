@@ -79,7 +79,8 @@ animation-iteration-count:infinite;
   line-height: 22pt;
 }
 </style>
-Based on [this post by Nullsleep](http://nullsleep.tumblr.com/post/16417178705/how-to-disable-image-smoothing-in-modern-web-browsers). The top image should be pixelated; the bottom smoothed.
+Based on [this post by Nullsleep](http://nullsleep.tumblr.com/post/16417178705/how-to-disable-image-smoothing-in-modern-web-browsers).
+The top image should be pixelated; the bottom smoothed. (Chrome doesn't work right!)
 <form class="playground">
   <input class="url" type="text" name="url" value="http://arxiv.org/favicon.ico" size="100" />
   <div class="sandbox">
