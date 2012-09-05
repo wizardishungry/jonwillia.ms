@@ -87,7 +87,7 @@ Based on [this post by Nullsleep](http://nullsleep.tumblr.com/post/16417178705/h
 The top image should be pixelated; the bottom smoothed. (Chrome doesn't work right!)
 <form class="playground">
   <input class="url" type="text" name="url" value="http://arxiv.org/favicon.ico" size="100" />
-  <span>Click to zoom! Pan &amp; scroll! <a class="dark">Toggle BG!</a> <a class="layout">Toggle layout!</a></span>
+  <div>Click to zoom! Pan &amp; scroll! <a class="dark">Toggle BG!</a> <a class="layout">Toggle layout!</a></div>
   <div class="sandbox">
     <div class="bucket">
       <img class="img raster">
