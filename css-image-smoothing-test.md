@@ -81,7 +81,7 @@ animation-iteration-count:infinite;
 </style>
 Based on [this post by Nullsleep](http://nullsleep.tumblr.com/post/16417178705/how-to-disable-image-smoothing-in-modern-web-browsers). The top image should be pixelated; the bottom smoothed.
 <form class="playground">
-  <input class="url" type="text" name="url" value="http://www.google.com/images/srpr/logo3w.png" size="100" />
+  <input class="url" type="text" name="url" value="http://arxiv.org/favicon.ico" size="100" />
   <div class="sandbox">
 <span>Click to zoom! Pan &amp; scroll! <a class="dark">Toggle BG!</a></span>
     <div class="bucket">
