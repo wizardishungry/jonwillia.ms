@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jon Williams
+title: CV 
 tagline: Web Programmer / Technologist 
 group: "featured"
 ---
