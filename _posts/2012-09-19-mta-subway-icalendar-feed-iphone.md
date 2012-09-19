@@ -14,7 +14,9 @@ Right now you can only subscribe to Subway.
 * **Google Calendar** I don't think Google polls often enough for this to be useful. YMMV 
 * A short url for this page is: [mta.jonwillia.ms](http://mta.jonwillia.ms)
 
-[<img src="/assets/images/mta-ical-osx-1.png" align="right" alt="iCal displaying MTA status in OSX" style="max-width: 40%">](/assets/images/mta-ical-osx-1.png)
+[<img src="/assets/images/mta-ical-osx-1.png" alt="iCal displaying MTA status in OSX" style="float: right; max-width: 42%">](/assets/images/mta-ical-osx-1.png)
+[<img src="/assets/images/mta-ical-ios-1.png" alt="iCal displaying MTA status in iOS" style="padding: 4px; clear: right; float: right; max-width: 20%">](/assets/images/mta-ical-ios-1.png)
+[<img src="/assets/images/mta-ical-ios-2.png" alt="iCal displaying MTA status in iOS" style="padding: 4px; float: right; max-width: 20%">](/assets/images/mta-ical-ios-2.png)
 Subscribe:
 ----------
 * Subway
@@ -25,7 +27,7 @@ Subscribe:
 * Metro North
 * Staten Island Railroad
 * Everything
-
+<br clear="both">
 Source
 ------
 *Ruby source is available on Github: [github.com/WIZARDISHUNGRY/mta-status-ical](https://github.com/WIZARDISHUNGRY/mta-status-ical)*
