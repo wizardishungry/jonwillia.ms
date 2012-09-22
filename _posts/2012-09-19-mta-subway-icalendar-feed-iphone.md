@@ -22,11 +22,12 @@ Subscribe:
 * Subway
   * [Subscribe in iCal / OS X Calendar](webcal://mta.jonwillia.ms/subway.ics)
   * Direct Link: [http://mta.jonwillia.ms/subway.ics](http://mta.jonwillia.ms/subway.ics)
-* Subway + Bus
-* LIRR
-* Metro North
-* Staten Island Railroad
-* Everything
+* Todo
+  * Subway + Bus
+  * LIRR
+  * Metro North
+  * Staten Island Railroad
+  * Everything
 <br clear="both">
 Source
 ------
