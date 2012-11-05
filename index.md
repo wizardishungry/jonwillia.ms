@@ -64,7 +64,7 @@ _Front-end, infrastructure & platform development for social media startup. [ban
 
 ### Developer, [SeatGeek](http://www.seatgeek.com/), New York, NY — 3/2010 – 5/2010
 _Front-end & infrastructure development for secondary ticketing market aggregator._
-*	Developed PHP Symfony website during period of rapid business development and user growth. Created web crawlers to scrap sports statistics from partner web sites across all major sports.
+*	Developed PHP [Symfony](http://www.symfony.com/) website during period of rapid business development and user growth. Created web crawlers to scrap sports statistics from partner web sites across all major sports.
 *	Reverse engineered Flex & Ajax APIs on third party web sites for aggregation of market transactions.
 *	Predictive modeling / analytics of major league sports utilizing transaction data and sports statistics.
 *	Developed embeddable Javascript widgets for revenue sharing partner sites from Yahoo! Sports all the way down to hobbyist bloggers.
