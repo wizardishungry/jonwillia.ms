@@ -18,6 +18,18 @@ group: "featured"
   </p>
 </div>
 
+## Technical Highlights
+
+* 6 years experience developing in Symfony PHP MVC framework.
+* 9 years PHP development across entire LAMP stack.
+* 12 years Javascript experience including jQuery and Prototype libraries.
+* 10 years Linux/UNIX systems administration experience, primarily on Debian/Ubuntu, Redhat/CentOS and OpenBSD. Expert-level Apache experience.
+* 5 years Git experience. Experience with CVS and Subversion version control systems.
+* 12 years experience in Perl and Bash scripting.
+* Linux virtualization / automation expertise across Xen, Amazon AWS, VirtualBox, etc.
+* Systems and deployment automation experience with Chef & Capistrano (Ruby).
+* Test-driven development, continuous integration implementation (Hudson/Jenkins)
+
 ## Experience
 
 ### Senior Developer, [Hollywood.com](http://www.hollywood.com/), New York, NY 1/2012 - present
@@ -103,6 +115,7 @@ _Manufactures custom signage for small businesses; orders primarily placed onlin
 ## Education
 
 ### University of Rochester, Rochester, NY — Computer Science (B.S.), 2005.
+Systems Concentration,
 Selected Courses: 
 * Parallel & Distributed Systems: (concurrency, Pthreads, MPI, etc.),
 * Introduction to Cryptology (P2P, cipher design, public key, etc.)
