@@ -20,47 +20,47 @@ group: "featured"
 
 ## Technical Highlights
 
-* 6 years experience developing in Symfony PHP MVC framework.
-* 9 years PHP development across entire LAMP stack.
-* 12 years Javascript experience including jQuery and Prototype libraries.
-* 10 years Linux/UNIX systems administration experience, primarily on Debian/Ubuntu, Redhat/CentOS and OpenBSD. Expert-level Apache experience.
-* 5 years Git experience. Experience with CVS and Subversion version control systems.
-* 12 years experience in Perl and Bash scripting.
-* Linux virtualization / automation expertise across Xen, Amazon AWS, VirtualBox, etc.
-* Systems and deployment automation experience with Chef & Capistrano (Ruby).
-* Test-driven development, continuous integration implementation (Hudson/Jenkins)
+* 6 years developing in [Symfony](http://www.symfony.com/) [PHP](http://www.php.net/) MVC framework.
+* 12 years [Javascript](https://developer.mozilla.org/en-US/docs/JavaScript) experience including [jQuery](http://jquery.com/) & [Prototype](http://prototypejs.org) libraries.
+* 9 years PHP development across entire LAMP stack, including HTML/CSS and MySQL.
+* 10 years professional Linux/UNIX systems administration, primarily on [Debian](http://www.debian.org/)/[Ubuntu](http://www.ubuntu.com/), [Red Hat](http://www.redhat.com)/[CentOS](http://www.centos.org/) & [OpenBSD](http://www.openbsd.org). Expert-level [Apache](http://httpd.apache.org) configuration/administration.
+* 5 years [Git](http://git-scm.com/) experience. Familiarity with [CVS](http://www.nongnu.org/cvs/) & [Subversion](http://subversion.apache.org) version control systems.
+* 12 years [Perl](http://www.perl.org) & [Bash](http://www.gnu.org/software/bash/) scripting.
+* Linux virtualization / automation expertise across [Xen](http://www.xen.org), [Amazon AWS](https://aws.amazon.com/), [VirtualBox](https://www.virtualbox.org), etc.
+* Systems and deployment automation with [Chef](http://www.opscode.com/chef/) & [Capistrano](https://github.com/capistrano/capistrano/) ([Ruby](http://www.ruby-lang.org/)).
+* Test-driven development, continuous integration implementation ([Hudson/Jenkins](http://jenkins-ci.org))
 
 ## Experience
 
-### Senior Developer, [Hollywood.com](http://www.hollywood.com/), New York, NY 1/2012 - present
+### Senior Developer, [Hollywood.com](http://www.hollywood.com/), New York, NY 1/2012 - 10/2012 
 _Relaunching high-traffic celebrity news website._
-* Development of  site &amp; CMS using [Symfony2](http://www.symfony.com/) PHP framework, [Doctrine](http://www.doctrine-project.org) PHP ORM, [jQuery](http://jquery.com/) Javascript framework.
-* Built, utilized, &amp; maintained test infrastructure using Jenkins continuous integration server and [PHPUnit](http://www.phpunit.de) test framework.
-* Provisioned tiered architecture using Varnish cache server w/ Edge Side Includes, MySQL, Memcache, APC PHP Cache.
-* Release engineering including patch / branch maintence in git, [Capistrano](https://github.com/capistrano/capistrano/) deployment automation and scripting.
-* Architected high-performance web architecture utilizing [Amazon AWS](https://aws.amazon.com/) cloud services including MySQL/RDS, Memcache/Elasticache, Elastic Compute Cloud (EC2), &amp; S3.
+* Development of  site & CMS using [Symfony2](http://www.symfony.com/) PHP framework, [Doctrine](http://www.doctrine-project.org) PHP ORM, [jQuery](http://jquery.com/) Javascript framework.
+* Built, utilized, & maintained test infrastructure using [Jenkins](http://jenkins-ci.org) continuous integration server and [PHPUnit](http://www.phpunit.de) test framework.
+* Provisioned tiered architecture using [Varnish](https://www.varnish-cache.org) cache server w/ [Edge Side Includes](http://www.akamai.com/html/support/esi.html), MySQL, [Memcache](http://memcached.org), [APC](http://www.php.net/manual/en/book.apc.php) PHP Cache.
+* Release engineering including patch / branch maintence in [Git](http://git-scm.com/), [Capistrano](https://github.com/capistrano/capistrano/) deployment automation and scripting.
+* Architected high-performance web architecture utilizing [Amazon AWS](https://aws.amazon.com/) cloud services including [MySQL](http://www.mysql.com)/RDS, [Memcache](http://memcached.org)/Elasticache, Elastic Compute Cloud (EC2), & S3.
 * Coordinated migration of Linux/MySQL assets from Rackspace / Rackspace Cloud to Amazon AWS EC2 / RDS.
-* Automated systems administration &amp; operations using [Chef](http://www.opscode.com/chef/) Ruby systems integration framework on Ubuntu Linux. Maintained and supported public key infrastructure.
+* Automated systems administration &amp; operations using [Chef](http://www.opscode.com/chef/) [Ruby](http://www.ruby-lang.org/) systems integration framework on [Ubuntu](http://www.ubuntu.com/) Linux. Maintained and supported public key infrastructure.
 * Developed automated system for building [VirtualBox](https://www.virtualbox.org) and updating virtual machine images. Supported worldwide freelance developers and rapid onboarding of engineering resources.
 * Wrote specs for engineering positions; intimately involved in all technical hiring. Mentoring/support of junior &amp; frontend developers and remote freelancers.
-* Integrated CMS with Akamai &amp; Brightcove Content Distribution Networks (CDN). Asset migration from Windows Server 2003 environment.
+* Integrated CMS with [Akamai](http://www.akamai.com/) & [Brightcove](http://www.brightcove.com/) Content Distribution Networks (CDN). Asset migration from Windows Server 2003 environment.
 * Evaluation / documentation / integration of former employees' projects. Interfaced with contractor-developed iPad application via JSON.
 
 ### Software Engineer, [Xceedium](http://www.xceedium.com), Jersey City, NJ — 4/2011 – 12/2012 
 _Development of hardware security network appliance. _
-*	Maintained & enhanced GateKeeper Linux appliance using Agile process. Primary focus on PHP web services & Javascript UI; other components included C-language daemons, Java applets, MySQL.
-*	Designed and extended clustering to integrate in-house high availability functionality with recently acquired network password vault product replication (JBoss).
+*	Maintained & enhanced GateKeeper Linux appliance using Agile process. Primary focus on [PHP](http://www.php.net/) web services & Javascript UI; other components included C-language daemons, Java applets, MySQL.
+*	Designed and extended clustering to integrate in-house high availability functionality with recently acquired network password vault product replication ([JBoss](http://www.jboss.org/)).
 *	Spearheaded web app security evaluation and hardening, CSRF protection design, PHP vulnerability assessment.
-*	Prototype of Enterprise management console in Symfony2 PHP framework, jQuery, Ontology Web Language (OWL RDF/XML) backing store. Web-based ontology explorer.
-*	Remote debugging of customer installations worldwide. Network protocol analysis using Wireshark.
-*	Implementation of DoD FIPS 140-2-certified authenticated Network Time Protocol in product.
+*	Prototype of Enterprise management console in [Symfony2](http://www.symfony.com/) PHP framework, [jQuery](http://jquery.com/), [Ontology Web Language](http://www.w3.org/TR/owl-features/) (OWL RDF/XML) backing store. Web-based ontology explorer.
+*	Remote debugging of customer installations worldwide. Network protocol analysis using [Wireshark](http://www.wireshark.org).
+*	Implementation of NIST [FIPS 140-2](http://csrc.nist.gov/publications/PubsFIPS.html) certified authenticated Network Time Protocol in product.
 
 ### Freelance Developer, Brooklyn, NY — 9/2009 – 4/2011
 _Front-end, infrastructure & platform development for social media startup. [banters.com](https://www.banters.com/), etc. 1/2011 – 4/2011_
-*	Self-directed development of new social features using jQuery Javascript and in-house PHP5 framework.
-*	Architected move to Amazon EC3 compute cloud / S3 content distribution network from generic Linux VPS.
+*	Self-directed development of new social features using [jQuery](http://jquery.com/) Javascript and in-house PHP5 framework.
+*	Architected move to Amazon EC2 compute cloud / S3 content distribution network from generic Linux VPS.
 * Rasterization of content to Tumblr via [PhantomJS](http://phantomjs.org) on EC2
-* Installation/Maintenance of WordPress blogs as CMS.
+* Installation/Maintenance of [WordPress](http://wordpress.org) blogs as CMS.
 
 ### Developer, [SeatGeek](http://www.seatgeek.com/), New York, NY — 3/2010 – 5/2010
 _Front-end & infrastructure development for secondary ticketing market aggregator._
