@@ -19,8 +19,10 @@ box_class: huge
 
 </div>
 <ul style="float:left" class="root">
+  <!--
   <li><a class="upcoming" href="upcoming.html">upcoming</a></li>
   <li><a class="chronology" href="chronology.html">past</a></li>
+  -->
 
   <li><a class="video" href="media.html">video</a></li>
 
@@ -32,8 +34,7 @@ box_class: huge
     <ul class="less">
         <li><a href="http://soundcloud.com/enoch-aln">Enoch A.L.N.</a></li>
         <li><a href="http://excepter.net/">Excepter</a></li>
-        <li class="less"><a href="http://chmmrwhenagitated.com/">Chmmr When Agitated</a></li>
-        <li class="less"><a href="http://soundcloud.com/wizardishungry">Soundcloud Demos</a></li>
+        <li class="less"><a href="http://soundcloud.com/wizardishungry">Soundcloud/a></li>
     </ul>
     -->
   </li>

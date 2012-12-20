@@ -6,8 +6,11 @@ body_class: "info chronology"
 <a href="upcoming.html">Why look back; the future's cool, too!</a>
 <ul class="classed root">
 
-  <li class="dj"> 5 Mar 2011 /
-  <pre>
+<li class="music"> 22 Apr 2011 /
+<a href="https://www.facebook.com/events/393473460676670/">DJ</a>
+@ La Sala Brooklyn</li>
+
+  <li class="dj"> 5 Mar 2012 / <pre>
 S.S.P.S.
 
 PLEXXUS DOR
@@ -28,7 +31,7 @@ MEEGS DOR
 
 VISUALS:
 SHATTERED SHARDS 
-(MATTHEW CARON & REBECCA GAFFNEY)
+(MATTHEW CARON &amp; REBECCA GAFFNEY)
 </pre>
   @ Wreck Room, Brooklyn, NY</li>
 
@@ -270,7 +273,7 @@ SHATTERED SHARDS
 
     </li>
 
-  <li class="music&video">18 Nov 2010 /
+  <li class="music&amp;video">18 Nov 2010 /
     <span class="more">Enoch A.L.N.</span> @ 
     <a href="http://soundofart.eventbrite.com/">Sound of Art Release Party!</a>
         @ Santos Party House, Manhattan, NY</li>
