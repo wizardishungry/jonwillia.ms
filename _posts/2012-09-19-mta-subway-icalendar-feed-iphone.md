@@ -17,8 +17,8 @@ Right now you can only subscribe to Subway. I find having this always updated in
 [<img src="/assets/images/mta-ical-osx-1.png" alt="iCal displaying MTA status in OSX" style="float: right; max-width: 42%">](/assets/images/mta-ical-osx-1.png)
 [<img src="/assets/images/mta-ical-ios-1.png" alt="iCal displaying MTA status in iOS" style="padding: 4px; clear: right; float: right; max-width: 20%">](/assets/images/mta-ical-ios-1.png)
 [<img src="/assets/images/mta-ical-ios-2.png" alt="iCal displaying MTA status in iOS" style="padding: 4px; float: right; max-width: 20%">](/assets/images/mta-ical-ios-2.png)
-Subscribe:
-----------
+Subscribe
+---------
 * Subway
   * [Subscribe in iCal / OS X Calendar](webcal://mta.jonwillia.ms/subway.ics)
   * Direct Link: [http://mta.jonwillia.ms/subway.ics](http://mta.jonwillia.ms/subway.ics)
@@ -28,6 +28,7 @@ Subscribe:
   * Metro North
   * Staten Island Railroad
   * Everything
+
 <br clear="both">
 Source
 ------

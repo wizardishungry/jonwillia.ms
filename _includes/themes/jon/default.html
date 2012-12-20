@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ site.author.name }} / {{ page.title }}</title>
+   <title>{{ site.author.name }}{% if page.title %} / {{ page.title }}{% endif %}</title>
    <meta name="author" content="{{ site.author.name }}" />
    <link href="http://feeds.feedburner.com/{{ site.author.feedburner }}" rel="alternate" title="your title" type="application/atom+xml" />
 
@@ -23,10 +23,14 @@
     <div class="title">
       <a href="{{ HOME_PATH }}">{{ site.title }}</a>
 
-      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Blog</a>
+      <a class="extra" href="{{ HOME_PATH }}">Blog</a>
+      <a class="extra" href="{{ BASE_PATH }}/resume.html">Resume</a>
       <a class="extra" href="{{ BASE_PATH }}{{ site.JB.pages_path }}">Pages</a>
+      <a class="extra" href="http://wizardishungry.com/">Art/Music</a>
+	  <!--
       <a class="extra" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">Categories</a>
       <a class="extra" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">Tags</a>
+	  -->
     </div>
   
     {{ content }}

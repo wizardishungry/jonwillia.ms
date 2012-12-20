@@ -119,11 +119,14 @@ ul.posts {
     color: #aaa;
   }
 
+  .site .footer, .site .post + .post {
+    border-top: 4px dashed #eee;
+    margin-top: 2em;
+	}
+
   .site .footer {
     font-size: 80%;
     color: #666;
-    border-top: 4px dashed #eee;
-    margin-top: 2em;
     overflow: hidden;
   }
 
