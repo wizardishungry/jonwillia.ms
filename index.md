@@ -19,10 +19,8 @@ box_class: huge
 
 </div>
 <ul style="float:left" class="root">
-  <!--
   <li><a class="upcoming" href="upcoming.html">upcoming</a></li>
   <li><a class="chronology" href="chronology.html">past</a></li>
-  -->
 
   <li><a class="video" href="media.html">video</a></li>
 
