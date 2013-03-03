@@ -6,6 +6,24 @@ body_class: "info chronology"
 <a href="upcoming.html">Why look back; the future's cool, too!</a>
 <ul class="classed root">
 
+
+<li class="music">3  Mar 2013 /
+ <ul>
+   <li class="more">Purity Control</li>
+ </ul>
+ @ Spun o Lith opening, Fitness Gallery, Brooklyn
+</li>
+
+<li class="music">22 Jan 2013 /
+ <ul>
+   <li class="more">Purity Control</li>
+   <li>Apleasure </li>
+   <li>Svengali's Ghost</li>
+ </ul>
+ @ Wreck Room
+ 940 Flushing Avenue, Brooklyn
+</li>
+
 <li class="music"> 22 Apr 2011 /
 <a href="https://www.facebook.com/events/393473460676670/">DJ</a>
 @ La Sala Brooklyn</li>
