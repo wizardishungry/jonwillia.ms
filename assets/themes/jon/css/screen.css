@@ -256,4 +256,4 @@ body {
 .pin-description { color:#555; }
 .pin-tag { color:#18c;text-decoration:none;font-size:0.9em; }
 
-.gist, .highlight { overflow: scroll; font-size: smaller; }
+.gist, .highlight { overflow: scroll; font-size: 80%; }
