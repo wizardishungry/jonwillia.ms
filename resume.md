@@ -20,12 +20,12 @@ group: navigation
 
 ## Technical Highlights
 
-* 6 years developing in [Symfony](http://www.symfony.com/) [PHP](http://www.php.net/) MVC framework.
-* 12 years [Javascript](https://developer.mozilla.org/en-US/docs/JavaScript) experience including [jQuery](http://jquery.com/) & [Prototype](http://prototypejs.org) libraries.
-* 9 years PHP development across entire LAMP stack, including HTML/CSS and MySQL.
-* 10 years professional Linux/UNIX systems administration, primarily on [Debian](http://www.debian.org/)/[Ubuntu](http://www.ubuntu.com/), [Red Hat](http://www.redhat.com)/[CentOS](http://www.centos.org/) & [OpenBSD](http://www.openbsd.org). Expert-level [Apache](http://httpd.apache.org) configuration/administration.
-* 5 years [Git](http://git-scm.com/) experience. Familiarity with [CVS](http://www.nongnu.org/cvs/) & [Subversion](http://subversion.apache.org) version control systems.
-* 12 years [Perl](http://www.perl.org) & [Bash](http://www.gnu.org/software/bash/) scripting.
+* 7 years developing in [Symfony](http://www.symfony.com/) [PHP](http://www.php.net/) MVC framework.
+* 13 years [Javascript](https://developer.mozilla.org/en-US/docs/JavaScript) experience including [jQuery](http://jquery.com/) & [Prototype](http://prototypejs.org) libraries.
+* 10 years PHP development across entire LAMP stack, including HTML/CSS and MySQL.
+* 11 years professional Linux/UNIX systems administration, primarily on [Debian](http://www.debian.org/)/[Ubuntu](http://www.ubuntu.com/), [Red Hat](http://www.redhat.com)/[CentOS](http://www.centos.org/) & [OpenBSD](http://www.openbsd.org). Expert-level [Apache](http://httpd.apache.org) configuration/administration.
+* 6 years [Git](http://git-scm.com/) experience. Familiarity with [CVS](http://www.nongnu.org/cvs/) & [Subversion](http://subversion.apache.org) version control systems.
+* 13 years [Perl](http://www.perl.org) & [Bash](http://www.gnu.org/software/bash/) scripting.
 * Linux virtualization / automation expertise across [Xen](http://www.xen.org), [Amazon AWS](https://aws.amazon.com/), [VirtualBox](https://www.virtualbox.org), etc.
 * Systems and deployment automation with [Chef](http://www.opscode.com/chef/) & [Capistrano](https://github.com/capistrano/capistrano/) ([Ruby](http://www.ruby-lang.org/)).
 * Test-driven development, continuous integration implementation ([Hudson/Jenkins](http://jenkins-ci.org))
@@ -35,8 +35,8 @@ group: navigation
 ### Dev Team Lead, [Money-Media](http://www.money-media.com), New York, NY 1/2013 - 
 
 ### Senior Developer, [Hollywood.com](http://www.hollywood.com/), New York, NY 1/2012 - 10/2012 
-_Relaunching high-traffic celebrity news website._
-* Development of  site & CMS using [Symfony2](http://www.symfony.com/) PHP framework, [Doctrine](http://www.doctrine-project.org) PHP ORM, [jQuery](http://jquery.com/) Javascript framework.
+_Relaunched high-traffic celebrity news website._
+* Development of site & CMS using [Symfony2](http://www.symfony.com/) PHP framework, [Doctrine](http://www.doctrine-project.org) PHP ORM, [jQuery](http://jquery.com/) Javascript framework.
 * Built, utilized, & maintained test infrastructure using [Jenkins](http://jenkins-ci.org) continuous integration server and [PHPUnit](http://www.phpunit.de) test framework.
 * Provisioned tiered architecture using [Varnish](https://www.varnish-cache.org) cache server w/ [Edge Side Includes](http://www.akamai.com/html/support/esi.html), MySQL, [Memcache](http://memcached.org), [APC](http://www.php.net/manual/en/book.apc.php) PHP Cache.
 * Release engineering including patch / branch maintence in [Git](http://git-scm.com/), [Capistrano](https://github.com/capistrano/capistrano/) deployment automation and scripting.
