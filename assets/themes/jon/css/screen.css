@@ -84,6 +84,7 @@ ul.posts {
   font-size: 110%;
   text-align: justify;
   min-width: 40em;
+	max-width: 90%;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
