@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Make Sure All Your Test Classes Are Loaded by Your Test Suite"
-description: "Using strace to validate that all test classes and fixtures are loaded"
+title: "Making Sure All Your Test Classes Are Loaded by Your Test Suite"
+description: "Strace to validate that all test classes and fixtures are loaded (test suite coverage)"
 category: webdev
 tags: [strace, php, testing, phpunit, bash]
 ---

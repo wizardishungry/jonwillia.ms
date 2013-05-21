@@ -1,8 +1,9 @@
+{% capture real_title %}{{ site.author.name }}{% if page.title %} / {{ page.title }}{% endif %}{%endcapture %}
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ site.author.name }}{% if page.title %} / {{ page.title }}{% endif %}</title>
+   <title>{{ real_title }}</title>
    <meta name="author" content="{{ site.author.name }}" />
    <link href="http://feeds.feedburner.com/{{ site.author.feedburner }}" rel="alternate" title="your title" type="application/atom+xml" />
 
@@ -16,6 +17,13 @@
    <!-- Typekit -->
    <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+   <!-- OpenGraph -->
+   <meta property="og:title" content="{{ real_title }}" />
+   <meta property="og:type" content="website" />
+   <meta property="og:url" content="{{ BASE_PATH }}{{ page.url }}" />
+   <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
+   <meta property="og:description" content="{% if page.description %}x{{ page.description }}{% else %}{{ site.posts[0].description }}{% endif %}" />
 </head>
 <body>
 
