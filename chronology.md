@@ -6,6 +6,17 @@ body_class: "info chronology"
 <a href="upcoming.html">Why look back; the future's cool, too!</a>
 <ul class="classed root">
 
+<li class="music">18 May 2013 /
+  <ul>
+    <li><a href="http://cousinsofreggae.bandcamp.com/">Cousins Of Reggae (Montreal)</a></li>
+    <li><a href="http://opponentsnyc.com/">J Slusher (NYC OPPONENTS, Creeplings, Religion Recs)</a></li>
+    <li class="more">P. Pyuri (Excepter)</li>
+    <li><a href="https://www.facebook.com/oneeightfivesixsixeighttwothreetwo">185668232 - (Philly)</a></li>
+    <li>DJ GoFuckYaself</li>
+  </ul>
+  <a href="https://www.facebook.com/events/130458533814410/">@ La Grotta, 1535 Decatur St. Apt 2LL, Brooklyn</a>
+</li>
+
   <li class="music">19 Apr 2013 /
     <ul>
       <li>1/3 Octave Band all the way from New Zealand..making a very special, very rare U.S. appearance...one-half of Birdcatcher(LP on SGG soon)</li>
