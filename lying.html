@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>excepter.net </title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="Description" content="">
+<meta name="Description" content="Music Video by Harrison Owen, Fingered Media / From forthcoming Excepter STREAMS 2 (Blast First Petite)">
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <style>
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -113,14 +113,19 @@ function myRs(redo) {
 	$('.curtain').remove();
 }
 $(window).resize(function() { myRs(); });
-$(document).ready(function() { window.setTimeout(myRs,200) });
+$(document).ready(function() {
+	//window.setTimeout(myRs,200)
+	document.getElementById("imovie").onload = function() {
+		myRs();
+	};
+});
 
 </script>
 </head>
 <body>
-<div class="las-vegas"><a href="http://excepter.net"><img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-frc3/977858_10151588654228686_946600699_o.jpg"></a>
+<div class="las-vegas"><a href="home.html"><img src="ESW/Images/IMG_2871-crop.jpg"></a>
 <div class="movie">
-	<iframe src="http://www.youtube.com/embed/cNxAqxYV_uc?rel=0&showinfo=0" frameborder="0" allowfullscreen> </iframe>
+	<iframe id="imovie" src="http://www.youtube.com/embed/cNxAqxYV_uc?rel=0&showinfo=0&autohide=1" frameborder="0" allowfullscreen> </iframe>
 </div>
 </div>
 <div class="curtain" />
