@@ -6,6 +6,15 @@ body_class: "info chronology"
 <a href="upcoming.html">Why look back; the future's cool, too!</a>
 <ul class="classed root">
 
+  <li class="music">14 Jun 2013 /
+    <ul>
+      <li class="more"><a href="http://www.excepter.net/">Excepter</a></li>
+      <li>Pearl Necklace</li>
+      <li>Regal Degal</li>
+    </ul>
+    @ <a href="https://www.facebook.com/events/370826723038300">Shea Stadium, Brooklyn</a> 
+  </li>
+
 <li class="music">18 May 2013 /
   <ul>
     <li><a href="http://cousinsofreggae.bandcamp.com/">Cousins Of Reggae (Montreal)</a></li>
