@@ -92,7 +92,7 @@ _Application/content team attached to dean of development; develops web apps and
 *	Ported open source [Kerberos V bindings for PHP version 4 to 5](http://cvs.savannah.nongnu.org/viewvc/phpkrb5/) for authentication against central NYU systems.
 *	Participated in development of Symfony PHP web framework, contributing numerous bug reports and a number of patches; of note are patches for correct operation in FastCGI environment.
 *	Worked closely with university IT Unix administrators to oversee server issues including MySQL optimization, Apache configuration and troubleshooting, and hardware lifecycle planning.
-*	Implemented of version control (Subversion) and project management / bug tracking / wiki software (Trac) for web development team.
+*	mplemented of version control (Subversion) and project management / bug tracking / wiki software (Trac) for web development team.
 *	1Aggregated university calendar feeds with Steinhardt utilizing iCalendar (.ics).
 *	Devised custom student blog portal; integrated with university Moveable Type Enterprise install via RSS/Atom feeds; helped plan and implement all aspects of promotional student blog campaign.
 *	Served as technical liaison to Dean’s Office, IT strategy, software and hardware purchasing.
