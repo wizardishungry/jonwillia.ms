@@ -112,7 +112,8 @@ _Provides e-business consulting for kiosk and web-based applications._
 
 ### Systems Administrator / Programmer, George Patton Associates, LLC., Bristol, RI — 2/2003 - 4/2003 
 _Manufactures custom signage for small businesses; orders primarily placed online._
-*	Maintained legacy UNIX ordering/production/inventory/shipping system (60,000+ lines of C, Perl and shell scripts) on modern Red Hat Linux system; integrated shipping system with UPS package tracking.
+*	Maintained legacy UNIX ordering/production/inventory/shipping system (60,000+ lines of C, Perl and shell scripts) on modern Red Hat Linux system.
+* Integrated shipping system with UPS package tracking.
 
 ## Education
 
