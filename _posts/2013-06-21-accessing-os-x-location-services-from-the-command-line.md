@@ -20,7 +20,6 @@ Formats available:
               j = Geo JSON
               s = SBS-1 ADS-B
 
-
 $ ./location --debug 
 location service enabled
 <+40.696969,-73.420420> +/- 65.00m (speed -1.00 mps / course -1.00) @ 6/18/13 8:43:43 PM Eastern Daylight Time
