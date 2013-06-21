@@ -31,4 +31,4 @@ horizontalAccuracy: 65.000000
 verticalAccuracy: 10.000000
 speed: -1.000000
 course: -1.000000
-{% endhilight %}
+{% endhighlight %}
