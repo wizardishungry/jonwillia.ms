@@ -239,11 +239,6 @@ body {
 /*
 /*****************************************************************************/
 
-.github-ribbon {
-  opacity:0.4;
-  filter:alpha(opacity=40);
-}
-
 #post .contact {
   display: none;
 }

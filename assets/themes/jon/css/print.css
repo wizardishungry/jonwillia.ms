@@ -4,7 +4,7 @@
 /*
 /*****************************************************************************/
 
-.github-ribbon, .rss, .title *, .footer, #post .contact a[href^="http"]:after {
+.rss, .title *, .footer, #post .contact a[href^="http"]:after {
   display: none !important;
 }
 
