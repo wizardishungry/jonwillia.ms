@@ -4,7 +4,19 @@ title: Chronology
 body_class: "info chronology"
 ---
 <a href="upcoming.html">Why look back; the future's cool, too!</a>
+
 <ul class="classed root">
+  <li class="music">7 Jul 2013 /
+    <ul>
+      <li>Miho Hatori (Cibo Matto)</li>
+      <li class="more"><a href="http://www.excepter.net/">Excepter</a></li>
+      <li>Diamond Terrifier</li>
+      <li>La Big Vic</li>
+      <li>Co La</li>
+      <li>Two Human Beings (mem. Empress Of)</li>
+    </ul>
+    @ Silent Barn, Brooklyn (<a href="https://www.facebook.com/events/545353965512997/">fb</a>)
+  </li>
 
   <li class="music">14 Jun 2013 /
     <ul>

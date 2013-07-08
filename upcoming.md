@@ -5,12 +5,18 @@ body_class: "info upcoming"
 ---
 <ul class="classed root">
 
-  <li class="music">11 Jul 2013 /
+<ul class="classed root">
+  <li class="music">31 Aug 2013 /
     <ul>
-      <li class="more"><a href="http://www.excepter.net/">Excepter?</a></li>
+      <li class="more">Jon Williams</li>
+      <li>Xylen Roberts</li>
+      <li>Shrine</li>
+      <li>Computer Syndrome</li>
     </ul>
-    @ TBD 
+    @ Living Gallery, Brooklyn (<a href="https://www.facebook.com/events/154982801360824/">fb</a>)
   </li>
+
+
 
 </ul>
 
