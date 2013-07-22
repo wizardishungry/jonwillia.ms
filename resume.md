@@ -32,9 +32,20 @@ group: navigation
 
 ## Experience
 
-### Dev Team Lead, [Money-Media](http://www.money-media.com), New York, NY 1/2013 - 
+### Dev Team Lead, [Money-Media](http://www.money-media.com) / [Financial Times] (http://www.ft.com/), New York, NY — 1/2013 -
+_Technical project leadership for 10 subscription-only financial industry publications. _
 
-### Senior Developer, [Hollywood.com](http://www.hollywood.com/), New York, NY 1/2012 - 10/2012 
+* Development of front-end website using PHP, [Zend](http://framework.zend.com/) 1.12, MySQL and Doctrine.
+* Responsible for release management, including packaging and coordination with operations staff.
+* Technical stakeholder on projects; worked closely with business analysts, QA, sales, advertising and editorial teams to best allocate technical resources for project cycles.
+* Launched new publication allowing free subscription with registration while leveraging existing codebase ([FinancialAdvisorIQ.com](http://financialadvisoriq.com/)).
+* Mobile development on Android and iOS using [Appcelerator Titanium/Alloy](http://www.appcelerator.com/) cross-platform MVC framework.
+* Led Test-driven Development practice within team; designed unit/integration test specifications for junior developers.
+* Spearheaded web security analysis, developed Cross Site Scripting (XSS) and Cross Site Request Forgery protection for existing web sites.
+* Supported continuous integration environment using Jenkins CI server.
+* Integrated Google DoubleClick for Publishers across several publications including within mobile websites and apps.
+
+### Senior Developer, [Hollywood.com](http://www.hollywood.com/), New York, NY — 1/2012 - 10/2012
 _Relaunched high-traffic celebrity news website._
 * Development of site & CMS using [Symfony2](http://www.symfony.com/) PHP framework, [Doctrine](http://www.doctrine-project.org) PHP ORM, [jQuery](http://jquery.com/) Javascript framework.
 * Built, utilized, & maintained test infrastructure using [Jenkins](http://jenkins-ci.org) continuous integration server and [PHPUnit](http://www.phpunit.de) test framework.
