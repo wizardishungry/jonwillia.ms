@@ -5,7 +5,14 @@ body_class: "info chronology"
 ---
 <a href="upcoming.html">Why look back; the future's cool, too!</a>
 
+
 <ul class="classed root">
+  <li class="music">4 Aug 2013 /
+    <ul>
+      <li class="more"><a href="http://www.excepter.net/">Excepter</a></li>
+    </ul>
+    @ Lowtide Bar, Rockaway, Queens (<a href="https://www.facebook.com/events/554619947930659/">fb</a>)
+  </li>
   <li class="music">7 Jul 2013 /
     <ul>
       <li>Miho Hatori (Cibo Matto)</li>

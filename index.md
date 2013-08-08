@@ -18,14 +18,12 @@ box_class: huge
   
   <li>
     <a href="http://soundcloud.com/wizardishungry">music</a>
-    <!--
     <span class="reveal">&rarr; &rarr; <sup>&uarr;</sup></span>
     <ul class="less">
-        <li><a href="http://soundcloud.com/enoch-aln">Enoch A.L.N.</a></li>
+        <li class="less"><s><a href="http://soundcloud.com/enoch-aln">Enoch A.L.N.</a></s></li>
         <li><a href="http://excepter.net/">Excepter</a></li>
         <li class="less"><a href="http://soundcloud.com/wizardishungry">Soundcloud/a></li>
     </ul>
-    -->
   </li>
   
 

@@ -5,9 +5,9 @@ body_class: "info upcoming"
 ---
 <ul class="classed root">
 
-  <li class="music">31 Aug 2013 /
+  <li class="music canceled">31 Aug 2013 /
     <ul>
-      <li class="more">Jon Williams</li>
+      <li class="more canceled">Jon Williams</li>
       <li>Xylen Roberts</li>
       <li>Shrine</li>
       <li>Computer Syndrome</li>
