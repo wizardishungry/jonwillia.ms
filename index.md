@@ -22,7 +22,7 @@ box_class: huge
     <ul class="less">
         <li class="less"><s><a href="http://soundcloud.com/enoch-aln">Enoch A.L.N.</a></s></li>
         <li><a href="http://excepter.net/">Excepter</a></li>
-        <li class="less"><a href="http://soundcloud.com/wizardishungry">Soundcloud/a></li>
+        <li class="less"><a href="http://soundcloud.com/wizardishungry">Soundcloud</a></li>
     </ul>
   </li>
   
