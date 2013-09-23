@@ -8,14 +8,16 @@ body_class: "info upcoming"
 
   <li class="music">31 Oct 2013 /
     <ul>
-      <li class="more">Excpeter</li>
+      <li>Crystal Stilts</li>
+      <li class="more">Excepter</li>
+      <li>Zachary Cale</li>
     </ul>
-    @ tba, NYC
+    @ Bowery Ballroom, NYC
   </li>
 
   <li class="music">1 Nov 2013 /
     <ul>
-      <li class="more">Excpeter</li>
+      <li class="more">Excepter</li>
     </ul>
     @ tba, Brooklyn
   </li>
