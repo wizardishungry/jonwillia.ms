@@ -6,6 +6,7 @@ body_class: "info upcoming"
 <ul class="classed root">
 
   <li class="birthday">2 Oct 2013 / 
+    Kooler Than Jesus presents: my birthday!
     <ul>
       <li>John Fell Ryan</li>
       <li>Lorna Dune</li>
