@@ -7,7 +7,7 @@ body_class: "info upcoming"
 
   <li class="birthday">2 Oct 2013 / 
     <ul>
-      <li>DJ John Fell Ryan</li>
+      <li>John Fell Ryan</li>
       <li>Lorna Dune</li>
       <li>Half Life</li>
     </ul>
