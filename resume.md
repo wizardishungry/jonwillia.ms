@@ -37,6 +37,7 @@ _Technical project leadership for 10 subscription-only financial industry public
 
 * Development of front-end website using PHP, [Zend](http://framework.zend.com/) 1.12, MySQL and Doctrine.
 * Responsible for release management, including packaging and coordination with operations staff.
+* Migrated PEAR-based packaging system to [Composer](http://www.getcomposer.org/)
 * Technical stakeholder on projects; worked closely with business analysts, QA, sales, advertising and editorial teams to best allocate technical resources for project cycles.
 * Launched new publication allowing free subscription with registration while leveraging existing codebase ([FinancialAdvisorIQ.com](http://financialadvisoriq.com/)).
 * Mobile development on Android and iOS using [Appcelerator Titanium/Alloy](http://www.appcelerator.com/) cross-platform MVC framework.
