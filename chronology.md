@@ -7,12 +7,24 @@ body_class: "info chronology"
 
 
 <ul class="classed root">
+
+  <li class="birthday">2 Oct 2013 / 
+    Kooler Than Jesus presents: my birthday!
+    <ul>
+      <li>John Fell Ryan</li>
+      <li>Lorna Dune</li>
+      <li>Half Life</li>
+    </ul>
+    @ Wreck Room, Brooklyn (<a href="https://www.facebook.com/events/1411513769077365/1411525369076205/">fb</a>)
+  </li>
+
   <li class="music">4 Aug 2013 /
     <ul>
       <li class="more"><a href="http://www.excepter.net/">Excepter</a></li>
     </ul>
     @ Lowtide Bar, Rockaway, Queens (<a href="https://www.facebook.com/events/554619947930659/">fb</a>)
   </li>
+  
   <li class="music">7 Jul 2013 /
     <ul>
       <li>Miho Hatori (Cibo Matto)</li>
