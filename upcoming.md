@@ -5,16 +5,6 @@ body_class: "info upcoming"
 ---
 <ul class="classed root">
 
-  <li class="birthday">2 Oct 2013 / 
-    Kooler Than Jesus presents: my birthday!
-    <ul>
-      <li>John Fell Ryan</li>
-      <li>Lorna Dune</li>
-      <li>Half Life</li>
-    </ul>
-    @ Wreck Room, Brooklyn (<a href="https://www.facebook.com/events/1411513769077365/1411525369076205/">fb</a>)
-  </li>
-
   <li class="music">31 Oct 2013 /
     <ul>
       <li>Crystal Stilts</li>
