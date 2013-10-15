@@ -26,9 +26,13 @@ body_class: "info upcoming"
 
   <li class="music">1 Nov 2013 /
     <ul>
-      <li class="more">Excepter</li>
+        <li class="more">Excepter</li>
+        <li>Shan Funkness DJ (LIGHT ASYLUM)</li>
+        <li>Agressiva (mem. Gla22/Rogelio Ramos)</li>
+        <li>Jan Woo (DJ)</li>
+        <li>Ivy Meadows [lights]</li>
     </ul>
-    @ tba, Brooklyn
+    @ Body Actualized Center, 143 Troutman, Brooklyn (<a href="https://www.facebook.com/events/1421655211386415/">fb</a>)
   </li>
   
 </ul>
