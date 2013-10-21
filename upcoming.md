@@ -5,7 +5,7 @@ body_class: "info upcoming"
 ---
 <ul class="classed root">
   <li class="lecture">23 Oct 2013 /
-  <a href="http://sitebag.biz"</a>Sitebag</a> talk on dump1090:
+  <a href="http://sitebag.biz"</a>Sitebag</a> talk on <a href="https://github.com/wizARDISHUNGRY/dump1090">dump1090</a>:
   <ul>
     <li>Tim Nicholas</li>
     <li class="more">Jon Williams</li>
