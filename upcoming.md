@@ -4,7 +4,22 @@ title: Upcoming
 body_class: "info upcoming"
 ---
 <ul class="classed root">
+  <li class="lecture">23 Oct 2013 /
+  Sitebag talk on dump1090:
+  <ul>
+    <li>Tim Nicholas</li>
+    <li class="more">Jon Williams</li>
+    <li>Jordan Topiel Paul</li>
+    <li>Allen Riley</li>
+    <li>Jeff Sisson</li>
+  </ul>
 
+47 Bergen St.
+Brooklyn, NY 11201
+G/F to Bergen
+
+(enter via the alley next to the Invisible Dog Art Center.) 7-9pm
+  </li>
   <li class="music">31 Oct 2013 /
     <ul>
       <li>Crystal Stilts</li>
