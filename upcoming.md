@@ -5,7 +5,7 @@ body_class: "info upcoming"
 ---
 <ul class="classed root">
   <li class="lecture">23 Oct 2013 /
-  Sitebag talk on dump1090:
+  <a href="http://sitebag.biz"</a>Sitebag</a> talk on dump1090:
   <ul>
     <li>Tim Nicholas</li>
     <li class="more">Jon Williams</li>
@@ -13,12 +13,13 @@ body_class: "info upcoming"
     <li>Allen Riley</li>
     <li>Jeff Sisson</li>
   </ul>
-
-47 Bergen St.
-Brooklyn, NY 11201
-G/F to Bergen
-
-(enter via the alley next to the Invisible Dog Art Center.) 7-9pm
+  
+  47 Bergen St.
+  Brooklyn, NY 11201
+  G/F to Bergen
+  
+  (enter via the alley next to the Invisible Dog Art Center.) 7-9pm
+  (<a href="http://night-camp.tumblr.com/post/64711480341/sitebag-wednesday-october-23-7pm">info</a>)
   </li>
   <li class="music">31 Oct 2013 /
     <ul>
