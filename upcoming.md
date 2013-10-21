@@ -18,7 +18,7 @@ body_class: "info upcoming"
   Brooklyn, NY 11201
   G/F to Bergen
   
-  (enter via the alley next to the Invisible Dog Art Center.) 7-9pm
+  enter via the alley next to the Invisible Dog Art Center. 7-9pm
   (<a href="http://night-camp.tumblr.com/post/64711480341/sitebag-wednesday-october-23-7pm">info</a>)
   </li>
   <li class="music">31 Oct 2013 /
