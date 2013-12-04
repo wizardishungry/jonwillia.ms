@@ -8,6 +8,16 @@ body_class: "info chronology"
 
 <ul class="classed root">
 
+  <li class="music">15 Nov 2013 /
+    <ul>
+      <li class="more">Excepter</li>
+      <li>Eraas</li>
+      <li>Soviet Soviet</li>
+      <li>Felte</li>
+    </ul>
+    @ St. Vitus, Brooklyn NY
+  </li>
+
   <li class="lecture">6 Nov 2013 /
     <a href="http://sitebag.biz">Sitebag</a> talk on <a href="https://github.com/wizARDISHUNGRY/dump1090">dump1090</a>:
     <ul>
