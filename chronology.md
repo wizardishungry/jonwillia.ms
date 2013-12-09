@@ -8,6 +8,15 @@ body_class: "info chronology"
 
 <ul class="classed root">
 
+  <li class="dj">4 Dec 2013 /
+    <ul>
+      <li>Joshua Slusher (Opponents)</li>
+      <li class="more">Jon Williams</li>
+    </ul>
+    @ Wreck Room, Brooklyn NY
+    (<a href="https://www.facebook.com/events/641887915857135/">fb</a>)
+  </li>
+
   <li class="music">15 Nov 2013 /
     <ul>
       <li class="more">Excepter</li>
