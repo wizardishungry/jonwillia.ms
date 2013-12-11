@@ -140,7 +140,7 @@ body_class: "info chronology"
  940 Flushing Avenue, Brooklyn
 </li>
 
-<li class="music"> 22 Apr 2011 /
+<li class="music"> 22 Apr 2012 /
 <a href="https://www.facebook.com/events/393473460676670/">DJ</a>
 @ La Sala Brooklyn</li>
 
