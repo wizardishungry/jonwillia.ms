@@ -345,7 +345,7 @@ SHATTERED SHARDS
   </li>
 
 
-   <li class="music canceled">14 Jan 2010 / 
+   <li class="music canceled">14 Jan 2011 / 
         <ul>
             <li>Stare Case (John Olson &amp; Nate Young)</li>
             <li>Fossils</li>
@@ -357,7 +357,7 @@ SHATTERED SHARDS
         (<a href="http://www.facebook.com/event.php?eid=182754728410022">fb</a>)
    </li>
 
-      <li class="music&amp;video">12 Jan 2010 /
+      <li class="music&amp;video">12 Jan 2011 /
     <p style="white-space: pre-line;">
       SCRAMBLED MANIPULATIONISTS, WALLS OF VIDS, SCULPT LIGHT BRIGADIST, MACHINES, DANCING, POETRY, CANDY, AND ONE HAND CLAPPING POST-HOLIDAY FANDANGO, MAHALCHICK BIRTHDAY EXTRAVAGANZA!!
       <span class="more">ENOCH A.L.N.</span>presentering 'light overlords and sound destroyers!"
@@ -373,7 +373,7 @@ SHATTERED SHARDS
         (<a href="http://www.facebook.com/event.php?eid=173806972658255">fb</a>)
     </li>
 
-    <li class="music canceled"> 4 Jan 2010 /
+    <li class="music canceled"> 4 Jan 2011 /
         <ul>
             <li><a href="http://www.myspace.com/twoyearsonwelfare">
             Two Years On Welfare 
