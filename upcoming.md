@@ -42,14 +42,15 @@ DJ sets from Harrison, Jon Williams, Lala and John Fell Ryan.<br>
     (<a href="https://www.facebook.com/events/220040758177669/">fb</a>)
   </li>
 
-  <li class="dj">8 Jan 2014 /
+  <li class="dj">1 Jan 2014 /
     <ul>
       <li>tba</li>
       <li>Joshua Slusher</li>
       <li class="more">Jon Williams</li>
     </ul>
-    @ Wreck Room, Brooklyn NY
+    @ Wreck Room, Brooklyn NY LATE
   </li>
+
   <li class="music">20 Jan 2014 /
     <ul>
       <li>CHRIS &amp; COSEY</li>
@@ -58,6 +59,9 @@ DJ sets from Harrison, Jon Williams, Lala and John Fell Ryan.<br>
     @
     Santos Party House, NY, NY
     (<a href="http://www.santospartyhouse.com/event/index/id/3615">info</a>)
+  </li>
+  <li class="music">2 Feb 2014 /
+    tba
   </li>
 
 </ul>
