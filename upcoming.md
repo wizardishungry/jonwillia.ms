@@ -7,7 +7,14 @@ body_class: "info upcoming"
 
   <li class="dj">1 Jan 2014 /
     <ul>
-      <li>too many</li>
+      <li>FFH</li>
+      <li>Breakdancing Ronald Reagan</li>
+      <li>I Watched You Die</li>
+      <li>Richard Kamerman </li>
+      <li>High School Confidential</li>
+      <li>J Slusher</li>
+      <li>Blessed Thistle </li>
+      <li>KHF</li>
       <li class="more">Jon Williams</li>
     </ul>
     @ Silent Barn, Brooklyn NY
@@ -15,8 +22,9 @@ body_class: "info upcoming"
   </li>
 
   <li class="dj">1 Jan 2014 /
+    SIGNS 01/01/01
     <ul>
-      <li>tba</li>
+      <li>Porkchop</li>
       <li>Joshua Slusher</li>
       <li class="more">Jon Williams</li>
     </ul>
