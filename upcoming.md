@@ -18,6 +18,20 @@ body_class: "info upcoming"
   (<a href="https://www.facebook.com/events/603446283059016">fb</a>)
   </li>
 
+
+  <li class="dj">5 Feb 2014 /
+    SIGNS 02
+    <ul>
+      <li>tbd</li>
+      <li>Joshua Slusher</li>
+      <li class="more">Jon Williams</li>
+    </ul>
+    @ Wreck Room, Brooklyn NY 10pm 
+    (<a href="https://www.facebook.com/events/235507973287508/">fb</a>)
+  </li>
+
+
+
 </ul>
 
 <h5><a href="chronology.html">Past events?</a></h5>
