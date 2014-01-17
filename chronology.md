@@ -8,6 +8,49 @@ body_class: "info chronology"
 
 <ul class="classed root">
 
+  <li class="music">11 Jan 2014 /
+    <ul>
+      <li>CHRIS &amp; COSEY</li>
+      <li class="more">Excepter</li>
+    </ul>
+    @
+    Santos Party House, NY, NY
+    (<a href="http://www.santospartyhouse.com/event/index/id/3615">info</a>)
+  </li>
+
+  <li class="dj">1 Jan 2014 /
+    <ul>
+      <li>FFH</li>
+      <li>Breakdancing Ronald Reagan</li>
+      <li>I Watched You Die</li>
+      <li>Richard Kamerman </li>
+      <li>High School Confidential</li>
+      <li>J Slusher</li>
+      <li>Blessed Thistle </li>
+      <li>KHF</li>
+      <li class="more">Jon Williams</li>
+    </ul>
+    @ Silent Barn, Brooklyn NY
+    (<a href="https://www.facebook.com/events/220040758177669/">fb</a>)
+  </li>
+
+  <li class="dj">1 Jan 2014 /
+    <ul>
+      <li>FFH</li>
+      <li>Breakdancing Ronald Reagan</li>
+      <li>I Watched You Die</li>
+      <li>Richard Kamerman </li>
+      <li>High School Confidential</li>
+      <li>J Slusher</li>
+      <li>Blessed Thistle </li>
+      <li>KHF</li>
+      <li class="more">Jon Williams</li>
+    </ul>
+    @ Silent Barn, Brooklyn NY
+    (<a href="https://www.facebook.com/events/220040758177669/">fb</a>)
+  </li>
+  
+
   <li class="dj">14 Dec 2013 /
     <p>
 Director Harrison Owen <br>

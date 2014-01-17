@@ -5,41 +5,17 @@ body_class: "info upcoming"
 ---
 <ul class="classed root">
 
-  <li class="dj">1 Jan 2014 /
-    <ul>
-      <li>FFH</li>
-      <li>Breakdancing Ronald Reagan</li>
-      <li>I Watched You Die</li>
-      <li>Richard Kamerman </li>
-      <li>High School Confidential</li>
-      <li>J Slusher</li>
-      <li>Blessed Thistle </li>
-      <li>KHF</li>
-      <li class="more">Jon Williams</li>
-    </ul>
-    @ Silent Barn, Brooklyn NY
-    (<a href="https://www.facebook.com/events/220040758177669/">fb</a>)
-  </li>
-
-  <li class="dj">1 Jan 2014 /
-    SIGNS 01/01/01
-    <ul>
-      <li>Porkchop</li>
-      <li>Joshua Slusher</li>
-      <li class="more">Jon Williams</li>
-    </ul>
-    @ Wreck Room, Brooklyn NY LATE
-    (<a href="https://www.facebook.com/events/639856892726913/">fb</a>)
-  </li>
-
-  <li class="music">20 Jan 2014 /
-    <ul>
-      <li>CHRIS &amp; COSEY</li>
-      <li class="more">Excepter</li>
-    </ul>
-    @
-    Santos Party House, NY, NY
-    (<a href="http://www.santospartyhouse.com/event/index/id/3615">info</a>)
+  <li class="dj">28 Jan 2014 /
+  <ul>
+  <li>YVETTE</li>
+  <li>Aa (BIG A little a) - RECORD RELEASE</li>
+  <li>Seaven Teares (mems Extra Life, ZS)</li>
+  <li>RAT ATTACK (mems Knyfe Hyts, Brat Pit, Ovary Action)</li>
+  <li class="more">DJ Jon Williams (EXCEPTER) on interstitial 1s/2s</li>
+  </ul>
+  DEAaTH BY AaUDIO
+  8 PM, $8 
+  (<a href="https://www.facebook.com/events/603446283059016">fb</a>)
   </li>
 
 </ul>
