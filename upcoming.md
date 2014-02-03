@@ -5,32 +5,30 @@ body_class: "info upcoming"
 ---
 <ul class="classed root">
 
-  <li class="dj">28 Jan 2014 /
-  <ul>
-  <li>YVETTE</li>
-  <li>Aa (BIG A little a) - RECORD RELEASE</li>
-  <li>Seaven Teares (mems Extra Life, ZS)</li>
-  <li>RAT ATTACK (mems Knyfe Hyts, Brat Pit, Ovary Action)</li>
-  <li class="more">DJ Jon Williams (EXCEPTER) on interstitial 1s/2s</li>
-  </ul>
-  DEAaTH BY AaUDIO
-  8 PM, $8 
-  (<a href="https://www.facebook.com/events/603446283059016">fb</a>)
-  </li>
-
-
   <li class="dj">5 Feb 2014 /
     SIGNS 02
     <ul>
-      <li>tbd</li>
-      <li>Joshua Slusher</li>
-      <li class="more">Jon Williams</li>
+      <li>A Pleasure  (Live P.A., Other People)</>
+      <li>DJ Andi (DJ SET, Post-Punk Project)</>
+      <li>J Slusher (OPPONENTS, PRIVILEGE, The Seed, BNCC)</li>
+      <li class="more">J Williams</li>
     </ul>
     @ Wreck Room, Brooklyn NY 10pm 
     (<a href="https://www.facebook.com/events/235507973287508/">fb</a>)
   </li>
 
+  <li class="dj">24 Feb 2014 /
+    <ul>
+      <li>Excepter</li>
+      <li>Zs</li>
+      <li>Lushes </li>
+    </ul>
+    @ Baby's Alright, Brooklyn NY
+    (<a href="https://www.facebook.com/events/671838889539573/">fb</a>)
+  </li>
 
+  <li class="tba">20 Mar 2014 /
+  </li>
 
 </ul>
 
