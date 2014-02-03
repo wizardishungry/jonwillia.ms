@@ -8,8 +8,8 @@ body_class: "info upcoming"
   <li class="dj">5 Feb 2014 /
     SIGNS 02
     <ul>
-      <li>A Pleasure  (Live P.A., Other People)</>
-      <li>DJ Andi (DJ SET, Post-Punk Project)</>
+      <li>A Pleasure  (Live P.A., Other People)</li>
+      <li>DJ Andi (DJ SET, Post-Punk Project)</li>
       <li>J Slusher (OPPONENTS, PRIVILEGE, The Seed, BNCC)</li>
       <li class="more">J Williams</li>
     </ul>
