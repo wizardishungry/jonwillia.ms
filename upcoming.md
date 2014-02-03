@@ -17,9 +17,9 @@ body_class: "info upcoming"
     (<a href="https://www.facebook.com/events/235507973287508/">fb</a>)
   </li>
 
-  <li class="dj">24 Feb 2014 /
+  <li class="music">24 Feb 2014 /
     <ul>
-      <li>Excepter</li>
+      <li class="more">Excepter</li>
       <li>Zs</li>
       <li>Lushes </li>
     </ul>
