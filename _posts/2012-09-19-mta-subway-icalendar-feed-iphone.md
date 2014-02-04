@@ -7,6 +7,9 @@ tags: [mta, ical, iphone, ics, ruby]
 ---
 {% include JB/setup %}
 
+THIS IS BROKEN RIGHT NOW
+====
+
 I've created a [iCalendar](http://en.wikipedia.org/wiki/ICalendar) (ics) feed of up-to-the-minute MTA train status that you can subscribe to on your phone or calendar application.
 Right now you can only subscribe to Subway. I find having this always updated in my iPhone's notification center is better than using a heavy weight dedicated app.
 
