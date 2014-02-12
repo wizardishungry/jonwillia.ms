@@ -40,6 +40,7 @@ _Technical project leadership for 10 subscription-only financial industry public
 * Migrated PEAR-based packaging system to [Composer](http://www.getcomposer.org/)
 * Technical stakeholder on projects; worked closely with business analysts, QA, sales, advertising and editorial teams to best allocate technical resources for project cycles.
 * Launched new publication allowing free subscription with registration while leveraging existing codebase ([FinancialAdvisorIQ.com](http://financialadvisoriq.com/)).
+* Data integration with exta-organizational sites with Atom XML and CSV data feeds.
 * Mobile development on Android and iOS using [Appcelerator Titanium/Alloy](http://www.appcelerator.com/) cross-platform MVC framework.
 * Led Test-driven Development practice within team; designed unit/integration test specifications for junior developers.
 * Spearheaded web security analysis, developed Cross Site Scripting (XSS) and Cross Site Request Forgery protection for existing web sites.
