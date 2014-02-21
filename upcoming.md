@@ -15,7 +15,7 @@ body_class: "info upcoming"
     (<a href="https://www.facebook.com/events/671838889539573/">fb</a>)
   </li>
 
-  <li class="dj">7 Mar 2014 / SIGNS 03 
+  <li class="dj">5 Mar 2014 / SIGNS 03 
     <ul>
       <li>L. Sangre </li>
       <li>Brian Traister (BUBL-LAB)</li>
