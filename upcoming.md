@@ -20,7 +20,7 @@ body_class: "info upcoming"
       <li>L. Sangre </li>
       <li>Brian Traister (BUBL-LAB)</li>
       <li>J Slusher  (OPPONENTS, PRIVILEGE, The Seed, Lost Soul)</li>
-      <li>Jon Williams (EXCEPTER)</li>
+      <li class="more">Jon Williams (EXCEPTER)</li>
     </ul>
     10pm - 4am
     3/5/2014
@@ -49,6 +49,15 @@ body_class: "info upcoming"
   <li class="tba">20 Mar 2014 / TBA</li>
 
   <li class="music more">Apr 2014 / <a href="http://excepter.net/" class="more">Excepter</a> European Tour</li>
+
+  <li class="dj">7 May 2014 / SIGNS 04: Excepter Edition
+    <ul>
+      <li><a href="http://www.excepter.net/">Excepter</a></li>
+      <li>J Slusher  (OPPONENTS, PRIVILEGE, The Seed, Lost Soul)</li>
+    </ul>
+    Wreck Room, 10pm
+    (<a href="https://www.facebook.com/events/1443707209195607/">fb</a>)
+  </li>
 </ul>
 
 <h5><a href="chronology.html">Past events?</a></h5>
