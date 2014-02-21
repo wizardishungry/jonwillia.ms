@@ -29,7 +29,7 @@ body_class: "info upcoming"
     (<a href="https://www.facebook.com/events/1492282690998537/">fb</a>)
   </li>
 
-  <li class="dj">7 Mar 2014 / "†£ôFåí”ÛÛ Technopagans|at|the}End|of|History <⁄ﬂºﬂd≤Ω" 
+  <li class="dj">7 Mar 2014 / "Technopagans|at|the|End|of|History" 
     <ul>
       <li>A Pleasure (NYC | Other People)</li>
       <li>PVRE MATRIX (NYC | L.I.E.S.)</li>
@@ -50,7 +50,7 @@ body_class: "info upcoming"
 
   <li class="music more">Apr 2014 / <a href="http://excepter.net/" class="more">Excepter</a> European Tour</li>
 
-  <li class="dj">7 May 2014 / SIGNS 04: Excepter Edition
+  <li class="dj">7 May 2014 / SIGNS 05: Excepter Edition
     <ul>
       <li><a href="http://www.excepter.net/">Excepter</a></li>
       <li>J Slusher  (OPPONENTS, PRIVILEGE, The Seed, Lost Soul)</li>
