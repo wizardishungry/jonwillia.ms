@@ -48,7 +48,7 @@ body_class: "info upcoming"
 
   <li class="tba">20 Mar 2014 / TBA</li>
 
-  <li class="music more">Apr 2014 / <a href="http://excepter.net/" class="more">Excepter</a> European Tour</li>
+  <li class="music">Apr 2014 / <a href="http://excepter.net/" class="more">Excepter</a> European Tour</li>
 
   <li class="dj">7 May 2014 / SIGNS 05: Excepter Edition
     <ul>
