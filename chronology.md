@@ -8,6 +8,15 @@ body_class: "info chronology"
 
 <ul class="classed root">
 
+  <li class="music">24 Feb 2014 /
+    <ul>
+      <li class="more">Excepter</li>
+      <li>Zs</li>
+      <li>Lushes </li>
+    </ul>
+    @ Baby's Alright, Brooklyn NY
+    (<a href="https://www.facebook.com/events/671838889539573/">fb</a>)
+  </li>
   
   <li class="dj">28 Jan 2014 /
     <ul>
