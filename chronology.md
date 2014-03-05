@@ -18,6 +18,19 @@ body_class: "info chronology"
     (<a href="https://www.facebook.com/events/671838889539573/">fb</a>)
   </li>
   
+  <li class="dj">5 Feb 2014 /
+  SIGNS 02
+  <ul>
+    <li>A Pleasure  (Live P.A., Other People)</li>
+    <li>DJ Andi (DJ SET, Post-Punk Project)</li>
+    <li>J Slusher (OPPONENTS, PRIVILEGE, The Seed, BNCC)</li>
+    <li class="more">J Williams</li>
+  </ul>
+  @ Wreck Room, Brooklyn NY 10pm 
+  (<a href="https://www.facebook.com/events/235507973287508/">fb</a>)
+</li>
+
+  
   <li class="dj">28 Jan 2014 /
     <ul>
       <li>YVETTE</li>
