@@ -15,7 +15,7 @@ body_class: "info upcoming"
     AT RADIO BUSHWICK MARCH 20, 2014, 8:30PM, $10, 21+
   </li>
 
-  <li class="music">2-28 Apr 2014 / <a href="http://excepter.net/" class="more">Excepter</a> European Tour</li>
+  <li class="music">3-26 Apr 2014 / <a href="http://excepter.net/" class="more">Excepter</a> European Tour</li>
 
   <li class="dj">7 May 2014 / SIGNS 05: Excepter Edition
     <ul>
