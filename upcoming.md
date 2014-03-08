@@ -5,37 +5,6 @@ body_class: "info upcoming"
 ---
 <ul class="classed root">
 
-  <li class="dj">5 Mar 2014 / SIGNS 03 
-    <ul>
-      <li>L. Sangre </li>
-      <li>Brian Traister (BUBL-LAB)</li>
-      <li>J Slusher  (OPPONENTS, PRIVILEGE, The Seed, Lost Soul)</li>
-      <li class="more">Jon Williams (EXCEPTER)</li>
-    </ul>
-    10pm - 4am
-    3/5/2014
-    Wreck Room 
-    FREE
-    (<a href="https://www.facebook.com/events/1492282690998537/">fb</a>)
-  </li>
-
-  <li class="dj">7 Mar 2014 / "Technopagans|at|the|End|of|History" 
-    <ul>
-      <li>A Pleasure (NYC | Other People)</li>
-      <li>PVRE MATRIX (NYC | L.I.E.S.)</li>
-      <li>Greg Z (NYC | Rock and Roll Records)</li>
-      <li>PRIVILEGE (NYC | mem. OPPONENTS)</li>
-      <li>Abbyss D (NYC | Ai Ram Eva) </li>
-      <li>Hardon Collider (Cincinnati)</li>
-      <li>Mulatto Thunders (Toledo)</li>
-      <li>Fast Times (NYC | 100% Silk)</li>
-      <li>HALF LIFE (NYC | Industry of Machines)</li>
-      <li class="more">Jon Williams (NYC | mem. Excepter)</li>
-      <li>DJ Andi (NYC |The Postpunk Project)</li>
-    </ul>
-    (<a href="https://www.facebook.com/events/278912635592206/">fb</a>)
-  </li>
-
   <li class="music">20 Mar 2014 / 
     <ul>
       <li class="more">Excepter</li>
