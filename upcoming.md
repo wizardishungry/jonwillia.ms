@@ -36,7 +36,15 @@ body_class: "info upcoming"
     (<a href="https://www.facebook.com/events/278912635592206/">fb</a>)
   </li>
 
-  <li class="tba">20 Mar 2014 / TBA</li>
+  <li class="music">20 Mar 2014 / 
+    <ul>
+      <li class="more">Excepter</li>
+      <li>Mirror Mirror</li>
+      <li>O Paradiso</li>
+      <li>Brother Bruno (DJ)</li>
+    </ul>
+    AT RADIO BUSHWICK MARCH 20, 2014, 8:30PM, $10, 21+
+  </li>
 
   <li class="music">2-28 Apr 2014 / <a href="http://excepter.net/" class="more">Excepter</a> European Tour</li>
 
