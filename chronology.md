@@ -10,7 +10,7 @@ body_class: "info chronology"
 
   <li class="dj">4 Jun 2014 / <a href="https://www.facebook.com/events/401706799969408/">SIGNS 06</a></li>
 
-  <li class="dj">10 May 2014 / Excepter + Regal Degal at Union Pool</li>
+  <li class="music">10 May 2014 / Excepter + Regal Degal at Union Pool</li>
 
   <li class="dj">7 May 2014 / SIGNS 05: Excepter Edition
     <ul>
