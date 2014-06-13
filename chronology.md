@@ -8,6 +8,21 @@ body_class: "info chronology"
 
 <ul class="classed root">
 
+  <li class="dj">4 Jun 2014 / <a href="https://www.facebook.com/events/401706799969408/">SIGNS 06<a></li>
+
+  <li class="dj">10 May 2014 / Excepter + Regal Degal at Union Pool</li>
+
+  <li class="dj">7 May 2014 / SIGNS 05: Excepter Edition
+    <ul>
+      <li><a href="http://www.excepter.net/">Excepter</a></li>
+      <li>J Slusher  (OPPONENTS, PRIVILEGE, The Seed, Lost Soul)</li>
+    </ul>
+    Wreck Room, 10pm
+    (<a href="https://www.facebook.com/events/1443707209195607/">fb</a>)
+  </li>
+
+  <li class="music">3-26 Apr 2014 / <a href="http://excepter.net/" class="more">Excepter</a> European Tour</li>
+
   <li class="music">20 Mar 2014 / 
     <ul>
       <li class="more">Excepter</li>
