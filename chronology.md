@@ -8,7 +8,7 @@ body_class: "info chronology"
 
 <ul class="classed root">
 
-  <li class="dj">4 Jun 2014 / <a href="https://www.facebook.com/events/401706799969408/">SIGNS 06<a></li>
+  <li class="dj">4 Jun 2014 / <a href="https://www.facebook.com/events/401706799969408/">SIGNS 06</a></li>
 
   <li class="dj">10 May 2014 / Excepter + Regal Degal at Union Pool</li>
 
