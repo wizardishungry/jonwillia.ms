@@ -5,10 +5,9 @@ body_class: "info chronology"
 ---
 <a href="upcoming.html">Why look back; the future's cool, too!</a>
 
-
-
-
 <ul class="classed root">
+
+  <li class="music">2 Aug 2014 / Excepter @ Earwax Records, Brooklyn, NY. 2pm</li>
 
   <li class="music">21 Jun 2014 / 
     <ul>
