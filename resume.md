@@ -32,8 +32,8 @@ group: navigation
 
 I am currently seeking a mid-to-senior level engineering position in the New York City area at a technology-driven company that
 
-* utilizes modern software development methodologies – e.g. test-driven development, continuous delivery, devops, etc. 
-* <a title="Dog Whistle: I don't want another PHP role; ask me to tell you more!">allows engineers to utilize modern technologies</a>,
+* utilizes modern software development methodologies – e.g. test-driven development, continuous delivery, DevOps, etc. 
+* <span title="Dog Whistle: I don't want another PHP role; ask me to tell you more!">allows engineers to utilize modern technologies</span>,
 * and provides an informal, friendly, team-based environment.
 
 ## Technical Highlights
