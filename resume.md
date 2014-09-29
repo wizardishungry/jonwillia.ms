@@ -36,8 +36,8 @@ group: navigation
 * 6 years [Git](http://git-scm.com/) experience. Familiarity with [CVS](http://www.nongnu.org/cvs/) & [Subversion](http://subversion.apache.org) version control systems.
 * 13 years [Perl](http://www.perl.org) & [Bash](http://www.gnu.org/software/bash/) scripting.
 * Linux virtualization / automation expertise across [Xen](http://www.xen.org), [Amazon AWS](https://aws.amazon.com/), [VirtualBox](https://www.virtualbox.org), [Docker](https://www.docker.com), etc.
-* Systems and deployment automation with [Chef](http://www.opscode.com/chef/) & [Capistrano](https://github.com/capistrano/capistrano/) ([Ruby](http://www.ruby-lang.org/).
-* Test-driven development, continuous integration implementation ([Hudson/Jenkins](http://jenkins-ci.org)
+* Systems and deployment automation with [Chef](http://www.opscode.com/chef/) & [Capistrano](https://github.com/capistrano/capistrano/) ([Ruby](http://www.ruby-lang.org/)).
+* Test-driven development, continuous integration implementation ([Hudson/Jenkins](http://jenkins-ci.org))
 
 ## Experience
 
@@ -48,7 +48,7 @@ _Technical project leadership for 10 subscription-only financial industry public
 * Responsible for release management, including packaging and coordination with operations staff.
 * Migrated PEAR-based packaging system to [Composer](http://www.getcomposer.org/)
 * Technical stakeholder on projects; worked closely with business analysts, QA, sales, advertising and editorial teams to best allocate technical resources for project cycles.
-* Launched new publication allowing free subscription with registration while leveraging existing codebase ([FinancialAdvisorIQ.com](http://financialadvisoriq.com/).
+* Launched new publication allowing free subscription with registration while leveraging existing codebase ([FinancialAdvisorIQ.com](http://financialadvisoriq.com/)).
 * Developed lightweight PDF-rendering service in [Coffeescript](http://www.coffeescript.org/) and [NodeJS](http://www.nodejs.org/).
 * Led Mobile development projects on Android and iOS using [Appcelerator Titanium/Alloy](http://www.appcelerator.com/) cross-platform JavaScript framework.
 * Data integration with exta-organizational sites with Atom XML and CSV data feeds.
@@ -77,7 +77,7 @@ _Relaunched high-traffic celebrity news website._
 _Development of hardware security network appliance. _
 
 *	Maintained & enhanced GateKeeper Linux appliance using Agile process. Primary focus on [PHP](http://www.php.net/) web services & Javascript UI; other components included C-language daemons, Java applets, MySQL.
-*	Designed and extended clustering to integrate in-house high availability functionality with recently acquired network password vault product replication ([JBoss](http://www.jboss.org/).
+*	Designed and extended clustering to integrate in-house high availability functionality with recently acquired network password vault product replication ([JBoss](http://www.jboss.org/)).
 *	Spearheaded web app security evaluation and hardening, CSRF protection design, PHP vulnerability assessment.
 *	Prototype of Enterprise management console in [Symfony2](http://www.symfony.com/) PHP framework, [jQuery](http://jquery.com/), [Ontology Web Language](http://www.w3.org/TR/owl-features/) (OWL RDF/XML) backing store. Web-based ontology explorer.
 *	Remote debugging of customer installations worldwide. Network protocol analysis using [Wireshark](http://www.wireshark.org).
