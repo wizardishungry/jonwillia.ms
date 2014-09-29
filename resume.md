@@ -21,11 +21,20 @@ group: navigation
 <div id="toc">
 
 <ol>
+  <li><a href="#technical-highlights">Objective</a></li>
   <li><a href="#technical-highlights">Technical Highlights</a></li>
   <li><a href="#experience">Experience</a></li>
   <li><a href="#education">Education</a></li>
 </ol>
 </div>
+
+## Objective
+
+I am currently seeking a mid-to-senior level engineering position in the New York City area at a technology-driven company that
+
+* utilizes modern software development methodologies – e.g. test-driven development, continuous delivery, devops, etc. 
+* <a title="Dog Whistle: I don't want another PHP role; ask me to tell you more!">allows engineers to utilize modern technologies</a>,
+* and provides an informal, friendly, team-based environment.
 
 ## Technical Highlights
 
