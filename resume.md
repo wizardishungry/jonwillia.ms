@@ -42,17 +42,17 @@ group: navigation
 ## Experience
 
 ### Dev Team Lead, [Money-Media](http://www.money-media.com) / [Financial Times](http://www.ft.com/), New York, NY — 1/2013 -
-_Technical project leadership for 10 subscription-only financial industry publications. _
+_Technical project leadership for 10+ subscription-only financial industry publications._
 
 * Development of front-end website using PHP, [Zend](http://framework.zend.com/) 1.12, MySQL and Doctrine.
 * Responsible for release management, including packaging and coordination with operations staff.
 * Migrated PEAR-based packaging system to [Composer](http://www.getcomposer.org/)
 * Technical stakeholder on projects; worked closely with business analysts, QA, sales, advertising and editorial teams to best allocate technical resources for project cycles.
 * Launched new publication allowing free subscription with registration while leveraging existing codebase ([FinancialAdvisorIQ.com](http://financialadvisoriq.com/)).
-* Developed lightweight PDF-rendering service in [Coffeescript](http://www.coffeescript.org/) and [NodeJS](http://www.nodejs.org/).
-* Led Mobile development projects on Android and iOS using [Appcelerator Titanium/Alloy](http://www.appcelerator.com/) cross-platform JavaScript framework.
+* Developed lightweight PDF-rendering service in [Coffeescript](http://www.coffeescript.org/) and [Node](http://www.nodejs.org/).
+* Led mobile development projects on Android and iOS using [Appcelerator Titanium/Alloy](http://www.appcelerator.com/) cross-platform JavaScript framework.
 * Data integration with exta-organizational sites with Atom XML and CSV data feeds.
-* Led Test-driven Development practice within team; designed unit/integration test specifications for junior developers.
+* Supported test-driven Development practice within team; designed unit/integration test specifications for junior developers.
 * Spearheaded web security analysis, developed Cross Site Scripting (XSS) and Cross Site Request Forgery protection for existing web sites.
 * Conversion of development, QA &amp; production architecture to HTTPS; including Elastic Load Balancers, mobile applications, web service endpoints, and advertising creatives.
 * Supported continuous integration environment using Jenkins CI server.
