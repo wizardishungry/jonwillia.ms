@@ -7,6 +7,13 @@ body_class: "info chronology"
 
 <ul class="classed root">
 
+
+  <li class="music"> 3 Oct 2014 /
+    EXCEPTER presents EXCEPTER / SOWLEKIL-AN / DEEP TROUBLE / Keith Connolly
+    @ Silent Bar, Queens, NY
+    (<a href="https://www.facebook.com/events/314377268751355/">fb</a>)
+  </li>
+
   <li class="music">15 Aug 2014 / Excepter + a mess of bands @ Europa, Brooklyn (<a href="https://www.facebook.com/events/1445500985728355/">fb</a>)</li>
   <li class="music">2 Aug 2014 / Excepter @ Earwax Records, Brooklyn, NY. 2pm (<a href="https://www.facebook.com/events/302474079921878/">fb</a>)</li>
 
@@ -297,7 +304,7 @@ DJ sets from Harrison, Jon Williams, Lala and John Fell Ryan.<br>
       <li>J. Slusher - (OPPONENTS, Unstable Systems, Religion Recs)</li>
       <li class="more">P. Pyuri - (Jon Williams, Excepter)</li>
       <li>Mike Zorman - heavily processed guitar compositions, Mr. Saturday Night's roommate </li>
-      <li>Half Life (Dan Meager DJ set)</li>
+      <li>Half Life (DJ)</li>
     </ul>
     <a href="https://www.facebook.com/events/236569949818598">@ The Ho_se, Brooklyn</a>
   </li>
