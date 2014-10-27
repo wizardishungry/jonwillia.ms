@@ -7,6 +7,14 @@ body_class: "info chronology"
 
 <ul class="classed root">
 
+  <li class="music">26 Oct 2014 / <span class="more">Excepter</span>, Breakdancing Ronald Reagan, Aunt's Analog, Reversus, Anna-Stina, Hood Ghandy & MAKS
+    @ Palisades (<a href="https://www.facebook.com/events/912551858773835/">fb</a>)
+  </li>
+  <li class="music">25 Oct 2014 / <span class="more">Excepter</span> @ HOLLY JOLLOWEEN 24-HOUR DRONE FESTIVAL Death by Audio, Williamsburg, Brooklyn. (<a href="https://www.facebook.com/events/1480688132213781/">fb</a>)</li>
+  <li class="music">25 Oct 2014 /
+    Porcelain Raft with Lydia Ainsworth, <span class="more">Excepter</span>, and Buscabulla @ Cameo Gallery, Williamsburg, Brooklyn.
+    <a href="http://www.cameony.net/event/703759-porcelain-raft-brooklyn/">Free with RSVP</a>
+  </li>
 
   <li class="music"> 3 Oct 2014 /
     EXCEPTER presents EXCEPTER / SOWLEKIL-AN / DEEP TROUBLE / Keith Connolly
