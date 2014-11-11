@@ -7,6 +7,7 @@ body_class: "info chronology"
 
 <ul class="classed root">
 
+  <li class="music">7 Nov 2014 / Excepter, Running, Music Blues @ Death By Audio</li>
   <li class="music">26 Oct 2014 / <span class="more">Excepter</span>, Breakdancing Ronald Reagan, Aunt's Analog, Reversus, Anna-Stina, Hood Ghandy & MAKS
     @ Palisades (<a href="https://www.facebook.com/events/912551858773835/">fb</a>)
   </li>
