@@ -7,7 +7,11 @@ body_class: "info upcoming"
 
   <li class="curration dj">4 Dec 2014 / TBA</li>
   <li class="music">12 Dec 2014 7am / <a href="https://www.facebook.com/events/1517035161853918">SMHOAKSTOCK 4</a> @ Shea Stadium  20 Meadow St, Brooklyn, New York 11206</li>
-  <!-- <li class="music">12 Dec 2014 / Excepter, Guardian Alien @ Trans Pecos</li> -->
+  <!-- 
+  <li class="music">12 Dec 2014 / Excepter, Guardian Alien @ Trans Pecos</li>
+  <li class="music">16 Jan 2015 / Excepter @ The Bitter End</li>
+  -->
+  
 
 </ul>
 
