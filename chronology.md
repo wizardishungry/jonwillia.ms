@@ -1038,4 +1038,11 @@ DJ: The Magick Report
         w/ Bryce Hackford, Picadors, ??
     </li>
 
+    <h3>Time passes?</h3>
+
+    <li class="music">2 Mar 2003 /
+      Aa, Parts and Labor, Japanese Karaoke Afterlife Experiment, Knifestorm, Ian+Jon
+      @ The Civic Center in Providence, RI
+    </li>
+
 </ul>
