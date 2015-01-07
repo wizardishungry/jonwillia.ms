@@ -252,3 +252,10 @@ body {
 .pin-tag { color:#18c;text-decoration:none;font-size:0.9em; }
 
 .gist, .highlight { overflow: scroll; font-size: 90%; }
+
+#toc {
+	float: right;
+	border: 2px dashed #007200;
+	padding: 8px;
+	font-size: larger;
+}
