@@ -5,21 +5,18 @@ body_class: "info upcoming"
 ---
 <ul class="classed root">
 
-  <li class="dj">
-    4 Dec 2014 / Excepter Presents: ALICE COHEN, GRAMMA, SLEEVELESS and EXCEPTER DJs 
+  <li class="music">20 Mar 2015 /
+    <ul>
+      <li>SENSATIONS' FIX</li>
+      <li class="more">EXCEPTER</li>
+      <li>GHOST LIGHT</li>
+      <li>MILES PFLANZ</li>
+      <li>DJ DAVE CONEHEAD</li>
+      <li>LIGHTS BY IVY MEADOWS</li>
+    </ul>
     @ Trans Pecos 915 Wycoff Ave, Queens, New York
-    (<a href="https://www.facebook.com/events/883827124971307/">fb</a>)
+    (<a href="https://www.facebook.com/events/1556613747928894/">fb</a>)
   </li>
-  <li class="music">12 Dec 2014 7am / <a href="https://www.facebook.com/events/1517035161853918">SMHOAKSTOCK 4</a> @ Shea Stadium  20 Meadow St, Brooklyn, New York 11206</li>
-  <li class="music">12 Dec 2014 /
-    PCPC Zine Release w/ Excepter, Guardian Alien, Weyes Blood
-    @ Trans Pecos 915 Wycoff Ave, Queens, New York
-    (<a href="https://www.facebook.com/events/1505881373007080/">fb</a>)
-  </li>
-  <!-- 
-  <li class="music">16 Jan 2015 / Excepter @ The Bitter End</li>
-  -->
-  
 
 </ul>
 

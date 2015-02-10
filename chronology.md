@@ -6,7 +6,17 @@ body_class: "info chronology"
 <a href="upcoming.html">Why look back; the future's cool, too!</a>
 
 <ul class="classed root">
-
+  <li class="music">12 Dec 2014 /
+    PCPC Zine Release w/ Excepter, Guardian Alien, Weyes Blood
+    @ Trans Pecos 915 Wycoff Ave, Queens, New York
+    (<a href="https://www.facebook.com/events/1505881373007080/">fb</a>)
+  </li>
+  <li class="music">12 Dec 2014 7am / <a href="https://www.facebook.com/events/1517035161853918">SMHOAKSTOCK 4</a> @ Shea Stadium  20 Meadow St, Brooklyn, New York 11206</li>
+  <li class="dj">
+    4 Dec 2014 / Excepter Presents: ALICE COHEN, GRAMMA, SLEEVELESS and EXCEPTER DJs
+    @ Trans Pecos 915 Wycoff Ave, Queens, New York
+    (<a href="https://www.facebook.com/events/883827124971307/">fb</a>)
+  </li>
   <li class="music">7 Nov 2014 / Excepter, Running, Music Blues @ Death By Audio</li>
   <li class="music">26 Oct 2014 / <span class="more">Excepter</span>, Breakdancing Ronald Reagan, Aunt's Analog, Reversus, Anna-Stina, Hood Ghandy & MAKS
     @ Palisades (<a href="https://www.facebook.com/events/912551858773835/">fb</a>)
