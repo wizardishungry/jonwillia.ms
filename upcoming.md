@@ -18,6 +18,8 @@ body_class: "info upcoming"
     (<a href="https://www.facebook.com/events/1556613747928894/">fb</a>)
   </li>
 
+
+  <li class="music">15 Aug 2015 / <span class="more">Excepter</span> DOG DAY into NIGHT fest. 12 noon - 4am.</li>
 </ul>
 
 <h5><a href="chronology.html">Past events?</a></h5>
