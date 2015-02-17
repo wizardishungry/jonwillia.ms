@@ -33,17 +33,17 @@ group: navigation
 I am currently seeking a mid-to-senior level engineering position in the New York City area at a technology-driven company that
 
 * utilizes modern software development methodologies – e.g. test-driven development, continuous delivery, DevOps, etc. 
-* <span title="Dog Whistle: I don't want another PHP role; ask me to tell you more!">allows engineers to utilize modern technologies</span>,
+* <span title="Dog Whistle: I don't really want another PHP role; ask me to tell you more!">allows engineers to utilize modern technologies</span>,
 * and provides an informal, friendly, team-based environment.
 
 ## Technical Highlights
 
-* 7 years developing in [Symfony](http://www.symfony.com/) [PHP](http://www.php.net/) MVC framework.
-* 13 years [Javascript](https://developer.mozilla.org/en-US/docs/JavaScript) experience including [jQuery](http://jquery.com/) & [Prototype](http://prototypejs.org) libraries.
-* 10 years PHP development across entire LAMP stack, including HTML/CSS and MySQL.
-* 11 years professional Linux/UNIX systems administration, primarily on [Debian](http://www.debian.org/)/[Ubuntu](http://www.ubuntu.com/), [Red Hat](http://www.redhat.com)/[CentOS](http://www.centos.org/) & [OpenBSD](http://www.openbsd.org). Deep experience in [Apache](http://httpd.apache.org) configuration.
-* 6 years [Git](http://git-scm.com/) experience. Familiarity with [CVS](http://www.nongnu.org/cvs/) & [Subversion](http://subversion.apache.org) version control systems.
-* 13 years [Perl](http://www.perl.org) & [Bash](http://www.gnu.org/software/bash/) scripting.
+* 9 years developing in [Symfony](http://www.symfony.com/) [PHP](http://www.php.net/) MVC framework.
+* 15 years [Javascript](https://developer.mozilla.org/en-US/docs/JavaScript) experience including [jQuery](http://jquery.com/) & [Prototype](http://prototypejs.org) libraries.
+* 12 years PHP development across entire LAMP stack, including HTML/CSS and MySQL.
+* 13 years professional Linux/UNIX systems administration, primarily on [Debian](http://www.debian.org/)/[Ubuntu](http://www.ubuntu.com/), [Red Hat](http://www.redhat.com)/[CentOS](http://www.centos.org/) & [OpenBSD](http://www.openbsd.org). Deep experience in [Apache](http://httpd.apache.org) configuration.
+* 7 years [Git](http://git-scm.com/) experience. Familiarity with [CVS](http://www.nongnu.org/cvs/) & [Subversion](http://subversion.apache.org) version control systems.
+* 15 years [Perl](http://www.perl.org) & [Bash](http://www.gnu.org/software/bash/) scripting.
 * Linux virtualization / automation expertise across [Xen](http://www.xen.org), [Amazon AWS](https://aws.amazon.com/), [VirtualBox](https://www.virtualbox.org), [Docker](https://www.docker.com), etc.
 * Systems and deployment automation with [Chef](http://www.opscode.com/chef/) & [Capistrano](https://github.com/capistrano/capistrano/) ([Ruby](http://www.ruby-lang.org/)).
 * Test-driven development, continuous integration implementation ([Hudson/Jenkins](http://jenkins-ci.org))
