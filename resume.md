@@ -57,15 +57,18 @@ _Technical project leadership for 10+ subscription-only financial industry publi
 * Responsible for release management, including packaging and coordination with operations staff.
 * Migrated PEAR-based packaging system to [Composer](http://www.getcomposer.org/)
 * Technical stakeholder on projects; worked closely with business analysts, QA, sales, advertising and editorial teams to best allocate technical resources for project cycles.
+* Mentored and managed junior developers on full-stack development.
 * Launched new publication allowing free subscription with registration while leveraging existing codebase ([FinancialAdvisorIQ.com](http://financialadvisoriq.com/)).
 * Developed lightweight PDF-rendering service in [Coffeescript](http://www.coffeescript.org/) and [Node](http://www.nodejs.org/).
 * Led mobile development projects on Android and iOS using [Appcelerator Titanium/Alloy](http://www.appcelerator.com/) cross-platform JavaScript framework.
+* Led launch of 6 iOS tablet/phone applications for financial publications.
 * Data integration with exta-organizational sites with Atom XML and CSV data feeds.
 * Supported test-driven Development practice within team; designed unit/integration test specifications for junior developers.
 * Spearheaded web security analysis, developed Cross Site Scripting (XSS) and Cross Site Request Forgery protection for existing web sites.
 * Conversion of development, QA &amp; production architecture to HTTPS; including Elastic Load Balancers, mobile applications, web service endpoints, and advertising creatives.
 * Supported continuous integration environment using Jenkins CI server.
 * Integrated Google DoubleClick for Publishers across several publications including within mobile websites and apps.
+* Launched rich media advertising (mRAID) using Google Publisher ads and native DoubleClick modules inside mobile applications.
 
 ### Senior Developer, [Hollywood.com](http://www.hollywood.com/), New York, NY — 1/2012 - 10/2012
 _Relaunched high-traffic celebrity news website._
