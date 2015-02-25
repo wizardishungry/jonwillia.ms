@@ -20,7 +20,7 @@ body_class: "info upcoming"
 
   <li class="music">18 Apr 2015 /
     <ul>
-      <li>Bookworms</li>
+      <li>Hookworms</li>
       <li class="more">Excepter</li>
       <li>??</li>
     </ul>
