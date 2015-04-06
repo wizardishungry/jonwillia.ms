@@ -15,7 +15,7 @@ box_class: huge
 
   <li><a class="video" href="media.html">video</a></li>
 
-  
+ <!-- 
   <li>
     <a href="http://soundcloud.com/wizardishungry">music</a>
     <span class="reveal">&rarr; &rarr; <sup>&uarr;</sup></span>
@@ -28,7 +28,7 @@ box_class: huge
   
 
   <li><a class="blog" href="http://blog.wizardishungry.com/">blog</a></li>
-
+-->
   <li><a class="contact" href="mailto:jon@wizardishungry.com">contact</a></li>
 
 </ul>
