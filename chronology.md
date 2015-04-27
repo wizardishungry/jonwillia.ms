@@ -7,6 +7,15 @@ body_class: "info chronology"
 
 <ul class="classed root">
 
+  <li class="canceled music">18 Apr 2015 /
+    <ul>
+      <li>Hookworms</li>
+      <li class="more">Excepter</li>
+      <li>??</li>
+    </ul>
+    @ Pallisades, Brooklyn, New York
+  </li>
+
   <li class="music canceled">20 Mar 2015 /
     <ul>
       <li>SENSATIONS' FIX</li>
