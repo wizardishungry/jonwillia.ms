@@ -7,6 +7,14 @@ body_class: "info chronology"
 
 <ul class="classed root">
 
+  <li class="music">4 May 2015 /
+    <ul>
+      <li class="more">Excepter</li>
+    </ul>
+    @ Home Sweet Home, New York, New York
+    (<a href="https://www.facebook.com/events/429432433897966/">fb</a>)
+  </li>
+
   <li class="canceled music">18 Apr 2015 /
     <ul>
       <li>Hookworms</li>
