@@ -34,6 +34,7 @@ body_class: "info upcoming"
   </li>
 
   <li class="music">15 Aug 2015 / <span class="more">Excepter</span> DOG DAY into NIGHT fest. 12 noon - 4am.</li>
+  <li class="music">11 Sep 2015 / <span class="more">TBD</span> Austin, TX?</li>
 
 </ul>
 
