@@ -7,6 +7,17 @@ body_class: "info chronology"
 
 <ul class="classed root">
 
+
+  <li class="music">18 May 2015 /
+    <ul>
+      <li>Ohal</li>
+      <li class="more">J Slusher &amp; Jon Williams</li>
+      <li>DJ Keje</li>
+    </ul>
+    @ Troost, Brooklyn, NY
+  </li>
+
+
   <li class="music">4 May 2015 /
     <ul>
       <li class="more">Excepter</li>
