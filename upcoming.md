@@ -5,22 +5,6 @@ body_class: "info upcoming"
 ---
 <ul class="classed root">
 
-
-  <li class="music">18 May 2015 /
-    <ul>
-      <li>Fist Church</li>
-      <li>Carnal Trash</li>
-      <li>Drrty Pharms </li>
-      <li>Slusher/Cash/Hock</li>
-      <li class="more">Jon Williams</li>
-      <li>NEBADON</li>
-      <li>Richard Kamerman</li>
-    </ul>
-    @ Trans Pecos, Queens, New York
-    (<a href="https://www.facebook.com/events/1502987729962200/">fb</a>)
-  </li>
-
-
   <li class="music">11 Jun 2015 /
     <ul>
       <li class="more">Excepter</li>
