@@ -86,7 +86,7 @@ _Relaunched high-traffic celebrity news website._
 * Evaluation / documentation / integration of former employees' projects. Interfaced with contractor-developed iPad application via JSON.
 
 ### Software Engineer, [Xceedium](http://www.xceedium.com), Jersey City, NJ — 4/2011 – 12/2012 
-_Development of hardware security network appliance. _
+_Development of hardware security network appliance._
 
 *	Maintained & enhanced GateKeeper Linux appliance using Agile process. Primary focus on [PHP](http://www.php.net/) web services & Javascript UI; other components included C-language daemons, Java applets, MySQL.
 *	Designed and extended clustering to integrate in-house high availability functionality with recently acquired network password vault product replication ([JBoss](http://www.jboss.org/)).
