@@ -11,8 +11,8 @@ body_class: "info upcoming"
       <li>SOL AIRE</li>
       <li>MOISTBREEZY</li>
       <li>TREATMENT</li>
-      <li class="more">WIZARD IS HUNGRY</li>
       <li>SPACE LIONS IN OUTER SPACE</li>
+      <li class="more">WIZARD IS HUNGRY</li>
     </ul>
     @ Muchmore's, 2 Havemeyer St, Brooklyn, New York 11211
     (<a href="https://www.facebook.com/events/428390104032628/">fb</a>)
