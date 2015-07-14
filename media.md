@@ -5,6 +5,16 @@ body_class: "info media"
 box_class: huge
 ---
 <ul class="media">
+    <li><h3>Jon Williams live at Trans-Pecos, May 18th, 2015</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/G_0Lqi_FbYA" frameborder="0" allowfullscreen> </iframe></li>
+    <li><h3>Excepter live @ Trans Pecos 2014</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZOzEw7Ycfac" frameborder="0" allowfullscreen> </iframe></li>
+    <li><h3>Excepter live @ La Casa Encendida / Madrid. 2014</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LjZq8ynUr2E" frameborder="0" allowfullscreen> </iframe></li>
+    <li><h3>Excepter live @ Baby's All Right Brooklyn 2014</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3Y4nPgrbXxM" frameborder="0" allowfullscreen> </iframe></li>
+    <li><h3>Excepter live @ St. Vitus 2013</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9F9WZhxDGRk" frameborder="0" allowfullscreen> </iframe></li>
     <li><h3>Enoch: A.L.N. - Ev Rev</h3>
     <iframe src="http://player.vimeo.com/video/27566659?portrait=0" width="640" height="360" frameborder="0"> </iframe></li>
     <li><h3>Enoch: A.L.N. - A.L.L.</h3>
@@ -34,7 +44,7 @@ box_class: huge
     <li><h3>Love Like Deloreans - Sun Sine (live)</h3>
     <object width="640" height="360"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=9056766&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=9056766&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="640" height="360"></embed></object></li>
     <li><h3><a href="http://www.youtube.com/view_play_list?p=969A9C4C8185CEBA">Excepter Election Day 2008</a></h3>
-    <object width="480" height="385"><param name="movie" value="http://www.youtube.com/p/969A9C4C8185CEBA&hl=en_US&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/p/969A9C4C8185CEBA&hl=en_US&fs=1" type="application/x-shockwave-flash" width="480" height="385" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+    <object width="480" height="385"><param name="movie" value="http://www.youtube.com/p/969A9C4C8185CEBA&amp;hl=en_US&amp;fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/p/969A9C4C8185CEBA&amp;hl=en_US&amp;fs=1" type="application/x-shockwave-flash" width="480" height="385" allowscriptaccess="always" allowfullscreen="true"></embed></object>
     <p>1 of 17 hours.</p>
     </li>
     <li><h3>John Fell Ryan as SETH - Mr. Lee</h3>
@@ -46,7 +56,7 @@ box_class: huge
     <li class="caption"><h3>Excepter - Goodbye Bazalon</h3>
     <iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/SkK8byUpnqI" frameborder="0"> </iframe></li>
     <li class="caption"><h3>Excepter - Heads</h3>
-    <embed id="VideoPlayback" src="http://video.google.com/googleplayer.swf?docid=3891974777947726559&hl=en&fs=true" style="width:400px;height:326px" allowFullScreen="true" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></li>
+    <embed id="VideoPlayback" src="http://video.google.com/googleplayer.swf?docid=3891974777947726559&amp;hl=en&amp;fs=true" style="width:400px;height:326px" allowFullScreen="true" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></li>
     <li><h3>John Fell Ryan as SETH (Damaged Aktions &amp; Visions Series #2)</h3>
     <iframe class="youtube-player" type="text/html" width="640" height="505" src="http://www.youtube.com/embed/qm2LHR9i4Ww" frameborder="0"> </iframe></li>
 

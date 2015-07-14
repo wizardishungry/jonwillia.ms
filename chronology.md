@@ -4,10 +4,407 @@ title: Chronology
 body_class: "info chronology"
 ---
 <a href="upcoming.html">Why look back; the future's cool, too!</a>
+
 <ul class="classed root">
 
-  <li class="dj"> 5 Mar 2011 /
-  <pre>
+
+  <li class="music">11 Jun 2015 /
+    <ul>
+      <li class="more">Excepter</li>
+      <li>White Suns</li>
+      <li>Baby Birds Don't Drink Milk</li>
+      <li>Mezzanine Swimmers</li>
+      <li>Lutkie</li>
+    </ul>
+    @ Aviv, Brooklyn, New York
+    (<a href="https://www.facebook.com/events/908321645896847/">fb</a>)
+  </li>
+
+
+  <li class="music">18 May 2015 /
+    <ul>
+      <li>Ohal</li>
+      <li class="more">J Slusher &amp; Jon Williams</li>
+      <li>DJ Keje</li>
+    </ul>
+    @ Troost, Brooklyn, NY
+  </li>
+
+
+  <li class="music">4 May 2015 /
+    <ul>
+      <li class="more">Excepter</li>
+    </ul>
+    @ Home Sweet Home, New York, New York
+    (<a href="https://www.facebook.com/events/429432433897966/">fb</a>)
+  </li>
+
+  <li class="canceled music">18 Apr 2015 /
+    <ul>
+      <li>Hookworms</li>
+      <li class="more">Excepter</li>
+      <li>??</li>
+    </ul>
+    @ Pallisades, Brooklyn, New York
+  </li>
+
+  <li class="music canceled">20 Mar 2015 /
+    <ul>
+      <li>SENSATIONS' FIX</li>
+      <li class="more">EXCEPTER</li>
+      <li>GHOST LIGHT</li>
+      <li>MILES PFLANZ</li>
+      <li>DJ DAVE CONEHEAD</li>
+      <li>LIGHTS BY IVY MEADOWS</li>
+    </ul>
+    @ Trans Pecos 915 Wycoff Ave, Queens, New York
+    (<a href="https://www.facebook.com/events/1556613747928894/">fb</a>)
+  </li>
+
+  <li class="music">12 Dec 2014 /
+    PCPC Zine Release w/ Excepter, Guardian Alien, Weyes Blood
+    @ Trans Pecos 915 Wycoff Ave, Queens, New York
+    (<a href="https://www.facebook.com/events/1505881373007080/">fb</a>)
+  </li>
+  <li class="music">12 Dec 2014 7am / <a href="https://www.facebook.com/events/1517035161853918">SMHOAKSTOCK 4</a> @ Shea Stadium  20 Meadow St, Brooklyn, New York 11206</li>
+  <li class="dj">
+    4 Dec 2014 / Excepter Presents: ALICE COHEN, GRAMMA, SLEEVELESS and EXCEPTER DJs
+    @ Trans Pecos 915 Wycoff Ave, Queens, New York
+    (<a href="https://www.facebook.com/events/883827124971307/">fb</a>)
+  </li>
+  <li class="music">7 Nov 2014 / Excepter, Running, Music Blues @ Death By Audio</li>
+  <li class="music">26 Oct 2014 / <span class="more">Excepter</span>, Breakdancing Ronald Reagan, Aunt's Analog, Reversus, Anna-Stina, Hood Ghandy & MAKS
+    @ Palisades (<a href="https://www.facebook.com/events/912551858773835/">fb</a>)
+  </li>
+  <li class="music">25 Oct 2014 / <span class="more">Excepter</span> @ HOLLY JOLLOWEEN 24-HOUR DRONE FESTIVAL Death by Audio, Williamsburg, Brooklyn. (<a href="https://www.facebook.com/events/1480688132213781/">fb</a>)</li>
+  <li class="music">25 Oct 2014 /
+    Porcelain Raft with Lydia Ainsworth, <span class="more">Excepter</span>, and Buscabulla @ Cameo Gallery, Williamsburg, Brooklyn.
+    <a href="http://www.cameony.net/event/703759-porcelain-raft-brooklyn/">Free with RSVP</a>
+  </li>
+
+  <li class="music"> 3 Oct 2014 /
+    EXCEPTER presents EXCEPTER / SOWLEKIL-AN / DEEP TROUBLE / Keith Connolly
+    @ Silent Bar, Queens, NY
+    (<a href="https://www.facebook.com/events/314377268751355/">fb</a>)
+  </li>
+
+  <li class="music">15 Aug 2014 / Excepter + a mess of bands @ Europa, Brooklyn (<a href="https://www.facebook.com/events/1445500985728355/">fb</a>)</li>
+  <li class="music">2 Aug 2014 / Excepter @ Earwax Records, Brooklyn, NY. 2pm (<a href="https://www.facebook.com/events/302474079921878/">fb</a>)</li>
+
+  <li class="music">21 Jun 2014 / 
+    <ul>
+      <li>Blondes in the Jungle (Dir: Lev Kalman, 2009. 48 min. USA.)</li>
+      <li>Excepter</li>
+      <li>The Crystal Ark</li>
+    </ul>
+    @
+    Body Actualized Center
+    143 Troutman St 
+    Bushiwck, NY
+    11206
+    (<a href="https://www.facebook.com/events/807940845896884/">fb</a>)
+  </li>
+
+  <li class="music canceled">14 Jun 2014 / <a href="http://excepter.net/" class="more">Excepter</a> @ <a href="http://suoniperilpopolo.org/fr/suoni2014/">Suoni Per Il Popolo festival in Montreal, Quebec</a></li>
+
+  <li class="dj">4 Jun 2014 / <a href="https://www.facebook.com/events/401706799969408/">SIGNS 06</a></li>
+
+  <li class="music">10 May 2014 / Excepter + Regal Degal at Union Pool</li>
+
+  <li class="dj">7 May 2014 / SIGNS 05: Excepter Edition
+    <ul>
+      <li><a href="http://www.excepter.net/">Excepter</a></li>
+      <li>J Slusher  (OPPONENTS, PRIVILEGE, The Seed, Lost Soul)</li>
+    </ul>
+    Wreck Room, 10pm
+    (<a href="https://www.facebook.com/events/1443707209195607/">fb</a>)
+  </li>
+
+  <li class="music">3-26 Apr 2014 / <a href="http://excepter.net/" class="more">Excepter</a> European Tour</li>
+
+  <li class="music">20 Mar 2014 / 
+    <ul>
+      <li class="more">Excepter</li>
+      <li>Mirror Mirror</li>
+      <li>O Paradiso</li>
+      <li>Brother Bruno (DJ)</li>
+    </ul>
+    AT RADIO BUSHWICK MARCH 20, 2014, 8:30PM, $10, 21+
+    (<a href="https://www.facebook.com/events/1401432166789456/">fb</a>)
+  </li>
+
+  <li class="dj">7 Mar 2014 / "Technopagans|at|the|End|of|History" 
+    <ul>
+      <li>A Pleasure (NYC | Other People)</li>
+      <li>PVRE MATRIX (NYC | L.I.E.S.)</li>
+      <li>Greg Z (NYC | Rock and Roll Records)</li>
+      <li>PRIVILEGE (NYC | mem. OPPONENTS)</li>
+      <li>Abbyss D (NYC | Ai Ram Eva) </li>
+      <li>Hardon Collider (Cincinnati)</li>
+      <li>Mulatto Thunders (Toledo)</li>
+      <li>Fast Times (NYC | 100% Silk)</li>
+      <li>HALF LIFE (NYC | Industry of Machines)</li>
+      <li class="more">Jon Williams (NYC | mem. Excepter)</li>
+      <li>DJ Andi (NYC |The Postpunk Project)</li>
+    </ul>
+    (<a href="https://www.facebook.com/events/278912635592206/">fb</a>)
+  </li>
+
+
+  <li class="dj">5 Mar 2014 / SIGNS 03 
+    <ul>
+      <li>L. Sangre </li>
+      <li>Brian Traister (BUBL-LAB)</li>
+      <li>J Slusher  (OPPONENTS, PRIVILEGE, The Seed, Lost Soul)</li>
+      <li class="more">Jon Williams (EXCEPTER)</li>
+    </ul>
+    10pm - 4am
+    3/5/2014
+    Wreck Room 
+    FREE
+    (<a href="https://www.facebook.com/events/1492282690998537/">fb</a>)
+  </li>
+
+
+  <li class="music">24 Feb 2014 /
+    <ul>
+      <li class="more">Excepter</li>
+      <li>Zs</li>
+      <li>Lushes </li>
+    </ul>
+    @ Baby's Alright, Brooklyn NY
+    (<a href="https://www.facebook.com/events/671838889539573/">fb</a>)
+  </li>
+  
+  <li class="dj">5 Feb 2014 /
+  SIGNS 02
+  <ul>
+    <li>A Pleasure  (Live P.A., Other People)</li>
+    <li>DJ Andi (DJ SET, Post-Punk Project)</li>
+    <li>J Slusher (OPPONENTS, PRIVILEGE, The Seed, BNCC)</li>
+    <li class="more">J Williams</li>
+  </ul>
+  @ Wreck Room, Brooklyn NY 10pm 
+  (<a href="https://www.facebook.com/events/235507973287508/">fb</a>)
+</li>
+
+  
+  <li class="dj">28 Jan 2014 /
+    <ul>
+      <li>YVETTE</li>
+      <li>Aa (BIG A little a) - RECORD RELEASE</li>
+      <li>Seaven Teares (mems Extra Life, ZS)</li>
+      <li>RAT ATTACK (mems Knyfe Hyts, Brat Pit, Ovary Action)</li>
+      <li class="more">DJ Jon Williams (EXCEPTER) on interstitial 1s/2s</li>
+    </ul>
+    DEAaTH BY AaUDIO
+    8 PM, $8
+    (<a href="https://www.facebook.com/events/603446283059016">fb</a>)
+  </li>
+
+  <li class="music">11 Jan 2014 /
+    <ul>
+      <li>CHRIS &amp; COSEY</li>
+      <li class="more">Excepter</li>
+    </ul>
+    @
+    Santos Party House, NY, NY
+    (<a href="http://www.santospartyhouse.com/event/index/id/3615">info</a>)
+  </li>
+
+  <li class="dj">1 Jan 2014 /
+    SIGNS 01/01
+    <ul>
+      <li>Porkchop</li>
+      <li>Joshua Slusher</li>
+      <li class="more">Jon Williams</li>
+    </ul>
+    @ Wreck Room, Brooklyn NY LATE
+    (<a href="https://www.facebook.com/events/639856892726913/">fb</a>)
+  </li>
+
+  <li class="dj">1 Jan 2014 /
+    <ul>
+      <li>FFH</li>
+      <li>Breakdancing Ronald Reagan</li>
+      <li>I Watched You Die</li>
+      <li>Richard Kamerman </li>
+      <li>High School Confidential</li>
+      <li>J Slusher</li>
+      <li>Blessed Thistle </li>
+      <li>KHF</li>
+      <li class="more">Jon Williams</li>
+    </ul>
+    @ Silent Barn, Brooklyn NY
+    (<a href="https://www.facebook.com/events/220040758177669/">fb</a>)
+  </li>
+  
+
+  <li class="dj">14 Dec 2013 /
+    <p>
+Director Harrison Owen <br>
+will be screening his music video for <br>
+"MAIDS" <br>
+lead track off Excepter's forthcoming LP <br>
+"FAMILIAR" <br>
+(due on Blast First Petite early 2014) <br>
+featuring the dancing of Jessie Gold and Elle Erdman.<br>
+<br>
+DJ sets from Harrison, Jon Williams, Lala and John Fell Ryan.<br>
+<br>
+"MAIDS" will be shown throughout the night so come on by and say HI.<br>
+    </p>
+    @ Cafe Dancer, 96 Orchard Street, New York, NY
+    (<a href="https://www.facebook.com/events/643127715730520/">fb</a>)
+  </li>
+
+  <li class="dj">12 Dec 2013 /
+    <ul>
+      <li>Juju Mechanix</li>
+      <li>Sadu - Lala [Excepter] &amp; Hiko piano duo</li>
+      <li class="more">Jon Williams</li>
+    </ul>
+  @ Manhattan Inn, Brooklyn, NY
+  (<a href="https://www.facebook.com/events/607294615996793/">fb</a>
+  </li>
+
+  <li class="dj">4 Dec 2013 /
+    <ul>
+      <li>Joshua Slusher (Opponents)</li>
+      <li class="more">Jon Williams</li>
+    </ul>
+    @ Wreck Room, Brooklyn NY
+    (<a href="https://www.facebook.com/events/641887915857135/">fb</a>)
+  </li>
+
+  <li class="music">15 Nov 2013 /
+    <ul>
+      <li class="more">Excepter</li>
+      <li>Eraas</li>
+      <li>Soviet Soviet</li>
+      <li>Felte</li>
+    </ul>
+    @ St. Vitus, Brooklyn NY
+  </li>
+
+  <li class="lecture">6 Nov 2013 /
+    <a href="http://sitebag.biz">Sitebag</a> talk on <a href="https://github.com/wizARDISHUNGRY/dump1090">dump1090</a>:
+    <ul>
+      <li class="more">Jon Williams</li>
+      <li>Allen Riley</li>
+      <li>Jeff Sisson</li>
+    </ul>
+    
+    47 Bergen St.
+    Brooklyn, NY 11201
+    G/F to Bergen
+    
+    enter via the alley next to the Invisible Dog Art Center. 7-9pm
+  </li>
+
+
+  <li class="music">1 Nov 2013 /
+    <ul>
+        <li class="more">Excepter</li>
+        <li>Shan Funkness DJ (LIGHT ASYLUM)</li>
+        <li>Agressiva (mem. Gla22/Rogelio Ramos)</li>
+        <li>Jan Woo (DJ)</li>
+        <li>Ivy Meadows [lights]</li>
+    </ul>
+    @ Body Actualized Center, 143 Troutman, Brooklyn (<a href="https://www.facebook.com/events/1421655211386415/">fb</a>)
+  </li>
+
+  <li class="music">31 Oct 2013 /
+    <ul>
+      <li>Crystal Stilts</li>
+      <li class="more">Excepter</li>
+      <li>Zachary Cale</li>
+    </ul>
+    @ Bowery Ballroom, NYC
+  </li>
+
+  <li class="birthday">2 Oct 2013 / 
+    Kooler Than Jesus presents: my birthday!
+    <ul>
+      <li>John Fell Ryan</li>
+      <li>Lorna Dune</li>
+      <li>Half Life</li>
+    </ul>
+    @ Wreck Room, Brooklyn (<a href="https://www.facebook.com/events/1411513769077365/1411525369076205/">fb</a>)
+  </li>
+
+  <li class="music">4 Aug 2013 /
+    <ul>
+      <li class="more"><a href="http://www.excepter.net/">Excepter</a></li>
+    </ul>
+    @ Lowtide Bar, Rockaway, Queens (<a href="https://www.facebook.com/events/554619947930659/">fb</a>)
+  </li>
+  
+  <li class="music">7 Jul 2013 /
+    <ul>
+      <li>Miho Hatori (Cibo Matto)</li>
+      <li class="more"><a href="http://www.excepter.net/">Excepter</a></li>
+      <li>Diamond Terrifier</li>
+      <li>La Big Vic</li>
+      <li>Co La</li>
+      <li>Two Human Beings (mem. Empress Of)</li>
+    </ul>
+    @ Silent Barn, Brooklyn (<a href="https://www.facebook.com/events/545353965512997/">fb</a>)
+  </li>
+
+  <li class="music">14 Jun 2013 /
+    <ul>
+      <li class="more"><a href="http://www.excepter.net/">Excepter</a></li>
+      <li>Pearl Necklace</li>
+      <li>Regal Degal</li>
+    </ul>
+    @ <a href="https://www.facebook.com/events/370826723038300">Shea Stadium, Brooklyn</a> 
+  </li>
+
+<li class="music">18 May 2013 /
+  <ul>
+    <li><a href="http://cousinsofreggae.bandcamp.com/">Cousins Of Reggae (Montreal)</a></li>
+    <li><a href="http://opponentsnyc.com/">J Slusher (NYC OPPONENTS, Creeplings, Religion Recs)</a></li>
+    <li class="more">P. Pyuri (Excepter)</li>
+    <li><a href="https://www.facebook.com/oneeightfivesixsixeighttwothreetwo">185668232 - (Philly)</a></li>
+    <li>DJ GoFuckYaself</li>
+  </ul>
+  <a href="https://www.facebook.com/events/130458533814410/">@ La Grotta, 1535 Decatur St. Apt 2LL, Brooklyn</a>
+</li>
+
+  <li class="music">19 Apr 2013 /
+    <ul>
+      <li>1/3 Octave Band all the way from New Zealand..making a very special, very rare U.S. appearance...one-half of Birdcatcher(LP on SGG soon)</li>
+      <li>J. Slusher - (OPPONENTS, Unstable Systems, Religion Recs)</li>
+      <li class="more">P. Pyuri - (Jon Williams, Excepter)</li>
+      <li>Mike Zorman - heavily processed guitar compositions, Mr. Saturday Night's roommate </li>
+      <li>Half Life (DJ)</li>
+    </ul>
+    <a href="https://www.facebook.com/events/236569949818598">@ The Ho_se, Brooklyn</a>
+  </li>
+
+<li class="music">3  Mar 2013 /
+ <ul>
+   <li class="more">Purity Control</li>
+ </ul>
+ @ Spun o Lith opening, Fitness Gallery, Brooklyn
+</li>
+
+<li class="music">22 Jan 2013 /
+ <ul>
+   <li class="more">Purity Control</li>
+   <li>Apleasure </li>
+   <li>Svengali's Ghost</li>
+ </ul>
+ @ Wreck Room
+ 940 Flushing Avenue, Brooklyn
+</li>
+
+<li class="music"> 22 Apr 2012 /
+<a href="https://www.facebook.com/events/393473460676670/">DJ</a>
+@ La Sala Brooklyn</li>
+
+  <li class="dj"> 5 Mar 2012 / <pre>
 S.S.P.S.
 
 PLEXXUS DOR
@@ -28,7 +425,7 @@ MEEGS DOR
 
 VISUALS:
 SHATTERED SHARDS 
-(MATTHEW CARON & REBECCA GAFFNEY)
+(MATTHEW CARON &amp; REBECCA GAFFNEY)
 </pre>
   @ Wreck Room, Brooklyn, NY</li>
 
@@ -208,7 +605,7 @@ SHATTERED SHARDS
   </li>
 
 
-   <li class="music canceled">14 Jan 2010 / 
+   <li class="music canceled">14 Jan 2011 / 
         <ul>
             <li>Stare Case (John Olson &amp; Nate Young)</li>
             <li>Fossils</li>
@@ -220,7 +617,7 @@ SHATTERED SHARDS
         (<a href="http://www.facebook.com/event.php?eid=182754728410022">fb</a>)
    </li>
 
-      <li class="music&amp;video">12 Jan 2010 /
+      <li class="music&amp;video">12 Jan 2011 /
     <p style="white-space: pre-line;">
       SCRAMBLED MANIPULATIONISTS, WALLS OF VIDS, SCULPT LIGHT BRIGADIST, MACHINES, DANCING, POETRY, CANDY, AND ONE HAND CLAPPING POST-HOLIDAY FANDANGO, MAHALCHICK BIRTHDAY EXTRAVAGANZA!!
       <span class="more">ENOCH A.L.N.</span>presentering 'light overlords and sound destroyers!"
@@ -236,7 +633,7 @@ SHATTERED SHARDS
         (<a href="http://www.facebook.com/event.php?eid=173806972658255">fb</a>)
     </li>
 
-    <li class="music canceled"> 4 Jan 2010 /
+    <li class="music canceled"> 4 Jan 2011 /
         <ul>
             <li><a href="http://www.myspace.com/twoyearsonwelfare">
             Two Years On Welfare 
@@ -270,7 +667,7 @@ SHATTERED SHARDS
 
     </li>
 
-  <li class="music&video">18 Nov 2010 /
+  <li class="music&amp;video">18 Nov 2010 /
     <span class="more">Enoch A.L.N.</span> @ 
     <a href="http://soundofart.eventbrite.com/">Sound of Art Release Party!</a>
         @ Santos Party House, Manhattan, NY</li>
@@ -704,6 +1101,13 @@ DJ: The Magick Report
     <li class="music">2 Aug 2007 / <span class="more">solo noise set (unintentional!)</span>
         @ Rockstar Bar / Pies N' Thighs
         w/ Bryce Hackford, Picadors, ??
+    </li>
+
+    <h3>Time passes?</h3>
+
+    <li class="music">2 Mar 2003 /
+      Aa, Parts and Labor, Japanese Karaoke Afterlife Experiment, Knifestorm, Ian+Jon
+      @ The Civic Center in Providence, RI
     </li>
 
 </ul>
