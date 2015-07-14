@@ -21,7 +21,7 @@ body_class: "info chronology"
   </li>
 
 
-  <li class="music">18 May 2015 /
+  <li class="music">23 May 2015 /
     <ul>
       <li>Ohal</li>
       <li class="more">J Slusher &amp; Jon Williams</li>
@@ -29,6 +29,23 @@ body_class: "info chronology"
     </ul>
     @ Troost, Brooklyn, NY
   </li>
+
+
+-  <li class="music">18 May 2015 /
+-    <ul>
+-      <li>Fist Church</li>
+-      <li>Carnal Trash</li>
+-      <li>Drrty Pharms </li>
+-      <li>Slusher/Cash/Hock</li>
+-      <li class="more">Jon Williams</li>
+-      <li>NEBADON</li>
+-      <li>Richard Kamerman</li>
+-    </ul>
+-    @ Trans Pecos, Queens, New York
+-    (<a href="https://www.facebook.com/events/1502987729962200/">fb</a>)
+-  </li>
+-
+-
 
 
   <li class="music">4 May 2015 /
