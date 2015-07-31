@@ -17,7 +17,6 @@ body_class: "info upcoming"
     @ Muchmore's, 2 Havemeyer St, Brooklyn, New York 11211
     (<a href="https://www.facebook.com/events/428390104032628/">fb</a>)
   </li>
-  <li class="music">15 Aug 2015 / <span class="more">Excepter</span> DOG DAY into NIGHT fest. 12 noon - 4am.</li>
   <li class="music">12 Dec 2015 / SMHOAKSTOCK 5 @ Shea Stadium (<a href="https://www.facebook.com/events/874688785956908/">fb</a>)</li>
 </ul>
 
