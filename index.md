@@ -15,20 +15,10 @@ box_class: huge
 
   <li><a class="video" href="media.html">video</a></li>
 
- <!-- 
   <li>
     <a href="http://soundcloud.com/wizardishungry">music</a>
-    <span class="reveal">&rarr; &rarr; <sup>&uarr;</sup></span>
-    <ul class="less">
-        <li class="less"><s><a href="http://soundcloud.com/enoch-aln">Enoch A.L.N.</a></s></li>
-        <li><a href="http://excepter.net/">Excepter</a></li>
-        <li class="less"><a href="http://soundcloud.com/wizardishungry">Soundcloud</a></li>
-    </ul>
   </li>
-  
 
-  <li><a class="blog" href="http://blog.wizardishungry.com/">blog</a></li>
--->
   <li><a class="contact" href="mailto:jon@wizardishungry.com">contact</a></li>
 
 </ul>
