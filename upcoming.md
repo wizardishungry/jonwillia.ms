@@ -4,19 +4,8 @@ title: Upcoming
 body_class: "info upcoming"
 ---
 <ul class="classed root">
-  <li class="music">16 Jul 2015 /
-    <ul>
-      <li>QUALIATIK</li>
-      <li>33ME</li>
-      <li>SOL AIRE</li>
-      <li>MOISTBREEZY</li>
-      <li>TREATMENT</li>
-      <li>SPACE LIONS IN OUTER SPACE</li>
-      <li class="more">WIZARD IS HUNGRY</li>
-    </ul>
-    @ Muchmore's, 2 Havemeyer St, Brooklyn, New York 11211
-    (<a href="https://www.facebook.com/events/428390104032628/">fb</a>)
-  </li>
+
+  <li class="music">20 Sep 2015 / Solypsis, Breakdancing Ronald Reagan, <span class="more">Jon Williams</a>, TBA? @ Fuck Palace, Chicago, IL</li>
   <li class="music">12 Dec 2015 / SMHOAKSTOCK 5 @ Shea Stadium (<a href="https://www.facebook.com/events/874688785956908/">fb</a>)</li>
 </ul>
 
