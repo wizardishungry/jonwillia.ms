@@ -62,6 +62,7 @@ _Technical project leadership for 10+ subscription-only financial industry publi
 * Developed lightweight PDF-rendering microservice in [Coffeescript](http://www.coffeescript.org/) and [Node](http://www.nodejs.org/).
 * Led mobile development projects on Android and iOS using [Appcelerator Titanium/Alloy](http://www.appcelerator.com/) cross-platform JavaScript framework.
 * Led launch of 6 iOS tablet/phone applications for financial publications.
+* Architected cross-publication Single Sign On using OAuth2. Designed HTTPS authentication enhancement while allowing majority of publication remains unencrypted, to support mixed-content in advertising.
 * Data integration with exta-organizational sites with Atom XML and CSV data feeds.
 * Supported test-driven Development practice within team; designed unit/integration test specifications for junior developers.
 * Spearheaded web security analysis, developed Cross Site Scripting (XSS) and Cross Site Request Forgery protection for existing web sites.
