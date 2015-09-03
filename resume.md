@@ -30,11 +30,11 @@ group: navigation
 
 ## Objective
 
-I am currently seeking a mid-to-senior level engineering position in the New York City area at a technology-driven company that
+I am currently seeking a mid-to-senior level engineering position in the New York City area at a technology-driven company that:
 
 * utilizes modern software development methodologies – e.g. test-driven development, continuous delivery, DevOps, etc. 
-* <span title="Dog Whistle: I don't really want another PHP role; ask me to tell you more!">allows engineers to utilize modern technologies</span>,
-* and provides an informal, friendly, team-based environment.
+* <span title="Dog Whistle: I don't really want another PHP role; ask me to tell you more!">allows engineers to utilize modern technologies</span>.
+* provides an informal, friendly, team-based environment.
 
 ## Technical Highlights
 
@@ -59,7 +59,7 @@ _Technical project leadership for 10+ subscription-only financial industry publi
 * Technical stakeholder on projects; worked closely with business analysts, QA, sales, advertising and editorial teams to best allocate technical resources for project cycles.
 * Mentored and managed junior developers on full-stack development.
 * Launched new publication allowing free subscription with registration while leveraging existing codebase ([FinancialAdvisorIQ.com](http://financialadvisoriq.com/)).
-* Developed lightweight PDF-rendering service in [Coffeescript](http://www.coffeescript.org/) and [Node](http://www.nodejs.org/).
+* Developed lightweight PDF-rendering microservice in [Coffeescript](http://www.coffeescript.org/) and [Node](http://www.nodejs.org/).
 * Led mobile development projects on Android and iOS using [Appcelerator Titanium/Alloy](http://www.appcelerator.com/) cross-platform JavaScript framework.
 * Led launch of 6 iOS tablet/phone applications for financial publications.
 * Data integration with exta-organizational sites with Atom XML and CSV data feeds.
@@ -78,7 +78,7 @@ _Relaunched high-traffic celebrity news website._
 * Provisioned tiered architecture using [Varnish](https://www.varnish-cache.org) cache server w/ [Edge Side Includes](http://www.akamai.com/html/support/esi.html), MySQL, [Memcache](http://memcached.org), [APC](http://www.php.net/manual/en/book.apc.php) PHP Cache.
 * Release engineering including patch / branch maintence in [Git](http://git-scm.com/), [Capistrano](https://github.com/capistrano/capistrano/) deployment automation and scripting.
 * Architected high-performance web architecture utilizing [Amazon AWS](https://aws.amazon.com/) cloud services including [MySQL](http://www.mysql.com)/RDS, [Memcache](http://memcached.org)/Elasticache, Elastic Compute Cloud (EC2), & S3.
-* Coordinated migration of Linux/MySQL assets from Rackspace / Rackspace Cloud to Amazon AWS EC2 / RDS.
+* Coordinated migration of Linux/MySQL assets from Rackspace / Rackspace Cloud to Amazon AWS EC3 / RDS.
 * Automated systems administration &amp; operations using [Chef](http://www.opscode.com/chef/) [Ruby](http://www.ruby-lang.org/) systems integration framework on [Ubuntu](http://www.ubuntu.com/) Linux. Maintained and supported public key infrastructure.
 * Developed automated system for building [VirtualBox](https://www.virtualbox.org) and updating virtual machine images. Supported worldwide freelance developers and rapid onboarding of engineering resources.
 * Wrote specs for engineering positions; intimately involved in all technical hiring. Mentoring/support of junior &amp; frontend developers and remote freelancers.
