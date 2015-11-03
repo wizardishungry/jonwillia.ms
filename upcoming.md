@@ -4,8 +4,7 @@ title: Upcoming
 body_class: "info upcoming"
 ---
 <ul class="classed root">
-
-  <li class="music">20 Sep 2015 / SOLYPSIS, <span class="more">JON WILLIAMS</span>, BRR, ANIME LOVE HOTEL, FATHER CHRISTMAS, SHARDSTYLE, AND TOOTH_EYE @ Fuck Palace, Chicago, IL (<a href="https://www.facebook.com/events/1626987704256562/">fb</a>)</li>
+  <li class="music">21 Nov 2015 / LIVE HARDWARE ELECTRONIQUE @ Muchmore's (<a href="https://www.facebook.com/events/1510166692615439/">fb</a>)</li>
   <li class="music">12 Dec 2015 / SMHOAKSTOCK 5 @ Shea Stadium (<a href="https://www.facebook.com/events/874688785956908/">fb</a>)</li>
 </ul>
 

@@ -7,6 +7,8 @@ body_class: "info chronology"
 
 <ul class="classed root">
 
+  <li class="music">20 Sep 2015 / SOLYPSIS, <span class="more">JON WILLIAMS</span>, BRR, ANIME LOVE HOTEL, FATHER CHRISTMAS, SHARDSTYLE, AND TOOTH_EYE @ Fuck Palace, Chicago, IL (<a href="https://www.facebook.com/events/1626987704256562/">fb</a>)</li>
+
   <li class="music">16 Jul 2015 /
     <ul>
       <li>QUALIATIK</li>
