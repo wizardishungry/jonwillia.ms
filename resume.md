@@ -40,9 +40,9 @@ I am currently seeking a mid-to-senior level engineering position in the New Yor
 
 * 9 years developing in [Symfony](http://www.symfony.com/) [PHP](http://www.php.net/) MVC framework.
 * 15 years [Javascript](https://developer.mozilla.org/en-US/docs/JavaScript) experience including [jQuery](http://jquery.com/) & [Prototype](http://prototypejs.org) libraries.
-* 12 years PHP development across entire LAMP stack, including HTML/CSS and MySQL.
-* 13 years professional Linux/UNIX systems administration, primarily on [Debian](http://www.debian.org/)/[Ubuntu](http://www.ubuntu.com/), [Red Hat](http://www.redhat.com)/[CentOS](http://www.centos.org/) & [OpenBSD](http://www.openbsd.org). Deep experience in [Apache](http://httpd.apache.org) configuration.
-* 7 years [Git](http://git-scm.com/) experience. Familiarity with [CVS](http://www.nongnu.org/cvs/) & [Subversion](http://subversion.apache.org) version control systems.
+* 14 years PHP development across entire LAMP stack, including HTML/CSS and MySQL.
+* 15 years professional Linux/UNIX systems administration, primarily on [Debian](http://www.debian.org/)/[Ubuntu](http://www.ubuntu.com/), [Red Hat](http://www.redhat.com)/[CentOS](http://www.centos.org/) & [OpenBSD](http://www.openbsd.org). Deep experience in [Apache](http://httpd.apache.org) configuration.
+* 8 years [Git](http://git-scm.com/) experience. Familiarity with [CVS](http://www.nongnu.org/cvs/) & [Subversion](http://subversion.apache.org) version control systems.
 * 15 years [Perl](http://www.perl.org) & [Bash](http://www.gnu.org/software/bash/) scripting.
 * Linux virtualization / automation expertise across [Xen](http://www.xen.org), [Amazon AWS](https://aws.amazon.com/), [VirtualBox](https://www.virtualbox.org), [Docker](https://www.docker.com), etc.
 * Systems and deployment automation with [Chef](http://www.opscode.com/chef/) & [Capistrano](https://github.com/capistrano/capistrano/) ([Ruby](http://www.ruby-lang.org/)).
@@ -63,6 +63,7 @@ _Technical project leadership for 10+ subscription-only financial industry publi
 * Led mobile development projects on Android and iOS using [Appcelerator Titanium/Alloy](http://www.appcelerator.com/) cross-platform JavaScript framework.
 * Led launch of 6 iOS tablet/phone applications for financial publications.
 * Architected cross-publication Single Sign On using OAuth2. Designed HTTPS authentication enhancement while allowing majority of publication remains unencrypted, to support mixed-content in advertising.
+* Implemented A/B testing including cross-publication experimentation. Redesigned cache architecture to support experiments.
 * Data integration with exta-organizational sites with Atom XML and CSV data feeds.
 * Supported test-driven Development practice within team; designed unit/integration test specifications for junior developers.
 * Spearheaded web security analysis, developed Cross Site Scripting (XSS) and Cross Site Request Forgery protection for existing web sites.
