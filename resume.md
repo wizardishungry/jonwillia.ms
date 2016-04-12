@@ -38,8 +38,8 @@ I am currently seeking a mid-to-senior level engineering position in the New Yor
 
 ## Technical Highlights
 
-* 9 years developing in [Symfony](http://www.symfony.com/) [PHP](http://www.php.net/) MVC framework.
-* 15 years [Javascript](https://developer.mozilla.org/en-US/docs/JavaScript) experience including [jQuery](http://jquery.com/) & [Prototype](http://prototypejs.org) libraries.
+* 10 years developing in [Symfony](http://www.symfony.com/) [PHP](http://www.php.net/) MVC framework.
+* 16 years [Javascript](https://developer.mozilla.org/en-US/docs/JavaScript) experience including [jQuery](http://jquery.com/) & [Prototype](http://prototypejs.org) libraries.
 * 14 years PHP development across entire LAMP stack, including HTML/CSS and MySQL.
 * 15 years professional Linux/UNIX systems administration, primarily on [Debian](http://www.debian.org/)/[Ubuntu](http://www.ubuntu.com/), [Red Hat](http://www.redhat.com)/[CentOS](http://www.centos.org/) & [OpenBSD](http://www.openbsd.org). Deep experience in [Apache](http://httpd.apache.org) configuration.
 * 8 years [Git](http://git-scm.com/) experience. Familiarity with [CVS](http://www.nongnu.org/cvs/) & [Subversion](http://subversion.apache.org) version control systems.
@@ -53,24 +53,32 @@ I am currently seeking a mid-to-senior level engineering position in the New Yor
 ### Dev Team Lead, [Money-Media](http://www.money-media.com) / [Financial Times](http://www.ft.com/), New York, NY — 1/2013 -
 _Technical project leadership for 10+ subscription-only financial industry publications._
 
-* Development of front-end website using PHP, [Zend](http://framework.zend.com/) 1.12, MySQL and Doctrine.
-* Responsible for release management, including packaging and coordination with operations staff.
-* Migrated PEAR-based packaging system to [Composer](http://www.getcomposer.org/)
-* Technical stakeholder on projects; worked closely with business analysts, QA, sales, advertising and editorial teams to best allocate technical resources for project cycles.
-* Mentored and managed junior developers on full-stack development.
-* Launched new publication allowing free subscription with registration while leveraging existing codebase ([FinancialAdvisorIQ.com](http://financialadvisoriq.com/)).
-* Developed lightweight PDF-rendering microservice in [Coffeescript](http://www.coffeescript.org/) and [Node](http://www.nodejs.org/).
-* Led mobile development projects on Android and iOS using [Appcelerator Titanium/Alloy](http://www.appcelerator.com/) cross-platform JavaScript framework.
-* Led launch of 6 iOS tablet/phone applications for financial publications.
-* Architected cross-publication Single Sign On using OAuth2. Designed HTTPS authentication enhancement while allowing majority of publication remains unencrypted, to support mixed-content in advertising.
-* Implemented A/B testing including cross-publication experimentation. Redesigned cache architecture to support experiments.
-* Data integration with exta-organizational sites with Atom XML and CSV data feeds.
-* Supported test-driven Development practice within team; designed unit/integration test specifications for junior developers.
-* Spearheaded web security analysis, developed Cross Site Scripting (XSS) and Cross Site Request Forgery protection for existing web sites.
-* Conversion of development, QA &amp; production architecture to HTTPS; including Elastic Load Balancers, mobile applications, web service endpoints, and advertising creatives.
-* Supported continuous integration environment using Jenkins CI server.
-* Integrated Google DoubleClick for Publishers across several publications including within mobile websites and apps.
-* Launched rich media advertising (mRAID) using Google Publisher ads and native DoubleClick modules inside mobile applications.
+* Web Development
+  * Architected cross-publication Single Sign On using OAuth2.
+  * Development of front-end website using PHP, [Zend](http://framework.zend.com/) 1.12, MySQL and Doctrine.
+  * Migrated PEAR-based packaging system to [Composer](http://www.getcomposer.org/)
+  * Redesigned cache architecture to support A/B experiments.
+  * Spearheaded web security analysis, developed Cross Site Scripting (XSS) and Cross Site Request Forgery protection for existing web sites.
+  * Developed lightweight PDF-rendering microservice in [Coffeescript](http://www.coffeescript.org/) and [Node](http://www.nodejs.org/).
+* Mobile Development
+  * Rearchitected multiple iOS applications in Swift.
+  * Led launch of 6 iOS tablet/phone applications for financial publications.
+  * Launched rich media advertising (mRAID) using Google Publisher ads and native DoubleClick modules inside mobile applications.
+  * Led mobile development projects on Android and iOS using [Appcelerator Titanium/Alloy](http://www.appcelerator.com/) cross-platform JavaScript framework.
+* DevOps / Release Engineering
+  * Responsible for release management, including packaging and coordination with operations staff.
+  * Conversion of infrastructure to HTTPS; including Elastic Load Balancers, mobile applications, web service endpoints, and advertising creatives.
+  * Supported continuous integration environment using Jenkins CI server.
+* Team Leadership
+  * Supported test-driven development practice within team; designed unit/integration test specifications for developers.
+  * Mentored and managed developers on full-stack development.
+  * Led code reviews and d
+* Project Leadership
+  * Worked closely with business analysts, QA, sales, advertising and editorial teams to best allocate technical resources for project cycles.
+  * Implemented A/B testing including cross-publication experimentation.
+  * Data integration with exta-organizational sites with Atom XML and CSV data feeds.
+  * Integrated Google DoubleClick for Publishers across several publications including within mobile websites and apps.
+  * Launched new publication allowing free subscription with registration while leveraging existing codebase ([FinancialAdvisorIQ.com](http://financialadvisoriq.com/)).
 
 ### Senior Developer, [Hollywood.com](http://www.hollywood.com/), New York, NY — 1/2012 - 10/2012
 _Relaunched high-traffic celebrity news website._
