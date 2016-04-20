@@ -53,6 +53,7 @@ I am currently seeking a mid-to-senior level engineering position in the New Yor
 
 ### Director of Engineering, [Bandwagon](http://bandwagon.io), Brooklyn, NY — 5/2016 - 
 _Lead engineer for maturing transportation startup._
+
 * Ruby on Rails
 * Apache Cordoba
 * MongoDB
