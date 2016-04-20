@@ -17,7 +17,7 @@ group: navigation
     <a href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a>
   </p>
 </div>
-
+<!--
 <div id="toc">
 
 <ol>
@@ -47,10 +47,20 @@ I am currently seeking a mid-to-senior level engineering position in the New Yor
 * Linux virtualization / automation expertise across [Xen](http://www.xen.org), [Amazon AWS](https://aws.amazon.com/), [VirtualBox](https://www.virtualbox.org), [Docker](https://www.docker.com), etc.
 * Systems and deployment automation with [Chef](http://www.opscode.com/chef/) & [Capistrano](https://github.com/capistrano/capistrano/) ([Ruby](http://www.ruby-lang.org/)).
 * Test-driven development, continuous integration implementation ([Hudson/Jenkins](http://jenkins-ci.org))
+-->
 
 ## Experience
 
-### Dev Team Lead, [Money-Media](http://www.money-media.com) / [Financial Times](http://www.ft.com/), New York, NY — 1/2013 -
+### Director of Engineering, [Bandwagon](http://bandwagon.io), Brooklyn, NY — 5/2016 - 
+_Lead engineer for maturing transportation startup._
+* Ruby on Rails
+* Apache Cordoba
+* MongoDB
+* Redis
+* Heroku
+* Amazon EC2
+
+### Dev Team Lead, [Money-Media](http://www.money-media.com) / [Financial Times](http://www.ft.com/), New York, NY — 1/2013 - 4/2016
 _Technical project leadership for 10+ subscription-only financial industry publications._
 
 * Web Development
