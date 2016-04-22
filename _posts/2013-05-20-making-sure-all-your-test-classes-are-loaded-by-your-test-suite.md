@@ -18,7 +18,7 @@ php util_scripts/TestSuiteCoverage.php
 This is SLOW!
 Logging strace to /tmp/TestSuiteCoverage-z0EBOL
 
-phpunit   /home/jon/build/Spam/util_scripts/../library/SpacelySprockets/Test/Suite/Integration/Frontend.php /home/jon/build/Spam/util_scripts/../library/SpacelySprockets/Test/Suite/Integration/Foobar.php /home/jon/build/Publications/util_scripts/../library/SpacelySprockets/Test/Case/Zork/FoobarIntegration.php /home/jon/build/Publications/util_scripts/../library/SpacelySprockets/Test/Suite/Integration/ViewHelper.php /home/jon/build/Publications/util_scripts/../library/SpacelySprockets/Test/Suite/Unit/All.php
+phpunit   /home/jon/build/Spam/util_scripts/../library/SpacelySprockets/Test/Suite/Integration/Frontend.php 
 
 PHPUnit 3.6.3 by Sebastian Bergmann.
 
