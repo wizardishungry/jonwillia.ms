@@ -157,7 +157,7 @@ ul.posts {
 
   /* standard */
 
-  #post pre {
+  #post pre, blockquote {
     border: 1px solid #ddd;
     background-color: #eef;
     padding: 0 .4em;
@@ -258,4 +258,13 @@ body {
 	border: 2px dashed #007200;
 	padding: 8px;
 	font-size: larger;
+}
+
+/***
+/*  More stuff
+/*/
+blockquote {
+	border: 0;
+	border-left: 2px #ddd dashed;
+	margin-left: 8px;
 }
