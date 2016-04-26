@@ -35,7 +35,7 @@ PHPUnit 3.6.3 by Sebastian Bergmann.
 Time: 19:56, Memory: 558.25Mb
 
 OK (528 tests, 5557 assertions)
-1 files encountered of 362; 361 missing
+301 files encountered of 362; 361 missing
 
 /home/jon/build/Spam/library/SpacelySprockets/Test/Suite/Integration/CodeLibrary.php
 /home/jon/build/Spam/library/SpacelySprockets/Test/Suite/Integration/Fizbuzz.php
