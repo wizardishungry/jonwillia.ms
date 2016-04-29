@@ -9,10 +9,31 @@ tags: [strace, php, testing, phpunit, bash]
 
 We were having an issue with developers ommiting or removing tests from our test harness. So I kluged together a PHP/Bash monotrosity that prints a list of files not loaded during the execution of the test harness as determined by [strace](http://en.wikipedia.org/wiki/Strace)'s log of file access. Although this is a little coarse, it does provide a list of outdated fixtures, new unadded tests and defunct tests to be removed/fixed. You probably want to tee this into a logfile.
 
-{% gist 5413908 %}
+```php
+<?php
+define('TEST_BASE_PATH', realpath(realpath(dirname(__FILE__)) . '/../library/Mmf/Test/'));
+define('SCRIPT_PATH', realpath(dirname(__FILE__)) . '/CommitTest.php');
+
+echo SCRIPT_PATH,"\n";
+echo "This is SLOW!\n";
+$tmp = tempnam(sys_get_temp_dir(), "TestSuiteCoverage-");
+$path = TEST_BASE_PATH;
+$files = explode("\n",`find $path -type f`);
+echo "Logging strace to $tmp\n";
+passthru("strace -o $tmp -eopen -f php ".SCRIPT_PATH." ".escapeshellcmd(implode(' ',array_slice($argv,1))));
+
+$lines = explode("\n",`cut -d \" -f 2 $tmp | grep $path | sort | uniq`);
+$diff = array_diff($files,$lines);
+echo count($lines), " files encountered of ", count($files), "; ", count($diff), " missing\n\n";
+foreach($diff as $file) {
+    echo "$file\n";
+}
+unlink($tmp);
+```
 
 Example output:
-{% highlight bash %}
+
+```
 php util_scripts/TestSuiteCoverage.php
 /home/jon/build/Spam/util_scripts/CommitTest.php
 This is SLOW!
@@ -50,4 +71,4 @@ OK (528 tests, 5557 assertions)
 /home/jon/build/Spam/library/SpacelySprockets/Test/Fixtures/content_comment.sql
 /home/jon/build/Spam/library/SpacelySprockets/Test/Fixtures/member-usage.sql
 /home/jon/build/Spam/library/SpacelySprockets/Test/Fixtures/stats-test.sql
-{% endhighlight %}
+```
