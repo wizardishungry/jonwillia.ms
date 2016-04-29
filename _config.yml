@@ -10,7 +10,7 @@ highlighter: rouge
 # so be sure to set them if your theme uses them.
 #
 title : Jon Williams 
-tagline: Web Technologist
+tagline: Big-Time Thinkfluencer® 🤔
 author :
   name : Jon Williams
   email : jon@jonwillia.ms
@@ -124,4 +124,3 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resume 
-tagline: Web Programmer / Technologist 
+tagline: Web Technologist
 group: navigation
 ---
 {% include JB/setup %}
