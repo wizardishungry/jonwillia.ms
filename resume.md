@@ -2,7 +2,7 @@
 layout: page
 title: Resume 
 tagline: Web Technologist
-group: navigation
+group: "featured"
 ---
 {% include JB/setup %}
 
