@@ -83,7 +83,7 @@ _Technical project leadership for 10+ subscription-only financial industry publi
 * Team Leadership
   * Supported test-driven development practice within team; designed unit/integration test specifications for developers.
   * Mentored and managed developers on full-stack development.
-  * Led code reviews and d
+  * Led code reviews and developer educaiton.
 * Project Leadership
   * Worked closely with business analysts, QA, sales, advertising and editorial teams to best allocate technical resources for project cycles.
   * Implemented A/B testing including cross-publication experimentation.
