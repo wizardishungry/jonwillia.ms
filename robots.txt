@@ -1,4 +1,5 @@
 User-agent:  *
+Disallow: /
 Disallow: /puss-in-boots
 Disallow: /gallery
 Disallow: /eye
