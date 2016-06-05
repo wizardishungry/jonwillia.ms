@@ -4,6 +4,7 @@ title: Upcoming
 body_class: "info upcoming"
 ---
 <ul class="classed root">
+  <!--
   <li class="music">20 Jun 2016 /
     Czech Neck Night - 
     <ul>
@@ -14,6 +15,7 @@ body_class: "info upcoming"
       <li>Zaheer Nota (DJ)</li>
     </ul>
     @ Bossa Nova Civic Club (<a href="https://www.facebook.com/events/277614312578068/">fb</a>)
+    -->
   </li>
 </ul>
 
