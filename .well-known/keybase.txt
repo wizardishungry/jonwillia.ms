@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/wizardishungry
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jonwillia.ms
+  * I am wizardishungry (https://keybase.io/wizardishungry) on keybase.
+  * I have a public key with fingerprint 41F3 C317 13F0 7ECA F3EF  C21D 6D17 2B3A 070D 5ECE
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012086dc52aa37601db9bbf11a38cf2a1aca60f1a6f41ceec7fd79caf6a3940017990a",
+            "fingerprint": "41f3c31713f07ecaf3efc21d6d172b3a070d5ece",
+            "host": "keybase.io",
+            "key_id": "6d172b3a070d5ece",
+            "kid": "010126832bf52cd08922aad17e76adcd6a179bbaed3a24a9016626b0d08beef53dc80a",
+            "uid": "57c6cc0e20fa21d9a83e93d0bdcbcd19",
+            "username": "wizardishungry"
+        },
+        "service": {
+            "hostname": "jonwillia.ms",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1478716888,
+    "expire_in": 157680000,
+    "prev": "58eadce3d0782160ea1549ce4939e67949a369164ed834c66c14221841e30fcb",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtkntQVFUcxxcEXNAGBQZjxJwujog8uufe3fsAEirBHOmh+CABt3PPPRcuj7vL
+7oIgjxyG0mWKAQpwTAISbIomgRmHaEQojXj0InKYTCYtiJShmRQQTdjOMvpf558z
+55zP7/v7fn9zqp9YpdO7JZTNXBDcbuxyG7kl6VJCcq8XU5JZLqKii6lsvLLhHBnb
+7KZsVaaiKRowtMDJyMhAyPIcDWRJlCQFAMgKSGEggAhytAIgpxgAwhjxisyLCCoc
+ZEUDTQNeFGlIRVCKqmVgq8WqanYiawAKi1jAA1aheUxwFiuIATInA56RWEjztGzE
+CJPCTLPNVUHMSdCGo1QzuSMH04q9/+Ef+ybOOYFlJMXIIJkWRIYkIDTmOSgjmYPE
+mSRBLLOQMUCRBhzHcBJNSAljxcjKSFjxnb8iZ+QRhxCNGVqBxKYIBRaLrExLMpKQ
+DEQXaMNWDeZiQh9Vj0GrrNoy87UMaxFVGkGRtwKV2CPjdeV5xGWZtaNqTo4Ko3Jt
+RMFiNdvNyJxDXjLtdku0q9BeZFlRxJLpkYZJUjWZDJMUFGCrTTVrVDQgJLKrLlFg
+4AUecIIgRFC40KJasUl1EUaeE2iyXG1wgSuSkI7JJDBJwQsM4GgMgdEgImwQWRFz
+vGgQIcuJgDNgWWANiOMQMDAMEAwAs7SCJMoVK08zU9GklR1mEE2bmqFBe74VU6U+
+DvdgD52bXufl6e76Zjof73WP/161fZ3OwWiUfkG4//xU4xuOHeXm+E3jT8Zu9t3X
+PTkY/sc7h3virw0HTQvhugMduqi8uNHt/ttDu877eVxdTJwLTHMK6U//xdZkB5wy
+hZ0rvujVnje4MdhvKOfnj0qH/lly2MQZv8bZ72r3KxWL3XGLlz7+YaC56KHXMx8c
+cDRG3xn99vTbSyFzd+0Xu/c5mnXxV97N9OvsOthnm05Jnh3ezXV5BnYxAQ0JJz4r
+nNm7ocR3z8Pc2Z/GnlNafz2Z17mz1x7s1E8P9msvbErcNvd3TVRbb1LX5Ut+p66N
+tIy0bxmX/tVeNA9kx0S2hB8pOBf/aao4iee718acLqmv3TaweqbcN87ZVJu27L92
+VjvZV5lSFz/+4dfOkN6FK22v2az6ML7i+Ktmy/mFJezZ2lQ7tyFy6/EHo3ULh0Y2
+Om+2zHXcs84Xvtf3e9/rbVPF15fq4lrn32pcThoKW19e7R4glqyZ8AzI2B94M/WM
+/6GxqaH33zzbcyb5kwl9c//U7Ttj9WXf1BuNoUM/esfSPX/GNNzjp6smTc0TV5t0
+lXcrsnb1p7XPJP0yHWABa3qSbnyeYuI6AyO+333/VkdWV2znl18ZX1lVth55H4vc
+nJkTW5xadeRg5Zak6mTrZSmcDg1KX33B4ywbou3FJ3a+3BCQ+MD51PDyS2VCUGxt
+Itr6rI+l8AtTwtBvt6tqDu/YM/0f
+=OSEB
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/wizardishungry
+
+==================================================================
+
