@@ -4,18 +4,8 @@ title: Upcoming
 body_class: "info upcoming"
 ---
 <ul class="classed root">
-  <!--
-  <li class="music">20 Jun 2016 /
-    Czech Neck Night - 
-    <ul>
-      <li class="more">Jon Williams</li>
-      <li>Søren</li>
-      <li>Document </li>
-      <li>Amanda Salane (DJ)</li>
-      <li>Zaheer Nota (DJ)</li>
-    </ul>
-    @ Bossa Nova Civic Club (<a href="https://www.facebook.com/events/277614312578068/">fb</a>)
-    -->
+  <li class="skillshare">13 May 2017 /
+    Digital Security Skill Share @ Anarchist Book Fair
   </li>
 </ul>
 
