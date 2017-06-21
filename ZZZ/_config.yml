@@ -1,0 +1,3 @@
+auto: true
+markdown: kramdown
+permalink: /:month-:day-:year/:title.html
