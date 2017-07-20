@@ -24,45 +24,46 @@
 <body>
 
   <div class="site">
-    <div class="title">
-      <a href="{{ HOME_PATH }}">{{ site.title }}</a>
+	<div class="title">
+	  <a href="{{ HOME_PATH }}">{{ site.title }}</a>
 
-      <a class="extra" href="{{ HOME_PATH }}">Blog</a>
-      <a class="extra" href="{{ BASE_PATH }}/resume.html">Resume</a>
+	  <a class="extra" href="{{ HOME_PATH }}">Blog</a>
+	  <a class="extra" href="{{ HOME_PATH }}upcoming.html">Upcoming</a>
 	  <!-- 
-      <a class="extra" href="http://wizardishungry.com/">Music</a>
-      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.pages_path }}">More…</a>
+	  <a class="extra" href="{{ BASE_PATH }}/resume.html">Resume</a>
+	  <a class="extra" href="http://wizardishungry.com/">Music</a>
 	  -->
+	  <a class="extra" href="{{ BASE_PATH }}{{ site.JB.pages_path }}">More…</a>
 	  <!--
-      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">Categories</a>
-      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">Tags</a>
+	  <a class="" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">Categories</a>
+	  <a class="" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">Tags</a>
 	  -->
-    </div>
+	</div>
   
-    {{ content }}
+	{{ content }}
   
-    <div class="footer">
-      <div class="contact">
-        <p>
-          {{ site.author.name }}<br />
-          {{ site.tagline }}<br />
-          <a href='mailto:{{ site.author.email }}'>{{ site.author.email }}</a>
-        </p>
-      </div>
-      <div class="contact">
-        <p>
-          <a href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a><br />
-          <a href="http://twitter.com/{{ site.author.twitter }}/">twitter.com/{{ site.author.twitter }}</a><br />
-        </p>
-      </div>
-      {% if site.author.feedburner %}
-        <div class="rss">
-          <a href="http://feeds.feedburner.com/{{ site.author.feedburner }}">
-            <img src="{{ ASSET_PATH }}/images/rss.png" alt="Subscribe to RSS Feed" />
-          </a>
-        </div>
-      {% endif %}
-    </div>
+	<div class="footer">
+	  <div class="contact">
+		<p>
+		  {{ site.author.name }}<br />
+		  {{ site.tagline }}<br />
+		  <a href='mailto:{{ site.author.email }}'>{{ site.author.email }}</a>
+		</p>
+	  </div>
+	  <div class="contact">
+		<p>
+		  <a href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a><br />
+		  <a href="http://twitter.com/{{ site.author.twitter }}/">twitter.com/{{ site.author.twitter }}</a><br />
+		</p>
+	  </div>
+	  {% if site.author.feedburner %}
+		<div class="rss">
+		  <a href="http://feeds.feedburner.com/{{ site.author.feedburner }}">
+			<img src="{{ ASSET_PATH }}/images/rss.png" alt="Subscribe to RSS Feed" />
+		  </a>
+		</div>
+	  {% endif %}
+	</div>
   </div>
 
   {% include JB/analytics %}
