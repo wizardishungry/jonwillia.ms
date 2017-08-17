@@ -7,6 +7,19 @@ body_class: "info chronology"
 
 <ul class="classed root">
 
+
+  <li class="music">9 Jul 2017 /
+    <ul>
+      <li>Shingles</li>
+      <li>Godxss</li>
+      <li class="more">Linear A</li>
+      <li>asdf</li>
+    </ul>
+    @ Vital Joint,
+    109 Meserole Street, Brooklyn NY. Doors 8:30pm, Show 9pm. $10, no BYOB
+    (<a href="https://www.facebook.com/events/300507873729855/">fb</a>)
+  </li>
+
   <li class="music">12 Dec 2015 [9:15 PM] / SMHOAKSTOCK 5 @ Shea Stadium (<a href="https://www.facebook.com/events/874688785956908/">fb</a>)</li>
   <li class="music">21 Nov 2015 / LIVE HARDWARE ELECTRONIQUE @ Muchmore's (<a href="https://www.facebook.com/events/1510166692615439/">fb</a>)</li>
   <li class="music">18 Nov 2015 / [with Czech Neck] @ Nothing Changes. Home Sweet Home, NY, NY (<a href="https://www.facebook.com/events/634182000054776/">fb</a>)</li>

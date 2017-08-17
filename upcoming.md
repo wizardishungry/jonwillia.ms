@@ -10,16 +10,16 @@ body_class: "info upcoming"
 
 <ul class="classed root">
 
-  <li class="music">9 Jul 2017 /
+  <li class="dj">23 Aug 2017 /
     <ul>
-      <li>Shingles</li>
-      <li>Godxss</li>
-      <li class="more">Linear A</li>
-      <li>asdf</li>
+      <li>Gramma</li>
+      <li>Searmanas</li>
+      <li>Jung Hardware</li>
+      <li class="more">Linear A (DJ)</li>
     </ul>
-    @Vital Joint,
+    @ Vital Joint,
     109 Meserole Street, Brooklyn NY. Doors 8:30pm, Show 9pm. $10, no BYOB
-    (<a href="https://www.facebook.com/events/300507873729855/">fb</a>)
+    (<a href="https://www.facebook.com/events/1922256288096114/">fb</a>)
   </li>
 
 
