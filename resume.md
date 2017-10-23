@@ -17,12 +17,10 @@ group: "featured"
     <a href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a>
   </p>
 </div>
-<!--
 <div id="toc">
 
 <ol>
   <li><a href="#technical-highlights">Objective</a></li>
-  <li><a href="#technical-highlights">Technical Highlights</a></li>
   <li><a href="#experience">Experience</a></li>
   <li><a href="#education">Education</a></li>
 </ol>
@@ -30,36 +28,29 @@ group: "featured"
 
 ## Objective
 
-I am currently seeking a mid-to-senior level engineering position in the New York City area at a technology-driven company that:
+I am currently seeking an engineering position in the New York City area at a technology-driven company that:
 
 * utilizes modern software development methodologies – e.g. test-driven development, continuous delivery, DevOps, etc. 
-* <span title="Dog Whistle: I don't really want another PHP role; ask me to tell you more!">allows engineers to utilize modern technologies</span>.
+* <span title="I don't want another PHP role.">allows engineers to utilize modern technologies</span>.
 * provides an informal, friendly, team-based environment.
-
-## Technical Highlights
-
-* 10 years developing in [Symfony](http://www.symfony.com/) [PHP](http://www.php.net/) MVC framework.
-* 16 years [Javascript](https://developer.mozilla.org/en-US/docs/JavaScript) experience including [jQuery](http://jquery.com/) & [Prototype](http://prototypejs.org) libraries.
-* 14 years PHP development across entire LAMP stack, including HTML/CSS and MySQL.
-* 15 years professional Linux/UNIX systems administration, primarily on [Debian](http://www.debian.org/)/[Ubuntu](http://www.ubuntu.com/), [Red Hat](http://www.redhat.com)/[CentOS](http://www.centos.org/) & [OpenBSD](http://www.openbsd.org). Deep experience in [Apache](http://httpd.apache.org) configuration.
-* 8 years [Git](http://git-scm.com/) experience. Familiarity with [CVS](http://www.nongnu.org/cvs/) & [Subversion](http://subversion.apache.org) version control systems.
-* 15 years [Perl](http://www.perl.org) & [Bash](http://www.gnu.org/software/bash/) scripting.
-* Linux virtualization / automation expertise across [Xen](http://www.xen.org), [Amazon AWS](https://aws.amazon.com/), [VirtualBox](https://www.virtualbox.org), [Docker](https://www.docker.com), etc.
-* Systems and deployment automation with [Chef](http://www.opscode.com/chef/) & [Capistrano](https://github.com/capistrano/capistrano/) ([Ruby](http://www.ruby-lang.org/)).
-* Test-driven development, continuous integration implementation ([Hudson/Jenkins](http://jenkins-ci.org))
--->
 
 ## Experience
 
-### Director of Engineering, [Bandwagon](http://bandwagon.io), Brooklyn, NY — 5/2016 - 
-_Lead engineer for maturing transportation startup._
+### Director of Engineering, [Bandwagon](http://bandwagon.io), Brooklyn, NY — 5/2016 - 10/2016. Consultant 10/2016 - present
+_Engineering leadership for airport-based ridesharing startup._
 
-* Ruby on Rails
-* Apache Cordoba
-* MongoDB
-* Redis
-* Heroku
-* Amazon EC2
+* Took over entirety of engineering responsibilities after departure of previous engineering team.
+* Managed existing systems architecture; utilizing Docker, Amazon Container Service/EC2, Heroku, MongoDB, Redis, etc.
+* Development of RESTful services layer in Ruby on Rails, hosted on Heroku.
+* Distributed systems engineering: utilizing Redis for locks/mutexes, and Sidekiq for asychonrous worker processes. Pub/sub architecture handled via PubNub.
+* Development of existing taxi routing service layer - Java, OpenTripPlanner, Spring, hosted on AWS.
+* Development of common codebase Cordova + Angular mobile website &amp; native app.
+* Rebuilt native app in React Native with Redux.
+* Supported production environment on Heroku &amp; Amazon Web Services.
+* Collaborated with external taxi industry technical partners to integerate with multiple vendors' back-of-cab systems.
+* Engineering of payments utilizing Stripe including fare allocation algorithms, credit card preauthorization strategies, &amp; reliability engineering.
+* Embedded in product development process; collaborative feature design &amp; idea generation.
+* Onboarded, mentored, &amp; supported junior engineers.
 
 ### Dev Team Lead, [Money-Media](http://www.money-media.com) / [Financial Times](http://www.ft.com/), New York, NY — 1/2013 - 4/2016
 _Technical project leadership for 10+ subscription-only financial industry publications._
