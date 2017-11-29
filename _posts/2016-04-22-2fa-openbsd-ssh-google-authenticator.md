@@ -48,7 +48,7 @@ Then run:
 cap_mkdb /etc/login.conf
 ```
 
-Now regular users should be able to authenticate with just SSH (or a password plus totp token) but root will need password, ssh and a 2 TOTP token.
+Now regular users should be able to authenticate with just SSH (or a password plus totp token) but root will need password, ssh-key and a TOTP token.
 
 # Logging in
 ```
