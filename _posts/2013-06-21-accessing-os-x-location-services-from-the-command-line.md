@@ -7,7 +7,7 @@ tags: [osx, objectivec, geo, location]
 ---
 {% include JB/setup %}
 
-I wanted to access location services data from a bash script so I cobbled together [osx-location](https://github.com/WIZARDISHUNGRY/osx-location).
+I wanted to access location services data from a bash script so I threw together [osx-location](https://github.com/WIZARDISHUNGRY/osx-location).
 {% highlight bash %}
 $ make
 $ ./location --help
