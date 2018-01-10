@@ -12,9 +12,10 @@ body_class: "info upcoming"
 
 
   <li class="music">14 Jan 2018 /
-    24 hour drone (collab with Brian Hersey)
+    12 hour drone (w/ Brian Hersey)
     @ h0l0
-    Queens, NY 
+    Queens, NY
+    (<a href="https://www.facebook.com/events/1823899394568366/">fb</a>)
   </li>
 
 
