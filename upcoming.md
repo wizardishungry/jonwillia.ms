@@ -1,6 +1,6 @@
 ---
-layout: default 
-title: Upcoming 
+layout: default
+title: Upcoming
 group: "featured"
 body_class: "info upcoming"
 ---
@@ -9,15 +9,6 @@ body_class: "info upcoming"
 
 
 <ul class="classed root">
-
-
-  <li class="music">14 Jan 2018 /
-    12 hour drone (w/ Brian Hersey)
-    @ h0l0
-    Queens, NY
-    (<a href="https://www.facebook.com/events/1823899394568366/">fb</a>)
-  </li>
-
 
 </ul>
 

@@ -1,11 +1,19 @@
 ---
 layout: default
-title: Chronology 
+title: Chronology
 body_class: "info chronology"
 ---
 <a href="upcoming.html">Why look back; the future's cool, too!</a>
 
 <ul class="classed root">
+
+
+  <li class="music">14 Jan 2018 /
+    12 hour drone (w/ Brian Hersey)
+    @ h0l0
+    Queens, NY
+    (<a href="https://www.facebook.com/events/1823899394568366/">fb</a>)
+  </li>
 
   <!--
   <li class="dj">23 Aug 2017 /
@@ -152,7 +160,7 @@ body_class: "info chronology"
   <li class="music">15 Aug 2014 / Excepter + a mess of bands @ Europa, Brooklyn (<a href="https://www.facebook.com/events/1445500985728355/">fb</a>)</li>
   <li class="music">2 Aug 2014 / Excepter @ Earwax Records, Brooklyn, NY. 2pm (<a href="https://www.facebook.com/events/302474079921878/">fb</a>)</li>
 
-  <li class="music">21 Jun 2014 / 
+  <li class="music">21 Jun 2014 /
     <ul>
       <li>Blondes in the Jungle (Dir: Lev Kalman, 2009. 48 min. USA.)</li>
       <li>Excepter</li>
@@ -160,7 +168,7 @@ body_class: "info chronology"
     </ul>
     @
     Body Actualized Center
-    143 Troutman St 
+    143 Troutman St
     Bushiwck, NY
     11206
     (<a href="https://www.facebook.com/events/807940845896884/">fb</a>)
@@ -183,7 +191,7 @@ body_class: "info chronology"
 
   <li class="music">3-26 Apr 2014 / <a href="http://excepter.net/" class="more">Excepter</a> European Tour</li>
 
-  <li class="music">20 Mar 2014 / 
+  <li class="music">20 Mar 2014 /
     <ul>
       <li class="more">Excepter</li>
       <li>Mirror Mirror</li>
@@ -194,7 +202,7 @@ body_class: "info chronology"
     (<a href="https://www.facebook.com/events/1401432166789456/">fb</a>)
   </li>
 
-  <li class="dj">7 Mar 2014 / "Technopagans|at|the|End|of|History" 
+  <li class="dj">7 Mar 2014 / "Technopagans|at|the|End|of|History"
     <ul>
       <li>A Pleasure (NYC | Other People)</li>
       <li>PVRE MATRIX (NYC | L.I.E.S.)</li>
@@ -212,7 +220,7 @@ body_class: "info chronology"
   </li>
 
 
-  <li class="dj">5 Mar 2014 / SIGNS 03 
+  <li class="dj">5 Mar 2014 / SIGNS 03
     <ul>
       <li>L. Sangre </li>
       <li>Brian Traister (BUBL-LAB)</li>
@@ -221,7 +229,7 @@ body_class: "info chronology"
     </ul>
     10pm - 4am
     3/5/2014
-    Wreck Room 
+    Wreck Room
     FREE
     (<a href="https://www.facebook.com/events/1492282690998537/">fb</a>)
   </li>
@@ -236,7 +244,7 @@ body_class: "info chronology"
     @ Baby's Alright, Brooklyn NY
     (<a href="https://www.facebook.com/events/671838889539573/">fb</a>)
   </li>
-  
+
   <li class="dj">5 Feb 2014 /
   SIGNS 02
   <ul>
@@ -245,11 +253,11 @@ body_class: "info chronology"
     <li>J Slusher (OPPONENTS, PRIVILEGE, The Seed, BNCC)</li>
     <li class="more">J Williams</li>
   </ul>
-  @ Wreck Room, Brooklyn NY 10pm 
+  @ Wreck Room, Brooklyn NY 10pm
   (<a href="https://www.facebook.com/events/235507973287508/">fb</a>)
 </li>
 
-  
+
   <li class="dj">28 Jan 2014 /
     <ul>
       <li>YVETTE</li>
@@ -299,7 +307,7 @@ body_class: "info chronology"
     @ Silent Barn, Brooklyn NY
     (<a href="https://www.facebook.com/events/220040758177669/">fb</a>)
   </li>
-  
+
 
   <li class="dj">14 Dec 2013 /
     <p>
@@ -355,11 +363,11 @@ DJ sets from Harrison, Jon Williams, Lala and John Fell Ryan.<br>
       <li>Allen Riley</li>
       <li>Jeff Sisson</li>
     </ul>
-    
+
     47 Bergen St.
     Brooklyn, NY 11201
     G/F to Bergen
-    
+
     enter via the alley next to the Invisible Dog Art Center. 7-9pm
   </li>
 
@@ -384,7 +392,7 @@ DJ sets from Harrison, Jon Williams, Lala and John Fell Ryan.<br>
     @ Bowery Ballroom, NYC
   </li>
 
-  <li class="birthday">2 Oct 2013 / 
+  <li class="birthday">2 Oct 2013 /
     Kooler Than Jesus presents: my birthday!
     <ul>
       <li>John Fell Ryan</li>
@@ -400,7 +408,7 @@ DJ sets from Harrison, Jon Williams, Lala and John Fell Ryan.<br>
     </ul>
     @ Lowtide Bar, Rockaway, Queens (<a href="https://www.facebook.com/events/554619947930659/">fb</a>)
   </li>
-  
+
   <li class="music">7 Jul 2013 /
     <ul>
       <li>Miho Hatori (Cibo Matto)</li>
@@ -419,7 +427,7 @@ DJ sets from Harrison, Jon Williams, Lala and John Fell Ryan.<br>
       <li>Pearl Necklace</li>
       <li>Regal Degal</li>
     </ul>
-    @ <a href="https://www.facebook.com/events/370826723038300">Shea Stadium, Brooklyn</a> 
+    @ <a href="https://www.facebook.com/events/370826723038300">Shea Stadium, Brooklyn</a>
   </li>
 
 <li class="music">18 May 2013 /
@@ -472,20 +480,20 @@ PLEXXUS DOR
 
 DJs:
 
-PORKCHOP 
+PORKCHOP
 (Excepter/S.S.P.S.)
 
-JON WILLIAMS 
+JON WILLIAMS
 (Enoch A.L.N./Excepter)
 
-JOSHUA SLUSHER 
+JOSHUA SLUSHER
 (OPPONENTS,Grand Selector, ISR Crew, etc..)
 
-MEEGS DOR 
+MEEGS DOR
 (Plexxus Dor)
 
 VISUALS:
-SHATTERED SHARDS 
+SHATTERED SHARDS
 (MATTHEW CARON &amp; REBECCA GAFFNEY)
 </pre>
   @ Wreck Room, Brooklyn, NY</li>
@@ -495,7 +503,7 @@ SHATTERED SHARDS
 <li class="film">25 Oct 2011 / <a href="http://www.bricartsmedia.org/events/brooklyn-art-work-2011-contemporary-art-gala">Brooklyn Art:Work 2011 Contemporary Art Gala</a>, The Liberty Warehouse at Pier 41, 6:30 PM-11:30 PM</li>
 <li class="video">16 Oct 2011 / <a href="http://neonmarshmallow.com/2011newyorkcity/all">Acid Marshmallow NYC</a></li>
   <li class="music"> 12 Aug 2011 / <pre>
-  
+
   BARN AID no.2
 
   Ryan Emmett (mem. Hunted Creatures/Pittsburgh)
@@ -535,7 +543,7 @@ SHATTERED SHARDS
       <li>ODO (Mark from Forma)</li>
       <li><a href="http://soundcloud.com/axinite">Axinite</a></li>
     </ul>
-      @ Tandem Bar 
+      @ Tandem Bar
       237 Troutman St.
       Bushwick, NY
   </li>
@@ -591,12 +599,12 @@ SHATTERED SHARDS
       <li>Visuals by Matthew Caron</li>
       <li>LONG DISTANCE POISON</li>
       <li>ANCIENT OCEAN </li>
-      <li class="more">ENOCH A.L.N.</li> 
+      <li class="more">ENOCH A.L.N.</li>
       <li>ANDY AND ZEUS</li>
       <li>Weathers + Glover </li>
       <li>DJ Ian Paul Roger Nelson</li>
     </ul>
-    $6 @ 
+    $6 @
     Psychotropa, 132 Graham Ave, Brooklyn
    </li>
 
@@ -650,7 +658,7 @@ SHATTERED SHARDS
     (<a href="http://www.facebook.com/event.php?eid=125029594233037">fb</a>)
   </li>
 
-   <li class="music"> 21 Jan 2011 / 
+   <li class="music"> 21 Jan 2011 /
     <ul>
       <li>Rockman</li>
       <li>The Magick Report</li>
@@ -666,7 +674,7 @@ SHATTERED SHARDS
   </li>
 
 
-   <li class="music canceled">14 Jan 2011 / 
+   <li class="music canceled">14 Jan 2011 /
         <ul>
             <li>Stare Case (John Olson &amp; Nate Young)</li>
             <li>Fossils</li>
@@ -684,7 +692,7 @@ SHATTERED SHARDS
       <span class="more">ENOCH A.L.N.</span>presentering 'light overlords and sound destroyers!"
       CHAOS*MAJIK Todd Pendu's sigilistic strobe-icon
       JIM LOMAN, (beloved former frontman of CENTURIES, BLOODLINES, THE CRANIUM), debuts a new project tonight!
-      SKINT, awesomest avant dance troopers 
+      SKINT, awesomest avant dance troopers
       ROBOT DEATH CULT light-light-light
       "...attractive young women in mostly trashy, mostly white underwear wandering about the stage, flailing at loud electric guitars and drums, spastically staggering, caterwauling into microphones, hinting heavily at sex and generally having a high old time. There was a certain shape to the various sequences, but a lot was improvised, either in rehearsal or on the spot. It looked like a punkish sorority party, or maybe Ms. Cook channeling her inner Courtney Love."
       LIGHT BRIGADIERS - RACHEL BLACKWELL JESSE GELAZNIK, VICTORIA KEDDIE, SCOTT KIERNAN (LOUIS V. E.S.P), Ethan Miller (LOUIS V. E.S.P.), DENNIS HAY
@@ -697,11 +705,11 @@ SHATTERED SHARDS
     <li class="music canceled"> 4 Jan 2011 /
         <ul>
             <li><a href="http://www.myspace.com/twoyearsonwelfare">
-            Two Years On Welfare 
+            Two Years On Welfare
             </a>(Philly)</li>
 
             <li><a href="http://www.soundcloud.com/opponents">
-            OPPONENTS 
+            OPPONENTS
             </a></li>
 
             <li><a href="http://soundcloud.com/longdistancepoison">
@@ -729,7 +737,7 @@ SHATTERED SHARDS
     </li>
 
   <li class="music&amp;video">18 Nov 2010 /
-    <span class="more">Enoch A.L.N.</span> @ 
+    <span class="more">Enoch A.L.N.</span> @
     <a href="http://soundofart.eventbrite.com/">Sound of Art Release Party!</a>
         @ Santos Party House, Manhattan, NY</li>
 
@@ -742,14 +750,14 @@ SHATTERED SHARDS
     <span class="more">Enoch A.L.N.</span> &amp; Robot Death Cult
         @ Secret Project Robot,
         Metropolitan and Kent, Brooklyn.
-        8-12 pm 
+        8-12 pm
         $5.
   </a></li>
 
-  <li class="video">27 Oct 2010 / 
+  <li class="video">27 Oct 2010 /
     Memory Burn Presents:
-    record release party for <a class="more" href="http://www.excepter.net/">Excepter/</a> 
-    The "LATE" Ep on WOODSIST RECORDS 
+    record release party for <a class="more" href="http://www.excepter.net/">Excepter/</a>
+    The "LATE" Ep on WOODSIST RECORDS
     with:
     <ul class="flat">
         <li>Up Died Sound</li>
@@ -809,7 +817,7 @@ DJ: The Magick Report
     (<a href="http://www.facebook.com/event.php?eid=139452992746217">fb</a>)
   </li>
 
-  <li class="music">29 Jul 2010 / 
+  <li class="music">29 Jul 2010 /
             <q>Cracked Lightning and Caviar Pissings</q><br>
             presented by Michael Mahalchick and Rebecca Gaffney
             with <ul>
@@ -823,11 +831,11 @@ DJ: The Magick Report
             </ul>
 
             <q>mimosianic mesmergysinic ricketterial lampogenous trouble invisible activities and no broadband</q>
-            @ <a href="http://www.canadanewyork.com/">Canada Gallery</a> 55 Chrystie St. Lower East Side, New York, NY 8-11 pm. 
+            @ <a href="http://www.canadanewyork.com/">Canada Gallery</a> 55 Chrystie St. Lower East Side, New York, NY 8-11 pm.
         (<a href="http://www.facebook.com/event.php?eid=137143329642365">fb</a>)
   </li>
 
-  <li class="music">4  Jun 2010 / 
+  <li class="music">4  Jun 2010 /
     <ul>
         <li class="less">Nihiti</li>
         <li class="more"><a href="http://labigvic.com/">La Big Vic</a></li>
@@ -873,7 +881,7 @@ DJ: The Magick Report
 
   <li class="video">
     16 May 2010 / <a class="more" href="http://www.myspace.com/lovelikedeloreans">Love Like Deloreans</a>
-    @ Coco 66 
+    @ Coco 66
     66 Greenpoint Avenue, Brooklyn NY 11222
     w/ <ul class="flat">
         <li><a href="http://www.silverapples.com/">Silver Apples</a></li>
@@ -914,20 +922,20 @@ DJ: The Magick Report
 <li>kenny curwood</li>
 <li>rebecca gaffney</li>
   </ul>
-    
+
   @ "Staggallery", 64 Stagg St., #3 Williamsburg, Brooklyn, NY
   </li>
 
-  <li class="music">20-21 April 2010 9pm-9pm / 
+  <li class="music">20-21 April 2010 9pm-9pm /
     <a href="http://www.facebook.com/?sk=events#!/event.php?eid=113349445355214">24-hour Performance</a>
     w/ <a href="http://www.myspace.com/behaviorband">Behavior</a>
     <blockquote>
-        Works by: Viktor Timofeev, Grant Singer, Nancy Lupo, Chris Deloach, Tucker Rae-Grant, Elaine Stocki, Fryd Frydendahl, Kyle Garner, David Muenzer, Rebecca Lieb, Alex Da Corte, Eleanor Swordy, Bryce Hackford, Khira Jordan, Toshio Masuda, Igor, Kate Levant, John O, Carlton Dewoody, Noel Anderson, <span class="more">Jon Williams</span>, Katie Deacon, Tom Beale, Daphane Park, Christopher Cerrone, Andy Maas, Joseph Graham-Felsen, Charls Olson, Camilla Padgitt-Coles, Juliana Sabinson 
+        Works by: Viktor Timofeev, Grant Singer, Nancy Lupo, Chris Deloach, Tucker Rae-Grant, Elaine Stocki, Fryd Frydendahl, Kyle Garner, David Muenzer, Rebecca Lieb, Alex Da Corte, Eleanor Swordy, Bryce Hackford, Khira Jordan, Toshio Masuda, Igor, Kate Levant, John O, Carlton Dewoody, Noel Anderson, <span class="more">Jon Williams</span>, Katie Deacon, Tom Beale, Daphane Park, Christopher Cerrone, Andy Maas, Joseph Graham-Felsen, Charls Olson, Camilla Padgitt-Coles, Juliana Sabinson
     </blockquote>
-    
+
     @ Robert Goff Gallery, 537B W 23rd St, Chelsea, NY, NY
   </li>
-  
+
 
   <li class="music">7  Apr 2010 / <a class="more" href="http://chmmrwhenagitated.com/">Chmmr When Agitated</a>
     @ <a href="http://www.goodbye-blue-monday.com/">Goodbye Blue Monday</a>, 1087 Broadway, Brooklyn, New York
@@ -963,8 +971,8 @@ DJ: The Magick Report
   <ul>
     <li><a href="http://www.pendu.org/events/past/02-16-10/">photos on pendu.org</a></li>
   </ul>
-  </li> 
-  <li class="video">23 Jan 2010 / 
+  </li>
+  <li class="video">23 Jan 2010 /
     @ <a href="http://www.zebuloncafeconcert.com/">Zebulon</a>, 258 Wythe Avenue, Williamsburg, Brooklyn. w/
     <ul class="flat">
       <li><a href="http://excepter.com/">Excepter</a></li>
@@ -1121,7 +1129,7 @@ DJ: The Magick Report
     </li>
 
     <li class="video">28 Feb 2009 <a class="more" href="http://www.excepter.com/">Excepter</a> @ 92Y Tribeca, Manhattan.
-        w/ Psychic Ills 
+        w/ Psychic Ills
         <ul>
             <li>Video:
                 <a href="http://www.youtube.com/watch?v=SkK8byUpnqI">One</a>
@@ -1154,7 +1162,7 @@ DJ: The Magick Report
         </ul>
     </li>
 
-    <li class="video">28 Aug 2007 / Great Internet Sleepover 
+    <li class="video">28 Aug 2007 / Great Internet Sleepover
         @ Eyebeam
         <i>I poured a beer into my laptop and fell asleep</i>
     </li>
