@@ -37,7 +37,7 @@ I am currently seeking an engineering position in the New York City area at a te
 
 ## Experience
 
-### Director of Engineering, [Bandwagon](http://bandwagon.io), Brooklyn, NY — 5/2016 - 10/2016. Consultant 10/2016 - present
+### Director of Engineering, [Bandwagon](http://bandwagon.io), Brooklyn, NY — 5/2016 - 10/2017. Consultant 10/2017 - present
 _Engineering leadership for airport-based ridesharing startup._
 
 * Took over entirety of engineering responsibilities after departure of previous engineering team.
