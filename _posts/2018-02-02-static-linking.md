@@ -46,7 +46,7 @@ LDFLAGS +=$(shell $(PKGCONFIG) --variable=libdir libusb-1.0)/libusb-1.0.a
 LDFLAGS +=$(shell $(PKGCONFIG) --variable=libdir librtlsdr)/librtlsdr.a
 ```
 
-I've had varying success with this technique, [particularly running into problems on Linux](https://github.com/WIZARDISHUNGRY/vcvrack-rtlsdr/issues/26),
+I've had varying success with passing static libraries on the command line, [particularly running into problems on Linux](https://github.com/WIZARDISHUNGRY/vcvrack-rtlsdr/issues/26),
 but it works on Windows (with some conditional code for library naming) and Mac.
 
 If a library lacks pkg-config, I'd consider using the output of `ld -v` to enumerate search paths for `find`.
