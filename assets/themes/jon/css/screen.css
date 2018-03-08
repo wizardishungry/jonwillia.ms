@@ -17,8 +17,8 @@ html, body {
 
 body {
 	background-color: white;
-	font: 13.34px helvetica, arial, clean, sans-serif;
-	*font-size: small;
+	font: 12pt helvetica, arial, clean, sans-serif;
+	font-size: small;
 	text-align: center;
 }
 
@@ -88,7 +88,6 @@ ul.posts span {
 .site {
 	font-size: 110%;
 	text-align: justify;
-	min-width: 40em;
 	max-width: 80%;
 	margin: 3em auto 2em auto;
 	line-height: 1.5em;
@@ -125,7 +124,7 @@ ul.posts span {
 		color: #aaa;
 	}
 
-	.site .footer, .site .post + .post {
+	#post ~ .footer {
 		border-top: 4px dashed #aaa;
 		margin-top: 2em;
 	}
@@ -143,7 +142,6 @@ ul.posts span {
 
 		.site .footer .rss {
 			margin-top: 1.1em;
-			float: right;
 		}
 
 			.site .footer .rss img {
@@ -164,6 +162,10 @@ ul.posts span {
 #post {
 
 }
+
+	.short-post {
+		list-style-type: none;
+	}
 
 	/* standard */
 
@@ -222,22 +224,22 @@ body {
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 
-	/* ie10 consumer preview */ 
+	/* ie10 consumer preview */
 	background-image: -ms-linear-gradient(top, #ffffff 0%, #dddddd 100%);
 
-	/* mozilla firefox */ 
+	/* mozilla firefox */
 	background-image: -moz-linear-gradient(top, #ffffff 0%, #dddddd 100%);
 
-	/* opera */ 
+	/* opera */
 	background-image: -o-linear-gradient(top, #ffffff 0%, #dddddd 100%);
 
-	/* webkit (safari/chrome 10) */ 
+	/* webkit (safari/chrome 10) */
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #dddddd));
 
-	/* webkit (chrome 11+) */ 
+	/* webkit (chrome 11+) */
 	background-image: -webkit-linear-gradient(top, #ffffff 0%, #dddddd 100%);
 
-	/* w3c markup, ie10 release preview */ 
+	/* w3c markup, ie10 release preview */
 	background-image: linear-gradient(to bottom, #ffffff 0%, #dddddd 100%);
 
 }
@@ -245,7 +247,7 @@ body {
 
 /*****************************************************************************/
 /*
-/* Ribbons and badges 
+/* Ribbons and badges
 /*
 /*****************************************************************************/
 

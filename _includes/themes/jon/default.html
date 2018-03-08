@@ -18,7 +18,7 @@
    <meta property="og:title" content="{{ real_title }}" />
    <meta property="og:type" content="website" />
    <meta property="og:url" content="{{ BASE_PATH }}{{ page.url }}" />
-   <meta property="og:image" content="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-ash3/66985_890413961158_1970910812_n.jpg" />
+   <meta property="og:image" content="" />
    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.posts[0].description }}{% endif %}" />
 </head>
 <body>
@@ -27,10 +27,10 @@
 	<div class="title">
 	  <a href="{{ HOME_PATH }}">{{ site.title }}</a>
 
-	  <a class="extra" href="{{ HOME_PATH }}">Blog</a>
+	  <a class="extra" href="{{ HOME_PATH }}archive.html">Notes</a>
 	  <a class="extra" href="{{ HOME_PATH }}upcoming.html">Upcoming</a>
 	  <a class="extra" href="{{ BASE_PATH }}/resume.html">Resume</a>
-	  <!-- 
+	  <!--
 	  <a class="extra" href="http://wizardishungry.com/">Music</a>
 	  -->
 	  <a class="extra" href="{{ BASE_PATH }}{{ site.JB.pages_path }}">More…</a>
@@ -39,9 +39,9 @@
 	  <a class="" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">Tags</a>
 	  -->
 	</div>
-  
+
 	{{ content }}
-  
+
 	<div class="footer">
 	  <div class="contact">
 		<p>

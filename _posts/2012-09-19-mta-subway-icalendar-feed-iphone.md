@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "MTA Real-time Subway Status iCalendar Feed"
-description: "iCal feed of realtime MTA subway status for iPhone"
+title: "MTA Subway Status iCalendar Feed"
+description: "iCal feed of realtime MTA subway status"
 category: webdev
 tags: [mta, ical, iphone, ics, ruby]
 ---

@@ -1,18 +1,20 @@
 ---
-layout: page 
+layout: page
 title:
 header: Recent Posts
-group: featured 
+group: featured
 ---
 {% include JB/setup %}
 
+<table>
 {% for page in site.posts %}
-	<div class="post">
-	<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-	<p class="meta">
-		{{ page.date | date_to_long_string }} 
-		{% if page.location %}{{ page.location }}{% endif %}
-	</p>
-	{{ page.content }}
-	</div>
+	<tr class="short-post">
+	<td class="meta">
+		{{ page.date | date_to_long_string }}
+	</td>
+	<td>
+		<a href="{{ page.url }}">{{ page.title }}</a>
+	</td>
+	</tr>
 {% endfor %}
+</table>
