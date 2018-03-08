@@ -265,9 +265,13 @@ body {
 
 #toc {
 	float: right;
+	margin-left: 30px;
 	border: 2px dashed #007200;
 	padding: 8px;
 	font-size: larger;
+}
+#toc ol {
+	list-style-position: inside;
 }
 
 /***

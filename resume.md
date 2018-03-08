@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resume 
+title: Resume
 tagline: Web Technologist
 group: "featured"
 ---
@@ -11,7 +11,6 @@ group: "featured"
     {{ site.author.name }}<br />
     <i>{{ site.tagline }}</i><br />
     Brooklyn, NY<br />
-    401-499-4532<br />
     <a href='mailto:{{ site.author.email }}'>{{ site.author.email }}</a><br />
     <a href="{{ site.production_url }}">{{ site.production_url }}</a><br />
     <a href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a>
@@ -31,7 +30,7 @@ group: "featured"
 
 I am currently seeking an engineering position in the New York City area at a technology-driven company that:
 
-* utilizes modern software development methodologies – e.g. test-driven development, continuous delivery, DevOps, etc. 
+* utilizes modern software development methodologies – e.g. test-driven development, continuous delivery, DevOps, etc.
 * <span title="I don't want another PHP role.">allows engineers to utilize modern technologies</span>.
 * provides an informal, friendly, team-based environment.
 
@@ -98,7 +97,7 @@ _Relaunched high-traffic celebrity news website._
 * Integrated CMS with [Akamai](http://www.akamai.com/) & [Brightcove](http://www.brightcove.com/) Content Distribution Networks (CDN). Asset migration from Windows Server 2003 environment.
 * Evaluation / documentation / integration of former employees' projects. Interfaced with contractor-developed iPad application via JSON.
 
-### Software Engineer, [Xceedium](http://www.xceedium.com), Jersey City, NJ — 4/2011 – 12/2012 
+### Software Engineer, [Xceedium](http://www.xceedium.com), Jersey City, NJ — 4/2011 – 12/2012
 _Development of hardware security network appliance._
 
 *	Maintained & enhanced GateKeeper Linux appliance using Agile process. Primary focus on [PHP](http://www.php.net/) web services & Javascript UI; other components included C-language daemons, Java applets, MySQL.
@@ -133,7 +132,7 @@ _Research &amp; development of innovative web &amp; BitTorrent apps utilizing an
 *	Managed open source contributions and issue reporting via Git source control and JIRA bug tracker.
 *	Developed software targeting commodity web hosts for “unzip and run installs”, in the vein of WordPress.
 *	Worked to solve standardization problems in RSS and Atom-based podcasts.
-*	Conceived SEO-directed internationalization and localization strategy for LimeWire website with aim of increasing purchase rates in overseas markets. 
+*	Conceived SEO-directed internationalization and localization strategy for LimeWire website with aim of increasing purchase rates in overseas markets.
 *	Maintained MediaWiki and PhpBB installations for Limewire.org community with ~90,000 accounts.
 *	Evaluated replacement of LimeWire’s Java servlet for crash report handling in response to load issues during new release cycles.
 
@@ -141,7 +140,7 @@ _Research &amp; development of innovative web &amp; BitTorrent apps utilizing an
 _Application/content team attached to dean of development; develops web apps and addresses marketing and academic technology._
 
 *	Single handedly planned and developed unified content management system; gracefully migrating content from a cornucopia of older ad-hoc content management systems (Cold Fusion, Perl, PHP 4) to single unified CMS encompassing nearly a dozen distinct content types and their associated backend interface. System utilizes Symfony PHP framework to aid in rapid development and code reuse.
-*	Developed CMS backend using Web 2.0 technologies; TinyMCE rich text editor, Prototype/Scriptaculous Javascript DHTML/Ajax enhancements; ensuring user-friendly and responsive access to content editing for 11 academic departments and 16 centers and institutes. Tag-based permissions system allows easy delegation of authority with flexible scope. 
+*	Developed CMS backend using Web 2.0 technologies; TinyMCE rich text editor, Prototype/Scriptaculous Javascript DHTML/Ajax enhancements; ensuring user-friendly and responsive access to content editing for 11 academic departments and 16 centers and institutes. Tag-based permissions system allows easy delegation of authority with flexible scope.
 *	Member of core marketing/branding team that oversaw year-long renaming process of school and a comprehensive visual identity overhaul for both web and print. Worked to accommodate visual identities of departments within overall school, and university brands.
 *	Created AJAX faculty bio editor that allowed inline layout and polling from sources ranging from RSS feeds to CMS news, accommodating the diverse requirements of 243+ full-time faculty members and allowing the reuse of web content in new contexts.
 *	Ported open source [Kerberos V bindings for PHP version 4 to 5](http://cvs.savannah.nongnu.org/viewvc/phpkrb5/) for authentication against central NYU systems.
@@ -167,7 +166,7 @@ _Provides e-business consulting for kiosk and web-based applications._
 *	Design and implement backend for kiosk electronic banking application w/ automated wire transfers.
 *	Administered mail servers (Qmail/Red Hat Linux) and firewalls (OpenBSD, Cisco PIX).
 
-### Systems Administrator / Programmer, George Patton Associates, LLC., Bristol, RI — 2/2003 - 4/2003 
+### Systems Administrator / Programmer, George Patton Associates, LLC., Bristol, RI — 2/2003 - 4/2003
 _Manufactures custom signage for small businesses; orders primarily placed online._
 
 *	Maintained legacy UNIX ordering/production/inventory/shipping system (60,000+ lines of C, Perl and shell scripts) on modern Red Hat Linux system.
@@ -176,7 +175,7 @@ _Manufactures custom signage for small businesses; orders primarily placed onlin
 ## Education
 
 ### University of Rochester, Rochester, NY — Computer Science (B.S.), systems concentration, 2005.
-Selected Courses: 
+Selected Courses:
 
 * Parallel & Distributed Systems: (concurrency, Pthreads, MPI, etc.),
 * Introduction to Cryptology (P2P, cipher design, public key, etc.)
