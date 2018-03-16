@@ -2,8 +2,8 @@
 layout: post
 title: "MTA Subway Status iCalendar Feed"
 description: "iCal feed of realtime MTA subway status"
-category: webdev
-tags: [mta, ical, iphone, ics, ruby]
+category: Transit 
+tags: [MTA, NYC, calendar, Ruby, transit, subway]
 ---
 {% include JB/setup %}
 

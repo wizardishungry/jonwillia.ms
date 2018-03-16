@@ -1,12 +1,12 @@
 ---
-layout: default
-title: Chronology
+layout: page
+title: Past Events
+group: "featured"
 body_class: "info chronology"
+header : A history of every event I've performed in.
 ---
-<a href="upcoming.html">Why look back; the future's cool, too!</a>
 
 <ul class="classed root">
-
 
   <li class="music">14 Jan 2018 /
     12 hour drone (w/ Brian Hersey)

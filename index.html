@@ -6,15 +6,40 @@ group: featured
 ---
 {% include JB/setup %}
 
-<table>
-{% for page in site.posts %}
-	<tr class="short-post">
-	<td class="meta">
-		{{ page.date | date_to_long_string }}
-	</td>
-	<td>
-		<a href="{{ page.url }}">{{ page.title }}</a>
-	</td>
-	</tr>
-{% endfor %}
-</table>
+
+</p>
+
+<section>
+	<p>
+		<label for="mn-pages" class="margin-toggle">⊕</label>
+		<input type="checkbox" id="mn-pages" class="margin-toggle">
+		<span class="marginnote">
+			<em>Pages:</em>
+			{% for page in site.pages %}
+				{% if page.group == "featured" %}
+					<a href="{{page.url}}">{{page.title}}</a>
+				{% endif %}
+			{% endfor %}
+		</span>
+		<span class="newthought">Now that you've arrived at my personal website,</span>
+		you should probably go read one of the notes below or send me an email.
+		If you're unsure of what to do, you should navigate away by clicking
+		on a social media link.
+	</p>
+</section>
+
+<section>
+	<h2><a href="archive.html">Notes</a></h2>
+	<table>
+	{% for page in site.posts %}
+		<tr class="short-post">
+		<td class="meta">
+			{{ page.date | date_to_string }}
+		</td>
+		<td>
+			<a href="{{ page.url }}">{{ page.title }}</a>
+		</td>
+		</tr>
+	{% endfor %}
+	</table>
+</section>

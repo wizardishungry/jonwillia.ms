@@ -1,0 +1,15 @@
+{% if page.title %}
+  {% capture tufte-title %}<a href="{{ HOME_PATH }}">{{ site.title }}</a> / {{ page.title }}{% endcapture %}
+  {% capture tufte-subtitle %}{{page.header}}{% endcapture %}
+{% else %}
+  {% capture tufte-title %}{{ site.title }}{% endcapture %}
+  {% capture tufte-subtitle %}{{ site.tagline }}{% endcapture %}
+{% endif %}
+<h1 id="tufte-css">{{ tufte-title }}</h1>
+<p class="subtitle">
+  {{ tufte-subtitle }}
+  {% if page.date %}
+    <br><span class="date">{{ page.date | date_to_long_string }}</span>
+  {% endif %}
+</p>
+{{ content }}

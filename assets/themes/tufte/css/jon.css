@@ -1,0 +1,6 @@
+.footer .contact.icons * {
+  background-repeat: inherit;
+}
+.tag_box span {
+  display: none;
+}

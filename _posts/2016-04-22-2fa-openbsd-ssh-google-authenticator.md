@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "2-Factor Authentication for OpenBSD Using Google Authenticator and totp-util"
-category: openbsd
-tags: [2fa, openbsd, ssh, totp, qr, javascript, crypto]
+category: Security
+tags: [2FA, OpenBSD, ssh, TOTP, JavaScript, cryptography, security]
 ---
 {% include JB/setup %}
 
@@ -16,17 +16,17 @@ A popular system for two-factor authentication is [TOTP](https://en.wikipedia.or
 I wrote [totp-util](https://github.com/WIZARDISHUNGRY/totp-util) to simplify the process of setting up Google Authenticator on UNIX systems.
 
 
-# Install utilities
+## Install utilities
 ```
-npm install -g https://github.com/WIZARDISHUNGRY/totp-util 
+npm install -g https://github.com/WIZARDISHUNGRY/totp-util
 pkg_add login_oath
 ```
 
-# User setup
+## User setup
 * run `totp-util` to setup `~/.totp-key`
 * Scan the code in Google Authenticator
 
-# Setup authentication and SSH
+## Setup authentication and SSH
 * We're assuming everyone on the server is using ssh key auth. Change this in `/etc/login.conf`
 
 ```
@@ -34,7 +34,7 @@ pkg_add login_oath
 auth-defaults:auth=-totp-and-pwd,skey:
 ```
 
-Edit `/etc/ssh/sshd_config` to force SSH logins by root to use __both__ an ssh key and a totp/password. 
+Edit `/etc/ssh/sshd_config` to force SSH logins by root to use __both__ an ssh key and a totp/password.
 
 ```
 Match User root
@@ -44,13 +44,13 @@ AuthenticationMethods publickey,password
 Then run:
 
 ```
-/etc/rc.d/sshd restart 
+/etc/rc.d/sshd restart
 cap_mkdb /etc/login.conf
 ```
 
 Now regular users should be able to authenticate with just SSH (or a password plus totp token) but root will need password, ssh-key and a TOTP token.
 
-# Logging in
+## Logging in
 ```
 $ ssh root@machine   
 Authenticated with partial success.

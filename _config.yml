@@ -1,20 +1,22 @@
-# This is the default format. 
+# This is the default format.
+
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title 
+permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: pygments
+highlighter: rouge
 
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
 title : Jon Williams
-#tagline: 🤔
+tagline: human being, programmer, musician, and “internet personality”
 author :
   name : Jon Williams
   email : jon@jonwillia.ms
   github : WIZARDISHUNGRY
   twitter : WIZARDISHUNGRY
+  pinboard : WIZARDISHUNGRY
   feedburner : jonwillia-ms
 
 # The production_url is only used when full-domain names are needed
@@ -43,7 +45,7 @@ JB :
   #   (urls will be prefixed with "/" and work relatively)
   #
   # GitHub Pages (http://username.github.io)
-  #   DO NOT SET BASE_PATH 
+  #   DO NOT SET BASE_PATH
   #   (urls will be prefixed with "/" and work relatively)
   #
   # GitHub Project Pages (http://username.github.io/project-name)
@@ -97,7 +99,7 @@ JB :
       colorscheme: light
     duoshuo :
       short_name : jekyllbootstrap
-   
+
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.

@@ -2,12 +2,12 @@
 layout: post
 title: "Block Tweet Sponsors"
 description: "script to block promoted tweets"
-category: internet
-tags: [twitter, php, hacks]
+category: Internet
+tags: [Twitter, php, hacks, advertising]
 ---
 {% include JB/setup %}
 
-<em>April, 2016: </em> this is broken right now!
+<mark><em>April, 2016: </em> this is broken, likely by a Twitter API change.</mark>
 
 <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/twitter">@twitter</a> Stop putting things in my feed from people I don&#39;t follow. Hurts the signal-to-noise ratio and decreases utility of the platform.</p>&mdash; Nullsleep (@Nullsleep) <a href="https://twitter.com/Nullsleep/status/512267449312751616">September 17, 2014</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Forcing Clang to statically link against an installed library"
-category: programming
-tags: [llvm, gcc, c++, c, clang]
+category: Programming
+tags: [LLVM, GCC, C++, C, Clang]
 ---
 {% include JB/setup %}
 
@@ -16,11 +16,11 @@ is now the C/C++ compiler of choice on many platforms including in Apple's Xcode
 Its linker lacks an option to force static linking when resolving a library passed in.
 When both a static and dynamic version of a library exist, we must explicitly pass the path to the static library if we wish to link statically with Clang.
 
-##### Static linking with full paths
+### Static linking with full paths
 ```bash
 c++ -o plugin.dylib object.cpp.o … /usr/local/Cellar/libusb/1.0.21/lib/libusb-1.0.a /usr/local/Cellar/librtlsdr/0.5.3/lib/librtlsdr.a
 ```
-##### Dynamic linking (no full paths needed)
+### Dynamic linking (no full paths needed)
 ```bash
 c++ -o plugin.dylib object.cpp.o … -lusb-1.0 -lrtlsdr -lusb-1.0
 ```
@@ -51,7 +51,7 @@ but it works on Windows (with some conditional code for library naming) and Mac.
 
 If a library lacks pkg-config, I'd consider using the output of `ld -v` to enumerate search paths for `find`.
 
-##### Validating Static Linking
+### Validating Static Linking
 
 | Windows            | Linux         | Mac                   |
 |--------------------|---------------|-----------------------|

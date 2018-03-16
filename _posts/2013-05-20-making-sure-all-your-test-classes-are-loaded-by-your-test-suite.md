@@ -2,12 +2,12 @@
 layout: post
 title: "Making Sure All Your Test Classes Are Loaded by Your Test Suite"
 description: "Strace to validate that all test classes and fixtures are loaded (test suite coverage)"
-category: webdev
-tags: [strace, php, testing, phpunit, bash]
+category: Programming
+tags: [strace, php, testing, PHPUnit]
 ---
 {% include JB/setup %}
 
-We were having an issue with developers ommiting or removing tests from our test harness. So I kluged together a PHP/Bash monotrosity that prints a list of files not loaded during the execution of the test harness as determined by [strace](http://en.wikipedia.org/wiki/Strace)'s log of file access. Although this is a little coarse, it does provide a list of outdated fixtures, new unadded tests and defunct tests to be removed/fixed. You probably want to tee this into a logfile.
+We were having an issue with developers ommiting or removing tests from our test harness. So I kluged together a PHP/Bash monotrosity that prints a list of files not loaded during the execution of the test harness as determined by [strace](http://en.wikipedia.org/wiki/Strace)'s log of file access. Although this is a little coarse, it does provide a list of outdated fixtures, new unadded tests and defunct tests to be removed/fixed. You probably want to `tee` this into a logfile.
 
 ```php
 <?php
@@ -39,7 +39,7 @@ php util_scripts/TestSuiteCoverage.php
 This is SLOW!
 Logging strace to /tmp/TestSuiteCoverage-z0EBOL
 
-phpunit   /home/jon/build/Spam/util_scripts/../library/SpacelySprockets/Test/Suite/Integration/Frontend.php 
+phpunit   /home/jon/build/Spam/util_scripts/../library/SpacelySprockets/Test/Suite/Integration/Frontend.php
 
 PHPUnit 3.6.3 by Sebastian Bergmann.
 

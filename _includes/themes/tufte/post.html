@@ -1,0 +1,31 @@
+{% if page.title %}
+  {% capture tufte-title %}{{ page.title }}{% endcapture %}
+  {% capture tufte-subtitle %}<a href="{{ HOME_PATH }}">{{ site.title }}</a>{% endcapture %}
+{% else %}
+  {% capture tufte-title %}{{ site.title }}{% endcapture %}
+  {% capture tufte-subtitle %}{{ site.tagline }}{% endcapture %}
+{% endif %}
+<h1 id="tufte-css">{{ tufte-title }}</h1>
+<section>
+<p class="subtitle">
+  {% if page.date %}
+    <span class="marginnote date">{{ page.date | date_to_long_string }}</span>
+  {% endif %}
+  {{ tufte-subtitle }}
+</p>
+</section>
+<section>
+  {{ content }}
+</section>
+
+<!--
+<section id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    {% for post in site.related_posts limit:3 %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+-->
+{% include JB/comments %}

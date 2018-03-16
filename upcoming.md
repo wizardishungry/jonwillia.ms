@@ -1,15 +1,19 @@
 ---
-layout: default
-title: Upcoming
+layout: page
+title: Upcoming Events
 group: "featured"
 body_class: "info upcoming"
 ---
 {% include JB/setup %}
 
+<section>
+  <p>
+    Nothing now!
+  </p>
 
+  <ul class="classed root">
 
-<ul class="classed root">
+  </ul>
+</section>
 
-</ul>
-
-<h5><a href="chronology.html">Past events?</a></h5>
+<h3><a href="chronology.html">Past events</a></h3>
