@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2-Factor Authentication for OpenBSD Using Google Authenticator and totp-util"
+title: "2 Factor Authentication for OpenBSD"
 category: Security
 tags: [2FA, OpenBSD, ssh, TOTP, JavaScript, cryptography, security]
 ---
