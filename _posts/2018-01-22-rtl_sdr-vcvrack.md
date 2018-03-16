@@ -16,7 +16,7 @@ tuner for [RTL-SDR dongles](https://rtlsdr.org). You should be able to find one 
 <input type="checkbox" id="mn-pages" class="margin-toggle">
 <span class="marginnote">
 Download:<br>
-<a href="https://vcvrack.com/plugins.html#RTL_SDR">Binaries</a>
+<a href="https://vcvrack.com/plugins.html#SDR">Binaries</a>
 <br>
 <a href="https://github.com/WIZARDISHUNGRY/vcvrack-rtlsdr">Source</a>
 </span>
