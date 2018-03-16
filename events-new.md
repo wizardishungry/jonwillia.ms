@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Upcoming Events
+title: Upcoming
 group: "featured"
 body_class: "info upcoming"
 ---
