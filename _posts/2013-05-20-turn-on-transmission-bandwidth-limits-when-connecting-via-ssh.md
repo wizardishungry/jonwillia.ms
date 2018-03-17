@@ -7,6 +7,4 @@ tags: [BitTorrent, p2p, ssh, Unix, bash]
 ---
 {% include JB/setup %}
 
-I spend a lot of time logged into my home machine via ssh and find it irritating that my ssh performance degrades when [Transmission](http://www.transmissionbt.com/) is making speedy progress on a torrent. I've [cobbled together some bash to click the turtle icon](https://gist.github.com/WIZARDISHUNGRY/5613184) when you connect via ssh and uncheck it when the last ssh connection leaves.
-
-<script src="https://gist.github.com/WIZARDISHUNGRY/5613184.js"></script>
+I spend a lot of time logged into my home machine via ssh and find it irritating that my network performance degrades when [Transmission](http://www.transmissionbt.com/) is making speedy progress on a torrent. I've [assembled a script to click the turtle icon](https://gist.github.com/WIZARDISHUNGRY/5613184) when you connect via ssh and uncheck it when the last ssh connection leaves.

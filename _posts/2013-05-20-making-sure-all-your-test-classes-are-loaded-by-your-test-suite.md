@@ -9,7 +9,7 @@ tags: [strace, php, testing, PHPUnit]
 
 We were having an issue with developers ommiting or removing tests from our test harness. So I kluged together a PHP/Bash monotrosity that prints a list of files not loaded during the execution of the test harness as determined by [strace](http://en.wikipedia.org/wiki/Strace)'s log of file access. Although this is a little coarse, it does provide a list of outdated fixtures, new unadded tests and defunct tests to be removed/fixed. You probably want to `tee` this into a logfile.
 
-```php
+<pre class="code">
 <?php
 define('TEST_BASE_PATH', realpath(realpath(dirname(__FILE__)) . '/../library/Mmf/Test/'));
 define('SCRIPT_PATH', realpath(dirname(__FILE__)) . '/CommitTest.php');
@@ -29,11 +29,10 @@ foreach($diff as $file) {
     echo "$file\n";
 }
 unlink($tmp);
-```
+</pre>
 
-Example output:
-
-```
+### Example output
+<pre class="code">
 php util_scripts/TestSuiteCoverage.php
 /home/jon/build/Spam/util_scripts/CommitTest.php
 This is SLOW!
@@ -71,4 +70,4 @@ OK (528 tests, 5557 assertions)
 /home/jon/build/Spam/library/SpacelySprockets/Test/Fixtures/content_comment.sql
 /home/jon/build/Spam/library/SpacelySprockets/Test/Fixtures/member-usage.sql
 /home/jon/build/Spam/library/SpacelySprockets/Test/Fixtures/stats-test.sql
-```
+</pre>
