@@ -557,7 +557,7 @@ SHATTERED SHARDS
 
   <li class="music"> 20 Jul 2011 / <a href="http://excepter.blogspot.com/2011/07/stream-72.html">SETH + SSPS + LAL8 = Excepter</a> @ Wreck Room, Brooklyn</li>
 
-  <li class="music"> 30 Apr 2011 / All We Are (piece for 13 person + 1 bird ensemble) @ <a href="http://thescienceofpeace.tumblr.com/">The Science of Peace</a>, St. Cecilia's Convent, Greenpoint, Brooklyn, NY <img width="100%" src="include/orchestra.jpg"></li>
+  <li class="music"> 30 Apr 2011 / All We Are (piece for 13 person + 1 bird ensemble) @ <a href="http://thescienceofpeace.tumblr.com/">The Science of Peace</a>, St. Cecilia's Convent, Greenpoint, Brooklyn, NY <img width="100%" src="/assets/images/orchestra.jpg"></li>
 
   <li class="video">25 Mar 2011 / <a href="http://www.lornakrier.com/" class="more">Lorna Krier w/ Dream Massage</a> @ <a href="http://musicatfirstsite.com/">First Presbyterian Church of Brooklyn 124 Henry St.  Brooklyn, NY 11201</a></li>
 
@@ -1014,7 +1014,7 @@ DJ: The Magick Report
     </li>
 
     <li class="screening">2 Oct / <a href="http://monkeytownhq.com/10_2_09.html">Spun 2</a>
-      @ <a href="http://monkeytownhq.com/">Monkeytown</a>, Williamsburg Brooklyn<br><img src="http://monkeytownhq.com/images/spun%202flat.jpg"></li>
+      @ <a href="http://monkeytownhq.com/">Monkeytown</a>, Williamsburg Brooklyn<br><img src="/assets/images/spun%202flat.jpg"></li>
 
     <li class="video">26 Sep / Monster Island, 128 River Street, Brooklyn, NY
         <ul>
