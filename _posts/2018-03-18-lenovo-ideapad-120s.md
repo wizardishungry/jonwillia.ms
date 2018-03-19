@@ -2,7 +2,7 @@
 layout: post
 title: "Lenovo Ideapad 120S"
 description: "notes on getting various operating systems working on the Lenovo Ideapad 120S"
-category: Hardware
+category: hardware
 tags: [Linux, OpenBSD, Debian, laptop, arm64]
 ---
 {% include JB/setup %}
@@ -51,7 +51,7 @@ Attempting to boot with the system in EFI mode results in a blank screen after t
 The internal storage is an MMC device, which although supported, is not included in the install kernel<label for="sn-rpi" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-rpi" class="margin-toggle">
 <span class="sidenote">See discussion of [installing OpenBSD on the Raspberry Pi 3](https://undeadly.org/cgi?action=article&sid=20170409123528).</span>
 at this time.
-
+ and are unable to proceed furth=r
 The Atheros wireless isn't supported and shows up as<label for="sn-62-dmesg" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-62-dmesg" class="margin-toggle">
 <span class="sidenote">See [`dmesg`](http://dmesgd.nycbug.org/index.cgi?do=view&id=3526)</span>:
 <pre class="code">

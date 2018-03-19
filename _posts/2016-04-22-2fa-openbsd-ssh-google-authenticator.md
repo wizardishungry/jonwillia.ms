@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "2 Factor Authentication for OpenBSD"
-category: Security
-tags: [2FA, OpenBSD, ssh, TOTP, JavaScript, cryptography, security]
+category: security
+tags: [2FA, OpenBSD, OpenSSH, TOTP ]
 ---
 {% include JB/setup %}
 

@@ -5,3 +5,7 @@
 .tag_box span {
   display: none;
 }
+
+.inline, .inline * {
+  display: inline-flex;
+}

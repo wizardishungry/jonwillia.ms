@@ -3,7 +3,7 @@ layout: post
 title: "Turn on Transmission Bandwidth Limits When Connecting via Ssh"
 description: "Make the Transmission BitTorrent client turn on the alternate bandwidth limits (turtle mode) when you login over ssh and turn back on when you log out of the last ssh connection."
 category: Internet
-tags: [BitTorrent, p2p, ssh, Unix, bash]
+tags: [BitTorrent, P2P, OpenSSH, Unix, Bash]
 ---
 {% include JB/setup %}
 

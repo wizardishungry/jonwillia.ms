@@ -3,7 +3,7 @@ layout: post
 title: "MTA Subway Status iCalendar Feed"
 description: "iCal feed of realtime MTA subway status"
 category: NYC
-tags: [MTA, NYC, calendar, Ruby, transit, subway]
+tags: [MTA, calendar, Ruby, transit, subway]
 ---
 {% include JB/setup %}
 <p><span class="marginnote"><a href="/assets/images/mta-ical-osx-1.png"><img src="/assets/images/mta-ical-osx-1.png" alt="iCal displaying MTA status in OSX" ></a>

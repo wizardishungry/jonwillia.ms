@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Forcing Clang to statically link against an installed library"
-category: Programming
+category: programming
 tags: [LLVM, GCC, C++, C, Clang]
 ---
 {% include JB/setup %}
@@ -51,7 +51,8 @@ I've had varying success with passing static libraries on the command line,
 [particularly running into problems on Linux](https://github.com/WIZARDISHUNGRY/vcvrack-rtlsdr/issues/26),
 but it works on Windows (with some conditional code for library naming) and Mac.
 
-If a library lacks pkg-config, I'd consider using the output of `ld -v` to enumerate search paths for `find`.
+If a library lacks pkg-config, you could parse the output of `ld -v` to enumerate search paths for `find`.
+
 
 ### Validating Static Linking
 

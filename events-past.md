@@ -189,7 +189,156 @@ header : A history of every event I've performed in.
     (<a href="https://www.facebook.com/events/1443707209195607/">fb</a>)
   </li>
 
-  <li class="music">3-26 Apr 2014 / <a href="http://excepter.net/" class="more">Excepter</a> European Tour</li>
+  <li class="music">3-26 Apr 2014 / <a href="http://excepter.net/" class="more">Excepter</a> European Tour<ul>
+    <li>
+    APRIL 03
+    Culturgest
+    PORTO
+    http://www.culturgest.pt
+    </li>
+    <li>
+
+    APRIL 04
+    Galeria Zé dos Bois
+    LISBON
+    w/ Tropa Macaca
+    http://www.zedosbois.org/events/excepter-tropa-macaca/
+    </li>
+    <li>
+
+    APRIL 05
+    La Casa Encendida
+    MADRID
+    w/ Actress, Laurel Halo, and more
+    www.lacasaencendida.com
+    </li>
+    <li>
+
+    APRIL 06
+    Sala Apolo
+    BARCELONA
+    w/ Vida
+    https://www.sala-apolo.com/
+    </li>
+    <li>
+
+    APRIL 07
+    Sonic
+    LYON
+    w/ Abschaum
+    http://setantchaussee.free.fr/
+    </li>
+    <li>
+
+    APRIL 08
+    Cave 12
+    GENEVA
+    www.cave12.org
+    </li>
+    <li>
+
+    APRIL 09
+    Velvet
+    TORINO
+    </li>
+    <li>
+
+    APRIL 10
+    Wave Milano
+    MILANO
+    </li>
+    <li>
+
+    APRIL 11
+    P.M.K.
+    INNSBRUCK
+    http://www.pmk.or.at/
+    </li>
+    <li>
+
+    APRIL 12
+    Fluc
+    WIEN
+    http://www.fluc.at/
+    </li>
+    <li>
+
+    APRIL 13
+    Pilot Club
+    PRAGUE
+    https://www.facebook.com/events/1457732251107339/?fref=ts
+    </li>
+    <li>
+
+    APRIL 15
+    Berghain
+    BERLIN
+    http://www.ctm-festival.de/concerts/upcoming
+    </li>
+    <li>
+
+    APRIL 17
+    Jazzhouse
+    COPENHAGEN
+    www.jazzhouse.dk
+    </li>
+    <li>
+
+    APRIL 18
+    Fylkingen
+    STOCKHOLM
+    http://www.mothersthlm.tumblr.com/
+    </li>
+    <li>
+
+    APRIL 19
+    Ulme
+    TALLIN
+    https://www.facebook.com/ulmeulme?fref=ts
+    https://www.facebook.com/mutantdiscotallinn?fref=ts
+    </li>
+    <li>
+
+    APRIL 20
+    Korjaamo
+    HELSINKI
+    www.korjaamo.fi.
+    </li>
+    <li>
+
+    APRIL 21
+    TBC
+    RIGA
+    </li>
+    <li>
+
+    APRIL 23
+    Worm
+    ROTTERDAM
+    www.worm.org
+    </li>
+    <li>
+
+    APRIL 24
+    OT301
+    AMSTERDAM
+    www.ot301.nl
+    </li>
+    <li>
+
+    APRIL 25
+    Instants Chavires
+    PARIS
+    w/ Jackie-O Motherfucker
+    http://www.instantschavires.com
+    </li>
+    <li>
+    APRIL 26
+    Vooruit
+    GENT
+    http://vooruit.be
+    </li>
+  </ul></li>
 
   <li class="music">20 Mar 2014 /
     <ul>

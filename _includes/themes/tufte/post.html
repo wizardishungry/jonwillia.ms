@@ -8,9 +8,24 @@
 <h1 id="tufte-css">{{ tufte-title }}</h1>
 <section>
 <p class="subtitle">
-  {% if page.date %}
-    <span class="marginnote date">{{ page.date | date_to_long_string }}</span>
-  {% endif %}
+ <label for="mn-date" class="margin-toggle">&nbsp;</label><input type="checkbox" checked=true id="mn-date" class="margin-toggle">
+  <span class="marginnote meta">
+    {% if page.date %}
+       <span class="date">{{ page.date | date_to_long_string }}</span><br>
+    {% endif %}
+    {% unless page.categories == empty %}
+      Posted in:
+      {% for category in page.categories %}
+      <a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category }}-ref">{{ category | join: "/" }}</a>
+      {% endfor %}
+    {% endunless %}
+
+    {% unless page.tags == 'empty' %}
+      {% for category in page.tags %}
+        <a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category }}-ref">{{ category | join: "/" }}</a>
+      {% endfor %}
+    {% endunless %}
+  </span>
   {{ tufte-subtitle }}
 </p>
 </section>
