@@ -19,40 +19,49 @@ under Debian.
 
 The keyboard is of a chiclet design, similar to current generation MacBooks. Key caps are slightly rounded on the bottom, giving the keys a shield shape. The position of the Fn and Ctrl keys is my major complaint with the keyboard; they should be swapped.
 
-<table>
-   <tr>
-   <td colspan="10">Esc</td>
-   <td colspan="9">F1</td>
-   <td colspan="9">F2</td>
-  </tr>
+<table border="1" style="width: auto">
+   <tbody><tr>
+   <td colspan="9">Esc</td>
+   <td colspan="8">F1</td>
+   <td colspan="8">F2</td>
+   <td colspan="8">F3</td>
+   <td colspan="8">F4</td>
+</tr>
   <tr>
    <td colspan="8">~</td>
    <td colspan="10">1</td>
    <td colspan="10">2</td>
+   <td colspan="10">3</td>
+   <td colspan="10">4</td>
   </tr>
   <tr>
    <td colspan="10">Tab</td>
    <td colspan="10">Q</td>
    <td colspan="10">W</td>
+   <td colspan="10">E</td>
+   <td colspan="10">R</td>
   </tr>
   <tr>
     <td colspan="12">CapsLk</td>
     <td colspan="10">A</td>
     <td colspan="10">S</td>
+    <td colspan="10">D</td>
   </tr>
   <tr>
    <td colspan="18">Shift</td>
    <td colspan="10">Z</td>
    <td colspan="10">X</td>
+   <td colspan="10">C</td>
   </tr>
   <tr>
    <td colspan="10">Ctrl</td>
    <td colspan="10">Fn</td>
    <td colspan="10">❖</td>
    <td colspan="10">Alt</td>
-  </tr>
-</table>
+   <td colspan="48">&nbsp;</td>
 
+</tr>
+</tbody></table>
 
 ### Storage
 The device comes with Windows 10 Home 64-bit installed on it. The hard drive appears to be a 64 GB MMC reader. The drive is partitioned with:
