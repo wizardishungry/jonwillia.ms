@@ -9,3 +9,8 @@
 .inline, .inline * {
   display: inline-flex;
 }
+
+@media print {
+  .footer { display: none !important; }
+  body { font-size: smaller; } 
+}

@@ -1,21 +1,19 @@
 ---
 layout: post
-title: "Announcing the Rhombic Shift Register"
+title: "Rhombic Shift Register 0.6.0 Released"
 description: ""
 category: music
 tags: [software, audio, modular synthesizers, VCVRack]
 ---
-
-I’ve [been working]({% post_url 2017-12-15-vcvrack %}) on software modular synth design and finally have a fully featured module ready to share with early adopters.
+{% include JB/setup %}
 <figure>
   <label for="mn-exports-imports" class="margin-toggle">Photo</label><input type="checkbox" id="mn-exports-imports" class="margin-toggle"><span class="marginnote">
   <img src="/assets/images/rsr-beta-1.png" alt="Rhombic Shift Register β 1">
   </span>
 </figure>
-
 <blockquote>
 <p>
-The <a href="https://bongo.zone/">Pulsum Quadratum</a> Rhombic Shift Register (RSR) is a four-voice, demuxing shift
+The <a href="https://bongo.zone/modules/rhombic-shift-register" class="newthought">Pulsum Quadratum Rhombic Shift Register</a> (RSR) is a four-voice, demuxing shift
 register for the <a href="http://www.vcvrack.com/">VCVRack</a> modular synthesis environment.
 The RSR consists of four looping “analog” shift registers whose inputs and outputs are
 switched via control voltage.
@@ -24,14 +22,10 @@ source patterns may be generated. Using the Rhombic Shift Register with a sequen
 design complex arabesque patterns and arpeggiations.
 On the other hand, you need not need not use a sequencer or keyboard
 to play the RSR. Good results have been obtained with quantized stepped and random voltages,
-feedback patches and other unconventional sources.
-</p>
+feedback patches and other unconventional sources.<label for="sn-westcoast" class="margin-toggle sidenote-number"></label><input id="sn-westcoast" class="margin-toggle" type="checkbox">
+<span class="sidenote">
+ Commonly termed “West coast synthesis”
+</span></p>
 </blockquote>
 
-
-~~A time-limited beta version is available at the <a href="https://bongo.zone/">Pulsum Quadratum</a> website.~~
-
-<mark>NB:</mark>
-This has been [superceded by a commercial version]({% post_url 2018-03-23-rhombic-shift-register %}).
-
-{% include JB/setup %}
+The RSR is now <a href="https://vcvrack.com/plugins.html#PulsumQuadratum-shift">available for $15 from VCVRack</a>.
