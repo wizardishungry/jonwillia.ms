@@ -68,7 +68,7 @@ class: "sans"
     <li>Design and implementation of novel audio software techniques in C++.</li>
     <li>Audio plugin development on Windows/Mac/Linux for the <a href="https://www.vcvrack.com/">VCVRack</a> synthesis environment.</li>
     <li>Negotiation of software licensing / distribution with partners.</li>
-    <li>Active participation in open source engineering related to audio technologies.</a></li>
+    <li>Active participation in open source engineering related to audio technologies.</li>
   </ul>
 
   <h3>Development Team Lead, <a href="http://www.money-media.com">Money-Media</a> / <a href="http://www.ft.com/">Financial Times</a></h3>
