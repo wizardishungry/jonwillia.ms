@@ -57,6 +57,20 @@ class: "sans"
     <li>Onboarded, mentored, &amp; supported junior engineers.</li>
   </ul>
 
+  <h3>Founder, <a href="https://bongo.zone">Pulsum Quadratum</a></h3>
+  <p>
+    <span class="marginnote">Brooklyn, NY<br>1/2018 - </span>
+    <em>Design &amp; development of experimental audio software.</em>
+  </p>
+
+  <ul>
+    <li>Sole founder – business conceived as a small-scale means to earn money while pursuing passion.</li>
+    <li>Design and implementation of novel audio software techniques in C++.</li>
+    <li>Audio plugin development on Windows/Mac/Linux for the <a href="https://www.vcvrack.com/">VCVRack</a> synthesis environment.</li>
+    <li>Negotiation of software licensing / distribution with partners.</li>
+    <li>Active participation in open source engineering related to audio technologies.</a></li>
+  </ul>
+
   <h3>Development Team Lead, <a href="http://www.money-media.com">Money-Media</a> / <a href="http://www.ft.com/">Financial Times</a></h3>
   <p>
     <span class="marginnote">New York, NY<br>1/2013 - 4/2016</span>
@@ -68,7 +82,7 @@ class: "sans"
       <ul>
         <li>Architected cross-publication Single Sign On using OAuth2.</li>
         <li>Development of front-end website using PHP, <a href="http://framework.zend.com/">Zend</a> 1.12, MySQL and Doctrine.</li>
-        <li>Migrated PEAR-based packaging system to <a href="http://www.getcomposer.org/">Composer</a></li>
+        <li>Migrated PEAR-based packaging system to <a href="http://www.getcomposer.org/">Composer</a>.</li>
         <li>Redesigned cache architecture to support A/B experiments.</li>
         <li>Spearheaded web security analysis, developed Cross Site Scripting (XSS) and Cross Site Request Forgery protection for existing web sites.</li>
         <li>Developed lightweight PDF-rendering microservice in <a href="http://www.coffeescript.org/">Coffeescript</a> and <a href="http://www.nodejs.org/">Node</a>.</li>
