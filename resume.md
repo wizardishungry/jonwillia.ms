@@ -2,7 +2,7 @@
 layout: resume
 title: Resume
 tagline: Web Technologist
-group: "featured"
+group: "not-featured"
 class: "sans"
 ---
 {% include JB/setup %}
@@ -24,12 +24,14 @@ class: "sans"
     <a href="{{ site.production_url }}">{{ site.production_url }}</a><br />
     <a href="http://github.com/{{ site.author.github }}/">https://github.com/{{ site.author.github }}</a>
   </span>
+  <s>
   I am currently seeking an engineering position in the New York City area at a technology-driven company that:
   <ul>
     <li>utilizes modern software development methodologies – e.g. test-driven development, continuous delivery, DevOps, etc.</li>
     <li>allows engineers to utilize modern technologies</li>
     <li>provides an informal, friendly, team-based environment</li>
   </ul>
+  </s>
 </p>
 </section>
 
