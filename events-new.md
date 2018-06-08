@@ -16,4 +16,4 @@ body_class: "info upcoming"
   </ul>
 </section>
 
-<h3><a href="chronology.html">Past events</a></h3>
+<h3><a href="events-past">Past events</a></h3>
