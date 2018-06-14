@@ -37,6 +37,31 @@ class: "sans"
 
 <section>
   <h2 id="experience">Experience</h2>
+
+  <h3>Senior Backend Engineer, <a href="https://bongo.zone">StockTwits</a></h3>
+  <p>
+    <span class="marginnote">New York, NY<br>6/2018 - </span>
+    <em>Scalable service design and development for financial social network</em>
+  </p>
+
+  <ul>
+    <li>Development of <a href="https://www.go-lang.org/">Go</a> services.</li>
+  </ul>
+
+  <h3>Founder, <a href="https://bongo.zone">Pulsum Quadratum</a></h3>
+  <p>
+    <span class="marginnote">Brooklyn, NY<br>1/2018 - </span>
+    <em>Design &amp; development of experimental audio software.</em>
+  </p>
+
+  <ul>
+    <li>Sole founder – business conceived as a small-scale means to earn money while pursuing passion.</li>
+    <li>Design and implementation of novel audio software techniques in C/C++.</li>
+    <li>Audio plugin development on Windows/Mac/Linux for the <a href="https://www.vcvrack.com/">VCVRack</a> synthesis environment.</li>
+    <li>Negotiation of software licensing / distribution with partners.</li>
+    <li>Active participation in open source engineering related to audio technologies.</li>
+  </ul>
+
   <h3>Director of Engineering, <a href="http://bandwagon.io">Bandwagon</a></h3>
   <p>
     <span class="marginnote">
@@ -59,19 +84,7 @@ class: "sans"
     <li>Onboarded, mentored, &amp; supported junior engineers.</li>
   </ul>
 
-  <h3>Founder, <a href="https://bongo.zone">Pulsum Quadratum</a></h3>
-  <p>
-    <span class="marginnote">Brooklyn, NY<br>1/2018 - </span>
-    <em>Design &amp; development of experimental audio software.</em>
-  </p>
 
-  <ul>
-    <li>Sole founder – business conceived as a small-scale means to earn money while pursuing passion.</li>
-    <li>Design and implementation of novel audio software techniques in C++.</li>
-    <li>Audio plugin development on Windows/Mac/Linux for the <a href="https://www.vcvrack.com/">VCVRack</a> synthesis environment.</li>
-    <li>Negotiation of software licensing / distribution with partners.</li>
-    <li>Active participation in open source engineering related to audio technologies.</li>
-  </ul>
 
   <h3>Development Team Lead, <a href="http://www.money-media.com">Money-Media</a> / <a href="http://www.ft.com/">Financial Times</a></h3>
   <p>
