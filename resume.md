@@ -46,6 +46,10 @@ class: "sans"
 
   <ul>
     <li>Development of <a href="https://www.go-lang.org/">Go</a> services.</li>
+    <li>Cloud datastorage using AWS DynamoDB, S3, etc.</li>
+    <li>Distributing Messaging using Apache Kafka &amp; Amazon SQS.</li>
+    <li>Test driven development using Docker automation for datastore integration testing.</li>
+    <li>Agile software development with distributed team using pull request model</li>
   </ul>
 
   <h3>Founder, <a href="https://bongo.zone">Pulsum Quadratum</a></h3>
