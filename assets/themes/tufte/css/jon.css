@@ -1,12 +1,19 @@
-.footer .contact.icons * {
+.footer .bottom-contact.icons * {
   background-repeat: inherit;
   -webkit-background-size: inherit;
 }
 
 .icons { 
   filter: grayscale(1);
-  font-size: larger;
 }
+
+.expand-title *:after {
+  content: attr(title)
+}
+
+.bottom-contact {
+  font-size: larger;
+
 
 .tag_box span {
   display: none;
