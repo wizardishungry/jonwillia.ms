@@ -1,7 +1,18 @@
-<a rel="me" href="https://github.com/{{ site.author.github }}/"><b>🐙</b>GitHub</a>
-<a rel="me" href="https://twitter.com/{{ site.author.twitter }}/"><b>🦆</b>Twitter</a>
-<a rel="me" href="https://keybase.io/{{ site.author.keybase }}/"><b>🔑</b>Keybase</a>
-<a rel="me" href="https://pinboard.in/u:{{ site.author.pinboard }}/"><b>📌</b>Pinboard</a>
+<li>
+  <a rel="me" href="https://twitter.com/{{ site.author.twitter }}/">
+    <b>🦆</b>Twitter</a>
+</li>
+<li>
+  <a rel="me" href="https://keybase.io/{{ site.author.keybase }}/">
+    <b>🔑</b>Keybase</a>
+</li>
+<li>
+  <a rel="me" href="https://pinboard.in/u:{{ site.author.pinboard }}/">
+    <b>📌</b>Pinboard</a>
+</li>
 {% if site.author.feedburner %}
-  <a rel="me" href="http://feeds.feedburner.com/{{ site.author.feedburner }}"><b>📡</b>Feed</a>
+<li>
+  <a rel="me" href="http://feeds.feedburner.com/{{ site.author.feedburner }}">
+    <b>📡</b>Feed</a>
+</li>
 {% endif %}
