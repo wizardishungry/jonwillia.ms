@@ -17,14 +17,12 @@ group: featured
 					<a href="{{page.url}}">{{page.title}}</a>
 				{% endif %}
 			{% endfor %}
+			<span class="marginnote expand-page">
+					<em>Elsewhere:</em>
+					{% include social.html %}
+			</span>
 		</span>
-		<label for="mn-elsewhere" class="margin-toggle">⊕</label>
-		<input type="checkbox" id="mn-elsewhere" class="margin-toggle">
-		<span class="marginnote">
-		<span class="marginnote expand-titles">
-				<em>Elsewhere:</em>
-				{% include social.html %}
-		</span>
+
 		<span class="newthought">Now that you've arrived at my personal website,</span>
 		you should probably read one of the notes below or send me an email.
 		If you're unsure of what to do, you could navigate away by clicking
