@@ -3,8 +3,9 @@
   -webkit-background-size: inherit;
 }
 
-.icons i { 
-  filter: grayscale(1)
+.icons { 
+  filter: grayscale(1);
+  font-size: larger;
 }
 
 .tag_box span {
