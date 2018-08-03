@@ -7,12 +7,17 @@
   filter: grayscale(1);
 }
 
-.expand-title *:after {
-  content: attr(title)
+.hide-emoji * b {
+  display: none
 }
 
 .bottom-contact {
   font-size: larger;
+}
+
+.bottom-contact .social a {
+  display: list-item;
+  list-style-type: none;
 }
 
 .tag_box span {
