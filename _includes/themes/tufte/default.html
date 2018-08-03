@@ -11,9 +11,6 @@
    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/tufte.css" type="text/css" media="screen, projection, print" />
    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/jon.css" type="text/css" media="screen, projection, print" />
 
-   <!-- FONTAWESOME -->
-   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
-
    <!-- OpenGraph -->
    <meta property="og:title" content="{{ real_title }}" />
    <meta property="og:type" content="website" />
@@ -52,14 +49,14 @@
   		  <a href="{{ HOME_PATH }}">{{ site.author.name }}</a>
         &lt;<a href='mailto:{{ site.author.email }}'>{{ site.author.email }}</a>&gt;
         <label for="mn-social" class="margin-toggle">⊕</label>
-        <input type="checkbox" id="mn-social" class="margin-toggle">
+        <input type="checkbox" id="mn-social" class="margin-toggle" >
     		<span class="marginnote contact icons">
-    		  <a href="https://github.com/{{ site.author.github }}/"><i class="fab fa-github-alt"></i></a>
-    		  <a href="https://twitter.com/{{ site.author.twitter }}/"><i class="fab fa-twitter"></i></a>
-    		  <a href="https://keybase.io/{{ site.author.twitter }}/"><i class="fas fa-key"></i></a>
-    		  <a href="https://pinboard.in/u:{{ site.author.pinboard }}/"><i class="fas fa-th-large"></i></a>
+    		  <a rel="me" title="GitHub" href="https://github.com/{{ site.author.github }}/"><i>🐙</i></a>
+    		  <a rel="me" title="Twitter"  href="https://twitter.com/{{ site.author.twitter }}/"><i>🦆</i></a>
+    		  <a rel="me" title="Keybase"  href="https://keybase.io/{{ site.author.keybase }}/"><i>🔑</i></a>
+    		  <a rel="me" title="Pinboard"  href="https://pinboard.in/u:{{ site.author.pinboard }}/"><i>📌</i></a>
       	  {% if site.author.feedburner %}
-      		  <a  href="http://feeds.feedburner.com/{{ site.author.feedburner }}"><i class="fas fa-rss"></i></a>
+      		  <a rel="me" title="Feed" href="http://feeds.feedburner.com/{{ site.author.feedburner }}"><i>📡</i></a>
       	  {% endif %}
         </span>
   		</p>

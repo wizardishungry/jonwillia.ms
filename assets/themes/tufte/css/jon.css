@@ -2,6 +2,11 @@
   background-repeat: inherit;
   -webkit-background-size: inherit;
 }
+
+.icons i { 
+  filter: grayscale(1)
+}
+
 .tag_box span {
   display: none;
 }
