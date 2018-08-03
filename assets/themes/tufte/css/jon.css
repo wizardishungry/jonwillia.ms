@@ -14,7 +14,8 @@
 }
 
 
-.bottom-contact {
+.bottom-contact a {
+  display: list-item;
   list-style-type: none;
 }
 
