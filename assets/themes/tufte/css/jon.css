@@ -1,6 +1,8 @@
-.footer .bottom-contact.icons * {
+.icons b {
   background-repeat: inherit;
   -webkit-background-size: inherit;
+  font-size: larger;
+  margin-right: 4px;
 }
 
 .icons { 
@@ -11,11 +13,8 @@
   display: none
 }
 
-.bottom-contact {
-  font-size: larger;
-}
 
-.bottom-contact .social a {
+.bottom-contact a {
   display: list-item;
   list-style-type: none;
 }
