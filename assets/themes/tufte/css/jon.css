@@ -1,22 +1,17 @@
-.icons b {
-  background-repeat: inherit;
-  -webkit-background-size: inherit;
-  font-size: larger;
-  margin-right: 4px;
-}
 
-.icons { 
+.icons *:before { 
   filter: grayscale(1);
+  content: attr(data-icon) " ";
+  font-size: larger;
 }
 
-.hide-emoji * b {
-  display: none
+.icons * {
+  white-space: nowrap;
 }
 
-
-.bottom-contact a {
+.icons > * {
   display: list-item;
-  list-style-type: none;
+  list-style: none;
 }
 
 .tag_box span {
