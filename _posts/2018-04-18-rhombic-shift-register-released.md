@@ -2,8 +2,8 @@
 layout: post
 title: "Rhombic Shift Register 0.6.0 Released"
 description: ""
-category: music
-tags: [software, audio, modular synthesizers, VCVRack]
+category: featured
+tags: [music, software, audio, modular synthesizers, VCVRack]
 ---
 {% include JB/setup %}
 <figure>

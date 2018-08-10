@@ -2,8 +2,8 @@
 layout: post
 title: "Announcing the Rhombic Shift Register"
 description: ""
-category: music
-tags: [software, audio, modular synthesizers, VCVRack]
+category: featured
+tags: [software, audio, modular synthesizers, VCVRack, music]
 ---
 
 I’ve [been working]({% post_url 2017-12-15-vcvrack %}) on software modular synth design and finally have a fully featured module ready to share with early adopters.

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Forcing Clang to statically link against an installed library"
-category: programming
-tags: [LLVM, GCC, C++, C, Clang]
+category: featured
+tags: [LLVM, GCC, C++, C, Clang, programming]
 ---
 {% include JB/setup %}
 

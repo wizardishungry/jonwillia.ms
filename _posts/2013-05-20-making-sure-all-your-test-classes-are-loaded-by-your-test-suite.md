@@ -2,8 +2,8 @@
 layout: post
 title: "Making Sure All Your Test Classes Are Loaded by Your Test Suite"
 description: "Strace to validate that all test classes and fixtures are loaded (test suite coverage)"
-category: programming
-tags: [strace, PHP, testing, PHPUnit]
+category: featured
+tags: [programming, strace, PHP, testing, PHPUnit]
 ---
 {% include JB/setup %}
 

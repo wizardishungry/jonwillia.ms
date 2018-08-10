@@ -39,14 +39,16 @@ group: featured
 	<h2><a href="archive.html">Notes</a></h2>
 	<table>
 	{% for page in site.posts %}
-		<tr class="short-post">
-		<td class="meta">
-			{{ page.date | date_to_string }}
-		</td>
-		<td>
-			<a href="{{ page.url }}">{{ page.title }}</a>
-		</td>
-		</tr>
+		{% if page.category == "featured" %}
+			<tr class="short-post">
+			<td class="meta">
+				{{ page.date | date_to_string }}
+			</td>
+			<td>
+				<a href="{{ page.url }}">{{ page.title }}</a>
+			</td>
+			</tr>
+		{% endif %}
 	{% endfor %}
 	</table>
 </section>

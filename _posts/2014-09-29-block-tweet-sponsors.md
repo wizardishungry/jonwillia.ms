@@ -2,8 +2,8 @@
 layout: post
 title: "Block Tweet Sponsors"
 description: "script to block promoted tweets"
-category: Internet
-tags: [Twitter, PHP, advertising]
+category: featured
+tags: [Internet, Twitter, PHP, advertising]
 ---
 {% include JB/setup %}
 

@@ -2,8 +2,8 @@
 layout: post
 title: "Lenovo Ideapad 120S"
 description: "notes on getting various operating systems working on the Lenovo Ideapad 120S"
-category: hardware
-tags: [Linux, OpenBSD, Debian, laptop, arm64]
+category: featured
+tags: [Linux, OpenBSD, Debian, laptop, arm64, hardware]
 ---
 {% include JB/setup %}
 
