@@ -1,4 +1,6 @@
-
+.bottom-contact {
+  columns: 2 auto;
+}
 .icons *:before { 
   filter: grayscale(1);
   content: attr(data-icon) " ";
