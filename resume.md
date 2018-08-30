@@ -45,9 +45,9 @@ class: "sans"
   </p>
 
   <ul>
-    <li>Development of <a href="https://www.go-lang.org/">Go</a> services.</li>
-    <li>Cloud datastorage using AWS DynamoDB, S3, etc.</li>
-    <li>Distributing Messaging using Apache Kafka &amp; Amazon SQS.</li>
+    <li>Development of <a href="https://www.go-lang.org/">Go</a> services in both Kubernetes &amp; Serverless (AWS Lambda) deployments.</li>
+    <li>Cloud datastorage using AWS DynamoDB, S3, RDS (Postgres SQL) etc.</li>
+    <li>Distributing Messaging using Apache Kafka, Redis &amp; Amazon SQS.</li>
     <li>Test driven development using Docker automation for datastore integration testing.</li>
     <li>Agile software development with distributed team using pull request model</li>
   </ul>
