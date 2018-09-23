@@ -16,7 +16,7 @@
     {% unless page.categories == empty %}
       Posted in:
       {% for category in page.categories %}
-      <a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category }}-ref">{{ category | join: "/" }}</a>
+      <!-- <a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category }}-ref">{{ category | join: "/" }}</a> -->
       {% endfor %}
     {% endunless %}
 
