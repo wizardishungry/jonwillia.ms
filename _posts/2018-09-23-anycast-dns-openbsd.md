@@ -7,6 +7,8 @@ tags: [OpenBSD, BGP, DNS, NYCMesh, routing]
 ---
 {% include JB/setup %}
 
+**Caveat: This doesn't (yet) bring the route back in bgp if the vm cycles!**
+
 My home network is connected to [NYCMesh](https://nycmesh.net/), a community-owned open network.
 Recently, the failure of an SD card inside a Raspberry Pi at an adjacent large hub has left my area of the network without a caching recursive resolver to serve DNS for both the `.mesh` TLD and the wider internet. I stood up my own instance of the [`10.10.10.10` anycast DNS resolver](https://github.com/nycmeshnet/nycmesh-dns) to service DNS in my neighborhood of the network.
 
