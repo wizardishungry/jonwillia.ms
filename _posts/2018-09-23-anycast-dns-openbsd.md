@@ -7,8 +7,6 @@ tags: [OpenBSD, BGP, DNS, NYCMesh, routing]
 ---
 {% include JB/setup %}
 
-**Caveat: This doesn't (yet) bring the route back in bgp if the vm cycles!**
-
 My home network is connected to [NYCMesh](https://nycmesh.net/), a community-owned open network.
 Recently, the failure of an SD card inside a Raspberry Pi at an adjacent large hub has left my area of the network without a caching recursive resolver to serve DNS for both the `.mesh` TLD and the wider internet. I stood up my own instance of the [`10.10.10.10` anycast DNS resolver](https://github.com/nycmeshnet/nycmesh-dns) to service DNS in my neighborhood of the network.
 
@@ -260,7 +258,6 @@ traceroute to 10.10.10.10 (10.10.10.10), 64 hops max, 40 byte packets
 ## BGP announcement of `10.10.10.10`
 
 Setting up BGP is a whole task in and of itself, but I have included a partial BGP configuration for reference.
-We use the routing label (rtlabel) "`export`" to decide which relayd routes should be picked up by BGP.
 
 **[`/etc/bgpd.conf`](https://man.openbsd.org/bgpd.conf):**
 ```
@@ -269,7 +266,7 @@ AS 65009
 router-id 10.70.130.139
 network 10.70.145.0/24
 network 199.167.59.73/32
-network inet rtlabel export
+network inet static # This is the line that causes our dynamically inserted routes to get picked up
 #network inet connected
 # restricted socket for bgplg(8)
 socket "/var/www/run/bgpd.rsock" restricted
