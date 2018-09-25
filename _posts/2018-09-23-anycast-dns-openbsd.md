@@ -8,11 +8,10 @@ tags: [OpenBSD, BGP, DNS, NYCMesh, routing]
 {% include JB/setup %}
 
 My home network is connected to [NYCMesh](https://nycmesh.net/), a community-owned open network.
-Recently, the failure of an SD card inside a Raspberry Pi at an adjacent large hub has left my area of the network without a caching recursive resolver to serve
-the internal `.mesh` TLD, as well as general DNS service. So I stood up my own instance of this `10.10.10.10` anycast DNS resolver.
+Recently, the failure of an SD card inside a Raspberry Pi at an adjacent large hub has left my area of the network without a caching recursive resolver to serve DNS for both the `.mesh` TLD and the wider internet. I stood up my own instance of the [`10.10.10.10` anycast DNS resolver](https://github.com/nycmeshnet/nycmesh-dns) to service DNS in my neighborhood of the network.
 
 ## Overview
-Inside the mesh, DNS is serviced by the anycast IP address `10.10.10.10`; by announcing a BGP route for this IP address.
+Inside the mesh, DNS is serviced by the anycast IP address `10.10.10.10` by announcing a BGP route for this IP address.
 Nodes near to me will use my instance for DNS resolution because the routing topology will prefer my instance over a distant instance.
 
 The major components of this build will be:
