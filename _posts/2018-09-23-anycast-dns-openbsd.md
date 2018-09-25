@@ -239,11 +239,13 @@ ns.mesh has address 10.10.10.11
 log updates
 
 timeout 2000
-table <dns-servers> { nycmesh-dns.bongo.zone ip ttl 1 retry 2 }
+interval 3
+table <dns-servers> { nycmesh-dns.bongo.zone ip ttl 1 retry 0 }
 router "anycast-dns" {
-    route 10.10.10.10/32
-    #forward to <dns-servers> check icmp
-    forward to <dns-servers> check script "/usr/local/bin/mesh-dns-health-check.sh"
+  route 10.10.10.10/32
+  #forward to <dns-servers> check icmp
+  forward to <dns-servers> check script "/usr/local/bin/mesh-dns-health-check.sh"
+  rtlabel export
 }
 ```
 Start relayd and verify the route gets added. 
@@ -257,6 +259,7 @@ traceroute to 10.10.10.10 (10.10.10.10), 64 hops max, 40 byte packets
 ## BGP announcement of `10.10.10.10`
 
 Setting up BGP is a whole task in and of itself, but I have included a partial BGP configuration for reference.
+We use the routing label (rtlabel) "`export`" to decide which relayd routes should be picked up by BGP.
 
 **[`/etc/bgpd.conf`](https://man.openbsd.org/bgpd.conf):**
 ```
@@ -265,7 +268,7 @@ AS 65009
 router-id 10.70.130.139
 network 10.70.145.0/24
 network 199.167.59.73/32
-network 10.10.10.10/32
+network inet rtlabel export
 #network inet connected
 # restricted socket for bgplg(8)
 socket "/var/www/run/bgpd.rsock" restricted
