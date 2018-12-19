@@ -135,6 +135,12 @@ I later added a cron entry.
 
 ## Setup NSD and Unbound on the VM
 
+First tweak the networking confiruration (`/etc/hostname.vio0`): 
+```
+dhcp
+inet alias 10.10.10.10/32
+```
+
 `nsd` will serve zone files from git.
 
 **[`/var/nsd/etc/nsd.conf`](https://man.openbsd.org/nsd.conf):**
