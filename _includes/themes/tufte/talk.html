@@ -1,0 +1,58 @@
+{% if page.title %}
+  {% capture tufte-title %}{{ page.title }}{% endcapture %}
+  {% capture tufte-subtitle %}<a href="{{ HOME_PATH }}">{{ site.title }}</a>{% endcapture %}
+{% else %}
+  {% capture tufte-title %}{{ site.title }}{% endcapture %}
+  {% capture tufte-subtitle %}{{ site.tagline }}{% endcapture %}
+{% endif %}
+{% capture real_title %}{{ site.author.name }}{% if page.title %} / {{ page.title }}{% endif %}{%endcapture %}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>{{ real_title }}</title>
+   <meta name="author" content="{{ site.author.name }}" />
+   <link href="http://feeds.feedburner.com/{{ site.author.feedburner }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="{{ ASSET_PATH }}/css/tufte.css" type="text/css" media="screen, projection, print" />
+   <link rel="stylesheet" href="{{ ASSET_PATH }}/css/jon.css" type="text/css" media="screen, projection, print" />
+
+   <!-- OpenGraph -->
+   <meta property="og:title" content="{{ real_title }}" />
+   <meta property="og:type" content="website" />
+   <meta property="og:url" content="{{ BASE_PATH }}{{ page.url }}" />
+   <meta property="og:image" content="" />
+   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.posts[0].description }}{% endif %}" />
+
+   <!-- images -->
+   <link rel="apple-touch-icon" href="/assets/images/hummingbird.gif"/>
+   <meta http-equiv="imagetoolbar" content="no" />
+   <link rel="shortcut icon" href="/assets/images/hummingbird.gif" />
+   <link rel="icon" type="image/gif" href="/assets/images/hummingbird.gif" />
+
+   <!-- HTTPS -->
+   <script language="javascript">
+    // Enforce SSL
+    (function (root) {
+      "use strict";
+      var h = root ? root.location.hostname : "",
+      p = root ? root.location.protocol : "";
+      if ("http:" === p && !(/^(localhost|127.0.0.1)/).test(h)) {
+        root.location.protocol = "https:";
+      }
+    }
+    ("undefined" !== typeof window ? window : this));
+  </script>
+</head>
+<body>
+<textarea id="source">{{ content }}</textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js">
+</script>
+<script>
+  var slideshow = remark.create({
+    highlightLines: true,
+    countIncrementalSlides: false,
+  });
+</script>
+</body>

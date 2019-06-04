@@ -7,7 +7,6 @@ class: "sans"
 ---
 {% include JB/setup %}
 
-
 <section>
 <h2>Objective</h2>
 <p>

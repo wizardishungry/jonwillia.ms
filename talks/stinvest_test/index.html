@@ -1,0 +1,357 @@
+---
+layout: talk
+title: Notes on Testing
+tagline: 1,2,3
+group: "not-featured"
+#class: "sans"
+---
+{% include JB/setup %}
+
+class: center, middle
+
+# Testing practices inside<br>StockTwits Brokerage
+<p class="subtitle">or how I learned to stop worrying & love the lambda</p>
+
+#### Jon Williams &lt;<!---->[jwilliams@stocktwits.com](mailto:jwilliams@stocktwits.com)<!--, jon@jonwillia.ms-->&gt;
+---
+
+# Overview
+
+1. Introduction to testing in Go
+2. Architecture of Perseus (brokerage backend)
+3. Real problems and solutions
+4. Current challenges
+
+---
+background-image: url(https://golang.org/doc/gopher/frontpage.png)
+## What is Go?
+--
+background-image: nil
+> Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+
+– [golang.org](https://www.golang.org/)
+
+--
+* Developed at Google and publicly released in 2009.
+--
+
+* Characteristics
+  * Static typing and run-time efficiency (like C++)
+
+--
+  * Readability and usability (like Python or JavaScript)
+
+--
+  * High-performance networking and multiprocessing
+
+###### Yes, I cribbed this from the Wikipedia page. 🙂
+---
+## Unit testing in Go
+
+```go
+package main
+
+func Sum(x int, y int) int {
+    return x + y
+}
+
+func main() {
+    Sum(5, 5)
+}
+```
+```go
+package main
+
+import "testing"
+
+func TestSum(t *testing.T) {
+    total := Sum(5, 5)
+    if total != 10 {
+       t.Errorf("Sum was incorrect, got: %d, want: %d.", total, 10)
+    }
+}
+```
+
+---
+## What do we use Go for?
+--
+
+#### StockTwits:
+* _Rooms_ - persistent process serving web requests from clients
+
+--
+
+#### Brokerage:
+* _Sibyl_ - persistent process for ingesting realtime price data for thousands of symbols. Pushes updates to clients over AWS MQTT service – i.e. streaming quotes.
+
+--
+
+* _Perseus_
+
+--
+  * AWS Lambda functions, managed with Serverless framework
+
+--
+  * Handles client requests via HTTP
+
+--
+        * Registration, password change, etc.
+        * Linking bank accounts (via Plaid)
+        * Trading (via Apex & Neovest)
+--
+  * Receives trade events asynchronously
+---
+## AWS Lambda
+- Removes the need to maintain infrastructure such as containers and persistent processes.
+- We use the Serverlesss(.com) framework.
+- Write Go programs to handle events (web requests, mostly) and use a YAML configuration to map events to handlers.
+
+--
+```yaml
+    login:
+        handler: bin/login
+        events:
+            - http:
+                path: /login
+                method: post
+                cors: true
+```
+
+---
+## Testing setting user preferences via HTTP
+```go
+url := fmt.Sprintf("/user/%d/prefs", user.ID)
+
+body, _ := json.Marshal(
+    map[string]interface{}{
+        "notifications": map[string]interface{}{
+            "crypto":   true,
+        },
+    },
+)
+
+req := httptest.NewRequest("PATCH",url,bytes.NewBuffer(body))
+test.ForgeBearer(t, user, req)
+req.Header.Set("Content-Type", "application/json")
+
+w := httptest.NewRecorder()
+router.ServeHTTP(w, req)
+
+if w.Code != http.StatusOK { // check the return code
+    t.Errorf("Expected 200 OK. Got %d", w.Code)
+    t.Fail()
+}
+```
+---
+## Integration testing simple things
+* The previous example of setting user preferences is a very simple test case.
+  1. We do not have any dependencies on external services.
+  2. We merely check that we can successfully perform an action as a logged-in user.
+
+--
+* The tooling for these kind of test scenarios is to use a docker container with our test Postgres (SQL) database as the backing store.
+
+--
+* This is actually quite fast. Our entire suite (~250 cases) runs in ~45 seconds.
+
+--
+* We exploit package level parallelism and test case level parallelism to improve speed.
+
+--
+* Each package gets its own database instance; provisioning the database takes about 4 seconds.
+---
+## Integration testing simple things
+* Using a real database engine in our tests allows us to validate that our database queries work as expected.
+
+--
+* We can also query our database during a test case to perform additional validation.
+
+--
+* When developing software rapidly, test scenarios like this allow some validation of the functionality of *all* of the software components necessary for a feature to work.
+
+--
+* Testing all the components utilized in a feature together may not cover all posible scenarios.
+--
+ More about this later!
+
+---
+## When do we write tests?
+---
+## When do we write tests (ideally)?
+
+--
+1. *Before* writing a new feature
+
+--
+  * This is a little unrealistic, but thinking about this before beginning work is very helpful.
+
+--
+2. Before fixing a bug
+
+--
+  * The test case should fail until the bug is correctly fixed.
+---
+## What is tricky to test?
+
+--
+* Scenarios with external service dependencies
+
+--
+  * Linking bank accounts
+  * Trading
+
+--
+* Many external services provide Sandbox or UAT endpoints that may be suitable for use in automated testing.
+
+--
+  * Plaid offer us a sandbox environment where dummy accounts may exhibit certain behavior, such as a known account balance.
+--
+
+* This allows us to write test around all kinds of account funding scenarios.
+--
+
+* A (minor) downside of this is that it require network connectivity to function correctly.
+
+--
+* Unfortunately, not all services are this convenient to utilize.
+
+--
+  * Apex limits the number of accounts we may create in their UAT environment.
+  * Neovest allow only a single instance of their client library to be running at a time in UAT.
+---
+## What is trickier to test?
+* Infrastructure errors
+
+--
+  * Some portion of our system may experience an outage during a critical operation.
+
+--
+  * Our database connection may die after submitting a trade to Apex or Neovest so we could hypothetically lose a trade.
+--
+ Don't worry – we handle this correctly! 😎
+---
+## Dependency Injection
+
+--
+Let's set aside a lot of the hot air around these concept and focus on code.
+
+--
+```go
+type brokerageEnvironment struct {
+	db             *sqlx.DB
+	apexService    apex.Service
+	plaidClient    *plaid.Client // TODO is concurrent access ok?
+	ledgerDao      ledgerDaoIntf
+    bpService      buyingPowerService
+	sibylService   sibyl.Service
+	valueService   value.Service
+}
+```
+Our (usually) code operates on `interface` types that are targets for mocking. What's an `interface`? What's an mock? 
+---
+## Interfaces
+1. An interface is a type whose instances may be assigned any value that satisfies its definition.
+
+--
+
+2. or "Interfaces are named collections of method signatures."
+---
+## Interfaces
+```go
+import "math"
+
+type geometry interface {
+    area() float64
+    perim() float64
+}
+
+type rect struct { width, height float64 }
+func (r rect) area() float64 {
+    return r.width * r.height
+}
+func (r rect) perim() float64 {
+    return 2*r.width + 2*r.height
+}
+
+type circle struct { radius float64 }
+func (c circle) area() float64 {
+    return math.Pi * c.radius * c.radius
+}
+func (c circle) perim() float64 {
+    return 2 * math.Pi * c.radius
+}
+
+```
+---
+class: center, middle
+
+## What is a mock?
+---
+## Mocks (in our parlance)
+* A _mock_ is an implementation of an `interface` that is only used in tests.
+* We use a mock when:
+
+--
+  * the object supplies non-deterministic results (e.g. the current time or the current temperature);
+  * it has states that are difficult to create or reproduce (e.g. a network error);
+  * it is slow (e.g. a complete database, which would have to be initialized before the test);
+  * it does not yet exist or may change behavior;
+  * it would have to include information and methods exclusively for testing purposes (and not for its actual task).
+###### Yes, I cribbed this from the Wikipedia page again. 🙂
+---
+## Mocking SQS failures
+
+* AWS SQS is Amazon's managed queue service.
+
+--
+* We utilize it for queueing trades for our Neovest client written in Java.
+
+--
+* How do we simulate an infrastructure failure?
+---
+## Mocking SQS failures
+```go
+var tradeQueue *queue.Queue
+
+// Queue is a convenience wrapper for SQS queues.
+type Queue struct {
+    sqsiface.SQSAPI
+}
+
+// SendMessageErrors mock for SQS queues.
+type SendMessageErrors struct {
+       callCount int
+}
+
+// SendMessage emits error.
+func (mock *SendMessageErrors) SendMessage(*sqs.SendMessageInput)
+     (*sqs.SendMessageOutput, error) {
+       mock.callCount++
+       return nil, errors.New("MOCK RAISING ERROR ON DEMAND")
+}
+```
+---
+## Mocking SQS failures
+```go
+func TestPostOrderSQSFailure(t *testing.T) {
+    tradeQueue.SQSAPI = &SendMessageErrors{}
+
+    orderReq := &ClientOrderRequest{
+        Order: brokerage.Order{
+            Side:          "BUY",
+            OrderType:     "MARKET",
+            Symbol:        "MSFT",
+            TimeInForce:   "DAY",
+            OrderQuantity: 10,
+        },
+        OrderKey: "uniqueTestTrade",
+    }
+
+    rsp := makeOrderRequest(t, router, user, orderReq)
+    if rsp.StatusCode != http.StatusInternalServerError {
+        t.Errorf("Expected %v status. Got: %v",
+          http.StatusInternalServerError, rsp.StatusCode)
+    }
+    require.Equal(t, mockSQS.CallCount, 1)
+}
+```
