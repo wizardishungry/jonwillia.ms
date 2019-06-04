@@ -23,7 +23,7 @@
    <meta property="og:type" content="website" />
    <meta property="og:url" content="{{ BASE_PATH }}{{ page.url }}" />
    <meta property="og:image" content="" />
-   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.posts[0].description }}{% endif %}" />
+   <meta property="og:description" content="{{ page.description }}" />
 
    <!-- images -->
    <link rel="apple-touch-icon" href="/assets/images/hummingbird.gif"/>
