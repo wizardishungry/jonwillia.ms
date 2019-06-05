@@ -9,17 +9,18 @@ group: "not-featured"
 
 class: center, middle
 
-# Testing practices inside<br>StockTwits Brokerage
-<p class="subtitle">or how I learned to stop worrying & love the lambda</p>
+# Testing practices inside<br>Stocktwits Brokerage
+<p class="subtitle">Challenges testing Serverless architectures</p>
 
+##### 5 June 2019
 #### Jon Williams &lt;<!---->[jwilliams@stocktwits.com](mailto:jwilliams@stocktwits.com)<!--, jon@jonwillia.ms-->&gt;
 ---
 
 # Overview
 
-1. Introduction to testing in Go
+1. Go
 2. Architecture of Perseus (brokerage backend)
-3. Real problems and solutions
+3. About testing
 4. Current challenges
 
 ---
@@ -46,6 +47,73 @@ background-image: nil
 
 ###### Yes, I cribbed this from the Wikipedia page. 🙂
 ---
+## What do we use Go for?
+--
+
+#### Stocktwits:
+* _Rooms_ - persistent process serving web requests from clients
+
+--
+
+#### Brokerage:
+* _Sibyl_ - persistent process for ingesting realtime price data for thousands of symbols. Pushes updates to clients over AWS MQTT service – i.e. streaming quotes.
+
+--
+
+* _Perseus_
+
+--
+  * AWS Lambda functions, managed with Serverless framework
+
+--
+  * Handles client requests via HTTP
+
+--
+        * Registration, password change, etc.
+        * Linking bank accounts (via Plaid)
+        * Trading (via Apex & Neovest)
+--
+  * Receives trade events asynchronously.
+--
+ DynamoDB event streams directly subscribe to a Lambda.
+---
+## AWS Lambda
+- Removes the need to maintain infrastructure such as containers and persistent processes.
+
+--
+- We use the Serverlesss(.com) framework.
+
+--
+- Write Go programs to handle events (web requests, mostly) and use a YAML configuration to map events to handlers.
+
+--
+- We upload a zip file to S3 with our binaries and generated CloudFormation JSON that defines our infrastructure.
+
+--
+##### Example of subscribing to HTTP events:
+```yaml
+    login:
+        handler: bin/login
+        events:
+            - http:
+                path: /login
+                method: post
+                cors: true
+```
+---
+## About Testing
+
+--
+* We don't have a QA department!
+
+--
+* We don't have time to run 250 test scenarios manually every time we make a change.
+
+--
+* Some of the things we need to test are impossible for an end user to test. (e.g. blowing up the database connection)
+
+
+---
 ## Unit testing in Go
 
 ```go
@@ -71,52 +139,6 @@ func TestSum(t *testing.T) {
     }
 }
 ```
-
----
-## What do we use Go for?
---
-
-#### StockTwits:
-* _Rooms_ - persistent process serving web requests from clients
-
---
-
-#### Brokerage:
-* _Sibyl_ - persistent process for ingesting realtime price data for thousands of symbols. Pushes updates to clients over AWS MQTT service – i.e. streaming quotes.
-
---
-
-* _Perseus_
-
---
-  * AWS Lambda functions, managed with Serverless framework
-
---
-  * Handles client requests via HTTP
-
---
-        * Registration, password change, etc.
-        * Linking bank accounts (via Plaid)
-        * Trading (via Apex & Neovest)
---
-  * Receives trade events asynchronously
----
-## AWS Lambda
-- Removes the need to maintain infrastructure such as containers and persistent processes.
-- We use the Serverlesss(.com) framework.
-- Write Go programs to handle events (web requests, mostly) and use a YAML configuration to map events to handlers.
-
---
-```yaml
-    login:
-        handler: bin/login
-        events:
-            - http:
-                path: /login
-                method: post
-                cors: true
-```
-
 ---
 ## Testing setting user preferences via HTTP
 ```go
@@ -228,12 +250,15 @@ if w.Code != http.StatusOK { // check the return code
 --
   * Our database connection may die after submitting a trade to Apex or Neovest so we could hypothetically lose a trade.
 --
- Don't worry – we handle this correctly! 😎
+ (Don't worry – we handle this correctly! 😎)
+
+--
+* Exceptional cases
+  * Sequences of user events that are impractical / difficult to simulate because of timing or impracticality of automating a test scenario.
 ---
 ## Dependency Injection
 
---
-Let's set aside a lot of the hot air around these concept and focus on code.
+Let's set aside a lot of the hot air around this concept and focus on code.
 
 --
 ```go
@@ -247,7 +272,7 @@ type brokerageEnvironment struct {
 	valueService   value.Service
 }
 ```
-Our (usually) code operates on `interface` types that are targets for mocking. What's an `interface`? What's an mock? 
+Our (usually) code operates on `interface` types that are targets for mocking. What's an `interface`? What's a mock? 
 ---
 ## Interfaces
 1. An interface is a type whose instances may be assigned any value that satisfies its definition.
@@ -293,9 +318,17 @@ class: center, middle
 
 --
   * the object supplies non-deterministic results (e.g. the current time or the current temperature);
+
+--
   * it has states that are difficult to create or reproduce (e.g. a network error);
+
+--
   * it is slow (e.g. a complete database, which would have to be initialized before the test);
+
+--
   * it does not yet exist or may change behavior;
+
+--
   * it would have to include information and methods exclusively for testing purposes (and not for its actual task).
 ###### Yes, I cribbed this from the Wikipedia page again. 🙂
 ---
@@ -358,7 +391,62 @@ func TestPostOrderSQSFailure(t *testing.T) {
 ---
 ## Current challenges
 
-* Serverless configuration - often things break because 
-  * Routes mismatch in yaml (working on it)
-  * R
-  * Automation testing with deployed instance?
+--
+* Serverless configuration - often things break because resources and configuration defined in the `serverlesss.yml`
+
+--
+  * Routes mismatch (working on it!)
+  * AWS IAM permisions on resources
+
+--
+* Places in our infrastructure that invoke a Lambda on event generation.
+
+--
+  * Attaching a Lambda to an SQS queue or a DynamoDB event stream
+
+--
+  * We know how to unit test each part of this scenario *individually*.
+
+--
+        1. Assert that trading queues a trade (by mocking the queue)  
+--
+        2. Asssert that we are able to:
+            - unserialize a trade event in the format generated by DynamoDB
+            - that our handler does the appropriate things.
+
+---
+## What's missing in testing trading?
+
+--
+* Verifying that the queue &amp; stream resources defined in our Serverless/CloudFormation distribution correspond to the resources used in testing.
+
+--
+* The Java / Neovest portion of the code is unsuitable for use in automated and should probably be mocked anyway.
+---
+## Subjects for further investigation
+
+--
+* Writing automation that runs against a deployed instance.
+
+--
+  - Lot of ceremony just to test trading - can this even run in real time? (Create user, link bank, etc.)
+
+--
+  - Hard to run complicated scenarios. e.g. predefined partial fills on trades
+
+--
+* Amazon SAM - competitor to serverless.com framework, may allow us to attach Lambdas to resources in local execution environment
+
+--
+  - Still hard to write test suites - we would need to generate build artifacts with complicated test instrumentation.
+
+--
+* AWS Step Functions - state machines composed of Lambdas defined in AWS configuration
+
+--
+  - Existing concerns about testing overall scenarioss that include the AWS configuration still apply.
+---
+class: center, middle
+
+## Questions/Comments?
+#### Jon Williams &lt;<!---->[jwilliams@stocktwits.com](mailto:jwilliams@stocktwits.com)<!--, jon@jonwillia.ms-->&gt;
