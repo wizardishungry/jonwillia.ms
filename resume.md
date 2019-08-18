@@ -37,28 +37,33 @@ class: "sans"
 <section>
   <h2 id="experience">Experience</h2>
 
-  <h3>Senior Backend Engineer, <a href="https://bongo.zone">StockTwits</a></h3>
+  <h3>
+    Senior Backend Engineer, <a href="https://stocktwits.com/">StockTwits</a><br>
+    Backend Technical Lead, Trade App
+  </h3>
   <p>
     <span class="marginnote">New York, NY<br>6/2018 - </span>
-    <em>Scalable service design and development for financial social network</em>
+    <em>Scalable service design and development for financial social network.</em>
   </p>
 
   <ul>
-    <li>Development of <a href="https://www.go-lang.org/">Go</a> services in both Kubernetes &amp; Serverless (AWS Lambda) deployments.</li>
-    <li>Cloud datastorage using AWS DynamoDB, S3, RDS (Postgres SQL) etc.</li>
-    <li>Distributing Messaging using Apache Kafka, Redis &amp; Amazon SQS.</li>
+    <li>Backend architecture and implementation of mobile-first brokerage. Led backend team from conception to launch.</li>
+    <li>Design and implementation of high performance pub/sub realtime stock quotes service.</li>
+    <li>Development of <a href="https://www.go-lang.org/">Go</a> services in both Kubernetes &amp; Serverless (AWS Lambda + CloudFormation) deployments.</li>
+    <li>Cloud data storage using AWS DynamoDB, S3, RDS (Postgres), Elasticache (Redis), etc.</li>
+    <li>Distributing Messaging using Apache Kafka, MQTT, &amp; Amazon SQS.</li>
     <li>Test driven development using Docker automation for datastore integration testing.</li>
-    <li>Agile software development with distributed team using pull request model</li>
+    <li>Agile software development with distributed team.</li>
   </ul>
 
-  <h3>Founder, <a href="https://bongo.zone">Pulsum Quadratum</a></h3>
+  <h3>Founder, <a href="https://bongo.zone/">Pulsum Quadratum</a></h3>
   <p>
     <span class="marginnote">Brooklyn, NY<br>1/2018 - </span>
     <em>Design &amp; development of experimental audio software.</em>
   </p>
 
   <ul>
-    <li>Sole founder – business conceived as a small-scale means to earn money while pursuing passion.</li>
+    <li>Sole founder – business conceived as a small-scale means to earn money while enjoying passion for music.</li>
     <li>Design and implementation of novel audio software techniques in C/C++.</li>
     <li>Audio plugin development on Windows/Mac/Linux for the <a href="https://www.vcvrack.com/">VCVRack</a> synthesis environment.</li>
     <li>Negotiation of software licensing / distribution with partners.</li>
@@ -68,7 +73,7 @@ class: "sans"
   <h3>Director of Engineering, <a href="http://bandwagon.io">Bandwagon</a></h3>
   <p>
     <span class="marginnote">
-      Brooklyn, NY<br>5/2016 - 10/2017<br>Consultant 10/2017 - present
+      Brooklyn, NY<br>5/2016 - 10/2017<br>Consultant 10/2017 - 5/2018
     </span>
   <em>Engineering leadership for airport-based ridesharing startup.</em></p>
 
