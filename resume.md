@@ -24,7 +24,7 @@ class: "sans"
     <a href="http://github.com/{{ site.author.github }}/">https://github.com/{{ site.author.github }}</a>
   </span>
   <s>
-  I am currently seeking an engineering position in the New York City area at a technology-driven company that:
+  I am currently seeking an engineering position <!-- in the New York City area -->at a technology-driven company that:
   <ul>
     <li>utilizes modern software development methodologies – e.g. test-driven development, continuous delivery, DevOps, etc.</li>
     <li>allows engineers to utilize modern technologies</li>
@@ -50,6 +50,7 @@ class: "sans"
     <li>Backend architecture and implementation of mobile-first brokerage. Led backend team from conception to launch.</li>
     <li>Design and implementation of high performance pub/sub realtime stock quotes service.</li>
     <li>Development of <a href="https://www.go-lang.org/">Go</a> services in both Kubernetes &amp; Serverless (AWS Lambda + CloudFormation) deployments.</li>
+    <li>Developer tooling and automation: utilized Serverless.com and AWS to allow developers to easily spin up personal environments off of arbitrary git branches.</li>
     <li>Cloud data storage using AWS DynamoDB, S3, RDS (Postgres), Elasticache (Redis), etc.</li>
     <li>Distributing Messaging using Apache Kafka, MQTT, &amp; Amazon SQS.</li>
     <li>Test driven development using Docker automation for datastore integration testing.</li>
