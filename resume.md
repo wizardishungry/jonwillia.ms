@@ -1,14 +1,14 @@
 ---
 layout: resume
 title: Resume
-tagline: Web Technologist
+#tagline: Polyglot Technologist
 group: "not-featured"
 class: "sans"
 ---
 {% include JB/setup %}
 
 <section>
-<h2>Objective</h2>
+<!--<h2>Objective</h2>-->
 <p>
 <!--<span class="marginnote">
   <strong>Jump to:</strong>
@@ -23,14 +23,14 @@ class: "sans"
     <a href="{{ site.production_url }}">{{ site.production_url }}</a><br />
     <a href="http://github.com/{{ site.author.github }}/">https://github.com/{{ site.author.github }}</a>
   </span>
-  <s>
-  I am currently seeking an engineering position <!-- in the New York City area -->at a technology-driven company that:
+  <!--
+  I am currently seeking an engineering position <\-- in the New York City area ->at a technology-driven company that:
   <ul>
     <li>utilizes modern software development methodologies – e.g. test-driven development, continuous delivery, DevOps, etc.</li>
     <li>allows engineers to utilize modern technologies</li>
     <li>provides an informal, friendly, team-based environment</li>
   </ul>
-  </s>
+  </s>-->
 </p>
 </section>
 
@@ -43,33 +43,23 @@ class: "sans"
   </h3>
   <p>
     <span class="marginnote">New York, NY<br>6/2018 - </span>
-    <em>Scalable service design and development for financial social network.</em>
+    <em>Scalable service design and development for financial social network and brokerage.</em>
   </p>
 
   <ul>
     <li>Backend architecture and implementation of mobile-first brokerage. Led backend team from conception to launch.</li>
-    <li>Design and implementation of high performance pub/sub realtime stock quotes service.</li>
     <li>Development of <a href="https://www.go-lang.org/">Go</a> services in both Kubernetes &amp; Serverless (AWS Lambda + CloudFormation) deployments.</li>
+    <li>Design and implementation of high performance pub/sub realtime stock quotes service (Golang / Lambda / ECS).</li>
     <li>Developer tooling and automation: utilized Serverless.com and AWS to allow developers to easily spin up personal environments off of arbitrary git branches.</li>
+    <li>Distributed / Serverless architecture design and implementation <ul>
+      <li>Ingestion of partner event streams over websockets.</li>
+      <li>Asynchronous event processing using lambdas consuming DynamoDB Kinesis streams.</li>
+      <li>Distributing messaging using Apache Kafka, MQTT, &amp; Amazon SQS.</li>
+    </ul></li>
     <li>Cloud data storage using AWS DynamoDB, S3, RDS (Postgres), Elasticache (Redis), etc.</li>
-    <li>Distributing Messaging using Apache Kafka, MQTT, &amp; Amazon SQS.</li>
     <li>Test driven development using Docker automation for datastore integration testing.</li>
-    <li>Agile software development with distributed team.</li>
+    <li>Agile software development with distributed teams.</li>
     <li>API engineering using Protobuf-based RPC endpoints on top of API Gateway.</li>
-  </ul>
-
-  <h3>Founder, <a href="https://bongo.zone/">Pulsum Quadratum</a></h3>
-  <p>
-    <span class="marginnote">Brooklyn, NY<br>1/2018 - </span>
-    <em>Design &amp; development of experimental audio software.</em>
-  </p>
-
-  <ul>
-    <li>Sole founder – business conceived as a small-scale means to earn money while enjoying passion for music.</li>
-    <li>Design and implementation of novel audio software techniques in C/C++.</li>
-    <li>Audio plugin development on Windows/Mac/Linux for the <a href="https://www.vcvrack.com/">VCVRack</a> synthesis environment.</li>
-    <li>Negotiation of software licensing / distribution with partners.</li>
-    <li>Active participation in open source engineering related to audio technologies.</li>
   </ul>
 
   <h3>Director of Engineering, <a href="http://bandwagon.io">Bandwagon</a></h3>
@@ -145,6 +135,22 @@ class: "sans"
       </ul>
     </li>
   </ul>
+
+
+  <h3>Founder, <a href="https://bongo.zone/">Pulsum Quadratum</a></h3>
+  <p>
+    <span class="marginnote">Brooklyn, NY<br>1/2018 - </span>
+    <em>Design &amp; development of experimental audio software.</em>
+  </p>
+
+  <ul>
+    <li>Sole founder – business conceived as a small-scale means to earn money while enjoying passion for music.</li>
+    <li>Design and implementation of novel audio software techniques in C/C++.</li>
+    <li>Audio plugin development on Windows/Mac/Linux for the <a href="https://www.vcvrack.com/">VCVRack</a> synthesis environment.</li>
+    <li>Negotiation of software licensing / distribution with partners.</li>
+    <li>Active participation in open source engineering related to audio technologies.</li>
+  </ul>
+  
 <!--
   <h3>Senior Developer, <a href="http://www.hollywood.com/">Hollywood.com</a></h3>
   <p>
