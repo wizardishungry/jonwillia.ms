@@ -55,6 +55,7 @@ class: "sans"
     <li>Distributing Messaging using Apache Kafka, MQTT, &amp; Amazon SQS.</li>
     <li>Test driven development using Docker automation for datastore integration testing.</li>
     <li>Agile software development with distributed team.</li>
+    <li>API engineering using Protobuf-based RPC endpoints on top of API Gateway.</li>
   </ul>
 
   <h3>Founder, <a href="https://bongo.zone/">Pulsum Quadratum</a></h3>
@@ -144,7 +145,7 @@ class: "sans"
       </ul>
     </li>
   </ul>
-
+<!--
   <h3>Senior Developer, <a href="http://www.hollywood.com/">Hollywood.com</a></h3>
   <p>
     <span class="marginnote">New York, NY<br>1/2012 - 10/2012</span>
@@ -271,11 +272,11 @@ class: "sans"
     <li>Design and implement backend for kiosk electronic banking application w/ automated wire transfers.</li>
     <li>Administered mail servers (Qmail/Red Hat Linux) and firewalls (OpenBSD, Cisco PIX).</li>
   </ul>
-
+-->
 </section>
 <section>
   <h2 id="education">Education</h2>
-  <h3>University of Rochester, Rochester, NY — Computer Science (B.S.), systems concentration, 2005.</h3>
+  <h3>University of Rochester, Rochester, NY — Computer Science (B.S.), systems concentration</h3>
   <p>Selected Courses:</p>
 
   <ul>
