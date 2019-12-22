@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "Making Sure All Your Test Classes Are Loaded by Your Test Suite"
-description: "Strace to validate that all test classes and fixtures are loaded (test suite coverage)"
+title: "Making Sure All Your Test Classes Are Dynamically Loaded by Your Test Suite"
 category: featured
 tags: [programming, strace, PHP, testing, PHPUnit]
 ---

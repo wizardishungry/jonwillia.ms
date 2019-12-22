@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Announcing the Rhombic Shift Register"
-description: ""
+description: "Adventures in generative sequencing"
 category: featured
 tags: [software, audio, modular synthesizers, VCVRack, music]
 ---

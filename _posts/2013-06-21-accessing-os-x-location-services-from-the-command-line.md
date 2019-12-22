@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Accessing macOS Location Services from the command line"
-description: "Utility for polling macOS Location Services for current geographic coordinates."
 category: featured
 tags: [programming, Mac, Objective C, geolocation]
 ---

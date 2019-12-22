@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Deploying Anycast DNS using OpenBSD and BGP"
-description: "Anycast DNS using OpenBSD + vmm/vmd + BGP + relayd + unbound/nsd"
+description: "10.10.10.10 DNS for mesh network using vmm/vmd + OpenBGPD + relayd + unbound/nsd"
 category: featured
 tags: [OpenBSD, BGP, DNS, NYCMesh, routing]
 ---

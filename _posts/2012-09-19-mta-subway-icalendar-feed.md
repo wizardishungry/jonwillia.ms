@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MTA Subway Status iCalendar Feed"
-description: "iCal feed of realtime MTA subway status"
+description: "feed of realtime MTA subway status"
 category: featured
 tags: [MTA, calendar, Ruby, transit, subway]
 ---
@@ -9,7 +9,9 @@ tags: [MTA, calendar, Ruby, transit, subway]
 <p><span class="marginnote"><a href="/assets/images/mta-ical-osx-1.png"><img src="/assets/images/mta-ical-osx-1.png" alt="iCal displaying MTA status in OSX" ></a>
 <a href="/assets/images/mta-ical-ios-2.png"><img src="/assets/images/mta-ical-ios-2.png" alt="iCal displaying MTA status in iOS" ></a></span></p>
 
-**6 Mar 2018**: I've fixed this!
+<mark>2019 update - This is of historic interest only really!</mark>
+
+~**6 Mar 2018**: I've fixed this!~
 
 I've created a [iCalendar](http://en.wikipedia.org/wiki/ICalendar) (ics) feed of up-to-the-minute MTA train status that you can subscribe to on your phone or calendar application.
 It only displays the regular subway lines.

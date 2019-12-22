@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "RTL SDR FM module for VCVRack"
-description: "fm radio tuner for vcrack modular environment"
 category: featured
 tags: [modular synthesizers, radio, VCVRack, music]
 ---
