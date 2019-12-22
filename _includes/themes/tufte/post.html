@@ -6,7 +6,6 @@
   {% capture tufte-subtitle %}{{ site.tagline }}{% endcapture %}
 {% endif %}
 <h1 id="tufte-css">{{ tufte-title }}</h1>
-<section>
 <p class="subtitle">
  {% if page.description %}{{ page.description }}{% endif %}
  <label for="mn-date" class="margin-toggle">&nbsp;</label><input type="checkbox" checked=true id="mn-date" class="margin-toggle">
@@ -29,7 +28,6 @@
   </span>
   {{ tufte-subtitle }}
 </p>
-</section>
 <section>
   {{ content }}
 </section>
