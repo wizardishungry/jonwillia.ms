@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Speed up GoMock with Conditional Mock Generation"
+title: "Speed Up GoMock with Conditional Mock Generation"
 category: featured
 tags: [Go, mocking]
 ---
