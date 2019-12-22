@@ -5,6 +5,7 @@
   {% capture tufte-title %}{{ site.title }}{% endcapture %}
   {% capture tufte-subtitle %}{{ site.tagline }}{% endcapture %}
 {% endif %}
+<section>
 <h1 id="tufte-css">{{ tufte-title }}</h1>
 <p class="subtitle">
  {% if page.description %}{{ page.description }}{% endif %}
@@ -27,6 +28,7 @@
     {% endunless %}
   </span>
 </p>
+</section>
 <section>
   {{ content }}
 </section>
