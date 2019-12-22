@@ -7,9 +7,9 @@ tags: [Go, mocking]
 ---
 {% include JB/setup %}
 
-Recently I've been frustrated by the slow reflection performance of Go's [mockgen](https://github.com/golang/mock) when running `go generate ./...` on a large project. I've found it useful to use the Bourne shell built-in `test` command to conditionally generate a mock if:
+Recently I've been frustrated by the slow reflection performance of Go's [mockgen](https://github.com/golang/mock) when running `go generate ./...` on a large project. I've found it useful to use the Bourne shell built-in `test` command to conditionally invoke `mockgen` iif:
 - the destination is older than the source file
-- the destination does not exist
+- or the destination does not exist
 
 `go generate` [does not implement any kind of parallelism](https://github.com/golang/go/issues/20520), so the slow performance of `mockgen`, while in source mode, has become a bit of a drag; thus –
 
