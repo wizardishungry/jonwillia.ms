@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Speed Up GoMock With Conditional Generation"
+title: "Speed Up GoMock with Conditional Generation"
 description: "Yes, reflection mode is slow, &amp; yes, source mode is not."
 category: featured
 tags: [Go, mocking]
