@@ -18,7 +18,6 @@ package ordering
 
 import (
 	"context"
-
 )
 
 //go:generate sh -c "test client_mock_test.go -nt $GOFILE && exit 0; mockgen -package $GOPACKAGE -destination client_mock_test.go github.com/whatever/project/ordering OrderClient"
