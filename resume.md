@@ -73,12 +73,12 @@ class: "sans"
     <li>Took over entirety of engineering responsibilities after departure of previous engineering team.</li>
     <li>Managed existing systems architecture; utilizing Docker, Amazon Container Service/EC2, Heroku, MongoDB, Redis, etc.</li>
     <li>Development of RESTful services layer in Ruby on Rails, hosted on Heroku.</li>
-    <li>Distributed systems engineering: utilizing Redis for locks/mutexes, and Sidekiq for asychonrous worker processes. Pub/sub architecture handled via PubNub.</li>
+    <li>Distributed systems engineering: utilizing Redis for locks/mutexes, and Sidekiq for asynchronous worker processes. Pub/sub architecture handled via PubNub.</li>
     <li>Development of existing taxi routing service layer - Java, OpenTripPlanner, Spring, hosted on AWS.</li>
     <li>Development of common codebase Cordova + Angular mobile website &amp; native app.</li>
     <li>Rebuilt native app in React Native with Redux.</li>
     <li>Supported production environment on Heroku &amp; Amazon Web Services.</li>
-    <li>Collaborated with external taxi industry technical partners to integerate with multiple vendors’ back-of-cab systems.</li>
+    <li>Collaborated with external taxi industry technical partners to integrate with multiple vendors’ back-of-cab systems.</li>
     <li>Engineering of payments utilizing Stripe including fare allocation algorithms, credit card preauthorization strategies, &amp; reliability engineering.</li>
     <li>Embedded in product development process; collaborative feature design &amp; idea generation.</li>
     <li>Onboarded, mentored, &amp; supported junior engineers.</li>
@@ -122,14 +122,14 @@ class: "sans"
       <ul>
         <li>Supported test-driven development practice within team; designed unit/integration test specifications for developers.</li>
         <li>Mentored and managed developers on full-stack development.</li>
-        <li>Led code reviews and developer educaiton.</li>
+        <li>Led code reviews and developer education.</li>
       </ul>
     </li>
     <li>Project Leadership
       <ul>
         <li>Worked closely with business analysts, QA, sales, advertising and editorial teams to best allocate technical resources for project cycles.</li>
         <li>Implemented A/B testing including cross-publication experimentation.</li>
-        <li>Data integration with exta-organizational sites with Atom XML and CSV data feeds.</li>
+        <li>Data integration with extra-organizational sites with Atom XML and CSV data feeds.</li>
         <li>Integrated Google DoubleClick for Publishers across several publications including within mobile websites and apps.</li>
         <li>Launched new publication allowing free subscription with registration while leveraging existing codebase (<a href="http://financialadvisoriq.com/">FinancialAdvisorIQ.com</a>).</li>
       </ul>
@@ -151,7 +151,7 @@ class: "sans"
     <li>Active participation in open source engineering related to audio technologies.</li>
   </ul>
   
-<!--
+<
   <h3>Senior Developer, <a href="http://www.hollywood.com/">Hollywood.com</a></h3>
   <p>
     <span class="marginnote">New York, NY<br>1/2012 - 10/2012</span>
@@ -162,7 +162,7 @@ class: "sans"
     <li>Development of site &amp; CMS using <a href="http://www.symfony.com/">Symfony2</a> PHP framework, <a href="http://www.doctrine-project.org">Doctrine</a> PHP ORM, <a href="http://jquery.com/">jQuery</a> Javascript framework.</li>
     <li>Built, utilized, &amp; maintained test infrastructure using <a href="http://jenkins-ci.org">Jenkins</a> continuous integration server and <a href="http://www.phpunit.de">PHPUnit</a> test framework.</li>
     <li>Provisioned tiered architecture using <a href="https://www.varnish-cache.org">Varnish</a> cache server w/ <a href="http://www.akamai.com/html/support/esi.html">Edge Side Includes</a>, MySQL, <a href="http://memcached.org">Memcache</a>, <a href="http://www.php.net/manual/en/book.apc.php">APC</a> PHP Cache.</li>
-    <li>Release engineering including patch / branch maintence in <a href="http://git-scm.com/">Git</a>, <a href="https://github.com/capistrano/capistrano/">Capistrano</a> deployment automation and scripting.</li>
+    <li>Release engineering including patch / branch maintenance in <a href="http://git-scm.com/">Git</a>, <a href="https://github.com/capistrano/capistrano/">Capistrano</a> deployment automation and scripting.</li>
     <li>Architected high-performance web architecture utilizing <a href="https://aws.amazon.com/">Amazon AWS</a> cloud services including <a href="http://www.mysql.com">MySQL</a>/RDS, <a href="http://memcached.org">Memcache</a>/Elasticache, Elastic Compute Cloud (EC2), &amp; S3.</li>
     <li>Coordinated migration of Linux/MySQL assets from Rackspace / Rackspace Cloud to Amazon AWS EC3 / RDS.</li>
     <li>Automated systems administration &amp; operations using <a href="http://www.opscode.com/chef/">Chef</a> <a href="http://www.ruby-lang.org/">Ruby</a> systems integration framework on <a href="http://www.ubuntu.com/">Ubuntu</a> Linux. Maintained and supported public key infrastructure.</li>
@@ -174,7 +174,7 @@ class: "sans"
 
   <h3>Software Engineer, <a href="http://www.xceedium.com">Xceedium</a></h3>
   <p>
-    <span class="marginnote">Jersey City, NJ<br>4/2011 – 12/2012</span>
+    <span class="marginnote">Jersey City, NJ<br>4/2011 – 12/2011</span>
     <em>Development of hardware security network appliance.</em>
   </p>
 
@@ -264,7 +264,7 @@ class: "sans"
   <ul>
     <li>Primary developer for the University-wide web development  “deploy” system. System includes security and auditing capabilities. Took over design and programming; completed security audit, addressed critical scalability issues, and implemented major functionality and usability improvements for the 2.0 release.</li>
     <li>Developed custom web applications (utilizing Apache, Php, MySQL, Solaris) for dozens of university departments, including a uniform graduate application system used across academic departments.</li>
-    <li>Provided consultation to management on issues related to the shared web server devlopment.</li>
+    <li>Provided consultation to management on issues related to the shared web server development.</li>
   </ul>
 
   <h3>Application Developer, MontegoNet LLC.</h3>
@@ -278,7 +278,7 @@ class: "sans"
     <li>Design and implement backend for kiosk electronic banking application w/ automated wire transfers.</li>
     <li>Administered mail servers (Qmail/Red Hat Linux) and firewalls (OpenBSD, Cisco PIX).</li>
   </ul>
--->
+
 </section>
 <section>
   <h2 id="education">Education</h2>
