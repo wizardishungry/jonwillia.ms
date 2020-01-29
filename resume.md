@@ -23,14 +23,6 @@ class: "sans"
     <a href="{{ site.production_url }}">{{ site.production_url }}</a><br />
     <a href="http://github.com/{{ site.author.github }}/">https://github.com/{{ site.author.github }}</a>
   </span>
-  <!--
-  I am currently seeking an engineering position <\-- in the New York City area ->at a technology-driven company that:
-  <ul>
-    <li>utilizes modern software development methodologies – e.g. test-driven development, continuous delivery, DevOps, etc.</li>
-    <li>allows engineers to utilize modern technologies</li>
-    <li>provides an informal, friendly, team-based environment</li>
-  </ul>
-  </s>-->
 </p>
 </section>
 
@@ -42,7 +34,7 @@ class: "sans"
     Backend Technical Lead, Trade App
   </h3>
   <p>
-    <span class="marginnote">New York, NY<br>6/2018 - </span>
+    <span class="marginnote">New York, NY<br>6/2018 - 1/2020 </span>
     <em>Scalable service design and development for financial social network and brokerage.</em>
   </p>
 
@@ -51,7 +43,7 @@ class: "sans"
     <li>Development of <a href="https://www.go-lang.org/">Go</a> services in both Kubernetes &amp; Serverless (AWS Lambda + CloudFormation) deployments.</li>
     <li>Design and implementation of high performance pub/sub realtime stock quotes service (Golang / Lambda / ECS).</li>
     <li>Developer tooling and automation: utilized Serverless.com and AWS to allow developers to easily spin up personal environments off of arbitrary git branches.</li>
-    <li>Distributed / Serverless architecture design and implementation <ul>
+    <li>Distributed / serverless architecture design and implementation <ul>
       <li>Ingestion of partner event streams over websockets.</li>
       <li>Asynchronous event processing using lambdas consuming DynamoDB Kinesis streams.</li>
       <li>Distributing messaging using Apache Kafka, MQTT, &amp; Amazon SQS.</li>
@@ -59,7 +51,7 @@ class: "sans"
     <li>Cloud data storage using AWS DynamoDB, S3, RDS (Postgres), Elasticache (Redis), etc.</li>
     <li>Test driven development using Docker automation for datastore integration testing.</li>
     <li>Agile software development with distributed teams.</li>
-    <li>API engineering using Protobuf-based RPC endpoints on top of API Gateway.</li>
+    <li>API engineering using Protobuf RPC endpoints (Twirp) on top of API Gateway.</li>
   </ul>
 
   <h3>Director of Engineering, <a href="http://bandwagon.io">Bandwagon</a></h3>
@@ -151,7 +143,6 @@ class: "sans"
     <li>Active participation in open source engineering related to audio technologies.</li>
   </ul>
   
-<
   <h3>Senior Developer, <a href="http://www.hollywood.com/">Hollywood.com</a></h3>
   <p>
     <span class="marginnote">New York, NY<br>1/2012 - 10/2012</span>
@@ -236,7 +227,7 @@ class: "sans"
       <li>Evaluated replacement of Limewire’s Java servlet for crash report handling in response to load issues during new release cycles.</li>
     </ul>
   </p>
-
+<!--
   <h3>Web Programmer, <a href="http://steinhardt.nyu.edu">NYU Steinhardt</a></h3>
   <p>
     <span class="marginnote">New York, NY<br>2/2006 – 5/2008</span>
@@ -278,6 +269,7 @@ class: "sans"
     <li>Design and implement backend for kiosk electronic banking application w/ automated wire transfers.</li>
     <li>Administered mail servers (Qmail/Red Hat Linux) and firewalls (OpenBSD, Cisco PIX).</li>
   </ul>
+  -->
 
 </section>
 <section>
