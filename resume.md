@@ -30,6 +30,21 @@ class: "sans"
   <h2 id="experience">Experience</h2>
 
   <h3>
+    Senior Software Engineer, <a href="https://istreamplanet.com/">iStreamPlanet</a>
+  </h3>
+  <p>
+    <span class="marginnote">remote (Seattle, WA)<br>4/2020 - </span>
+    <em>Implementation of large scale OTT video streaming platforms.</em>
+  </p>
+
+  <ul>
+    <li>Developer and operations work on Dash &amp; HLS video streaming infrastructure.</li>
+    <li>Development of <a href="https://www.go-lang.org/">Go</a> services inside Kubernetes.</li>
+    <li>AWS, Google Compute Platform</li>
+    <li>Kinesis, Redis, GRPC</li>
+  </ul>
+
+  <h3>
     Senior Backend Engineer, <a href="https://stocktwits.com/">StockTwits</a><br>
     Backend Technical Lead, Trade App
   </h3>
