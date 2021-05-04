@@ -20,7 +20,7 @@ author :
   mastodon_url: https://bsd.network/@jon
   keybase : wizardishungry
   pinboard : wizardishungry
-  feedburner : jonwillia-ms
+  # feedburner : jonwillia-ms
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt

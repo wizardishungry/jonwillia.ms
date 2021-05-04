@@ -5,7 +5,7 @@
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <title>{{ real_title }}</title>
    <meta name="author" content="{{ site.author.name }}" />
-   <link href="http://feeds.feedburner.com/{{ site.author.feedburner }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
+   <link href="{{ site.production_url }}{{ site.JB.atom_path }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
 
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/tufte.css" type="text/css" media="screen, projection, print" />
