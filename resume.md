@@ -30,10 +30,10 @@ class: "sans"
   <h2 id="experience">Experience</h2>
 
   <h3>
-    Senior Software Engineer, <a href="https://istreamplanet.com/">iStreamPlanet</a>
+    Senior Software Engineer, <a href="https://istreamplanet.com/">iStreamPlanet</a> / Warner Media
   </h3>
   <p>
-    <span class="marginnote">remote (Seattle, WA)<br>4/2020 - </span>
+    <span class="marginnote">remote (Seattle, WA)<br>4/2020 - 2/2022</span>
     <em>Implementation of large scale OTT video streaming platforms.</em>
   </p>
 
