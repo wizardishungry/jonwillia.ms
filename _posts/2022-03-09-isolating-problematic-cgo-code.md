@@ -2,16 +2,16 @@
 layout: post
 title: "Isolating problematic Cgo code"
 description: "Streaming video decoding via file descriptor passing"
-category: # featured
+category: featured
 tags: [Go, Unix, Video]
 ---
 {% include JB/setup %}
 
 <span class="marginnote">
-![Typical image](/assets/images/2022-03-08-isolating-problematic-cgo-code/FNFL-4ZWYAEpIoF.png)
+![Typical image](/assets/images/2022-03-09-isolating-problematic-cgo-code/FNFL-4ZWYAEpIoF.png)
 </span>
 ## Introduction
-[KCTV_bot]({% post_url 2022-03-08-introducing-kctv_bot %}) watches an 
+[KCTV_bot]({% post_url 2022-03-09-introducing-kctv_bot %}) watches an 
 [HLS](https://en.wikipedia.org/wiki/HTTP_Live_Streaming) video stream and posts
 screengrabs to Twitter. Because the video source (North Korean state television)
 is not regularly available, some image processing must be performed to recognize when the channel is live.
@@ -48,8 +48,8 @@ contained in a playlist. A live playlist will be repeatedly fetched by a player 
 
 ## Architecture
 <span class="marginnote">
-![Color bars w/ station id](/assets/images/2022-03-08-isolating-problematic-cgo-code/FM4Au54X0A0E9FX.png)
-![Test pattern](/assets/images/2022-03-08-isolating-problematic-cgo-code/FM5uoddXsAAMnHf.png)
+![Color bars w/ station id](/assets/images/2022-03-09-isolating-problematic-cgo-code/FM4Au54X0A0E9FX.png)
+![Test pattern](/assets/images/2022-03-09-isolating-problematic-cgo-code/FM5uoddXsAAMnHf.png)
 </span>
 * Parent process, directly invoked from the command line to handle the majority of the tasks:
   * Downloading the playlist to check for new segments. *Every [Target Duration](https://datatracker.ietf.org/doc/html/draft-pantos-hls-rfc8216bis-07#section-4.4.3.1), download the playlist and look for new segments.*
@@ -190,7 +190,7 @@ type Response struct {
 }
 ```
 
-### Why are you passing file descriptors from process to process?
+### Why are you passing file descriptors between processes?
 
 `Request` contains an integer file descriptor for each segment.
 I explored passing the segment to `goav` in a number of ways.
@@ -198,6 +198,7 @@ I explored passing the segment to `goav` in a number of ways.
     * This had the disadvantage of disk i/o, and could leave files around when the program crashed.
     * `goav` would not wait for the rest of the data to download once the end of a partially downloaded file was reached.
 2. A path to a temporary [FIFO](https://en.wikipedia.org/wiki/Named_pipe).
+	* This allows forward progress on a partially downloaded file.
     * Same problems as temporary files and a bit complex.
 3. Passing http `Body()` - an instance of the [`io.ReadCloser`](https://pkg.go.dev/io#ReadCloser) interface.
     * It wasn't obvious to me how to call `goav` on data already in memory.
