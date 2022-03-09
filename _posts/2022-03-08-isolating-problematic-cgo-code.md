@@ -13,8 +13,8 @@ tags: [Go, Unix, Video]
 ## Introduction
 [KCTV_bot]({% post_url 2022-03-08-introducing-kctv_bot %}) watches an 
 [HLS](https://en.wikipedia.org/wiki/HTTP_Live_Streaming) video stream and posts
-screengrabs to Twitter. Because the video source is not regularly available,
-some image processing must be performed to recognize when the channel is live.
+screengrabs to Twitter. Because the video source (North Korean state television)
+is not regularly available, some image processing must be performed to recognize when the channel is live.
 
 Although the code is written in [Go](https://go.dev/),
 the native options for decoding segments of video to get at individual frames
