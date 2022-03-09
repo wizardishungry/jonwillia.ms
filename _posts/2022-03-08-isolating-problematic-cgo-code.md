@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Isolating problematic Cgo code"
-description: "Streaming video decoding across processes via FD passing"
+description: "Streaming video decoding via file descriptor passing"
 category: # featured
 tags: [Go, Unix, Video]
 ---
