@@ -11,7 +11,7 @@ tags: [Go, Unix, Video]
 ![Typical image](/assets/images/2022-03-08-isolating-problematic-cgo-code/FNFL-4ZWYAEpIoF.png)
 </span>
 ## Introduction
-[My twitter bot]({% post_url 2022-03-08-introducing-kctv_bot %}) watches an 
+[KCTV_bot]({% post_url 2022-03-08-introducing-kctv_bot %}) watches an 
 [HLS](https://en.wikipedia.org/wiki/HTTP_Live_Streaming) video stream and posts
 screengrabs to Twitter. Because the video source is not regularly available,
 some image processing must be performed to recognize when the channel is live.
@@ -64,7 +64,7 @@ of new media segments.
 
 ## Implementation
 
-Some of the code below is edited for clarity.
+*Some of the code below has been edited for clarity.*
 
 ### Starting the child process
 
@@ -217,7 +217,7 @@ I explored passing the segment to `goav` in a number of ways.
         2. Serialize each `Request` using `encoding/gob`.
         3. Unserialize the `Request` using `encoding/gob`.
 
-I ended up passing per-request file descriptors to the child process before each RPC call.
+I ended up passing the segment's file descriptor to the child process before the corresponding RPC call.
 Much of the previous code was simplified to hide this complexity, but the implementation of sending
 and receiving file descriptors can be found in 
 [`pkg/unixmsg/send_fd.go`](https://github.com/WIZARDISHUNGRY/hls-await/blob/blog-post/pkg/unixmsg/send_fd.go).
@@ -264,6 +264,13 @@ func RecvFd(conn *net.UnixConn) (uintptr, error) {
 	return uintptr(fds[0]), nil
 }
 ```
+
+Under the hood, this is calling the `I_SENDFD` [ioctl](https://linux.die.net/man/3/ioctl)
+on one of the Unix socket connections the parent process stood up earlier.
+Because file descriptors are scoped to a process, the receiving process must read a structure
+out of the connection to determine the integer values of the file descriptors it has been passed.
+It is highly likely that the integer values being passed in will not be the same as the values in
+the child process.
 
 The file descriptor passed to the child process corresponds to a
 `PipeReader` returned from [io.Pipe()](https://pkg.go.dev/io#Pipe).
@@ -321,10 +328,10 @@ See [proposal: net: add ability to read OOB data without discarding a byte](http
 
 ## Conclusion
 
-This code definitely has plenty of warts resulting from its origin as an ANSI art HLS player.
+This code has plenty of warts as a result of its origins as an ANSI HLS player.
 Nevertheless, I'm pleased that this is now able to run fairly stable without constant
-care and feeding. I plan on moving this into my local Kubernetes cluster and expect plenty of new problems
-from the much more limited resources.
+care & feeding. I plan on moving this into my local Kubernetes cluster & expect plenty of new problems
+from the limited resources.
 
 - Source: [`WIZARDISHUNGRY/hls-await`](https://github.com/WIZARDISHUNGRY/hls-await)
-- Twitter: [@KCTV_bot](https://twitter.com/KCTV_bot)
+- Twitter: [KCTV_bot](https://twitter.com/KCTV_bot)
