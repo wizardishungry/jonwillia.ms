@@ -40,12 +40,11 @@ accounted for by memory allocated inside Go — as reported by
 After a few attempts at [tracing memory leaks](https://kirshatrov.com/posts/finding-memory-leak-in-cgo/)
 in Cgo proved mostly fruitless, I decided to try separating the program into two processes.
 
-### What is HLS (Http Live Streaming)?
+### What is HLS (HTTP Live Streaming)?
 
 Briefly, [HLS](https://en.wikipedia.org/wiki/HTTP_Live_Streaming) is a popular format for streaming content.
-A piece of content, be it live or on demand, is represented as a series of short (~10 second) media files
-contained in a playlist. A live playlist will be repeatedly fetched by a player to discover the availability
-of new media segments.
+A piece of content, be it live or on-demand, is represented as a series of short (~10 second) media files
+contained in a playlist. A live playlist will be repeatedly fetched by a player to discover new media segments.
 
 ## Architecture
 <span class="marginnote">
@@ -212,9 +211,9 @@ I explored passing the segment to `goav` in a number of ways.
         2. Serialize each `Request` using `encoding/gob`.
         3. Unserialize the `Request` using `encoding/gob`.
 
-I ended up passing the segment's file descriptor to the child process before the corresponding RPC call.
-Much of the previous code was simplified to hide this complexity, but the implementation of sending
-and receiving file descriptors can be found in 
+Instead of any of these approaches, I ended up passing segments' file descriptors to the child process
+in along with the RPC call. Previous code examples were simplified to hide this complexity.
+The implementation of sending and receiving file descriptors can be found in 
 [`pkg/unixmsg/send_fd.go`](https://github.com/WIZARDISHUNGRY/hls-await/blob/blog-post/pkg/unixmsg/send_fd.go).
 
 ```go
@@ -263,11 +262,11 @@ func RecvFd(conn *net.UnixConn) (uintptr, error) {
 Under the hood, this is calling the `I_SENDFD` [ioctl](https://linux.die.net/man/3/ioctl)
 on one of the Unix socket connections the parent process stood up earlier.
 Because file descriptors are scoped to a process, the receiving process must read a structure
-out of the connection to determine the integer values of the file descriptors it has been passed.
-The integer values passed from the parent will not be the same as the values received in the child,
+out of the connection to determine the integer value of the file descriptor it has been passed.
+The values passed from the parent will not be the same as the values received in the child,
 despite corresponding to the same resource.
 
-The file descriptor passed to the child process corresponds to a
+The FD passed to the child process corresponds to a
 `PipeReader` returned from [io.Pipe()](https://pkg.go.dev/io#Pipe).
 The HTTP body is streamed to the `PipeWriter` as it downloads; enabling the `goav` calls to begin decoding without
 waiting for the entire response to be read into memory.
@@ -314,8 +313,10 @@ Socket control messages are considered out-of-band (OOB) data and are read into
 a separate slice by [`ReadMsgUnix`](https://pkg.go.dev/net#UnixConn.ReadMsgUnix).
 Attempting to read available OOB data will always discard at least
 1 byte of in-band data<label for="sn-oob" class="margin-toggle sidenote-number"></label>.
-It may be possible to make an abstraction on top of `UnixConn` that allows multiplexing both messages from both streams.
-But for a project this frivolous, this is good enough for now. 
+This dropped byte would cause problem for the the rpc server we attached to the parent to child connection, so we ended up
+using two connections.
+It may be possible to make an abstraction on top of `UnixConn` that allows multiplexing both messages on a single connection.
+But for a project this frivolous, this is good enough for now.
 <input id="sn-oob" class="margin-toggle" type="checkbox">
 <span class="sidenote">
 See [proposal: net: add ability to read OOB data without discarding a byte](https://github.com/golang/go/issues/32465) for more detail.
