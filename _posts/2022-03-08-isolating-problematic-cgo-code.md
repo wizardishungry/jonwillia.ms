@@ -3,7 +3,7 @@ layout: post
 title: "Isolating problematic Cgo code"
 description: "Using dedicated worker processes & passing file descriptors over sockets."
 category: # featured
-tags: [Go, Korea, Unix, HTTP Live Streaming]
+tags: [Go, Unix, Video]
 ---
 {% include JB/setup %}
 
