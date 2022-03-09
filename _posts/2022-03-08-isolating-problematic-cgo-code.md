@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Isolating problematic Cgo code"
-description: "Using dedicated worker processes & passing file descriptors over sockets."
+description: "Streaming video decoding across processes via FD passing"
 category: # featured
 tags: [Go, Unix, Video]
 ---
@@ -70,17 +70,8 @@ of new media segments.
 
 Spawning the child process is handled by `spawnChild` within [`internal/worker/parent.go`](https://github.com/WIZARDISHUNGRY/hls-await/blob/blog-post/internal/worker/parent.go#L82).
 
-First, a special flag is appended to a slice of arguments to the child process<label for="sn-fuzz" class="margin-toggle sidenote-number"></label>.
-<input id="sn-fuzz" class="margin-toggle" type="checkbox">
-<span class="sidenote">
-The go1.18+ fuzzing system is [very similar](https://jayconrod.com/posts/123/internals-of-go-s-new-fuzzing-system) to our approach.
-</span>
-```go
-args := append([]string{}, os.Args[1:]...)
-args = append(args, "-worker")
-```
-
-Next the parent process listens on a [Unix domain socket](https://en.wikipedia.org/wiki/Unix_domain_socket)<label for="sn-fuzz" class="margin-toggle sidenote-number"></label>.
+First, the parent process listens on a [Unix domain socket](https://en.wikipedia.org/wiki/Unix_domain_socket)<label for="sn-fuzz" class="margin-toggle sidenote-number"></label>
+and retrieve an `os.File` struct corresponding to this socket. This struct contains the file descriptor of the socket.
 <input id="sn-fuzz" class="margin-toggle" type="checkbox">
 <span class="sidenote">
 It may be surprising to see an empty `UnixAddr` passed into `ListenUnix` instead of a path to a file.
@@ -92,18 +83,21 @@ ul, err := net.ListenUnix("unix", &net.UnixAddr{})
 if err != nil {
     return err
 }
-```
-
-Next retrieve an `os.File` corresponding to this socket. This struct contains the file descriptor of the socket.
-``` go
 f, err := ul.File()
 if err != nil {
     return err
 }
 ```
 
+A special flag is appended to a slice of arguments to the child process<label for="sn-fuzz" class="margin-toggle sidenote-number"></label>.
+<input id="sn-fuzz" class="margin-toggle" type="checkbox">
+<span class="sidenote">
+The go1.18+ fuzzing system is [very similar](https://jayconrod.com/posts/123/internals-of-go-s-new-fuzzing-system) to our approach.
+</span>
 We prepare the child process for execution and add our socket to `ExtraFiles` slice on the `exec.Cmd` struct:
 ```go
+args := append([]string{}, os.Args[1:]...)
+args = append(args, "-worker")
 cmd := exec.CommandContext(ctx, os.Args[0], args...)
 cmd.ExtraFiles = append(cmd.ExtraFiles, f)
 ```
@@ -111,7 +105,7 @@ cmd.ExtraFiles = append(cmd.ExtraFiles, f)
 Passing the listening socket's FD via `ExtraFiles` allows the child process to `Accept()` connections<label for="sn-pass-fd" class="margin-toggle sidenote-number"></label>.
 <input id="sn-pass-fd" class="margin-toggle" type="checkbox">
 <span class="sidenote">
-While it is possible for the child process to call `ListenUnix` directly and avoid passing `ExtraFiles`, the parent's `DialUnix` call may occur
+While it is possible for the child process to call `ListenUnix` directly & avoid passing `ExtraFiles`, the parent's `DialUnix` call may occur
 before the child process has begun listening.
 </span>
 
@@ -119,7 +113,8 @@ The parent process next dials two<label for="sn-two" class="margin-toggle sideno
 and creates an [net/rpc](https://pkg.go.dev/net/rpc) client. 
 <input id="sn-two" class="margin-toggle" type="checkbox">
 <span class="sidenote">
-The short answer is that one is for passing requests and the other is for passing newly opened file descriptors.
+Why are we dialing two client connections? 
+The short answer is that one is for rpc request/responses, and the other is for passing newly opened file descriptors.
 See [*Why two client connections?*](#why-two-client-connections) below.
 </span>
 
@@ -269,8 +264,8 @@ Under the hood, this is calling the `I_SENDFD` [ioctl](https://linux.die.net/man
 on one of the Unix socket connections the parent process stood up earlier.
 Because file descriptors are scoped to a process, the receiving process must read a structure
 out of the connection to determine the integer values of the file descriptors it has been passed.
-It is highly likely that the integer values being passed in will not be the same as the values in
-the child process.
+The integer values passed from the parent will not be the same as the values received in the child,
+despite corresponding to the same resource.
 
 The file descriptor passed to the child process corresponds to a
 `PipeReader` returned from [io.Pipe()](https://pkg.go.dev/io#Pipe).
