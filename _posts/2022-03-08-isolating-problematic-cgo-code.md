@@ -59,7 +59,6 @@ download the playlist and look for new segments*
   * Fetching segments
   * Image pattern recognition *Is this an image of color bars or a test pattern?
 Is it a black screen? Is the image moving?* 
-
   * Maintenance of a state machine *Has the image been mostly moving for the last 30 seconds?
 If so, begin storing images to post.*
   * Posting tweets.
