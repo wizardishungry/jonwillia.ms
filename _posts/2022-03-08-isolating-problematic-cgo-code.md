@@ -52,7 +52,7 @@ contained in a playlist. A live playlist will be repeatedly fetched by a player 
 ![Test pattern](/assets/images/2022-03-08-isolating-problematic-cgo-code/FM5uoddXsAAMnHf.png)
 </span>
 * Parent process, directly invoked from the command line to handle the majority of the tasks:
-  * Downloading the playlist to check for new segments. *Every [Target Duration](https://datatracker.ietf.org/doc/html/draft-pantos-hls-rfc8216bis-07#section-4.4.3.1) download the playlist and look for new segments*
+  * Downloading the playlist to check for new segments. *Every [Target Duration](https://datatracker.ietf.org/doc/html/draft-pantos-hls-rfc8216bis-07#section-4.4.3.1), download the playlist and look for new segments.*
   * Fetching segments
   * Image pattern recognition *Is this an image of color bars or a test pattern? Is it a black screen? Is the image moving?* 
   * Maintenance of a state machine *Has the image been mostly moving for the last 30 seconds? If so, begin storing images to post.*
@@ -78,7 +78,8 @@ This is a Linuxism that allows us to [use a Unix socket on a read-only
 file system](https://www.toptip.ca/2013/01/unix-domain-socket-with-abstract-socket.html). 
 </span>
 ```go
-ul, err := net.ListenUnix("unix", &net.UnixAddr{})
+ul, err := net.ListenUnix("unix",
+	&net.UnixAddr{})
 if err != nil {
     return err
 }
@@ -112,19 +113,20 @@ The parent process next dials two<label for="sn-two" class="margin-toggle sideno
 and creates an [net/rpc](https://pkg.go.dev/net/rpc) client. 
 <input id="sn-two" class="margin-toggle" type="checkbox">
 <span class="sidenote">
-Why are we dialing two client connections? 
-The short answer is that one is for rpc request/responses, and the other is for passing newly opened file descriptors.
+One handles rpc request/responses, and the second passes newly opened file descriptors to the child process.
 See [*Why two client connections?*](#why-two-client-connections) below.
 </span>
 
 ```go
-connRPC, err := net.DialUnix("unix", nil, ul.Addr().(*net.UnixAddr))
+connRPC, err := net.DialUnix("unix", nil,
+	ul.Addr().(*net.UnixAddr))
 if err != nil {
     return err
 }
 p.conn = conn
 
-connFD, err := net.DialUnix("unix", nil, ul.Addr().(*net.UnixAddr))
+connFD, err := net.DialUnix("unix", nil,
+	ul.Addr().(*net.UnixAddr))
 if err != nil {
     return err
 }
@@ -154,11 +156,8 @@ The `Accept` loop for the child process is contained in `runWorker` ([`internal/
 ```go
 server := rpc.NewServer()
 
-err := server.Register(segApi) // pointer to a struct holding the goav code
-if err != nil {
-    log.WithError(err).Fatal("server.Register")
-}
-
+// pointer to a struct holding the goav code
+server.Register(segApi)
 conn, err := listener.Accept()
 if err != nil {
     return errors.Wrap(err, "listener.Accept")
@@ -242,15 +241,15 @@ func RecvFd(conn *net.UnixConn) (uintptr, error) {
 	}
 	scms, err := syscall.ParseSocketControlMessage(oob[:oobn])
 	if err != nil {
-		return 0, fmt.Errorf("ParseSocketControlMessage %w", err)
+		return 0, err
 	}
 	if len(scms) != 1 {
-		return 0, fmt.Errorf("SocketControlMessage count not 1: %v", len(scms))
+		return 0, fmt.Errorf("count not 1: %v", len(scms))
 	}
 	scm := scms[0]
 	fds, err := syscall.ParseUnixRights(&scm)
 	if err != nil {
-		return 0, fmt.Errorf("ParseUnixRights: %w", err)
+		return 0, err
 	}
 	if len(fds) != 1 {
 		return 0, fmt.Errorf("fd count not 1: %v", len(fds))
@@ -322,9 +321,11 @@ But for a project this frivolous, this is good enough for now.
 See [proposal: net: add ability to read OOB data without discarding a byte](https://github.com/golang/go/issues/32465) for more detail.
 </span>
 
+Perhaps removing `net/rpc` entirely and returning individual frames immediately after decoding would be a cleaner solution?
+
 ## Conclusion
 
-This code has plenty of warts as a result of its origins as an ANSI HLS player.
+This code has some warts resulting from its origins as an ANSI HLS player.
 Nevertheless, I'm pleased that this is now able to run fairly stable without constant
 care & feeding. I plan on moving this into my local Kubernetes cluster & expect plenty of new problems
 from the limited resources.
