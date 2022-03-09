@@ -11,7 +11,7 @@ tags: [Go, Unix, Video]
 ![Typical image](/assets/images/2022-03-09-isolating-problematic-cgo-code/FNFL-4ZWYAEpIoF.png)
 </span>
 ## Introduction
-[KCTV_bot]({% post_url 2022-03-09-introducing-kctv_bot %}) watches an 
+[KCTV_bot]({% post_url 2022-03-08-introducing-kctv_bot %}) watches an
 [HLS](https://en.wikipedia.org/wiki/HTTP_Live_Streaming) video stream and posts
 screengrabs to Twitter. Because the video source (North Korean state television)
 is not regularly available, some image processing must be performed to recognize when the channel is live.
