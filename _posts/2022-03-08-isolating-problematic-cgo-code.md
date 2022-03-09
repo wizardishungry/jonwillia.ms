@@ -53,20 +53,14 @@ of new media segments.
 ![Test pattern](/assets/images/2022-03-08-isolating-problematic-cgo-code/FM5uoddXsAAMnHf.png)
 </span>
 * Parent process, directly invoked from the command line to handle the majority of the tasks:
-  * Downloading the playlist to check for new segments.
-*Every [Target Duration](https://datatracker.ietf.org/doc/html/draft-pantos-hls-rfc8216bis-07#section-4.4.3.1)
-download the playlist and look for new segments*
+  * Downloading the playlist to check for new segments. *Every [Target Duration](https://datatracker.ietf.org/doc/html/draft-pantos-hls-rfc8216bis-07#section-4.4.3.1) download the playlist and look for new segments*
   * Fetching segments
-  * Image pattern recognition *Is this an image of color bars or a test pattern?
-Is it a black screen? Is the image moving?* 
-  * Maintenance of a state machine *Has the image been mostly moving for the last 30 seconds?
-If so, begin storing images to post.*
+  * Image pattern recognition *Is this an image of color bars or a test pattern? Is it a black screen? Is the image moving?* 
+  * Maintenance of a state machine *Has the image been mostly moving for the last 30 seconds? If so, begin storing images to post.*
   * Posting tweets.
 * Child process, invoked by the parent process.
-  * An rpc service that, when provided with a raw segment (a bunch of MPEG bytes),
-returns a slice of frames (`[]image.Image`) to the caller.
-  * The child process is completely stateless — there is no dependency on previous rpc calls; a freshly restarted
-  instance of the child process is ready to serve requests.
+  * An rpc service that, when provided with a raw segment (a bunch of MPEG bytes), returns a slice of frames (`[]image.Image`) to the caller.
+  * The child process is completely stateless — there is no dependency on previous rpc calls; a freshly restarted instance of the child process is ready to serve requests.
 
 ## Implementation
 
