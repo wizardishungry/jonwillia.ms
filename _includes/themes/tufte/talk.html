@@ -5,7 +5,7 @@
   {% capture tufte-title %}{{ site.title }}{% endcapture %}
   {% capture tufte-subtitle %}{{ site.tagline }}{% endcapture %}
 {% endif %}
-{% capture real_title %}{{ site.author.name }}{% if page.title %} / {{ page.title }}{% endif %}{%endcapture %}
+{% capture real_title %}{% if page.title %}{{ page.title }} / {% endif %}{{ site.author.name }}{%endcapture %}
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
