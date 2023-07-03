@@ -2,7 +2,7 @@
 layout: resume
 title: Resume
 #tagline: Polyglot Technologist
-group: "not-featured"
+group: "featured"
 class: "sans"
 ---
 {% include JB/setup %}
@@ -27,7 +27,7 @@ class: "sans"
 </section>
 
 <section>
-  <h2 id="experience">Experience</h2>
+  <h2 id="experience">Selected Experience</h2>
 
   <h3>
     Principal Engineer, <a href="https://thetalake.com/">Theta Lake</a>
