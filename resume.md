@@ -30,6 +30,20 @@ class: "sans"
   <h2 id="experience">Experience</h2>
 
   <h3>
+    Principal Engineer, <a href="https://thetalake.com/">Theta Lake</a>
+  </h3>
+  <p>
+    <span class="marginnote">remote<br>4/2022 - </span>
+    <em>Security & compliance for corporate cloud communication platforms</em>
+  </p>
+
+  <ul>
+    <li>Integration of machine learning platform with corporate communications platforms (email, Slack, Zoom, Microsoft Teams, etc.).</li>
+    <li>Design and implementation of distributed systems at the scale of large corporations' communication volumes.</li>
+  </ul>
+
+
+  <h3>
     Senior Software Engineer, <a href="https://istreamplanet.com/">iStreamPlanet</a> / Warner Media
   </h3>
   <p>
@@ -92,7 +106,7 @@ class: "sans"
   </ul>
 
 
-
+<!--
   <h3>Development Team Lead, <a href="http://www.money-media.com">Money-Media</a> / <a href="http://www.ft.com/">Financial Times</a></h3>
   <p>
     <span class="marginnote">New York, NY<br>1/2013 - 4/2016</span>
@@ -142,7 +156,7 @@ class: "sans"
       </ul>
     </li>
   </ul>
-
+-->
 
   <h3>Founder, <a href="https://bongo.zone/">Pulsum Quadratum</a></h3>
   <p>
@@ -157,7 +171,7 @@ class: "sans"
     <li>Negotiation of software licensing / distribution with partners.</li>
     <li>Active participation in open source engineering related to audio technologies.</li>
   </ul>
-  
+<!--
   <h3>Senior Developer, <a href="http://www.hollywood.com/">Hollywood.com</a></h3>
   <p>
     <span class="marginnote">New York, NY<br>1/2012 - 10/2012</span>
@@ -242,7 +256,7 @@ class: "sans"
       <li>Evaluated replacement of Limewire’s Java servlet for crash report handling in response to load issues during new release cycles.</li>
     </ul>
   </p>
-<!--
+
   <h3>Web Programmer, <a href="http://steinhardt.nyu.edu">NYU Steinhardt</a></h3>
   <p>
     <span class="marginnote">New York, NY<br>2/2006 – 5/2008</span>
