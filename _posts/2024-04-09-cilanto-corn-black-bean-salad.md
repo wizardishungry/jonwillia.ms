@@ -16,7 +16,7 @@ I promise I haven't been hacked and turned into a recipe SEO blog: here's a sala
 
 ## Ingredients
 
-- One or two big bundles of *cilantro*. This is your base green; you want it to approximate the volume of beans & corn (together). Don't be fooled by
+- One or two big bundles of *cilantro*. This is your base green; you want it to approximate the volume of beans & corn (together). Don't be fooled by parsley!
 - Some (4-6) *corn tortillas*. I like white corn tortillas, but yellow can work too I suppose.
 - 4 *limes*. You may want more if you're planning on keeping the salad in the fridge for a couple days.
 - 2 *avocados* or more if you can afford it. I've left these out before; it was fine I guess.
