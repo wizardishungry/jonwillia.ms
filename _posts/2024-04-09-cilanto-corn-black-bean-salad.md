@@ -9,6 +9,7 @@ tags: [recipe]
 
 <span class="marginnote">
 ![salad](/assets/images/2024-04-09-cilanto-corn-black-bean-salad/salad.jpg)
+I _know_ the photo doesn't have the *tortilla strips*; deal with it.
 </span>
 
 
