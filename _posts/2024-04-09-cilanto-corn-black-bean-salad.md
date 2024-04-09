@@ -24,7 +24,7 @@ I promise I haven't been hacked and turned into a recipe SEO blog: here's a sala
 - *Dry black beans*. Canned beans work but it's not the same without the *cumin*.
 - *Greek yogurt*. I use Fage, the firmer texture is really superior.
 - A big ass *red onion*.
-- 4 to 8 *jalepeños*. Depends on how spicy you like it.
+- 4 to 8 *jalapeños*. Depends on how spicy you like it.
 - *Olive oil* or some other kind of oil for frying the tortillas.
 - A cup of *sugar*.
 - 2 or 3 ears of *corn*. I've used frozen corn and it threw the whole taste off; beware.
@@ -62,7 +62,7 @@ I promise I haven't been hacked and turned into a recipe SEO blog: here's a sala
 
 1. Rough cut the *cilantro*, throw into bowl.
 2. Add the *beans* and *corn*.
-3. Cut up the *jalepeños* and add them. Don't touch your eyes.
+3. Cut up the *jalapeños* and add them. Don't touch your eyes.
 4. Add the juice of 4 *limes*. This will help the salad keep in the fridge for a couple days.
 5. Cut up the *red onion* and add it.
 6. Toss a bit.
