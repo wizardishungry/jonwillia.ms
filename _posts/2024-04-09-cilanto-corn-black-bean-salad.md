@@ -74,4 +74,4 @@ I promise I haven't been hacked and turned into a recipe SEO blog: here's a sala
 
 1. Cut the *avocados* length wise into thin slivers.
 2. Cut remaining *limes* into wedges.
-3. Let your guests put *tortilla strips*, *avocado*, *lime juice* and *yogurt* on themselves.
+3. Let your guests put *tortilla strips*, *avocado*, *lime juice*, *yogurt* and optional drizzle of olive oil on themselves.
