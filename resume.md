@@ -33,13 +33,24 @@ class: "sans"
     Principal Engineer, <a href="https://thetalake.com/">Theta Lake</a>
   </h3>
   <p>
-    <span class="marginnote">remote<br>4/2022 - </span>
-    <em>Security & compliance for corporate cloud communication platforms</em>
+    <span class="marginnote">
+    remote<br>
+    Ingestion Team 4/2022 - 11/2024<br>
+    API &amp; Data Services Team 11/2024 - 7/2024
+    </span>
+    <em>Security & compliance for corporate cloud communication platforms.</em>
   </p>
 
   <ul>
-    <li>Integration of machine learning platform with corporate communications platforms (email, Slack, Zoom, Microsoft Teams, etc.).</li>
+    <li>Integration of machine learning platform with dozens of corporate communications platforms (email, Slack, Zoom, Microsoft Teams, etc.).</li>
+    <li>Multicloud (AWS, Azure) data ingestion tier built using Go, MySQL, Cassandra & Azure/AWS queues.</li>
     <li>Design and implementation of distributed systems at the scale of large corporations' communication volumes.</li>
+    <li>Created high performance service for ingesting hierarchical archives (zip, tar, etc.) & media embedded in office documents.</li>
+    <li>Created microservices for data science pipeline to query corporate directory information.</li>
+    <li>Developed OpenAPI customer-facing API on top of existing platform.</li>
+    <li>Created high performance file identification tooling to replace `file`/`libmagic`.</li>
+    <li>Evaluation of SIMD AVX-512 parallel hashing to replace Intel SHA instructions for SHA256.</li>
+    <li>Developed ETL pipeline tooling for migration of customer data into Theta Lake platform.</li>
   </ul>
 
 
