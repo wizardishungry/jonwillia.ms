@@ -48,7 +48,7 @@ class: "sans"
     <li>Created high performance service for ingesting hierarchical archives (zip, tar, etc.) & media embedded in office documents.</li>
     <li>Created microservices for data science pipeline to query corporate directory information.</li>
     <li>Developed OpenAPI customer-facing API on top of existing platform.</li>
-    <li>Created high performance file identification tooling to replace `file`/`libmagic`.</li>
+    <li>Created high performance file identification tooling to replace file/libmagic.</li>
     <li>Evaluation of SIMD AVX-512 parallel hashing to replace Intel SHA instructions for SHA256.</li>
     <li>Developed ETL pipeline tooling for migration of customer data into Theta Lake platform.</li>
   </ul>
