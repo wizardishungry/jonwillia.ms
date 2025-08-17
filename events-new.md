@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Upcoming
-group: "featured"
+# group: "featured"
 body_class: "info upcoming"
 ---
 {% include JB/setup %}

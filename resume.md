@@ -1,8 +1,8 @@
 ---
 layout: resume
 title: Resume
-#tagline: Polyglot Technologist
-group: "featured"
+# tagline: Polyglot Technologist
+# group: "featured"
 class: "sans"
 ---
 {% include JB/setup %}

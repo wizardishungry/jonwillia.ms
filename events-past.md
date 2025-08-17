@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Past Events
-group: "featured"
+# group: "featured"
 body_class: "info chronology"
 header : A history of every event I've performed in.
 ---
