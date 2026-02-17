@@ -36,7 +36,7 @@ class: "sans"
     <span class="marginnote">
     remote<br>
     Ingestion Team 4/2022 - 11/2024<br>
-    API &amp; Data Services Team 11/2024 - 7/2024
+    API &amp; Data Services Team 11/2024 - 7/2025
     </span>
     <em>Security & compliance for corporate cloud communication platforms.</em>
   </p>
